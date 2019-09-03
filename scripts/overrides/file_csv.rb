@@ -3,20 +3,24 @@ class FileCsv < FileType
   def row_to_es(headers, row)
     doc = {}
 
-    doc["collection"] = @options["collection"]
-    doc["identifier"] = row["ID"]
-    doc["person"]     = {"name" => row["Name"], "id" => row["Authority"], "role" => row["Gender"]}
-    doc["places"]     = row["Country"]
-    doc["keywords"]   = row["Region"]
-    doc["source"]     = row["Source"]
-    doc["works"]      = row["Bibliography"]
+    doc["collection"]  = @options["collection"]
+    doc["category"]    = "Person"
+    doc["subcategory"] = "Contemporary Poet"
+    doc["data_type"]   = "csv"
 
-    # headers.each do |column|
-    #   doc[column] = row[column] if row[column] && (column != "creator")
-    #   if (column == "creator") 
-    #     doc[column] = {"name" => row[column]}
-    #   end
-    # end
+    authorname = row["Name"]
+
+    doc["identifier"]  = row["ID"]
+    doc["person"]      = {"name" => authorname, "id" => row["Authority"], "role" => row["Gender"]}
+    doc["title"]       = authorname
+    doc["title_sort"]  = authorname.downcase # need more sorting rules?
+    doc["places"]      = row["Country"]
+    doc["keywords"]    = row["Region"]
+    doc["source"]      = row["Source"]
+    doc["works"]       = row["Bibliography"]
+
+    # add field for text with text from other fields
+
     if doc.key?("text") && doc.key?("title")
       doc["text"] << " #{doc["title"]}"
     end
