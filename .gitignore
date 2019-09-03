@@ -1,0 +1,13 @@
+.DS_Store
+config/private.yml
+/logs/*
+
+# scripts/.xslt-datura is populated by the datura gem and should not be tracked / edited
+/scripts/.xslt-datura/*
+
+# ignore all output types except for production html
+/output/*
+!/output/production
+/output/production/*
+!/output/production/html
+
