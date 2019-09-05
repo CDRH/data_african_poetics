@@ -17,7 +17,9 @@ class FileCsv < FileType
     doc["places"]      = row["Country"]
     doc["keywords"]    = row["Region"]
     doc["source"]      = row["Source"]
-    doc["works"]       = row["Bibliography"]
+    if row["Bibliography"]
+      doc["works"]       = row["Bibliography"].split("\n")
+    end
 
     # add field for text with text from other fields
 
