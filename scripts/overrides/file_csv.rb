@@ -8,11 +8,12 @@ class FileCsv < FileType
     doc["subcategory"] = "Contemporary Poet"
     doc["data_type"]   = "csv"
 
-    authorname = row["Name"]
+    authorname = [ row["Last Name"], row["Given Name"] ].compact.join(", ")
+    titlename = "#{row["Given Name"]} #{row["Last Name"]}"
 
     doc["identifier"]  = row["ID"]
     doc["person"]      = {"name" => authorname, "id" => row["Authority"], "role" => row["Gender"]}
-    doc["title"]       = authorname
+    doc["title"]       = titlename
     doc["title_sort"]  = authorname.downcase # need more sorting rules?
     doc["places"]      = row["Country"]
     doc["keywords"]    = row["Region"]
