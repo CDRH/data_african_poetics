@@ -12,21 +12,47 @@ class FileCsv < FileType
     titlename = "#{row["Given Name"]} #{row["Last Name"]}"
 
     doc["identifier"]  = row["ID"]
-    doc["person"]      = {"name" => authorname, "id" => row["Authority"], "role" => row["Gender"]}
-    doc["title"]       = titlename
+
+    gender = 
+      case
+      when row["Gender"] == "F" 
+        "Female"
+      when row["Gender"] == "M"
+        "Male"
+      else
+        "Unknown"
+      end
+
+    doc["person"]      = {"name" => authorname, "id" => row["ID"], "role" => gender}
+    doc["title"]       = authorname
     doc["title_sort"]  = authorname.downcase # need more sorting rules?
+    doc["alternative"] = titlename
     doc["places"]      = row["Country"]
     doc["keywords"]    = row["Region"]
     doc["source"]      = row["Source"]
+    
+    unless row["Alternate Name"].to_s.strip.empty?
+      doc["people"]    = row["Alternate Name"]
+    end
+
+    if row["Featured"] == "Y"
+      doc["type"]      = "Featured"
+    end
+
     if row["Bibliography"]
       doc["works"]       = row["Bibliography"].split("\n")
     end
 
-    # add field for text with text from other fields
+    textcomplete =  [ doc["title"], 
+                      authorname, 
+                      doc["places"], 
+                      doc["keywords"],
+                      gender, 
+                      row["Text"]
+                    ] 
 
-    if doc.key?("text") && doc.key?("title")
-      doc["text"] << " #{doc["title"]}"
-    end
+    doc["text"] = textcomplete.join(" ")
+
     doc
   end
 end

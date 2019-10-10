@@ -1,392 +1,552 @@
-ID,Name,Special Notes,Last Name,Given Name,Alternate Name,Country,Region,Source,Gender,Bibliography,Authority,Notes
-ap.per.00227,Aliyah Abdul-Salaam ,~,Abdul-Salaam,Aliyah,,Egypt,Northern Africa,Index,,,,"(maybe, no books?)"
-ap.per.00237,Fathi Abdullah,*,Abdullah,Fathi,,Egypt,Northern Africa,Index,,,,
-ap.per.00228,Yasser Abdullatif,*,Abdullatif,Yasser,,Egypt,Northern Africa,Index,,,,
-ap.per.00336,Lionel Abrahams,*,Abrahams,Lionel,,South Africa,Southern Africa,Index,,,,
-ap.per.00075,Catherine Acholonu,,Acholonu,Catherine,Obianuju,Nigeria,Western Africa,Anthology,F,,, (blue African anthology)
-ap.per.00099,Kobena Eyi Acquah,,Acquah,Kobena Eyi,,Ghana,Western Africa,Anthology,F,,,
-ap.per.00137,Mussa Mohammed Adem,,Adem,Mussa Mohammed,,Eritrea,Eastern Africa,Anthology,M,,,
-ap.per.00059,Patience Agbabi,,Agbabi,Patience,,Nigeria,Western Africa,Anthology,F,,,
-ap.per.00019,Sarah Anyang Agbor,*,Agbor,Sarah Anyang,,Cameroon,Middle Africa,Index,F,,,
-ap.per.00096,Ama Ata Aidoo,,Aidoo,Ama Ata,Christina,Ghana,Western Africa,Anthology,F,,,
-ap.per.00012,Nol Alembong,,Alembong,Nol,,Cameroon,Middle Africa,Anthology,M,,,
-ap.per.00174,Sahro Ali,,Ali,Sahro,,Somalia,Eastern Africa,Anthology,F,,,
-ap.per.00011,Viola Allo,,Allo,Viola,,Cameroon,Middle Africa,Anthology,F,,,
-ap.per.00014,Fernando D’Almeida,,D'Almeida,Fernando,,Cameroon,Middle Africa,Anthology,M,,,
-ap.per.00074,Ifi Amadiume,,Amadiume,Ifi,,Nigeria,Western Africa,Anthology,F,,,
-ap.per.00381,Julia Shalongo-Shandje Ndinelago Amukoshi,*,Amukoshi,Julia Shalongo-Shandje Ndinelago,,Namibia,Southern Africa,Index,,,,
-ap.per.00154,Jared Angira,*,Angira,Jared,,Kenya,Eastern Africa,Index,M,,,
-ap.per.00061,Abonyi Animashon,,Animashon,Abonyi,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00101,Ishmael Fifi Annobil,,Annobil,Ishmael Fifi,,Ghana,Western Africa,Anthology,M,,,
-ap.per.00097,Kofi Anyidoho,,Anyidoho,Kofi,born George Kofi Nyidevu Awoonor-Williams,Ghana,Western Africa,Anthology,M,,,
-ap.per.00017,Joyce Ashuntantang,*,Ashuntantang,Joyce,,Cameroon,Middle Africa,Index,F,,,
-ap.per.00255,Malika El Assimi,*,El Assimi,Malika,,Morocco,Northern Africa,Index,,,,
-ap.per.00261,Boujem El Auofi,*,El Auofi,Boujem,,Morocco,Northern Africa,Index,,,,
-ap.per.00280,Bahia Mahmud Awah,*,Awah,Bahia Mahmud,,Western Sahara,Northern Africa,Index,,,,
-ap.per.00102,Kofi Awoonor,,Awoonor,Kofi,,Ghana,Western Africa,Anthology,M,,,
-ap.per.00229,Bahaa Awwad,*,Awwad,Bahaa,,Egypt,Northern Africa,Index,,,,
-ap.per.00115,Iyamade Azeli,*,Azeli,Iyamade,,Sierra Leone,Western Africa,Index,F,,,(CHECK SPELLING)
-ap.per.00060,Unoma Nguemo Azuah,,Azuah,Unoma Nguemo,,Nigeria,Western Africa,Anthology,F,,,
-ap.per.00262,Mohamed Bachkar,*,Bachkar,Mohamed,,Morocco,Northern Africa,Index,,,,
-ap.per.00307,Gabeba Baderoon,*,Baderoon,Gabeba,,South Africa,Southern Africa,Index,,,,
-ap.per.00256,Amina El Bakouri,*,Bakouri,Amina,,Morocco,Northern Africa,Index,,,,
-ap.per.00314,Shabbir Banoobhai,*,Banoobhai,Shabbir,,South Africa,Southern Africa,Index,,,,
-ap.per.00263,Ahmed Barakat,*,Barakat,Ahmed,,Morocco,Northern Africa,Index,,,,
-ap.per.00178,Mildred Barya,,Barya,Mildred,Kiconco,Uganda,Eastern Africa,Anthology,F,,,
-ap.per.00172,Samiya Bashir,,Bashir,Samiya,,Somalia,Eastern Africa,Anthology,F,,,
-ap.per.00041,Olinda Beja,*,Beja,Olinda,,Sao Tome & Principe,Middle Africa,Index,F,,,
-ap.per.00279,Tahar Bekri,*,Bekri,Tahar,,Tunisia,Northern Africa,Index,,,,
-ap.per.00210,Mustapha Benfodil,*,Benfodil,Mustapha,,Algeria,Northern Africa,Index,,,,
-ap.per.00257,Ouidad Benmoussa,*,Benmoussa,Ouidad,,Morocco,Northern Africa,Index,,,,
-ap.per.00245,Mohammed Bennis,,Bennis,Mohammed,,Morocco,Northern Africa,Anthology,,,,
-ap.per.00248,Mohammed Bentalha,*,Bentalha,Mohammed,,Morocco,Northern Africa,Index,,,,
-ap.per.00288,Robert Berwold,,Berwold,Robert,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00013,Bate Besong,,Besong,Bate,,Cameroon,Middle Africa,Anthology,M,,,
-ap.per.00340,Vonani Bila,*,Bila,Vonani,,South Africa,Southern Africa,Index,,,,
-ap.per.00356,Amanda Biliei,*,Biliei,Amanda,,South Africa,Southern Africa,Index,,,,
-ap.per.00180,Julianne Okot Bitek,,Bitek,Julianne Okot,,Uganda,Eastern Africa,Anthology,F,,,
-ap.per.00282,Limam Boicha,*,Boicha,Limam,,Western Sahara,Northern Africa,Index,,,,
-ap.per.00055,Juan Balboa Boneke,*,Boneke,Juan Balboa,,"Congo, Democratic Republic Of",Middle Africa,Index,M,,,
-ap.per.00052,Rais Neza Boneza ,*,Boneza,Raïs Neza,,"Congo, Democratic Republic Of",Middle Africa,Index,M,,,
-ap.per.00273,Kola Boof,,Boof,Kola,,Sudan,Northern Africa,Anthology,,,,
-ap.per.00325,Nadine Botha,*,Botha,Nadine,,South Africa,Southern Africa,Index,,,,
-ap.per.00264,Mohamed Boudouik,*,Boudouik,Mohamed,,Morocco,Northern Africa,Index,,,,
-ap.per.00104,Kwesi Brew,,Brew,Kwesi,Osborne Henry ,Ghana,Western Africa,Anthology,M,,,
-ap.per.00344,Breyten Breytenbach,*,Breytenbach,Breyten,,South Africa,Southern Africa,Index,,,,
-ap.per.00302,Dennis Brutus,,Brutus,Dennis,Vincent,South Africa,Southern Africa,Anthology,,,,
-ap.per.00098,Victoria Bulley,,Bulley,Victoria,Adukwei,Ghana,Western Africa,Anthology,F,,,
-ap.per.00105,Abena Busia ,,Busia,Abena,,Ghana,Western Africa,Anthology,F,,,
-ap.per.00020,Bole Butake,*,Butake,Bole,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00001,Ruy Duarte de Carvalho,,de Carvalho,Ruy Duarte,Ruy Alberto Duarte Gomes de Carvalho,Angola,Middle Africa,Anthology,M,"You wake longing to know what happened
+ID,Last Name,Given Name,Alternate Name,Featured,Country,Region,Gender,Selected Works,Authority,Text,Notes
+ap.per.00227,Abdul-Salaam,Aliyah,,,Egypt,Northern Africa,F,,,,Found in Angry Voices anthology
+ap.per.00237,Abdullah,Fathi,,,Egypt,Northern Africa,,,,,
+ap.per.00228,Abdullatif,Yasser,,,Egypt,Northern Africa,M,,,,Found in Angry Voices anthology
+ap.per.00336,Abrahams,Lionel,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/93291135/,,
+ap.per.00260,Abu-Talib,Mohamed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/21912866/,,
+ap.per.00075,Acholonu,Catherine,Obianuju,,Nigeria,Western Africa,F,,https://viaf.org/viaf/67126602/,, (blue African anthology)
+ap.per.00099,Acquah,Kobena Eyi,,,Ghana,Western Africa,F,,https://viaf.org/viaf/174685856/,,
+ap.per.00137,Adem,Mussa Mohammed,,,Eritrea,Eastern Africa,M,,,,
+ap.per.00059,Agbabi,Patience,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/27342657/,,
+ap.per.00019,Agbor,Sarah Anyang,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/306126661/,,
+ap.per.00096,Aidoo,Ama Ata,Christina,Y,Ghana,Western Africa,F,,https://viaf.org/viaf/2496581/,"Selected Works
+Poems
+
+    On Reading Jackie Kay
+    For a Zulu in the Bayous
+    Of Gifts and References
+
+Poetry Collections
+
+    Someone Talking to Sometime. The College Press, 1985.
+    An Angry Letter in January and Other Poems. Dangaroo Press, 1992.
+    Birds and Other Poems. The Feminist Press at CUNY, 1993.
+    After the Ceremonies: New and Selected Poems. University of Nebraska Press, 2017.
+
+Speeches, Lectures, Interviews, Performances / Critical Articles, Media:
+
+    Adams, Anne V. (ed.). Essays in Honour of Ama Ata Aidoo at 70: A Reader in African Cultural Studies. Ayebia Clarke Publishing, 2012.
+    Allen, Nafeesh. ""Negotiating with the Diaspora: an Interview with Ama Ata Aidoo,"" Scholar & Feminist Online, 2009.
+    ""Ama Ata Aidoo in discussion about her play The Dilemma of a Ghost, interviewed by Michael Walling, July, 19, 2006, Accra, Ghana."" https://www.youtube.com/watch?v=VuxPvJqQp0I
+    ""Ama Ata Aidoo on feminism in Africa—BBC HARDtalk."" BBC HARDtalk, July, 22, 2014. https://www.youtube.com/watch?v=W_gJwy9yjrk
+    ""Ama Ata Aidoo’s humorous speech at launch of Centre for Creative Writing."" GhanaWeb TV, March 16, 2017. https://www.youtube.com/watch?v=9O-rtdihYCU
+    ""An Audience with Ama Ata Aidoo at the Royal African Society’s annual literature festival.” Ama Ata Aidoo in conversation with Wangui wa Goro, The Royal African Society, July 14, 2014. https://www.youtube.com/watch?v=Fy_xo4cVpFY
+    Azodo, Ada Uzoamaka and G. Wilentz, Emerging Perspectives on Ama Ata Aidoo, Africa Research & Publications, 1999.
+    Badoe, Yaba (dir.). The Art of Ama Ata Aidoo (2014), film.
+    Kamata, Suzanne. “A Profile of Ama Ata Aidoo.” Literary Mama, Feb. 2016.
+    Misra, Aditya. ""Death in Surprise: Gender and Power Dynamics in Ama Ata Aidoo's Anowa."" Journal of Drama Studies, Vol. 6, No. 1, 2012, pp. 81–91.
+    Odamtten, Vincent O. The Art of Ama Ata Aidoo: Polylectics and Reading Against Neocolonialism. University Press of Florida, 1994.
+    Pujolràs-Noguer, Esther. An African (Auto)biography. Ama Ata Aidoo's Literary Quest: Strangeness, nation and tradition, Lap Lambert Academic Publishing, 2012.
+
+Biography:
+
+Ama Ata Aidoo is one of the best-known African writers today. Her work addresses themes of colonialism, independence, motherhood, and gender in intimate, personal ways alongside commentary on broader social issues. Although Aidoo is best known for her novels Changes: A Love Story and Our Sister Killjoy, which are widely read in women’s literature courses, and her plays The Dilemma of a Ghost and Anowa, which are read and performed all over the world, her prowess as a poet shines as well.
+
+Ama Ata Aidoo was born in Abeadzi Kyiakor, in south central Ghana in 1942. She studied literature at the University of Ghana, won a fellowship to Stanford University, and subsequently accepted visiting professorships in the United States and Africa. Her poetry collections include Birds and Other Poems, Someone Talking to Sometime, and An Angry Letter in January and Other Poems.
+
+(edited from University of Nebraska Press)",
+ap.per.00243,al-Isha,Faraj Bou,,,Libya,Northern Africa,,,,,Found (?) in Banipal
+ap.per.00012,Alembong,Nol,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/38941956,,
+ap.per.00174,Ali,Sahro,,,Somalia,Eastern Africa,F,,,,
+ap.per.00011,Allo,Viola,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/316802279/,,
+ap.per.00074,Amadiume,Ifi,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/167668/,,
+ap.per.00381,Amukoshi,Julia Shalongo-Shandje Ndinelago,,,Namibia,Southern Africa,F,,https://viaf.org/viaf/121147118202826341010/,,
+ap.per.00154,Angira,Jared,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/56736580/,,
+ap.per.00061,Animashon,Abonyi,,,Nigeria,Western Africa,M,,,,
+ap.per.00101,Annobil,Ishmael Fifi,,,Ghana,Western Africa,M,,https://viaf.org/viaf/29030364/,,"""Fiifi"" with 2 i's"
+ap.per.00097,Anyidoho,Kofi,born George Kofi Nyidevu Awoonor-Williams,,Ghana,Western Africa,M,,https://viaf.org/viaf/79047971/,,
+ap.per.00017,Ashuntantang,Joyce,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/41652318/,,
+ap.per.00049,Ávila Laurel,Juan Tomás  ,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00280,Awah,Bahia Mahmud,,,Western Sahara,Northern Africa,M,,https://viaf.org/viaf/121075098/,,
+ap.per.00102,Awoonor,Kofi,,Y,Ghana,Western Africa,M,,https://viaf.org/viaf/97639024/,"Selected Works
+Poems
+
+    The Land Endures
+    On the Gallows Once
+    Etchings from My Mind
+
+Poetry Collections
+
+    Rediscovery and Other Poems. Mbari Publications, 1964.
+    Night of My Blood. Doubleday, 1971.
+    Ride Me, Memory. Greenfield Review Press, 1973.
+    The House by the Sea. Greenfield Review Press, 1978.
+    Until the morning after: selected poems, 1963-85. Greenfield Review Press, 1987.
+    Latin American and Caribbean Notebook. Africa World Press, 1992.
+    The Promise of Hope: New and Selected Poems. University of Nebraska Press, 2014.
+
+Speeches, Lectures, Interviews, Performances / Critical Articles, Media:
+
+    Egudu, Romanus N. Four Modern West African Poets. Nok, 1977.
+    Goodwin, K. L. Understanding African poetry: a study of ten poets. Heinemann, 1982.
+    University of Washington. “Kofi Awoonor, Poetry and Comments.” Internet Archive, 1979. https://archive.org/details/uwlibraries_oclc14261670.
+    University of Washington. “Kofi Awoonor, Songs Of The Village.” Internet Archive, July 9, 2014. https://archive.org/details/uwlibraries_oclc9378354.
+    University of Washington. “Kofi Awoonor - African Studies Association Keynote Speech. 1992, Seattle, WA.” SoundCloud, 2015. https://soundcloud.com/uwlibraries/kofi-awoonor-asa-keynote-1992.
+
+Biography:
+
+Kofi Awoonor was born George Awoonor-Williams in Wheta, Ghana, to Ewe parents. He was a poet, literary critic, professor of comparative literature and served as an ambassador for Ghana. Awoonor earned a BA from University College of Ghana, an MA from University College, London, and a PhD in comparative literature from SUNY Stony Brook. He is the author of novels, plays, political essays, literary criticism, and several volumes of poetry, including Rediscovery and Other Poems (1964), Night of My Blood (1971), Ride Me, Memory (1973), The House by the Sea (1978), The Latin American and Caribbean Notebook (1992), and a volume of collected poems, Until the Morning After (1987).
+
+Awoonor’s grandmother was an Ewe dirge singer, and the form of his early poetry draws from the Ewe oral tradition. He translated Ewe poetry in his critical study Guardians of the Sacred Word and Ewe Poetry (1974). Other works of literary criticism include The Breast of the Earth: A Survey of the History, Culture, and Literature of Africa South of the Sahara (1975).
+
+In the early 1970s, Awoonor served as chairman of the Department of Comparative Literature at SUNY Stony Book. He returned to Ghana in 1975 to teach at University College of Cape Coast. In Ghana, he was arrested and tried for suspected involvement in a coup. He was imprisoned without trial and was later released; he wrote about his time in jail in The House by the Sea. Awoonor resumed teaching after his sentence was remitted. In the 1980s, he was the Ghanaian ambassador to Brazil and Cuba and served as ambassador to the United Nations from 1990 to 1994; in 1990 he published Ghana: A Political History from Pre-European to Modern Times.
+
+Awoonor is author of the novels This Earth, My Brother… (1971) and Comes the Voyager at Last: A Tale of Return to Africa (1992). He died in the Westgate shopping mall attack in Kenya in September 2013.
+
+(sourced from Poetry Foundation, 10/8/19)",
+ap.per.00229,Awwad,Bahaa,,,Egypt,Northern Africa,,,,,"Any other names, e.g. ""Sobhi Abde Latif"""
+ap.per.00115,Azeli,Iyamade,,,Sierra Leone,Western Africa,F,,,,(CHECK SPELLING)
+ap.per.00060,Azuah,Unoma Nguemo,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/26738512/,,
+ap.per.00262,Bachkar,Mohamed,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00307,Baderoon,Gabeba,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/29266778,,
+ap.per.00256,Bakouri,Amina,,,Morocco,Northern Africa,F,,,,Found in Poetry International
+ap.per.00314,Banoobhai,Shabbir,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/73892274,,
+ap.per.00263,Barakat,Ahmed,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00178,Barya,Mildred,Kiconco,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/69167056/,,
+ap.per.00172,Bashir,Samiya,,,Somalia,Eastern Africa,F,,https://viaf.org/viaf/19371729/,,
+ap.per.00041,Beja,Olinda,,,Sao Tome & Principe,Middle Africa,F,,https://viaf.org/viaf/78444002,,
+ap.per.00279,Bekri,Tahar,,,Tunisia,Northern Africa,M,,https://viaf.org/viaf/68925320,,
+ap.per.00210,Benfodil,Mustapha,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/12539712/,,
+ap.per.00257,Benmoussa,Ouidad,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/266542621/,,
+ap.per.00245,Bennis,Mohammed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/12416511,,
+ap.per.00248,Bentalha,Mohammed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/19553807/,,
+ap.per.00288,Berwold,Robert,,,South Africa,Southern Africa,,,,,
+ap.per.00013,Besong,Bate,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/80368088/,,
+ap.per.00340,Bila,Vonani,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/16873159/,,
+ap.per.00356,Biliei,Amanda,,,South Africa,Southern Africa,F,,,,"Could this be Amanda ""Black"" (stage name)?"
+ap.per.00180,Bitek,Julianne Okot,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/106062348,,"Only 1 n in ""Juliane"""
+ap.per.00282,Boicha,Limam,,,Western Sahara,Northern Africa,M,,,,found on Poetry Translation
+ap.per.00055,Boneke,Juan Balboa,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00052,Boneza,Raïs Neza,,,"Congo, Democratic Republic Of",Middle Africa,M,,https://viaf.org/viaf/227578744/,,
+ap.per.00273,Boof,Kola,,,Sudan,Northern Africa,F,,https://viaf.org/viaf/233531028/,,
+ap.per.00325,Botha,Nadine,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/34196260/,,
+ap.per.00264,Boudouik,Mohamed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/297197326/,,
+ap.per.00104,Brew,Kwesi,Osborne Henry ,,Ghana,Western Africa,M,,https://viaf.org/viaf/91272505/,,
+ap.per.00344,Breytenbach,Breyten,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/300425129/,,
+ap.per.00302,Brutus,Dennis,Vincent,,South Africa,Southern Africa,M,,https://viaf.org/viaf/39392638/,,
+ap.per.00098,Bulley,Victoria,Adukwei,,Ghana,Western Africa,F,,https://viaf.org/viaf/24149912316506210842/,,
+ap.per.00105,Busia,Abena,,,Ghana,Western Africa,F,,https://viaf.org/viaf/51740768/,,
+ap.per.00020,Butake,Bole,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/38146635594941981820/,,
+ap.per.00275,Chatti,Leila,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/23154739767152990414,,
+ap.per.00203,Chellali,Hamida,,,Algeria,Northern Africa,F,,,,
+ap.per.00113,Cheney-Coker,Syl,Cheney,,Sierra Leone,Western Africa,M,,https://viaf.org/viaf/79080574/,,
+ap.per.00161,Chimombo,Steve,Bernard Miles,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/106950769/,,
+ap.per.00195,Chingono,Julius,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/45719245/,,
+ap.per.00184,Chingonyi,Kayombo,,,Zambia,Eastern Africa,M,,https://viaf.org/viaf/35149912591606212659,,
+ap.per.00163,Chipasula,Stella P,,,Malawi,Eastern Africa,F,,https://viaf.org/viaf/51924168/,,
+ap.per.00160,Chipasula,Frank,,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/93763054/,,
+ap.per.00187,Chirikure,Chirikure,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/59333139/,,
+ap.per.00294,Christiansë,Yvette,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/51016807/,,
+ap.per.00076,Clark,JP,John Pepper Clark-Bekederemo,,Nigeria,Western Africa,M,,https://viaf.org/viaf/91297033/,,
+ap.per.00320,Cope,Michael,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/12023618/,,
+ap.per.00301,Cronin,Jeremy,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/17276176/,,
+ap.per.00014,D'Almeida,Fernando,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/66480405/,,
+ap.per.00119,da Silva,Tome Varela,,,Cape Verde,Western Africa,M,,https://viaf.org/viaf/314827283/,,
+ap.per.00077,Daniel,Mary-Alice,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/27149912596206212331,,
+ap.per.00001,de Carvalho,Ruy Duarte,Ruy Alberto Duarte Gomes de Carvalho,,Angola,Middle Africa,M,"You wake longing to know what happened
 Sign
 The Children
 Saltpeter Sores
 Pastoral Song
-In the Words of Musurukutu",http://viaf.org/viaf/7385318,
-ap.per.00275,Leila Chatti,,Chatti,Leila,,Tunisia,Northern Africa,Anthology,,,,
-ap.per.00203,Hamida Chellali,,Chellali,Hamida,,Algeria,Northern Africa,Anthology,,,,
-ap.per.00161,Steve Chimombo,,Chimombo,Steve,Bernard Miles,Malawi,Eastern Africa,Anthology,M,,,
-ap.per.00195,Julius Chingono,*,Chingono,Julius,,Zimbabwe,Eastern Africa,Index,M,,,
-ap.per.00184,Kayombo Chingonyi,,Chingonyi,Kayombo,,Zambia,Eastern Africa,Anthology,M,,,
-ap.per.00160,Frank Chipasula,,Chipasula,Frank,,Malawi,Eastern Africa,Anthology,M,,,
-ap.per.00163,Stella P Chipasula,*,Chipasula,Stella P,,Malawi,Eastern Africa,Index,F,,,
-ap.per.00187,Chirikure Chirikure,,Chirikure,Chirikure,,Zimbabwe,Eastern Africa,Anthology,M,,,
-ap.per.00294,Yvette Christiansë ,,Christiansë,Yvette,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00076,JP Clark,,Clark,JP,John Pepper Clark-Bekederemo,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00113,Syl Cheney-Coker,,Cheney-Coker,Syl,Cheney,Sierra Leone,Western Africa,Anthology,M,,,
-ap.per.00320,Michael Cope,*,Cope,Michael,,South Africa,Southern Africa,Index,,,,
-ap.per.00301,Jeremy Cronin,,Cronin,Jeremy,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00077,Mary-Alice Daniel,,Daniel,Mary-Alice,,Nigeria,Western Africa,Anthology,F,,,
-ap.per.00370,TJ Dema,,Dema,TJ,Tjawangwa,Botswana,Southern Africa,Anthology,,,,
-ap.per.00367,Gail Dendy,*,Dendy,Gail,,South Africa,Southern Africa,Index,,,,
-ap.per.00147,Solomon Deressa,*,Deressa,Solomon,,Madagascar,Eastern Africa,Index,M,,,
-ap.per.00120,Koumanthio Zeinab Diallo ,*,Diallo,Kumanthio Zeinab,,Guinea,Western Africa,Index,F,,,2 books/ Blue modern African anthology
-ap.per.00223,Osama El-Dinosauri,*,El-Dinosauri,Osama,,Egypt,Northern Africa,Index,,,,
-ap.per.00386,Mbella Sonne Dipoko,,Dipoko,Mbella Sonne,,Cameroon,Middle Africa,Anthology,M,,,
-ap.per.00285,Isobel Dixon,,Dixon,Isobel,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00042,Nimrod Ben Djangrang,,Djangrang,Nimrod Ben,,Chad,Middle Africa,Anthology,M,,,
-ap.per.00209,Mourad Djebel,*,Djebel,Mourad,,Algeria,Northern Africa,Index,,,,
-ap.per.00095,Beatrice Djedja,*,Djedja,Beatrice,,Cote d’Ivoire,Western Africa,Index,F,,,
-ap.per.00334,Angifi Dladla,*,Dladla,Angifi,Proctor,South Africa,Southern Africa,Index,,,,
-ap.per.00021,Emmanuel Fru Doh,*,Doh,Emmanuel Fru,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00306,Finuala Dowling,*,Dowling,Finuala,,South Africa,Southern Africa,Index,,,,
-ap.per.00363,Clinton V. Du Plessis,*,Du Plessis,Clinton V.,Vivian,South Africa,Southern Africa,Index,,,,
-ap.per.00015,Christmas Atem Ebini,,Ebini,Christmas Atem,,Cameroon,Middle Africa,Anthology,M,,,
-ap.per.00281,Mohammed Ebnu,*,Ebnu,Mohammed,,Western Sahara,Northern Africa,Index,,,,
-ap.per.00072,Amatoritsero Ede,,Ede,Amatoritsero,"""Godwin""",Nigeria,Western Africa,Anthology,M,,,
-ap.per.00062,Victor Ehikhamenor,,Ehikhamenor,Victor,Ehighale,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00274,Safia Elhillo,,Elhillo,Safia,,Sudan,Northern Africa,Anthology,,,,
-ap.per.00079,Inua Ellams,,Ellams,Inua,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00380,Hugh Ellis,*,Ellis,Hugh,,Namibia,Southern Africa,Index,,,,
-ap.per.00131,Idris Yusuf Elmi,*,Elmi,Idris Yusuf,,Djibouti,Eastern Africa,Index,M,,,
-ap.per.00186,John Eppel,,Eppel,John,,Zimbabwe,Eastern Africa,Anthology,M,,,
-ap.per.00242,Ashur Etwebi,,Etwebi,Ashur,,Libya,Northern Africa,Anthology,,,,
-ap.per.00239,Safaa Fathy,*,Fathy,Safaa,,Egypt,Northern Africa,Index,,,,—waiting for more work
-ap.per.00118,Corsino António Fortes,,Fortes,Corsino António,,Cape Verde,Western Africa,Anthology,M,,,
-ap.per.00236,Imad Fouad,*,Fouad,Imad,,Egypt,Northern Africa,Index,,,,
-ap.per.00366,Sheila Meiring Fugard,*,Fugard,Sheila Meiring,,South Africa,Southern Africa,Index,,,,
-ap.per.00232,Magdy El-Gabry,*,El-Gabry,Magdy,,Egypt,Northern Africa,Index,,,,
-ap.per.00150,Clifton Gachagua,,Gachagua,Clifton,,Kenya,Eastern Africa,Anthology,M,,,
-ap.per.00308,Genna Gardini,*,Gardini,Genna,,South Africa,Southern Africa,Index,,,,
-ap.per.00322,Dawn Garisch,*,Garisch,Dawn,,South Africa,Southern Africa,Index,,,,
-ap.per.00087,Harry Garuba,*,Garuba,Harry,,Nigeria,Western Africa,Index,M,,,
-ap.per.00138,Aracelis Girmay,,Girmay,Aracelis,,Eritrea,Eastern Africa,Anthology,F,,,
-ap.per.00145,Assefa GMT,*,GMT,Assefa,,Ethiopia,Eastern Africa,Index,M,,,
-ap.per.00022,Werewere-Liking Gnepo,*,Gnepo,Werewere-Liking,,Cameroon,Middle Africa,Index,F,,,
-ap.per.00310,Keith Gottschalk,*,Gottschalk,Keith,,South Africa,Southern Africa,Index,,,,
-ap.per.00342,Stephen Gray,*,Gray,Stephen,,South Africa,Southern Africa,Index,,,,
-ap.per.00094,Josué Guébo,,Guébo,Josué,Yoroba,Cote d’Ivoire,Western Africa,Anthology,M,,,
-ap.per.00339,Mafika Pascal Gwala,*,Gwala,Mafika Pascal,,South Africa,Southern Africa,Index,,,,
-ap.per.00023,Gahlia Njogoh Gwangwa,*,Gwangwa,Gahlia Njogoh,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00330,Dorian Haarhoff,*,Haarhoff,Dorian,,South Africa,Southern Africa,Index,,,,
-ap.per.00133,Isman Omar Hachi,*,Hachi,Isman Omar,,Djibouti,Eastern Africa,Index,M,,,
-ap.per.00136,Reesom Haile,,Haile,Reesom,,Eritrea,Eastern Africa,Anthology,M,,,
-ap.per.00176,Haji Gora Haji,*,Haji,Haji Gora,,Tanzania,Eastern Africa,Index,M,,,
-ap.per.00338,Megan Hall,*,Hall,Megan,,South Africa,Southern Africa,Index,,,,
-ap.per.00346,Joan Hambidge,*,Hambidge,Joan,Helene,South Africa,Southern Africa,Index,,,,
-ap.per.00360,Geoffrey Haresnape,*,Haresnape,Geoffrey,,South Africa,Southern Africa,Index,,,, (Loka will look for more)
-ap.per.00231,Youssri Hassaan,*,Hassaan,Youssri,,Egypt,Northern Africa,Index,,,,
-ap.per.00316,Vernon Head,*,Head,Vernon,,South Africa,Southern Africa,Index,,,,
-ap.per.00347,Peter Horn,*,Horn,Peter,Rudolf Gisela,South Africa,Southern Africa,Index,,,,
-ap.per.00108,Naana Banyiwa Horne,*,Horne,Naana Banyiwa,,Ghana,Western Africa,Index,F,,,
-ap.per.00365,Allan Kolski Horwitz,*,Horwitz,Allan Kolski,,South Africa,Southern Africa,Index,,,,
-ap.per.00188,Chenjerai Hove,,Hove,Chenjerai,,Zimbabwe,Eastern Africa,Anthology,M,,,
-ap.per.00216,Hoda Hussein,,Hussein,Hoda,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00066,Ogaga Ifowodo,,Ifowodo,Ogaga,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00110,Mawuli Ijadjei ,*,Ijadjei,Mawuli,,Ghana,Western Africa,Index,M,,,
-ap.per.00091,Tade Ipadeola,*,Ipadeola,Tade,,Nigeria,Western Africa,Index,M,,,
-ap.per.00140,Angessom Isaak,*,Isaak,Angessom,,Eritrea,Eastern Africa,Index,M,,,
-ap.per.00243,Faraj Bou al-Isha,*,al-Isha,Faraj Bou,,Libya,Northern Africa,Index,,,,
-ap.per.00134,Ali Moussa Iye,*,Iye,Ali Moussa,,Djibouti,Eastern Africa,Index,M,,,
-ap.per.00141,Ararat Iyob,*,Iyob,Ararat,,Ethiopia,Eastern Africa,Anthology,F,,,
-ap.per.00192,Tsitsi Jaji,,Jaji,Tsitsi,Ella,Zimbabwe,Eastern Africa,Anthology,F,,,
-ap.per.00244,Tahar Ben Jelloun ,,Jelloun,Tahar Ben,,Morocco,Northern Africa,Anthology,,,,
-ap.per.00348,Liesl Jobson,*,Jobson,Liesl,,South Africa,Southern Africa,Index,,,,
-ap.per.00349,Sarah Johnson,*,Johnson,Sarah,,South Africa,Southern Africa,Index,,,,
-ap.per.00266,Ahmed Joumari,*,Joumari,Ahmed,,Morocco,Northern Africa,Index,,,,
-ap.per.00047,Mukula Kadmi-Nzuji ,,Kadmi-Nzuji,Mukula,Dieudonné,"Congo, Democratic Republic Of",Middle Africa,Anthology,M,,,
-ap.per.00383,Kavevangua Kahengua,*,Kahengua,Kavevangua,,Namibia,Southern Africa,Index,,,,
-ap.per.00218,Pauline Kaldas,,Kaldas,Pauline,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00063,Uchechi Kalu,,Kalu,Uchechi,,Nigeria,Western Africa,Anthology,F,,,
-ap.per.00086,Pete Kalu,*,Kalu,Pete,,Nigeria,Western Africa,Index,M,,,
-ap.per.00051,Kama Sywor Kamanda,*,Kamanda,Kama Sywor,,"Congo, Democratic Republic Of",Middle Africa,Index,M,,,
-ap.per.00295,Ronelda Kamfer,,Kamfer,Ronelda,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00116,Amadou Lamine Kane,*,Kane,Amadou Lamine,,Senegal,Western Africa,Index,M,,,
-ap.per.00204,Abdelmajid Kaouah,,Kaouah,Abdelmajib,,Algeria,Northern Africa,Anthology,,,,
-ap.per.00238,Abdul Karim,*,Karim,Abdul,,Egypt,Northern Africa,Index,,,,
-ap.per.00175,Nyachiro Lydia Kasese,,Kasese,Nyachiro Lydia,,Tanzania,Eastern Africa,Anthology,F,,,
-ap.per.00374,Kat Kol Kes,*,Kes,Kat Kol,Katlego Kai Kolanyane-Kesupile,Botswana,Southern Africa,Index,,,," (verify if book, like TJ says?)"
-ap.per.00287,Keorapetse Kgositsile,,Kgositsile,Keorapetse,"William, ""Bra Willie""",South Africa,Southern Africa,Anthology,,,,
-ap.per.00377,Sheila Khala,,Khala,Sheila,Nomolanga,Lesotho,Southern Africa,Index,,,,
-ap.per.00233,Ehab Khalifa,*,Khalifa,Ehab,Mahmoud,Egypt,Northern Africa,Index,,,,
-ap.per.00205,Amin Khan,,Khan,Amin,,Algeria,Northern Africa,Anthology,,,,
-ap.per.00353,Mbongeni Khumalo,*,Khumalo,Mbongeni,,South Africa,Southern Africa,Index,,,,
-ap.per.00183,Melissa Kiguwa,*,Kiguwa,Melissa,,Uganda,Eastern Africa,Index,F,,,
-ap.per.00155,Maina wa Kinyatti,*,Kinyatti,Maina,,Kenya,Eastern Africa,Index,M,,,
-ap.per.00024,Bongasu Tanla Kishani,*,Kishani,Bongasu Tanla,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00284,Ingrid de Kok,,Kok,Ingrid de,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00025,Sim Kombem,*,Kombem,Sim,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00026,Buma Kor,*,Kor,Buma,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00289,Rustum Kozain,,Kozain,Rustum,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00283,Antjie Krog,,Krog,Antjie,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00332,Mazisi Kunene,*,Kunene,Mazisi,Raymond,South Africa,Southern Africa,Index,,,,
-ap.per.00103,Dannabang Kuwabong,,Kuwabong,Dannabang,,Ghana,Western Africa,Anthology,M,,,
-ap.per.00027,Monique Kwachou,*,Kwachou,Monique,,Cameroon,Middle Africa,Index,F,,,
-ap.per.00246,Abdellatif Laâbi,,Laâbi,Abdellatif,,Morocco,Northern Africa,Anthology,,,,
-ap.per.00202,Abdelhamid Laghouati,,Laghouati,Abdelhamid,,Algeria,Northern Africa,Anthology,,,,
-ap.per.00107,Kojo Laing,,Laing,Kojo,Bernard,Ghana,Western Africa,Anthology,M,,,
-ap.per.00249,Wafa’a Lamrani ,*,Lamrani,Wafa'a,,Morocco,Northern Africa,Index,,,,
-ap.per.00028,Irmagard Anchang Langmia,*,Langmia,Irmagard Anchang,,Cameroon,Middle Africa,Index,F,,,
-ap.per.00009,Alda Lara,,Lara,Alda,Alda Ferreira Pires Barreto de Lara Albuquerque,Angola,Middle Africa,Index,F,,,
-ap.per.00254,Emmanuel Laugier,*,Laugier,Emmanuel,,Morocco,Northern Africa,Index,,,,
-ap.per.00049,Juan Tomás Ávila Laurel,,Ávila Laurel,Juan Tomás  ,,"Congo, Democratic Republic Of",Middle Africa,Anthology,M,,,
-ap.per.00168,Ana Mafalda Leite,,Leite,Ana Mafalda,,Mozambique,Eastern Africa,Anthology,F,,,
-ap.per.00143,Liyou Libsekal,,Libsekal,Liyou,,Ethiopia,Eastern Africa,Anthology,F,,,
-ap.per.00005,Maria Eugénia Lima,,Lima,Maria Eugénia,,Angola,Middle Africa,Anthology,F,,,
-ap.per.00053,Lokangaka Losambe,*,Losambe,Lokangaka,,"Congo, Democratic Republic Of",Middle Africa,Index,M,,,
-ap.per.00044,Jean-Baptiste Tati Loutard,,Tati Loutard,Jean-Baptiste,,Congo (Brazzaville),Middle Africa,Index,M,,,
-ap.per.00002,Amy Lukau,,Lukau,Amy,,Angola,Middle Africa,Anthology,F,,http://viaf.org/viaf/316802226,
-ap.per.00043,Alain Mabanckou,,Mabanckou,Alain,,Congo (Brazzaville),Middle Africa,Index,M,,,
-ap.per.00190,Ignatius T Mabasa,,Mabasa,Ignatius T,Tirivangani,Zimbabwe,Eastern Africa,Anthology,M,,,
-ap.per.00378,Refiloe Mabejane,,Mabejane,Refiloe,Letokoto,Lesotho,Southern Africa,Index,,,,"has a book ""Strawberry Lips"" (female poet from Lesotho)"
-ap.per.00153,Marjorie Oludhe MacGoye,*,MacGoye,Marjorie Oludhe,Marjorie Phyllis King,Kenya,Eastern Africa,Index,F,,,
-ap.per.00030,Mwalimu Johnnie MacViban,*,MacViban,Mwalimu,Johnnie,Cameroon,Middle Africa,Index,M,,,
-ap.per.00247,Rachida Madani ,,Madani,Rachida,,Morocco,Northern Africa,Anthology,,,,
-ap.per.00375,Pinkie Mekgwe-Magocha,*,Mekgwe,Pinkie,Magocha,Botswana,Southern Africa,Index,,,,
-ap.per.00241,Fatima Mahmoud,,Mahmoud,Fatima,,Libya,Northern Africa,Anthology,,,,
-ap.per.00323,Mzi Mahola,*,Mahola,Mzi,Mzikayise Winston,South Africa,Southern Africa,Index,,,,
-ap.per.00258,Touria Majdouline,*,Majdouline,Touria,,Morocco,Northern Africa,Index,,,,
-ap.per.00267,Ben Younes Majen,*,Majen,Ben Younes,,Morocco,Northern Africa,Index,,,,
-ap.per.00006,Mawete Makisosila ,,Makisosila,Mawete,,Angola,Middle Africa,Index,M,,http://viaf.org/viaf/54250626,
-ap.per.00179,Nick Makoha,,Makoha,Nick,,Uganda,Eastern Africa,Anthology,M,,,
-ap.per.00039,Bamboté Makombo,*,Makombo,Bamboté,,Central Africa,Middle Africa,Index,M,,,
-ap.per.00034,Juliana Makuchi Nfah-Abbenyi (Makuchi),*,Makuchi,Juliana Nfah-Abbenyi,,Cameroon,Middle Africa,Index,F,,,
-ap.per.00328,Lucas Malan,*,Malan,Lucas,Cornelius,South Africa,Southern Africa,Index,,,,
-ap.per.00372,Albert Malikongwa,*,Malikongwa,Albert,G. T. K. ,Botswana,Southern Africa,Index,,,,
-ap.per.00291,Vuyelwa Maluleke,,Maluleke,Vuyelwa,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00129,Thierry Manirambona,*,Manirambona,Thierry,,Burundi,Eastern Africa,Index,M,,,
-ap.per.00331,Chris Mann,*,Mann,Chris,Christopher Michael Zithulele,South Africa,Southern Africa,Index,,,,
-ap.per.00225,Ali Mansour ,*,Mansour,Ali,,Egypt,Northern Africa,Index,,,,
-ap.per.00159,Jack Mapanje,,Mapanje,Jack,John Alfred Clement,Malawi,Eastern Africa,Anthology,M,,,
-ap.per.00317,Danie Marais,*,Marais,Danie,,South Africa,Southern Africa,Index,,,,
-ap.per.00326,Loftus Marais,*,Marais,Loftus,Lodewikus Stefanus,South Africa,Southern Africa,Index,,,,
-ap.per.00007,Makuzayi Masaki,,Masaki,Makuzayi,Makuzaki?,Angola,Middle Africa,Index,M,,,
-ap.per.00354,Lebo Mashile,*,Mashile,Lebo,,South Africa,Southern Africa,Index,,,,
-ap.per.00376,Rethabile Masilo,,Masilo,Rethabile,,Lesotho,Southern Africa,Anthology,,,,
-ap.per.00345,Dawn Mattera,*,Mattera,Dawn,,South Africa,Southern Africa,Index,,,,research more (via Tsitsi)
-ap.per.00164,Edouard Maunick,,Maunick,Edouard,,Mauritius,Eastern Africa,Anthology,M,,,
-ap.per.00149,Ngwatilo Mawiyoo,,Mawiyoo,Ngwatilo,,Kenya,Eastern Africa,Anthology,F,,,
-ap.per.00018,Margaret Mbah,*,Mbah,Margaret,Afuh,Cameroon,Middle Africa,Index,F,,,
-ap.per.00321,Bongekile Joyce Mbangjwa,*,Mbangjwa,Bongekile Joyce,,South Africa,Southern Africa,Index,,,,
-ap.per.00031,Mbuh Tennu Mbuh ,*,Mbuh,Mbuh Tennu,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00350,Michelle McGrane,*,McGrane,Michelle,,South Africa,Southern Africa,Index,,,,
-ap.per.00217,Iman Mersal,,Mersal,Iman,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00300,Joan Metelerkamp,,Metelerkamp,Joan,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00224,Mohamed Metwalli,*,Metwalli,Mohamed,,Egypt,Northern Africa,Index,,,,
-ap.per.00324,Nontsizi Mgqwetho,*,Mgqwetho,Nontsizi,,South Africa,Southern Africa,Index,,,,
-ap.per.00315,Gcina Mhlophe,*,Mhlophe,Gcina,,South Africa,Southern Africa,Index,,,,
-ap.per.00351,Amitabh Mitra,*,Mitra,Amitabh,,South Africa,Southern Africa,Index,,,,
-ap.per.00319,Zolani Mkiva,*,Mkiva,Zolani,,South Africa,Southern Africa,Index,,,,
-ap.per.00373,Rogoff Modise ,*,Modise,Rogoff,,Botswana,Southern Africa,Index,,,,
-ap.per.00384,Keamogetsi J. Molapong,*,Molapong,Keamogetsi J.,Joseph,Namibia,Southern Africa,Index,,,,
-ap.per.00299,Kobus Moolman,,Moolman,Kobus,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00259,Fatiha Morchid,*,Morchid,Fatiha,,Morocco,Northern Africa,Index,,,,
-ap.per.00305,croc E moses,*,moses,Croc,,South Africa,Southern Africa,Index,,,,
-ap.per.00309,Isabella Motadinyane,*,Motadinyane,Isabella,,South Africa,Southern Africa,Index,,,, (maybe?): Touting Taxi
-ap.per.00296,Seitlhamo Motsapi,,Motsapi,Seithamo,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00268,Abdelilah Mouissi,*,Mouissi,Abdelilah,,Morocco,Northern Africa,Index,,,,
-ap.per.00276,Amel Moussa,,Moussa,Amel,,Tunisia,Northern Africa,Anthology,,,,
-ap.per.00359,Phaswane Mpe,*,Mpe,Phaswane,,South Africa,Southern Africa,Index,,,,
-ap.per.00162,Lupenga Mphande,*,Mphande,Lupenga,,Malawi,Eastern Africa,Index,M,,,
-ap.per.00335,Mbuyiseni Oswald Mtshali,*,Mtshali,Mbuyiseni,,South Africa,Southern Africa,Index,,,,
-ap.per.00156,Micere Githae Mugo,*,Mugo,Micere Githae,,Kenya,Eastern Africa,Index,F,,,
-ap.per.00313,Nick Mulgrew,*,Mulgrew,Nick,,South Africa,Southern Africa,Index,,,,
-ap.per.00361,Ike Mboneni Mulia,*,Mulia,Ike Mboneni,,South Africa,Southern Africa,Index,,,,
-ap.per.00318,Petra Muller,*,Muller,Petra,,South Africa,Southern Africa,Index,,,,
-ap.per.00368,Sally-Ann Murray,*,Murray,Sally-Ann,,South Africa,Southern Africa,Index,,,,
-ap.per.00191,Blessing Musariri,,Musariri,Blessing,,Zimbabwe,Eastern Africa,Anthology,F,,,
-ap.per.00177,Sandra A Mushi,*,Mushi,Sandra A,Aikaruwa,Tanzania,Eastern Africa,Index,F,,,
-ap.per.00158,Phyllis Muthoni,*,Muthoni,Phyllis,,Kenya,Eastern Africa,Index,F,,,
-ap.per.00033,Ba’Bila Mutia,*,Mutia,Ba'Bila,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00040,Nkulu-N’Sengha Mutombo,*,Mutombo,Nkulu-N'Sengha,,The Congo,Middle Africa,Index,M,,,
-ap.per.00240,Khaled Muttawa,,Muttawa,Khaled,,Libya,Northern Africa,Anthology,,,,
-ap.per.00193,Togara Muzanenhamo,,Muzanenhamo,Togara,,Zimbabwe,Eastern Africa,Anthology,M,,,
-ap.per.00220,Fatima Naaot,,Naaot,Fatima,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00278,Khaled Najar,*,Najar,Khaled,,Tunisia,Northern Africa,Index,,,,
-ap.per.00250,Hassan Najmi,*,Najmi,Hassan,,Morocco,Northern Africa,Index,,,,—maybe “The War” with benefit of doubt
-ap.per.00379,Mvula ya Nangolo,*,Nangolo,Mvula,,Namibia,Southern Africa,Index,,,,
-ap.per.00056,Ciriaco Bokesa Napo,*,Napo,Ciriaco Bokesa,,"Congo, Democratic Republic Of",Middle Africa,Index,M,,,
-ap.per.00341,Charl-Pierre Naude,*,Naude,Charl-Pierre,,South Africa,Southern Africa,Index,,,,
-ap.per.00073,Uche Nduka,,Nduka,Uche,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00211,Samira Negrouche,*,Negrouche,Samira,,Algeria,Northern Africa,Index,,,,"doublecheck (w JohnK, Major will research)"
-ap.per.00032,Frida Menkan Mbunda-Nekang,*,Menkan-Mbunda,Frida Nekang,,Cameroon,Middle Africa,Index,F,,,
-ap.per.00333,Gert Vlok Nel,*,Nel,Gert Vlok,,South Africa,Southern Africa,Index,,,,
-ap.per.00016,Patrice Nganang,,Nganang,Patrice,,Cameroon,Middle Africa,Anthology,M,,,
-ap.per.00035,John Ngong Kum Ngong,*,Ngong,John Ngong Kum,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00152,Mukoma wa Ngugi,,Ngugi,Mukoma wa,,Kenya,Eastern Africa,Anthology,M,,,
-ap.per.00364,Siphiwe ka Ngwenya,*,Ngwenya,Siphiwe,,South Africa,Southern Africa,Index,,,,
-ap.per.00337,Marlene van Niekerk,*,Niekerk,Marlene,,South Africa,Southern Africa,Index,,,,
-ap.per.00148,Esther Nirina,*,Nirina,Esther,,Kenya,Eastern Africa,Anthology,F,,, (if no suitable poem found for anthology)
-ap.per.00251,Mostafa Nissabouri,*,Nissabouri,Mostafa,,Morocco,Northern Africa,Index,,,,
-ap.per.00036,Marcel Njanke,*,Njanke,Marcel,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00048,Mutombo Nkulu,,Nkulu,Mutombo,,"Congo, Democratic Republic Of",Middle Africa,Anthology,M,,,
-ap.per.00070,amu nnadi,,nnadi,Amu,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00181,Beverley Nambozo Nsengiynva,,Nsengiynva,Beverley Nambozo,,Uganda,Eastern Africa,Anthology,F,,,
-ap.per.00071,Obi Nwakanma,,Nwakanma,Obi,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00185,Freedom Nyamubaya,,Nyamubaya,Freedom,,Zimbabwe,Eastern Africa,Anthology,F,,,
-ap.per.00194,Albert Nyathi,,Nyathi,Albert,,Zimbabwe,Eastern Africa,Anthology,M,,,
-ap.per.00298,Mxolisi Nyezwa,,Nyezwa,Mxolisi,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00085,Obiwu,*,Obiwu,Obiwu,,Nigeria,Western Africa,Index,M,,,
-ap.per.00084,Olu Oguibe,*,Oguibe,Olu,,Nigeria,Western Africa,Index,M,,,
-ap.per.00082,Tolu Ogunlesi,*,Ogunlesi,Tolu,,Nigeria,Western Africa,Index,M,,,
-ap.per.00067,Tanure Ojaide,,Ojaide,Tanure,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00109,Atukwei Okai,*,Okai,Atukwei,,Ghana,Western Africa,Index,M,,,
-ap.per.00078,Gabriel Okara,,Okara,Gabriel,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00090,Niran Okewole,*,Okewole,Niran,,Nigeria,Western Africa,Index,M,,,
-ap.per.00089,Ben Okri,*,Okri,Ben,,Nigeria,Western Africa,Index,M,,,
-ap.per.00106,Kwadwo Opoku-Agyemang,,Opoku-Agyemang,Kwadwo,,Ghana,Western Africa,Anthology,M,,,
-ap.per.00080,Romeo Oriogun ,,Oriogun,Romeo,,Nigeria,Western Africa,Anthology,M,,,(chapbook pending??)
-ap.per.00171,Ladan Osman,,Osman,Ladan,,Somalia,Eastern Africa,Anthology,F,,,
-ap.per.00065,Niyi Osundare,,Osundare,Niyi,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00068,Nduka Otiono,,Otiono,Nduka,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00265,Hassan El Ouzzani,*,Ouzzani,Hassan,,Morocco,Northern Africa,Index,,,,
-ap.per.00083,Femi Oyebode,*,Oyebode,Femi,,Nigeria,Western Africa,Index,M,,,
-ap.per.00362,Donald Parenzee,*,Parenzee,Donald,,South Africa,Southern Africa,Index,,,,
-ap.per.00100,Nii Parkes,,Parkes,Nii,,Ghana,Western Africa,Anthology,M,,,
-ap.per.00157,Stephen Derwent Partington,*,Partington,Stephen Derwent,,Kenya,Eastern Africa,Index,M,,,
-ap.per.00151,Shalija Patel,,Patel,Shalija,,Kenya,Eastern Africa,Anthology,F,,,
-ap.per.00358,Amira Patel,*,Patel,Amira,,South Africa,Southern Africa,Index,,,,
-ap.per.00008,Joao Pedro,,Pedro,Joao,,Angola,Middle Africa,Index,M,,,
-ap.per.00327,H.J. Pieterse,*,Pieterse,H.J.,,South Africa,Southern Africa,Index,,,,
-ap.per.00352,Cosmo Pieterse,*,Pieterse,Cosmo,,South Africa,Southern Africa,Index,,,,
-ap.per.00057,No Poet,,No Poets,,,Gabon,Middle Africa,None,,,,
-ap.per.00058,No Poets,,No Poets,,,Equatorial Guinea,Middle Africa,None,,,,
-ap.per.00122,No Poets,,No Poets,,,Benin,Western Africa,,,,,
-ap.per.00123,No Poets,,No Poets,,,Burkina Faso,Western Africa,,,,,
-ap.per.00124,No Poets,,No Poets,,,Guinea-Bissau,Western Africa,,,,,
-ap.per.00125,No Poets,,No Poets,,,Mali,Western Africa,,,,,
-ap.per.00126,No Poets,,No Poets,,,Mauritania,Western Africa,,,,,
-ap.per.00127,No Poets,,No Poets,,,Togo,Western Africa,,,,,
-ap.per.00128,No Poets,,No Poets,,,Saint Helena,Western Africa,,,,,
-ap.per.00199,No Poets,,No Poets,,,Reunion,Eastern Africa,,,,,
-ap.per.00200,No Poets,,No Poets,,,Rwanda,Eastern Africa,,,,,
-ap.per.00201,No Poets,,No Poets,,,Seychelles,Eastern Africa,,,,,
-ap.per.00385,No Poets,,No Poets,,,Swaziland,Southern Africa,Index,,,,
-ap.per.00297,Karen Press,,Press,Karen,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00272,Al-Saddiq Al-Raddi,,Raddi,Al-Saddiq,,Sudan,Northern Africa,Anthology,,,,
-ap.per.00069,Remi Raji,,Raji,Remi,,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00230,Youssef Rakha,*,Rakha,Youssef,,Egypt,Northern Africa,Index,,,,
-ap.per.00311,Lesego Rampolokeng ,*,Rampolokeng,Lesego,,South Africa,Southern Africa,Index,,,,~~ need to find something else
-ap.per.00003,Jofre Rocha,,Rocha,Jofre,,Angola,Middle Africa,Anthology,M,,http://viaf.org/viaf/118911190,
-ap.per.00196,Kristina Runganyo,*,Runganyo,Kristina,,Zimbabwe,Eastern Africa,Index,F,,,
-ap.per.00215,Maher Sabry,,Sabry,Maher,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00277,Amina Said,,Said,Amina,,Tunisia,Northern Africa,Anthology,,,,
-ap.per.00355,Arja Salafranca,*,Salafranca,Arja,,South Africa,Southern Africa,Index,,,,
-ap.per.00269,Abdel-ilah Salhi,*,Salhi,Abdel-ilah,,Morocco,Northern Africa,Index,,,,
-ap.per.00117,Thierno Seydou Sall,*,Sall,Thierno Seydou,,Senegal,Western Africa,Index,M,,,
-ap.per.00112,Tijan M. Sallah,,Sallah,Tijan,,The Gambia,Western Africa,Anthology,M,,,
-ap.per.00050,Alda do Espirito Santo,,Santo,Alda do Espirito,,"Congo, Democratic Republic Of",Middle Africa,Anthology,F,,,
-ap.per.00371,Barolong Seboni ,*,Seboni,Barolong,,Botswana,Southern Africa,Index,,,,(poem in penguin modern anthology)
-ap.per.00208,Mohamed Sehaba,*,Sehaba,Mohamed,,Algeria,Northern Africa,Index,,,,
-ap.per.00343,Sydney Sipho Sepamla,*,Sepamla,Sydney Sipho,,South Africa,Southern Africa,Index,,,,
-ap.per.00312,Mongane Wally Serote,*,Serote,Mongane Wally,,South Africa,Southern Africa,Index,,,,
-ap.per.00114,Kadija Sesay,*,Sesay,Kadija,,Sierra Leone,Western Africa,Index,F,,,
-ap.per.00144,Bewketu Seyoum,,Seyoum,Bewketu,,Ethiopia,Eastern Africa,Index,M,,, (maybe)
-ap.per.00221,Ahmed al-Shahawi,,Shahawi,Ahmed,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00222,Mahmoud Sharaf,*,Sharaf,Mahmoud,,Egypt,Northern Africa,Index,,,,
-ap.per.00235,Hatham El-Shawwaf,*,Shawwaf,Hatham,,Egypt,Northern Africa,Index,,,,
-ap.per.00142,Mahtem Shiferraw,,Shiferraw,Mahtem,,Ethiopia,Eastern Africa,Anthology,F,,,
-ap.per.00173,Warsan Shire ,,Shire,Warsan,,Somalia,Eastern Africa,Anthology,F,,,
-ap.per.00081,Lola Shoneyin,*,Shoneyin,Lola,,Nigeria,Western Africa,Index,F,,,
-ap.per.00234,Guirguis Shoukry,*,Shoukry,Guirguis,,Egypt,Northern Africa,Index,,,,
-ap.per.00214,Mas’oud Shouman,,Shouman,Mas'oud,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00135,Ribka Sibhatu,,Sibhatu,Ribka,,Eritrea,Eastern Africa,Anthology,F,,,
-ap.per.00197,Emmanuel Sigauke,*,Sigauke,Emmanuel,,Zimbabwe,Eastern Africa,Index,M,,,
-ap.per.00119,Tome Varela da Silva,*,da Silva,Tome Varela,,Cape Verde,Western Africa,Index,M,,,
-ap.per.00046,Theirry Sinda,*,Sinda,Theirry,,Congo (Brazzaville),Middle Africa,Index,M,,,
-ap.per.00329,Adam Small,*,Small,Adam,,South Africa,Southern Africa,Index,,,,
-ap.per.00286,Kelwyn Sole,,Sole,Kelwyn,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00169,Noemia de Sousa,,Sousa,Noemia,,Mozambique,Eastern Africa,Anthology,F,Girls from the Docks,,
-ap.per.00064,Wole Soyinka,+,Soyinka,Wole,Akinwande Oluwole Babatunde,Nigeria,Western Africa,Anthology,M,,,
-ap.per.00293,Wilma Stockenstrom,,Stockenstrom,Wilma,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00029,Alain Lawo-Sukam,*,Lawo-Sukam,Alain,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00088,EE Sule,*,Sule,EE,,Nigeria,Western Africa,Index,M,,,
-ap.per.00270,Abdelkarim Tabbal,*,Tabbal,Abdelkarim,,Morocco,Northern Africa,Index,,,,
-ap.per.00093,Veronique Tadjo,,Tadjo,Veronique,,Cote d’Ivoire,Western Africa,Anthology,F,,,
-ap.per.00213,Ahmed Taha,,Taha,Ahmed,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00037,Matthew Takwi,*,Takwi,Matthew,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00260,Mohammed Abu-Talib,*,Abu-Talib,Mohamed,,Morocco,Northern Africa,Index,,,,
-ap.per.00167,Habib Tengour,,Tengour,Habib,,Algeria,Northern Africa,Anthology,M,,,
-ap.per.00206,Habib Tengour,*,Tengour,Habib,,Algeria,Northern Africa,Index,,,,double check
-ap.per.00207,Hamid Tibouchi,*,Tibouchi,Hamib,,Algeria,Northern Africa,Index,,,,
-ap.per.00165,Umar Timol,,Timol,Umar,,Mauritius,Eastern Africa,Anthology,M,,,
-ap.per.00166,Khal Torabully,,Torabully,Khal,,Mauritius,Eastern Africa,Anthology,M,,,
-ap.per.00045,Marie-Leontine Tsibinda ,,Tsibinda,Marie-Leontine,,Congo (Brazzaville),Middle Africa,Index,F,,,
-ap.per.00146,Hama Tuma,*,Tuma,Hama,,Ethiopia,Eastern Africa,Index,M,,,
-ap.per.00010,Amelia Veiga,,Veiga,Amelia,,Angola,Middle Africa,Index,F,,,
-ap.per.00170,Len Verwey,,Verwey,Len,,Mozambique,Eastern Africa,Anthology,M,,,
-ap.per.00290,Phillippa yaa de Villiers,,Villiers,Phillippa,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00130,Abdourahman Waberi,,Waberi,Abdourahman,,Djibouti,Eastern Africa,Anthology,M,,,
-ap.per.00182,Hope Wabuke,,Wabuke,Hope,,Uganda,Eastern Africa,Anthology,F,,,
-ap.per.00038,Kangsen Feka Wakai,*,Wakai,Kangsen Feka,,Cameroon,Middle Africa,Index,M,,,
-ap.per.00357,Brian Ernest Walter,*,Walter,Brian Ernest,,South Africa,Southern Africa,Index,,,,
-ap.per.00382,Christi Warner,*,Warner,Christi,,Namibia,Southern Africa,Index,,,,
-ap.per.00252,Mubarak Wassat,*,Wassat,Mubarak,,Morocco,Northern Africa,Index,,,,
-ap.per.00292,Stephen Watson,,Watson,Stephen,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00092,Oumarou Watta,,Watta,Oumarou,,Niger,Western Africa,Anthology,M,,,
-ap.per.00132,Chehem Watta,*,Watta,Chehem,,Djibouti,Eastern Africa,Index,M,,,
-ap.per.00004,Ngudia Wendel,,Wendel,Ngudia,,Angola,Middle Africa,Anthology,M,,,
-ap.per.00121,Patricia Jabbeh Wesley,,Wesley,Patricia Jabbeh,,Liberia,Western Africa,Anthology,F,,,
-ap.per.00304,Athol Williams,*,Williams,Athol,,South Africa,Southern Africa,Index,,,,
-ap.per.00111,Lade Worsonu,*,Worsonu,Lade,,zGhana,Western Africa,Index,M,,,
-ap.per.00369,Dan Wylie,*,Wylie,Dan,,South Africa,Southern Africa,Index,,,,
-ap.per.00303,Makhosazana Xaba,,Xaba,Makhaosazana,,South Africa,Southern Africa,Anthology,,,,
-ap.per.00226,Ahmed Yamani,*,Yamani,Ahmed,,Egypt,Northern Africa,Index,,,,
-ap.per.00054,Frederick Yamusangie,*,Yamusangie,Frederick,,"Congo, Democratic Republic Of",Middle Africa,Index,M,,,
-ap.per.00139,Zeineb Yassin,*,Yassin,Zeineb,,Eritrea,Eastern Africa,Index,F,,,
-ap.per.00212,Zahrah Youssri,,Youssri,Zahrah,,Egypt,Northern Africa,Anthology,,,,
-ap.per.00219,Maged Zaher,,Zaher,Maged,,Egypt,Northern Africa,Anthology,,,,—need to find something
-ap.per.00198,Phillip Zhuwao,*,Zhuwao,Phillip,,Zimbabwe,Eastern Africa,Index,M,,,
-ap.per.00189,Musaemura Zimunya,,Zimunya,Musaemura,,Zimbabwe,Eastern Africa,Anthology,M,,,
-ap.per.00271,Norddine Zouitni,*,Zouitni,Norddine,,Morocco,Northern Africa,Index,,,,
-ap.per.00253,Abdallah Zreka,*,Zreka,Abdallah,,Morocco,Northern Africa,Index,,,,
+In the Words of Musurukutu",http://viaf.org/viaf/7385318,,
+ap.per.00370,Dema,TJ,Tjawangwa,,Botswana,Southern Africa,F,,https://viaf.org/viaf/296144782721303542620/,,
+ap.per.00367,Dendy,Gail,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/63598376,,
+ap.per.00147,Deressa,Solomon,,,Madagascar,Eastern Africa,M,,https://viaf.org/viaf/21408976/,,the Solomon Deressa from Ethiopia?
+ap.per.00120,Diallo,Kumanthio Zeinab,,,Guinea,Western Africa,F,,https://viaf.org/viaf/37054160/,,2 books/ Blue modern African anthology
+ap.per.00386,Dipoko,Mbella Sonne,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/114535959/,,
+ap.per.00285,Dixon,Isobel,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/9530213/,,
+ap.per.00042,Djangrang,Nimrod Ben,,,Chad,Middle Africa,M,,,,
+ap.per.00209,Djebel,Mourad,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/22320292/,,
+ap.per.00095,Djedja,Beatrice,,,Cote d’Ivoire,Western Africa,F,,,,
+ap.per.00334,Dladla,Angifi,Proctor,,South Africa,Southern Africa,M,,https://viaf.org/viaf/16886715/,,
+ap.per.00021,Doh,Emmanuel Fru,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/17037401/,,
+ap.per.00306,Dowling,Finuala,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/39537935/,,
+ap.per.00363,Du Plessis,Clinton V.,Vivian,,South Africa,Southern Africa,M,,https://viaf.org/viaf/61153077/,,
+ap.per.00015,Ebini,Christmas Atem,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/26340686/,,
+ap.per.00281,Ebnu,Mohammed,,,Western Sahara,Northern Africa,,,,,Found on Poetry Translation
+ap.per.00072,Ede,Amatoritsero,"""Godwin""",,Nigeria,Western Africa,M,,https://viaf.org/viaf/102734171/,,
+ap.per.00062,Ehikhamenor,Victor,Ehighale,,Nigeria,Western Africa,M,,https://viaf.org/viaf/48966873,,
+ap.per.00255,El Assimi,Malika,,,Morocco,Northern Africa,,,https://viaf.org/viaf/305977882,,
+ap.per.00261,El Auofi,Boujem,,,Morocco,Northern Africa,,,,,"Could this be ""Boujema"""
+ap.per.00223,El-Dinosauri,Osama,,,Egypt,Northern Africa,,,,,
+ap.per.00232,El-Gabry,Magdy,,,Egypt,Northern Africa,,,,,Found in Angry Voices Anthology
+ap.per.00274,Elhillo,Safia,,,Sudan,Northern Africa,F,,https://viaf.org/viaf/105146461554227731538/,,
+ap.per.00079,Ellams,Inua,,,Nigeria,Western Africa,M,,https://viaf.org/viaf/106879285/,,
+ap.per.00380,Ellis,Hugh,,,Namibia,Southern Africa,,,,,
+ap.per.00131,Elmi,Idris Yusuf,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/49342208/,,
+ap.per.00186,Eppel,John,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/259565/,,
+ap.per.00242,Etwebi,Ashur,,,Libya,Northern Africa,M,,https://viaf.org/viaf/53816760/,,
+ap.per.00239,Fathy,Safaa,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/39557892/,,—waiting for more work
+ap.per.00118,Fortes,Corsino António,,,Cape Verde,Western Africa,M,,https://viaf.org/viaf/76333379/,,
+ap.per.00236,Fouad,Imad,,,Egypt,Northern Africa,,,https://viaf.org/viaf/74167637,,
+ap.per.00366,Fugard,Sheila Meiring,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/2485138/,,
+ap.per.00150,Gachagua,Clifton,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/305039255/,,
+ap.per.00308,Gardini,Genna,,,South Africa,Southern Africa,F,,viaf.org/viaf/14146634446341932080/,,
+ap.per.00322,Garisch,Dawn,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/21451931,,
+ap.per.00087,Garuba,Harry,,,Nigeria,Western Africa,M,,,,
+ap.per.00138,Girmay,Aracelis,,,Eritrea,Eastern Africa,F,,https://viaf.org/viaf/28922635,,Women I found was born in California
+ap.per.00145,GMT,Assefa,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/11478587/,,
+ap.per.00022,Gnepo,Werewere-Liking,,,Cameroon,Middle Africa,F,,,,
+ap.per.00310,Gottschalk,Keith,,,South Africa,Southern Africa,M,,viaf.org/viaf/3908135/,,
+ap.per.00342,Gray,Stephen,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/56624358/,,
+ap.per.00094,Guébo,Josué,Yoroba,,Cote d’Ivoire,Western Africa,M,,,,
+ap.per.00339,Gwala,Mafika Pascal,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/112719265/,,
+ap.per.00023,Gwangwa,Gahlia Njogoh,,,Cameroon,Middle Africa,M,,,,
+ap.per.00330,Haarhoff,Dorian,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/242865808/,,
+ap.per.00133,Hachi,Isman Omar,,,Djibouti,Eastern Africa,M,,,,
+ap.per.00136,Haile,Reesom,,,Eritrea,Eastern Africa,M,,https://viaf.org/viaf/69217657/,,
+ap.per.00176,Haji,Haji Gora,,,Tanzania,Eastern Africa,M,,https://viaf.org/viaf/43963638/,,
+ap.per.00338,Hall,Megan,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/137475085/,,
+ap.per.00346,Hambidge,Joan,Helene,,South Africa,Southern Africa,F,,https://viaf.org/viaf/56456166/,,
+ap.per.00360,Haresnape,Geoffrey,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/73042725/,, (Loka will look for more)
+ap.per.00231,Hassaan,Youssri,,,Egypt,Northern Africa,M,,,,Found in Angry Voices Anthology
+ap.per.00316,Head,Vernon,,,South Africa,Southern Africa,M,,viaf.org/viaf/315189354/,,
+ap.per.00347,Horn,Peter,Rudolf Gisela,,South Africa,Southern Africa,M,,https://viaf.org/viaf/14782556/,,
+ap.per.00108,Horne,Naana Banyiwa,,,Ghana,Western Africa,F,,https://viaf.org/viaf/66050872/,,
+ap.per.00365,Horwitz,Allan Kolski,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/268813333/,,
+ap.per.00188,Hove,Chenjerai,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/85361612/,,
+ap.per.00216,Hussein,Hoda,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/37203270/,,"Is this ""Huda Husayn"" (1972)"
+ap.per.00066,Ifowodo,Ogaga,,,Nigeria,Western Africa,M,,,,
+ap.per.00110,Ijadjei,Mawuli,,,Ghana,Western Africa,M,,https://viaf.org/viaf/283671954,,"Is this ""Mawuli Adjei""?"
+ap.per.00091,Ipadeola,Tade,,,Nigeria,Western Africa,M,,,,
+ap.per.00140,Isaak,Angessom,,,Eritrea,Eastern Africa,M,,,,
+ap.per.00134,Iye,Ali Moussa,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/66567744/,,
+ap.per.00141,Iyob,Ararat,,,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/43622986/,,
+ap.per.00192,Jaji,Tsitsi,Ella,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/58840027/,,
+ap.per.00244,Jelloun,Tahar Ben,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/61541657/,,
+ap.per.00348,Jobson,Liesl,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/100777096/,,
+ap.per.00349,Johnson,Sarah,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/58800371/,,
+ap.per.00266,Joumari,Ahmed,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00047,Kadmi-Nzuji,Mukula,Dieudonné,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00383,Kahengua,Kavevangua,,,Namibia,Southern Africa,M,,https://viaf.org/viaf/56309568/,,
+ap.per.00218,Kaldas,Pauline,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/15881499/,,
+ap.per.00063,Kalu,Uchechi,,,Nigeria,Western Africa,F,,,,
+ap.per.00086,Kalu,Pete,,,Nigeria,Western Africa,M,,,,
+ap.per.00051,Kamanda,Kama Sywor,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00295,Kamfer,Ronelda,,,South Africa,Southern Africa,F,,viaf.org/viaf/2286276/,,
+ap.per.00116,Kane,Amadou Lamine,,,Senegal,Western Africa,M,,,,
+ap.per.00204,Kaouah,Abdelmajib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/44457358/,,"spelled ""Abdelmadjid"""
+ap.per.00238,Karim,Abdul,,,Egypt,Northern Africa,,,,,Found on Poem Hunter
+ap.per.00175,Kasese,Nyachiro Lydia,,,Tanzania,Eastern Africa,F,,https://viaf.org/viaf/112146461455727730608/,,
+ap.per.00374,Kes,Kat Kol,Katlego Kai Kolanyane-Kesupile,,Botswana,Southern Africa,,,,,Has website: https://kkolkes.wixsite.com/kkolkes
+ap.per.00287,Kgositsile,Keorapetse,"William, ""Bra Willie""",,South Africa,Southern Africa,M,,https://viaf.org/viaf/61565142,,
+ap.per.00377,Khala,Sheila,Nomolanga,,Lesotho,Southern Africa,F,,https://viaf.org/viaf/131772565/,,
+ap.per.00233,Khalifa,Ehab,Mahmoud,,Egypt,Northern Africa,,,,,Found (maybe) on Poem Hunter
+ap.per.00205,Khan,Amin,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/17267056/,,
+ap.per.00353,Khumalo,Mbongeni,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/39086573/,,
+ap.per.00183,Kiguwa,Melissa,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/309900337/,,
+ap.per.00155,Kinyatti,Maina,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/73884979/,,
+ap.per.00024,Kishani,Bongasu Tanla,,,Cameroon,Middle Africa,M,,,,
+ap.per.00284,Kok,Ingrid de,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/93075890/,,
+ap.per.00025,Kombem,Sim,,,Cameroon,Middle Africa,M,,,,
+ap.per.00026,Kor,Buma,,,Cameroon,Middle Africa,M,,,,
+ap.per.00289,Kozain,Rustum,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/24338888/,,
+ap.per.00283,Krog,Antjie,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/162851/,,
+ap.per.00332,Kunene,Mazisi,Raymond,,South Africa,Southern Africa,M,,http://viaf.org/viaf/100271242,,
+ap.per.00103,Kuwabong,Dannabang,,,Ghana,Western Africa,M,,https://viaf.org/viaf/24665152/,,
+ap.per.00027,Kwachou,Monique,,,Cameroon,Middle Africa,F,,,,
+ap.per.00246,Laâbi,Abdellatif,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/31998568/,,
+ap.per.00202,Laghouati,Abdelhamid,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/56770547/,,
+ap.per.00107,Laing,Kojo,Bernard,,Ghana,Western Africa,M,,https://viaf.org/viaf/66517334/,,
+ap.per.00249,Lamrani,Wafa'a,,,Morocco,Northern Africa,,,,,
+ap.per.00028,Langmia,Irmagard Anchang,,,Cameroon,Middle Africa,F,,,,
+ap.per.00009,Lara,Alda,Alda Ferreira Pires Barreto de Lara Albuquerque,,Angola,Middle Africa,F,,,,
+ap.per.00254,Laugier,Emmanuel,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/46310431/,,
+ap.per.00029,Lawo-Sukam,Alain,,,Cameroon,Middle Africa,M,,,,
+ap.per.00168,Leite,Ana Mafalda,,,Mozambique,Eastern Africa,F,,https://viaf.org/viaf/310659233/,,
+ap.per.00143,Libsekal,Liyou,,,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/316802225/,,
+ap.per.00005,Lima,Maria Eugénia,,,Angola,Middle Africa,F,,,,
+ap.per.00053,Losambe,Lokangaka,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00002,Lukau,Amy,,,Angola,Middle Africa,F,,http://viaf.org/viaf/316802226,,
+ap.per.00043,Mabanckou,Alain,,,Congo (Brazzaville),Middle Africa,M,,,,
+ap.per.00190,Mabasa,Ignatius T,Tirivangani,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/58730700/,,
+ap.per.00378,Mabejane,Refiloe,Letokoto,,Lesotho,Southern Africa,F,,https://viaf.org/viaf/285508745/,,"has a book ""Strawberry Lips"" (female poet from Lesotho)"
+ap.per.00153,MacGoye,Marjorie Oludhe,Marjorie Phyllis King,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/33111942/,,
+ap.per.00030,MacViban,Mwalimu,Johnnie,,Cameroon,Middle Africa,M,,,,
+ap.per.00247,Madani,Rachida,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/17451550/,,
+ap.per.00241,Mahmoud,Fatima,,,Libya,Northern Africa,,,,,Found (?) in Banipal
+ap.per.00323,Mahola,Mzi,Mzikayise Winston,,South Africa,Southern Africa,M,,http://viaf.org/viaf/65730318/,,
+ap.per.00258,Majdouline,Touria,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/63587128/,,
+ap.per.00267,Majen,Ben Younes,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/37005421/,,
+ap.per.00006,Makisosila,Mawete,,,Angola,Middle Africa,M,,http://viaf.org/viaf/54250626,,
+ap.per.00179,Makoha,Nick,,,Uganda,Eastern Africa,M,,https://viaf.org/viaf/24154381017330292053/,,
+ap.per.00039,Makombo,Bamboté,,,Central Africa,Middle Africa,M,,,,
+ap.per.00034,Makuchi,Juliana Nfah-Abbenyi,,,Cameroon,Middle Africa,F,,,,
+ap.per.00328,Malan,Lucas,Cornelius,,South Africa,Southern Africa,M,,http://viaf.org/viaf/62964608/,,
+ap.per.00372,Malikongwa,Albert,G. T. K. ,,Botswana,Southern Africa,M,,https://viaf.org/viaf/77600595/,,
+ap.per.00291,Maluleke,Vuyelwa,,,South Africa,Southern Africa,F,,viaf.org/viaf/41145003632961341470/,,
+ap.per.00129,Manirambona,Thierry,,,Burundi,Eastern Africa,M,,https://viaf.org/viaf/289491424/,,
+ap.per.00331,Mann,Chris,Christopher Michael Zithulele,,South Africa,Southern Africa,M,,http://viaf.org/viaf/248129306/,,
+ap.per.00225,Mansour,Ali,,,Egypt,Northern Africa,,,,,
+ap.per.00159,Mapanje,Jack,John Alfred Clement,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/68944702/,,
+ap.per.00317,Marais,Danie,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/4695851/,,
+ap.per.00326,Marais,Loftus,Lodewikus Stefanus,,South Africa,Southern Africa,M,,http://viaf.org/viaf/71225662/,,
+ap.per.00007,Masaki,Makuzayi,Makuzaki?,,Angola,Middle Africa,M,,,,
+ap.per.00354,Mashile,Lebo,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/4667782/,,
+ap.per.00376,Masilo,Rethabile,,,Lesotho,Southern Africa,M,,https://viaf.org/viaf/305200150/,,
+ap.per.00345,Mattera,Dawn,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/91733621/,,"I believe this is ""Don"" Mattera"
+ap.per.00164,Maunick,Edouard,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/39381088/,,
+ap.per.00149,Mawiyoo,Ngwatilo,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/134121105/,,
+ap.per.00018,Mbah,Margaret,Afuh,,Cameroon,Middle Africa,F,,,,
+ap.per.00321,Mbangjwa,Bongekile Joyce,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/86394366/,,
+ap.per.00031,Mbuh,Mbuh Tennu,,,Cameroon,Middle Africa,M,,,,
+ap.per.00350,McGrane,Michelle,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/44034993/,,
+ap.per.00375,Mekgwe,Pinkie,Magocha,,Botswana,Southern Africa,,,,,
+ap.per.00032,Menkan-Mbunda,Frida Nekang,,,Cameroon,Middle Africa,F,,,,
+ap.per.00217,Mersal,Iman,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/120213787/,,
+ap.per.00300,Metelerkamp,Joan,,,South Africa,Southern Africa,F,,viaf.org/viaf/78043087/,,
+ap.per.00224,Metwalli,Mohamed,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/17131537/,,
+ap.per.00324,Mgqwetho,Nontsizi,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/66260596/,,
+ap.per.00315,Mhlophe,Gcina,,,South Africa,Southern Africa,F,,viaf.org/viaf/85339492/,,
+ap.per.00351,Mitra,Amitabh,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/308754367/,,
+ap.per.00319,Mkiva,Zolani,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/68571821/,,
+ap.per.00373,Modise,Rogoff,,,Botswana,Southern Africa,,,https://viaf.org/viaf/193823932/,,
+ap.per.00384,Molapong,Keamogetsi J.,Joseph,,Namibia,Southern Africa,M,,https://viaf.org/viaf/53881702/,,
+ap.per.00299,Moolman,Kobus,,,South Africa,Southern Africa,M,,viaf.org/viaf/239040265/,,
+ap.per.00259,Morchid,Fatiha,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/97041176/,,
+ap.per.00305,moses,Croc,,,South Africa,Southern Africa,M,,viaf.org/viaf/74145003297861301081/,,
+ap.per.00309,Motadinyane,Isabella,,,South Africa,Southern Africa,F,,viaf.org/viaf/264322018/,, (maybe?): Touting Taxi
+ap.per.00296,Motsapi,Seithamo,,,South Africa,Southern Africa,M,,viaf.org/viaf/51290643/,,
+ap.per.00268,Mouissi,Abdelilah,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00276,Moussa,Amel,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/44463379/,,
+ap.per.00359,Mpe,Phaswane,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/46985906/,,
+ap.per.00162,Mphande,Lupenga,,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/17266372/,,
+ap.per.00335,Mtshali,Mbuyiseni,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/112337775/,,
+ap.per.00156,Mugo,Micere Githae,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/71403362/,,
+ap.per.00313,Mulgrew,Nick,,,South Africa,Southern Africa,M,,viaf.org/viaf/50146634519941932718/,,
+ap.per.00361,Mulia,Ike Mboneni,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/71073381/,,"This is actually Ike Mboneni ""Muila"""
+ap.per.00318,Muller,Petra,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/17521103/,,
+ap.per.00368,Murray,Sally-Ann,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/58658552/,,
+ap.per.00191,Musariri,Blessing,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/106907389/,,
+ap.per.00177,Mushi,Sandra A,Aikaruwa,,Tanzania,Eastern Africa,F,,,,Found on Badilisha Poetry X-change
+ap.per.00158,Muthoni,Phyllis,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/305833791/,,
+ap.per.00033,Mutia,Ba'Bila,,,Cameroon,Middle Africa,M,,,,
+ap.per.00040,Mutombo,Nkulu-N'Sengha,,,The Congo,Middle Africa,M,,,,
+ap.per.00240,Muttawa,Khaled,,,Libya,Northern Africa,M,,https://viaf.org/viaf/14023382/,,
+ap.per.00193,Muzanenhamo,Togara,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/14531283/,,
+ap.per.00220,Naaot,Fatima,,,Egypt,Northern Africa,F,,,,Found on Poem Hunter
+ap.per.00278,Najar,Khaled,,,Tunisia,Northern Africa,M,,,,found in Banipal
+ap.per.00250,Najmi,Hassan,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/244877856/,,—maybe “The War” with benefit of doubt
+ap.per.00379,Nangolo,Mvula,,,Namibia,Southern Africa,M,,https://viaf.org/viaf/277998219/,,
+ap.per.00056,Napo,Ciriaco Bokesa,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00341,Naude,Charl-Pierre,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/120732398/,,
+ap.per.00073,Nduka,Uche,,,Nigeria,Western Africa,M,,,,
+ap.per.00211,Negrouche,Samira,,,Algeria,Northern Africa,F,,https://viaf.org/viaf/27310889,,"doublecheck (w JohnK, Major will research)"
+ap.per.00333,Nel,Gert Vlok,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/2075523,,
+ap.per.00016,Nganang,Patrice,,,Cameroon,Middle Africa,M,,,,
+ap.per.00035,Ngong,John Ngong Kum,,,Cameroon,Middle Africa,M,,,,
+ap.per.00152,Ngugi,Mukoma wa,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/31709139/,,
+ap.per.00364,Ngwenya,Siphiwe,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/24096627/,,
+ap.per.00337,Niekerk,Marlene,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/59307255/,,
+ap.per.00148,Nirina,Esther,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/51233071/,, (if no suitable poem found for anthology)
+ap.per.00251,Nissabouri,Mostafa,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/256756371/,,
+ap.per.00036,Njanke,Marcel,,,Cameroon,Middle Africa,M,,,,
+ap.per.00048,Nkulu,Mutombo,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00070,nnadi,Amu,,,Nigeria,Western Africa,M,,,,
+ap.per.00057,No Poets,,,,Gabon,Middle Africa,,,,,
+ap.per.00058,No Poets,,,,Equatorial Guinea,Middle Africa,,,,,
+ap.per.00122,No Poets,,,,Benin,Western Africa,,,,,
+ap.per.00123,No Poets,,,,Burkina Faso,Western Africa,,,,,
+ap.per.00124,No Poets,,,,Guinea-Bissau,Western Africa,,,,,
+ap.per.00125,No Poets,,,,Mali,Western Africa,,,,,
+ap.per.00126,No Poets,,,,Mauritania,Western Africa,,,,,
+ap.per.00127,No Poets,,,,Togo,Western Africa,,,,,
+ap.per.00128,No Poets,,,,Saint Helena,Western Africa,,,,,
+ap.per.00199,No Poets,,,,Reunion,Eastern Africa,,,,,
+ap.per.00200,No Poets,,,,Rwanda,Eastern Africa,,,,,
+ap.per.00201,No Poets,,,,Seychelles,Eastern Africa,,,,,
+ap.per.00385,No Poets,,,,Swaziland,Southern Africa,,,,,
+ap.per.00181,Nsengiynva,Beverley Nambozo,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/185807456/,,"This is Beverely Nambozo ""Nsengiyunva"""
+ap.per.00071,Nwakanma,Obi,,,Nigeria,Western Africa,M,,,,
+ap.per.00185,Nyamubaya,Freedom,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/61609397/,,
+ap.per.00194,Nyathi,Albert,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/86145003296761301574/,,
+ap.per.00298,Nyezwa,Mxolisi,,,South Africa,Southern Africa,M,,viaf.org/viaf/89915180/,,
+ap.per.00085,Obiwu,Obiwu,,,Nigeria,Western Africa,M,,,,
+ap.per.00084,Oguibe,Olu,,,Nigeria,Western Africa,M,,,,
+ap.per.00082,Ogunlesi,Tolu,,,Nigeria,Western Africa,M,,,,
+ap.per.00067,Ojaide,Tanure,,,Nigeria,Western Africa,M,,,,
+ap.per.00109,Okai,Atukwei,,,Ghana,Western Africa,M,,https://viaf.org/viaf/46378080,,
+ap.per.00078,Okara,Gabriel,,Y,Nigeria,Western Africa,M,,,"Selected Works
+Poems
+
+    Adhiambo
+    For Ada Udechukwu
+    You Laughed and Laughed and Laughed
+
+Poetry Collections
+
+    The Fisherman's Invocation. Heinemann, 1978.
+    The Dreamer, His Vision. University of Port Harcourt Press, 2004.
+    As I See It. University of Port Harcourt Press, 2006.
+    Collected Poems (edited and with an introduction by Brenda Marie Osbey). University of Nebraska Press, 2016.
+    Speeches, Lectures, Interviews, Performances / Critical Articles, Media:
+        Ajeluorou, Anote. ""‘Gabriel Okara has written in all genres, yet not much attention has been given to his work’"", The Guardian (Nigeria), 19 March 2017.
+        Ajeluorou, Anote. ""Gabriel Okara… Restoring the genius of Africa’s oldest living poet"", The Guardian (Nigeria), 5 May 2017.
+        Echeruo, Michael J.C. ""Gabriel Okara: A Poet and His Seasons."" World Literature Today, 1992: 454–456
+        Green, Eldred Ibibiem. Gabriel Okara: The Man and His Art. Port Harcourt, Nigeria: Onyoma Research Publications, 2007.
+        Kahora, Billy. ""Penpoints, Gunpoints, and Dreams: A history of creative writing instruction in East Africa"", Chimurenga Chronic, 18 April 2017.
+        Willhardt, Mark. Who's Who in 20th Century World Poetry, Routledge (2001, ISBN 0-415-16355-2), p. 237.
+    Biography:
+
+    Gabriel Okara, a prize-winning author whose literary career spans six decades, is rightly hailed as the elder statesman of Nigerian literature. The first Modernist poet of anglophone Africa, he is best known for The Fisherman’s Invocation (1978), The Dreamer, His Vision (2005), and for his early experimental novel, The Voice (1964).
+
+    Gabriel Okara was born at Bumoundi, Bayelsa State, in the Niger Delta in 1921 and educated at Government College Umuahia in Nigeria and Northwestern University in Evanston, Illinois. He worked as a bookbinder and printer for Federal Government Press at Lagos, served as the director of cultural and information services for the short-lived Republic of Biafra, and was the general manager of the Rivers State newspaper and broadcasting corporations. He was an honorary member of the Pan-African Writers’ Association, a fellow of the Nigerian Academy of Letters, and served as a writer in residence at the University of Port Harcourt, Rivers State, Nigeria.
+
+    (source University of Nebraska Press)",
+ap.per.00090,Okewole,Niran,,,Nigeria,Western Africa,M,,,,
+ap.per.00089,Okri,Ben,,,Nigeria,Western Africa,M,,,,
+ap.per.00106,Opoku-Agyemang,Kwadwo,,,Ghana,Western Africa,M,,https://viaf.org/viaf/118284993/,,
+ap.per.00080,Oriogun,Romeo,,,Nigeria,Western Africa,M,,,,(chapbook pending??)
+ap.per.00171,Osman,Ladan,,Y,Somalia,Eastern Africa,F,,https://viaf.org/viaf/311769690/,"Selected Works
+Poems
+
+    The Bee’s Gospel
+    The Kitchen-Dweller’s Interlude
+    Ordinary Heaven
+
+Poems from external sites
+
+    Tonight
+    The Key
+    Boat Journey
+    Let Us Have the Same Dream Tonight
+
+Poetry Collections
+
+    Ordinary Heaven, in Seven New Generation African Poets. Slapering Hol Press, 2014.
+    The Kitchen-Dweller’s Testimony. University of Nebraska Press, 2014.
+    Exiles of Eden. Coffee House Press, 2019.
+
+Speeches, Lectures, Interviews, Performances / Critical Articles, Media:
+
+    “2017 Neustadt Festival Poetry Readings: Ladan Osman, November 8, 2017.” YouTube: https://www.youtube.com/watch?v=oVLMZGtcFps
+    “Ladan Osman Reading.” Otterbein University, Frank Museum of Art. Westerville, OH. March 23, 2018. YouTube: https://www.youtube.com/watch?v=FoELCpIweTo
+    “Words and Inspirations with Ladan Osman. WanaWana Udobang, December 5, 2016.” YouTube: https://www.youtube.com/watch?v=mCl0f1ll_dY
+
+Biography:
+
+Ladan Osman was born in Somalia. She earned a BA at Otterbein College and an MFA at the University of Texas at Austin’s Michener Center for Writers. Her chapbook, Ordinary Heaven, appears in Seven New Generation African Poets (Slapering Hol Press, 2014). Her full-length collection The Kitchen-Dweller’s Testimony (University of Nebraska Press, 2015) won the Sillerman First Book Prize. Her work has appeared in Apogee, The Normal School, Prairie Schooner, Transition Magazine, and Waxwing.
+
+Osman has received fellowships from the Fine Arts Work Center, Cave Canem, and the Michener Center. She is a contributing editor at The Offing and lives in Chicago.
+
+(sourced from Poetry Foundation, 9/12/19)
+
+Website: https://www.ladanosman.com/ ",
+ap.per.00065,Osundare,Niyi,,,Nigeria,Western Africa,M,,,,
+ap.per.00068,Otiono,Nduka,,,Nigeria,Western Africa,M,,,,
+ap.per.00265,Ouzzani,Hassan,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/20015054/,,
+ap.per.00083,Oyebode,Femi,,,Nigeria,Western Africa,M,,,,
+ap.per.00362,Parenzee,Donald,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/2494469,,
+ap.per.00100,Parkes,Nii,,,Ghana,Western Africa,M,,,,
+ap.per.00157,Partington,Stephen Derwent,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/4645765/,,
+ap.per.00151,Patel,Shalija,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/145661558/,,"Actually spelled ""Shailja Patel"""
+ap.per.00358,Patel,Amira,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/403147905064279091003/,,
+ap.per.00008,Pedro,Joao,,,Angola,Middle Africa,M,,,,
+ap.per.00327,Pieterse,H.J.,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/33785909/,,
+ap.per.00352,Pieterse,Cosmo,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/108735180/,,
+ap.per.00297,Press,Karen,,,South Africa,Southern Africa,F,,viaf.org/viaf/9906476/,,
+ap.per.00272,Raddi,Al-Saddiq,,,Sudan,Northern Africa,M,,https://viaf.org/viaf/288942811/,,
+ap.per.00069,Raji,Remi,,,Nigeria,Western Africa,M,,,,
+ap.per.00230,Rakha,Youssef,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/121146025/,,
+ap.per.00311,Rampolokeng,Lesego,,,South Africa,Southern Africa,M,,viaf.org/viaf/3305243/,,~~ need to find something else
+ap.per.00003,Rocha,Jofre,,,Angola,Middle Africa,M,,http://viaf.org/viaf/118911190,,
+ap.per.00196,Runganyo,Kristina,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/16197423/,,"Spelled Kristina ""Rungano"""
+ap.per.00215,Sabry,Maher,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/238837549/,,
+ap.per.00277,Said,Amina,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/92589997/,,
+ap.per.00355,Salafranca,Arja,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/21501817/,,
+ap.per.00269,Salhi,Abdel-ilah,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00117,Sall,Thierno Seydou,,,Senegal,Western Africa,M,,https://viaf.org/viaf/59134279/,,
+ap.per.00112,Sallah,Tijan,,,The Gambia,Western Africa,M,,https://viaf.org/viaf/115335161/,,
+ap.per.00050,Santo,Alda do Espirito,,,"Congo, Democratic Republic Of",Middle Africa,F,,,,
+ap.per.00371,Seboni,Barolong,,,Botswana,Southern Africa,M,,https://viaf.org/viaf/65532767/,,(poem in penguin modern anthology)
+ap.per.00208,Sehaba,Mohamed,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/41850485/,,
+ap.per.00343,Sepamla,Sydney Sipho,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/49220500/,,
+ap.per.00312,Serote,Mongane Wally,,,South Africa,Southern Africa,M,,viaf.org/viaf/22154429/,,
+ap.per.00114,Sesay,Kadija,,,Sierra Leone,Western Africa,F,,https://viaf.org/viaf/217148955/,,
+ap.per.00144,Seyoum,Bewketu,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/34152452/,, (maybe)
+ap.per.00221,Shahawi,Ahmed,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/119035635/,,
+ap.per.00222,Sharaf,Mahmoud,,,Egypt,Northern Africa,,,,,
+ap.per.00235,Shawwaf,Hatham,,,Egypt,Northern Africa,,,,,
+ap.per.00142,Shiferraw,Mahtem,,Y,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/178144647668719453468/,"Selected Works
+Poems
+
+    Synesthesia
+    Crossing Borders
+    Ash and Blue
+
+Poems from external sites
+
+    Nomenclatures
+    Sister Black, Sister Blue
+
+Books
+
+    Behind Walls & Glass (Finishing Line Press, 2016).
+    Fuchsia (University of Nebraska Press, 2016).
+    Your Body is War (University of Nebraska Press, 2019).
+
+Speeches, Lectures, Interviews, Performances / Critical Articles, Media:
+
+    “Color is a Language in Itself: Mahtem Shiferraw Discusses Fuchsia,” interviewed by Alex Deuben, The Rumpus, July 2017 (https://www.worldliteraturetoday.org/2018/may/six-poems-mahtem-shiferraw)
+    Mahtem Shiferraw reads and discusses “Origins and Intersections” in an interview with Lisa Grove of Poetry. LA, September 2016 (https://www.youtube.com/watch?v=Nj4UYF0n-eA)
+    “White is a Color, Black is an Art, an interview with Mahtem Shiferraw,” interviewed by Tiah Beautement, Short Story Day Africa, May 2016 (http://shortstorydayafrica.org/news/white-is-a-colour-black-is-art-an-interview-with-mahtem-shiferraw)
+    Adam Tavel, Review of Fuchsia, in Plume Poetry Issue #61, August 2016 (https://plumepoetry.com/book-review-mahtem-shiferraw/)
+    Biography:
+
+    Mahtem Shiferraw is a writer and visual artist from Ethiopia and Eritrea. Her poetry collection, Fuchsia (University of Nebraska Press, 2016), received the Sillerman First Book Prize for African Poets. She holds an MFA in creative writing from the Vermont College of Fine Arts. She divides her time between Los Angeles, California, and Addis Ababa, Ethiopia.
+
+    (sourced from poets.org, https://poets.org/poet/mahtem-shiferraw, accessed October 7, 2019)
+
+    Website: https://www.mahtem-shiferraw.com/ ",
+ap.per.00173,Shire,Warsan,,,Somalia,Eastern Africa,F,,https://viaf.org/viaf/296881583/,,
+ap.per.00081,Shoneyin,Lola,,,Nigeria,Western Africa,F,,,,
+ap.per.00234,Shoukry,Guirguis,,,Egypt,Northern Africa,,,,,"Is this ""Girgis Shoukry""?"
+ap.per.00214,Shouman,Mas'oud,,,Egypt,Northern Africa,M,,,,"Found in ""Angry Voices"" anthology"
+ap.per.00135,Sibhatu,Ribka,,,Eritrea,Eastern Africa,F,,https://viaf.org/viaf/36659462/,,
+ap.per.00197,Sigauke,Emmanuel,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/283344290/,,
+ap.per.00046,Sinda,Theirry,,,Congo (Brazzaville),Middle Africa,M,,,,
+ap.per.00329,Small,Adam,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/59264296/,,
+ap.per.00286,Sole,Kelwyn,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/27119906/,,
+ap.per.00169,Sousa,Noemia,,,Mozambique,Eastern Africa,F,Girls from the Docks,https://viaf.org/viaf/99494767/,,
+ap.per.00064,Soyinka,Wole,Akinwande Oluwole Babatunde,,Nigeria,Western Africa,M,,,,
+ap.per.00293,Stockenstrom,Wilma,,,South Africa,Southern Africa,F,,viaf.org/viaf/79049421/,,
+ap.per.00088,Sule,EE,,,Nigeria,Western Africa,M,,,,
+ap.per.00270,Tabbal,Abdelkarim,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/64259161/,,
+ap.per.00093,Tadjo,Veronique,,,Cote d’Ivoire,Western Africa,F,,,,
+ap.per.00213,Taha,Ahmed,,,Egypt,Northern Africa,,,,,
+ap.per.00037,Takwi,Matthew,,,Cameroon,Middle Africa,M,,,,
+ap.per.00044,Tati Loutard,Jean-Baptiste,,,Congo (Brazzaville),Middle Africa,M,,,,
+ap.per.00206,Tengour,Habib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/79036588,,double check
+ap.per.00167,Tengour,Habib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/79036588/,,
+ap.per.00207,Tibouchi,Hamib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/7556672/,,
+ap.per.00165,Timol,Umar,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/30641985/,,
+ap.per.00166,Torabully,Khal,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/119776207/,,
+ap.per.00045,Tsibinda,Marie-Leontine,,,Congo (Brazzaville),Middle Africa,F,,,,
+ap.per.00146,Tuma,Hama,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/113631866/,,
+ap.per.00010,Veiga,Amelia,,,Angola,Middle Africa,F,,,,
+ap.per.00170,Verwey,Len,,,Mozambique,Eastern Africa,M,,https://viaf.org/viaf/56338972/,,
+ap.per.00290,Villiers,Phillippa,,,South Africa,Southern Africa,F,,viaf.org/viaf/46532775/,,
+ap.per.00130,Waberi,Abdourahman,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/54240269/,,
+ap.per.00182,Wabuke,Hope,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/50146461447527730435/,,
+ap.per.00038,Wakai,Kangsen Feka,,,Cameroon,Middle Africa,M,,,,
+ap.per.00357,Walter,Brian Ernest,,,South Africa,Southern Africa,M,,,,Found in Badilisha
+ap.per.00382,Warner,Christi,,,Namibia,Southern Africa,F,,https://viaf.org/viaf/51421106/,,singer
+ap.per.00252,Wassat,Mubarak,,,Morocco,Northern Africa,M,,,,Found on Banipal
+ap.per.00292,Watson,Stephen,,,South Africa,Southern Africa,M,,viaf.org/viaf/24624530/,,
+ap.per.00132,Watta,Chehem,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/66605826/,,
+ap.per.00092,Watta,Oumarou,,,Niger,Western Africa,M,,,,
+ap.per.00004,Wendel,Ngudia,,,Angola,Middle Africa,M,,,,
+ap.per.00121,Wesley,Patricia Jabbeh,,,Liberia,Western Africa,F,,https://viaf.org/viaf/29157178/,,
+ap.per.00304,Williams,Athol,,,South Africa,Southern Africa,M,,viaf.org/viaf/315602972/,,
+ap.per.00111,Worsonu,Lade,,,Ghana,Western Africa,M,,https://viaf.org/viaf/39614344/,,"Is this ""Lade Wosornu""?"
+ap.per.00369,Wylie,Dan,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/26667365/,,
+ap.per.00303,Xaba,Makhaosazana,,,South Africa,Southern Africa,F,,viaf.org/viaf/40518803/,,
+ap.per.00226,Yamani,Ahmed,,,Egypt,Northern Africa,M,,,,Found on Beirut 39
+ap.per.00054,Yamusangie,Frederick,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00139,Yassin,Zeineb,,,Eritrea,Eastern Africa,F,,,,
+ap.per.00212,Youssri,Zahrah,,,Egypt,Northern Africa,F,,,,"Found in ""Angry Voices"" anthology"
+ap.per.00219,Zaher,Maged,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/26774224/,,Has published with Chatwin Books
+ap.per.00198,Zhuwao,Phillip,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/41525393/,,
+ap.per.00189,Zimunya,Musaemura,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/61568234/,,
+ap.per.00271,Zouitni,Norddine,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/317183718/,,
+ap.per.00253,Zreka,Abdallah,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/51811926/,,"Sometimes also spelled ""Zrika"""
