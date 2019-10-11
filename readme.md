@@ -4,7 +4,9 @@ Data set is a google spreadsheet, must be saved as csv and uploaded to data/csv 
 
 Ask Karin if you do not have permission to spreadsheet/containing folder. 
 
-Theree are currently HTML files not being used, until these are worked into the site run data type CSV
+There are currently HTML files not being used, until these are worked into the site run data type CSV
+
+`post -f csv`
 
 Text for searching featured poets is simply pasted into spreadsheet at this point, will eventually draw from html in source folder
 
