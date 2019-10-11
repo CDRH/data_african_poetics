@@ -1,15 +1,15 @@
 ID,Last Name,Given Name,Alternate Name,Featured,Country,Region,Gender,Selected Works,Authority,Text,Notes
-ap.per.00227,Abdul-Salaam,Aliyah,,,Egypt,Northern Africa,F,,,,Found in Angry Voices anthology
-ap.per.00237,Abdullah,Fathi,,,Egypt,Northern Africa,,,,,
-ap.per.00228,Abdullatif,Yasser,,,Egypt,Northern Africa,M,,,,Found in Angry Voices anthology
-ap.per.00336,Abrahams,Lionel,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/93291135/,,
-ap.per.00260,Abu-Talib,Mohamed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/21912866/,,
-ap.per.00075,Acholonu,Catherine,Obianuju,,Nigeria,Western Africa,F,,https://viaf.org/viaf/67126602/,, (blue African anthology)
-ap.per.00099,Acquah,Kobena Eyi,,,Ghana,Western Africa,F,,https://viaf.org/viaf/174685856/,,
-ap.per.00137,Adem,Mussa Mohammed,,,Eritrea,Eastern Africa,M,,,,
-ap.per.00059,Agbabi,Patience,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/27342657/,,
-ap.per.00019,Agbor,Sarah Anyang,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/306126661/,,
-ap.per.00096,Aidoo,Ama Ata,Christina,Y,Ghana,Western Africa,F,,https://viaf.org/viaf/2496581/,"Selected Works
+ap.per.00001,Abdul-Salaam,Aliyah,,,Egypt,Northern Africa,F,,,,Found in Angry Voices anthology
+ap.per.00002,Abdullah,Fathi,,,Egypt,Northern Africa,,,,,
+ap.per.00003,Abdullatif,Yasser,,,Egypt,Northern Africa,M,,,,Found in Angry Voices anthology
+ap.per.00004,Abrahams,Lionel,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/93291135/,,
+ap.per.00005,Abu-Talib,Mohamed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/21912866/,,
+ap.per.00006,Acholonu,Catherine,Obianuju,,Nigeria,Western Africa,F,,https://viaf.org/viaf/67126602/,, (blue African anthology)
+ap.per.00007,Acquah,Kobena Eyi,,,Ghana,Western Africa,F,,https://viaf.org/viaf/174685856/,,
+ap.per.00008,Adem,Mussa Mohammed,,,Eritrea,Eastern Africa,M,,,,
+ap.per.00009,Agbabi,Patience,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/27342657/,,
+ap.per.00010,Agbor,Sarah Anyang,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/306126661/,,
+ap.per.00011,Aidoo,Ama Ata,Christina,Y,Ghana,Western Africa,F,,https://viaf.org/viaf/2496581/,"Selected Works
 Poems
 
     On Reading Jackie Kay
@@ -45,20 +45,20 @@ Ama Ata Aidoo is one of the best-known African writers today. Her work addresses
 Ama Ata Aidoo was born in Abeadzi Kyiakor, in south central Ghana in 1942. She studied literature at the University of Ghana, won a fellowship to Stanford University, and subsequently accepted visiting professorships in the United States and Africa. Her poetry collections include Birds and Other Poems, Someone Talking to Sometime, and An Angry Letter in January and Other Poems.
 
 (edited from University of Nebraska Press)",
-ap.per.00243,al-Isha,Faraj Bou,,,Libya,Northern Africa,,,,,Found (?) in Banipal
-ap.per.00012,Alembong,Nol,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/38941956,,
-ap.per.00174,Ali,Sahro,,,Somalia,Eastern Africa,F,,,,
-ap.per.00011,Allo,Viola,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/316802279/,,
-ap.per.00074,Amadiume,Ifi,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/167668/,,
-ap.per.00381,Amukoshi,Julia Shalongo-Shandje Ndinelago,,,Namibia,Southern Africa,F,,https://viaf.org/viaf/121147118202826341010/,,
-ap.per.00154,Angira,Jared,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/56736580/,,
-ap.per.00061,Animashon,Abonyi,,,Nigeria,Western Africa,M,,,,
-ap.per.00101,Annobil,Ishmael Fifi,,,Ghana,Western Africa,M,,https://viaf.org/viaf/29030364/,,"""Fiifi"" with 2 i's"
-ap.per.00097,Anyidoho,Kofi,born George Kofi Nyidevu Awoonor-Williams,,Ghana,Western Africa,M,,https://viaf.org/viaf/79047971/,,
-ap.per.00017,Ashuntantang,Joyce,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/41652318/,,
-ap.per.00049,Ávila Laurel,Juan Tomás  ,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00280,Awah,Bahia Mahmud,,,Western Sahara,Northern Africa,M,,https://viaf.org/viaf/121075098/,,
-ap.per.00102,Awoonor,Kofi,,Y,Ghana,Western Africa,M,,https://viaf.org/viaf/97639024/,"Selected Works
+ap.per.00012,al-Isha,Faraj Bou,,,Libya,Northern Africa,,,,,Found (?) in Banipal
+ap.per.00013,Alembong,Nol,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/38941956,,
+ap.per.00014,Ali,Sahro,,,Somalia,Eastern Africa,F,,,,
+ap.per.00015,Allo,Viola,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/316802279/,,
+ap.per.00016,Amadiume,Ifi,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/167668/,,
+ap.per.00017,Amukoshi,Julia Shalongo-Shandje Ndinelago,,,Namibia,Southern Africa,F,,https://viaf.org/viaf/121147118202826341010/,,
+ap.per.00018,Angira,Jared,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/56736580/,,
+ap.per.00019,Animashon,Abonyi,,,Nigeria,Western Africa,M,,,,
+ap.per.00020,Annobil,Ishmael Fifi,,,Ghana,Western Africa,M,,https://viaf.org/viaf/29030364/,,"""Fiifi"" with 2 i's"
+ap.per.00021,Anyidoho,Kofi,born George Kofi Nyidevu Awoonor-Williams,,Ghana,Western Africa,M,,https://viaf.org/viaf/79047971/,,
+ap.per.00022,Ashuntantang,Joyce,,,Cameroon,Middle Africa,F,,https://viaf.org/viaf/41652318/,,
+ap.per.00023,Ávila Laurel,Juan Tomás  ,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00024,Awah,Bahia Mahmud,,,Western Sahara,Northern Africa,M,,https://viaf.org/viaf/121075098/,,
+ap.per.00025,Awoonor,Kofi,,Y,Ghana,Western Africa,M,,https://viaf.org/viaf/97639024/,"Selected Works
 Poems
 
     The Land Endures
@@ -94,279 +94,266 @@ In the early 1970s, Awoonor served as chairman of the Department of Comparative 
 Awoonor is author of the novels This Earth, My Brother… (1971) and Comes the Voyager at Last: A Tale of Return to Africa (1992). He died in the Westgate shopping mall attack in Kenya in September 2013.
 
 (sourced from Poetry Foundation, 10/8/19)",
-ap.per.00229,Awwad,Bahaa,,,Egypt,Northern Africa,,,,,"Any other names, e.g. ""Sobhi Abde Latif"""
-ap.per.00115,Azeli,Iyamade,,,Sierra Leone,Western Africa,F,,,,(CHECK SPELLING)
-ap.per.00060,Azuah,Unoma Nguemo,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/26738512/,,
-ap.per.00262,Bachkar,Mohamed,,,Morocco,Northern Africa,M,,,,found on Poetry International
-ap.per.00307,Baderoon,Gabeba,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/29266778,,
-ap.per.00256,Bakouri,Amina,,,Morocco,Northern Africa,F,,,,Found in Poetry International
-ap.per.00314,Banoobhai,Shabbir,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/73892274,,
-ap.per.00263,Barakat,Ahmed,,,Morocco,Northern Africa,M,,,,found on Poetry International
-ap.per.00178,Barya,Mildred,Kiconco,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/69167056/,,
-ap.per.00172,Bashir,Samiya,,,Somalia,Eastern Africa,F,,https://viaf.org/viaf/19371729/,,
-ap.per.00041,Beja,Olinda,,,Sao Tome & Principe,Middle Africa,F,,https://viaf.org/viaf/78444002,,
-ap.per.00279,Bekri,Tahar,,,Tunisia,Northern Africa,M,,https://viaf.org/viaf/68925320,,
-ap.per.00210,Benfodil,Mustapha,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/12539712/,,
-ap.per.00257,Benmoussa,Ouidad,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/266542621/,,
-ap.per.00245,Bennis,Mohammed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/12416511,,
-ap.per.00248,Bentalha,Mohammed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/19553807/,,
-ap.per.00288,Berwold,Robert,,,South Africa,Southern Africa,,,,,
-ap.per.00013,Besong,Bate,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/80368088/,,
-ap.per.00340,Bila,Vonani,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/16873159/,,
-ap.per.00356,Biliei,Amanda,,,South Africa,Southern Africa,F,,,,"Could this be Amanda ""Black"" (stage name)?"
-ap.per.00180,Bitek,Julianne Okot,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/106062348,,"Only 1 n in ""Juliane"""
-ap.per.00282,Boicha,Limam,,,Western Sahara,Northern Africa,M,,,,found on Poetry Translation
-ap.per.00055,Boneke,Juan Balboa,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00052,Boneza,Raïs Neza,,,"Congo, Democratic Republic Of",Middle Africa,M,,https://viaf.org/viaf/227578744/,,
-ap.per.00273,Boof,Kola,,,Sudan,Northern Africa,F,,https://viaf.org/viaf/233531028/,,
-ap.per.00325,Botha,Nadine,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/34196260/,,
-ap.per.00264,Boudouik,Mohamed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/297197326/,,
-ap.per.00104,Brew,Kwesi,Osborne Henry ,,Ghana,Western Africa,M,,https://viaf.org/viaf/91272505/,,
-ap.per.00344,Breytenbach,Breyten,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/300425129/,,
-ap.per.00302,Brutus,Dennis,Vincent,,South Africa,Southern Africa,M,,https://viaf.org/viaf/39392638/,,
-ap.per.00098,Bulley,Victoria,Adukwei,,Ghana,Western Africa,F,,https://viaf.org/viaf/24149912316506210842/,,
-ap.per.00105,Busia,Abena,,,Ghana,Western Africa,F,,https://viaf.org/viaf/51740768/,,
-ap.per.00020,Butake,Bole,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/38146635594941981820/,,
-ap.per.00275,Chatti,Leila,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/23154739767152990414,,
-ap.per.00203,Chellali,Hamida,,,Algeria,Northern Africa,F,,,,
-ap.per.00113,Cheney-Coker,Syl,Cheney,,Sierra Leone,Western Africa,M,,https://viaf.org/viaf/79080574/,,
-ap.per.00161,Chimombo,Steve,Bernard Miles,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/106950769/,,
-ap.per.00195,Chingono,Julius,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/45719245/,,
-ap.per.00184,Chingonyi,Kayombo,,,Zambia,Eastern Africa,M,,https://viaf.org/viaf/35149912591606212659,,
-ap.per.00163,Chipasula,Stella P,,,Malawi,Eastern Africa,F,,https://viaf.org/viaf/51924168/,,
-ap.per.00160,Chipasula,Frank,,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/93763054/,,
-ap.per.00187,Chirikure,Chirikure,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/59333139/,,
-ap.per.00294,Christiansë,Yvette,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/51016807/,,
-ap.per.00076,Clark,JP,John Pepper Clark-Bekederemo,,Nigeria,Western Africa,M,,https://viaf.org/viaf/91297033/,,
-ap.per.00320,Cope,Michael,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/12023618/,,
-ap.per.00301,Cronin,Jeremy,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/17276176/,,
-ap.per.00014,D'Almeida,Fernando,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/66480405/,,
-ap.per.00119,da Silva,Tome Varela,,,Cape Verde,Western Africa,M,,https://viaf.org/viaf/314827283/,,
-ap.per.00077,Daniel,Mary-Alice,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/27149912596206212331,,
-ap.per.00001,de Carvalho,Ruy Duarte,Ruy Alberto Duarte Gomes de Carvalho,,Angola,Middle Africa,M,"You wake longing to know what happened
+ap.per.00026,Awwad,Bahaa,,,Egypt,Northern Africa,,,,,"Any other names, e.g. ""Sobhi Abde Latif"""
+ap.per.00027,Azeli,Iyamade,,,Sierra Leone,Western Africa,F,,,,(CHECK SPELLING)
+ap.per.00028,Azuah,Unoma Nguemo,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/26738512/,,
+ap.per.00029,Bachkar,Mohamed,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00030,Baderoon,Gabeba,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/29266778,,
+ap.per.00031,Bakouri,Amina,,,Morocco,Northern Africa,F,,,,Found in Poetry International
+ap.per.00032,Banoobhai,Shabbir,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/73892274,,
+ap.per.00033,Barakat,Ahmed,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00034,Barya,Mildred,Kiconco,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/69167056/,,
+ap.per.00035,Bashir,Samiya,,,Somalia,Eastern Africa,F,,https://viaf.org/viaf/19371729/,,
+ap.per.00036,Beja,Olinda,,,Sao Tome & Principe,Middle Africa,F,,https://viaf.org/viaf/78444002,,
+ap.per.00037,Bekri,Tahar,,,Tunisia,Northern Africa,M,,https://viaf.org/viaf/68925320,,
+ap.per.00038,Benfodil,Mustapha,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/12539712/,,
+ap.per.00039,Benmoussa,Ouidad,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/266542621/,,
+ap.per.00040,Bennis,Mohammed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/12416511,,
+ap.per.00041,Bentalha,Mohammed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/19553807/,,
+ap.per.00042,Berwold,Robert,,,South Africa,Southern Africa,,,,,
+ap.per.00043,Besong,Bate,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/80368088/,,
+ap.per.00044,Bila,Vonani,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/16873159/,,
+ap.per.00045,Biliei,Amanda,,,South Africa,Southern Africa,F,,,,"Could this be Amanda ""Black"" (stage name)?"
+ap.per.00046,Bitek,Julianne Okot,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/106062348,,"Only 1 n in ""Juliane"""
+ap.per.00047,Boicha,Limam,,,Western Sahara,Northern Africa,M,,,,found on Poetry Translation
+ap.per.00048,Boneke,Juan Balboa,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00049,Boneza,Raïs Neza,,,"Congo, Democratic Republic Of",Middle Africa,M,,https://viaf.org/viaf/227578744/,,
+ap.per.00050,Boof,Kola,,,Sudan,Northern Africa,F,,https://viaf.org/viaf/233531028/,,
+ap.per.00051,Botha,Nadine,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/34196260/,,
+ap.per.00052,Boudouik,Mohamed,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/297197326/,,
+ap.per.00053,Brew,Kwesi,Osborne Henry ,,Ghana,Western Africa,M,,https://viaf.org/viaf/91272505/,,
+ap.per.00054,Breytenbach,Breyten,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/300425129/,,
+ap.per.00055,Brutus,Dennis,Vincent,,South Africa,Southern Africa,M,,https://viaf.org/viaf/39392638/,,
+ap.per.00056,Bulley,Victoria,Adukwei,,Ghana,Western Africa,F,,https://viaf.org/viaf/24149912316506210842/,,
+ap.per.00057,Busia,Abena,,,Ghana,Western Africa,F,,https://viaf.org/viaf/51740768/,,
+ap.per.00058,Butake,Bole,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/38146635594941981820/,,
+ap.per.00059,Chatti,Leila,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/23154739767152990414,,
+ap.per.00060,Chellali,Hamida,,,Algeria,Northern Africa,F,,,,
+ap.per.00061,Cheney-Coker,Syl,Cheney,,Sierra Leone,Western Africa,M,,https://viaf.org/viaf/79080574/,,
+ap.per.00062,Chimombo,Steve,Bernard Miles,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/106950769/,,
+ap.per.00063,Chingono,Julius,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/45719245/,,
+ap.per.00064,Chingonyi,Kayombo,,,Zambia,Eastern Africa,M,,https://viaf.org/viaf/35149912591606212659,,
+ap.per.00065,Chipasula,Stella P,,,Malawi,Eastern Africa,F,,https://viaf.org/viaf/51924168/,,
+ap.per.00066,Chipasula,Frank,,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/93763054/,,
+ap.per.00067,Chirikure,Chirikure,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/59333139/,,
+ap.per.00068,Christiansë,Yvette,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/51016807/,,
+ap.per.00069,Clark,JP,John Pepper Clark-Bekederemo,,Nigeria,Western Africa,M,,https://viaf.org/viaf/91297033/,,
+ap.per.00070,Cope,Michael,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/12023618/,,
+ap.per.00071,Cronin,Jeremy,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/17276176/,,
+ap.per.00072,D'Almeida,Fernando,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/66480405/,,
+ap.per.00073,da Silva,Tome Varela,,,Cape Verde,Western Africa,M,,https://viaf.org/viaf/314827283/,,
+ap.per.00074,Daniel,Mary-Alice,,,Nigeria,Western Africa,F,,https://viaf.org/viaf/27149912596206212331,,
+ap.per.00075,de Carvalho,Ruy Duarte,Ruy Alberto Duarte Gomes de Carvalho,,Angola,Middle Africa,M,"You wake longing to know what happened
 Sign
 The Children
 Saltpeter Sores
 Pastoral Song
 In the Words of Musurukutu",http://viaf.org/viaf/7385318,,
-ap.per.00370,Dema,TJ,Tjawangwa,,Botswana,Southern Africa,F,,https://viaf.org/viaf/296144782721303542620/,,
-ap.per.00367,Dendy,Gail,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/63598376,,
-ap.per.00147,Deressa,Solomon,,,Madagascar,Eastern Africa,M,,https://viaf.org/viaf/21408976/,,the Solomon Deressa from Ethiopia?
-ap.per.00120,Diallo,Kumanthio Zeinab,,,Guinea,Western Africa,F,,https://viaf.org/viaf/37054160/,,2 books/ Blue modern African anthology
-ap.per.00386,Dipoko,Mbella Sonne,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/114535959/,,
-ap.per.00285,Dixon,Isobel,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/9530213/,,
-ap.per.00042,Djangrang,Nimrod Ben,,,Chad,Middle Africa,M,,,,
-ap.per.00209,Djebel,Mourad,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/22320292/,,
-ap.per.00095,Djedja,Beatrice,,,Cote d’Ivoire,Western Africa,F,,,,
-ap.per.00334,Dladla,Angifi,Proctor,,South Africa,Southern Africa,M,,https://viaf.org/viaf/16886715/,,
-ap.per.00021,Doh,Emmanuel Fru,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/17037401/,,
-ap.per.00306,Dowling,Finuala,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/39537935/,,
-ap.per.00363,Du Plessis,Clinton V.,Vivian,,South Africa,Southern Africa,M,,https://viaf.org/viaf/61153077/,,
-ap.per.00015,Ebini,Christmas Atem,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/26340686/,,
-ap.per.00281,Ebnu,Mohammed,,,Western Sahara,Northern Africa,,,,,Found on Poetry Translation
-ap.per.00072,Ede,Amatoritsero,"""Godwin""",,Nigeria,Western Africa,M,,https://viaf.org/viaf/102734171/,,
-ap.per.00062,Ehikhamenor,Victor,Ehighale,,Nigeria,Western Africa,M,,https://viaf.org/viaf/48966873,,
-ap.per.00255,El Assimi,Malika,,,Morocco,Northern Africa,,,https://viaf.org/viaf/305977882,,
-ap.per.00261,El Auofi,Boujem,,,Morocco,Northern Africa,,,,,"Could this be ""Boujema"""
-ap.per.00223,El-Dinosauri,Osama,,,Egypt,Northern Africa,,,,,
-ap.per.00232,El-Gabry,Magdy,,,Egypt,Northern Africa,,,,,Found in Angry Voices Anthology
-ap.per.00274,Elhillo,Safia,,,Sudan,Northern Africa,F,,https://viaf.org/viaf/105146461554227731538/,,
-ap.per.00079,Ellams,Inua,,,Nigeria,Western Africa,M,,https://viaf.org/viaf/106879285/,,
-ap.per.00380,Ellis,Hugh,,,Namibia,Southern Africa,,,,,
-ap.per.00131,Elmi,Idris Yusuf,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/49342208/,,
-ap.per.00186,Eppel,John,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/259565/,,
-ap.per.00242,Etwebi,Ashur,,,Libya,Northern Africa,M,,https://viaf.org/viaf/53816760/,,
-ap.per.00239,Fathy,Safaa,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/39557892/,,—waiting for more work
-ap.per.00118,Fortes,Corsino António,,,Cape Verde,Western Africa,M,,https://viaf.org/viaf/76333379/,,
-ap.per.00236,Fouad,Imad,,,Egypt,Northern Africa,,,https://viaf.org/viaf/74167637,,
-ap.per.00366,Fugard,Sheila Meiring,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/2485138/,,
-ap.per.00150,Gachagua,Clifton,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/305039255/,,
-ap.per.00308,Gardini,Genna,,,South Africa,Southern Africa,F,,viaf.org/viaf/14146634446341932080/,,
-ap.per.00322,Garisch,Dawn,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/21451931,,
-ap.per.00087,Garuba,Harry,,,Nigeria,Western Africa,M,,,,
-ap.per.00138,Girmay,Aracelis,,,Eritrea,Eastern Africa,F,,https://viaf.org/viaf/28922635,,Women I found was born in California
-ap.per.00145,GMT,Assefa,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/11478587/,,
-ap.per.00022,Gnepo,Werewere-Liking,,,Cameroon,Middle Africa,F,,,,
-ap.per.00310,Gottschalk,Keith,,,South Africa,Southern Africa,M,,viaf.org/viaf/3908135/,,
-ap.per.00342,Gray,Stephen,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/56624358/,,
-ap.per.00094,Guébo,Josué,Yoroba,,Cote d’Ivoire,Western Africa,M,,,,
-ap.per.00339,Gwala,Mafika Pascal,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/112719265/,,
-ap.per.00023,Gwangwa,Gahlia Njogoh,,,Cameroon,Middle Africa,M,,,,
-ap.per.00330,Haarhoff,Dorian,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/242865808/,,
-ap.per.00133,Hachi,Isman Omar,,,Djibouti,Eastern Africa,M,,,,
-ap.per.00136,Haile,Reesom,,,Eritrea,Eastern Africa,M,,https://viaf.org/viaf/69217657/,,
-ap.per.00176,Haji,Haji Gora,,,Tanzania,Eastern Africa,M,,https://viaf.org/viaf/43963638/,,
-ap.per.00338,Hall,Megan,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/137475085/,,
-ap.per.00346,Hambidge,Joan,Helene,,South Africa,Southern Africa,F,,https://viaf.org/viaf/56456166/,,
-ap.per.00360,Haresnape,Geoffrey,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/73042725/,, (Loka will look for more)
-ap.per.00231,Hassaan,Youssri,,,Egypt,Northern Africa,M,,,,Found in Angry Voices Anthology
-ap.per.00316,Head,Vernon,,,South Africa,Southern Africa,M,,viaf.org/viaf/315189354/,,
-ap.per.00347,Horn,Peter,Rudolf Gisela,,South Africa,Southern Africa,M,,https://viaf.org/viaf/14782556/,,
-ap.per.00108,Horne,Naana Banyiwa,,,Ghana,Western Africa,F,,https://viaf.org/viaf/66050872/,,
-ap.per.00365,Horwitz,Allan Kolski,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/268813333/,,
-ap.per.00188,Hove,Chenjerai,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/85361612/,,
-ap.per.00216,Hussein,Hoda,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/37203270/,,"Is this ""Huda Husayn"" (1972)"
-ap.per.00066,Ifowodo,Ogaga,,,Nigeria,Western Africa,M,,,,
-ap.per.00110,Ijadjei,Mawuli,,,Ghana,Western Africa,M,,https://viaf.org/viaf/283671954,,"Is this ""Mawuli Adjei""?"
-ap.per.00091,Ipadeola,Tade,,,Nigeria,Western Africa,M,,,,
-ap.per.00140,Isaak,Angessom,,,Eritrea,Eastern Africa,M,,,,
-ap.per.00134,Iye,Ali Moussa,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/66567744/,,
-ap.per.00141,Iyob,Ararat,,,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/43622986/,,
-ap.per.00192,Jaji,Tsitsi,Ella,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/58840027/,,
-ap.per.00244,Jelloun,Tahar Ben,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/61541657/,,
-ap.per.00348,Jobson,Liesl,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/100777096/,,
-ap.per.00349,Johnson,Sarah,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/58800371/,,
-ap.per.00266,Joumari,Ahmed,,,Morocco,Northern Africa,M,,,,found on Poetry International
-ap.per.00047,Kadmi-Nzuji,Mukula,Dieudonné,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00383,Kahengua,Kavevangua,,,Namibia,Southern Africa,M,,https://viaf.org/viaf/56309568/,,
-ap.per.00218,Kaldas,Pauline,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/15881499/,,
-ap.per.00063,Kalu,Uchechi,,,Nigeria,Western Africa,F,,,,
-ap.per.00086,Kalu,Pete,,,Nigeria,Western Africa,M,,,,
-ap.per.00051,Kamanda,Kama Sywor,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00295,Kamfer,Ronelda,,,South Africa,Southern Africa,F,,viaf.org/viaf/2286276/,,
-ap.per.00116,Kane,Amadou Lamine,,,Senegal,Western Africa,M,,,,
-ap.per.00204,Kaouah,Abdelmajib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/44457358/,,"spelled ""Abdelmadjid"""
-ap.per.00238,Karim,Abdul,,,Egypt,Northern Africa,,,,,Found on Poem Hunter
-ap.per.00175,Kasese,Nyachiro Lydia,,,Tanzania,Eastern Africa,F,,https://viaf.org/viaf/112146461455727730608/,,
-ap.per.00374,Kes,Kat Kol,Katlego Kai Kolanyane-Kesupile,,Botswana,Southern Africa,,,,,Has website: https://kkolkes.wixsite.com/kkolkes
-ap.per.00287,Kgositsile,Keorapetse,"William, ""Bra Willie""",,South Africa,Southern Africa,M,,https://viaf.org/viaf/61565142,,
-ap.per.00377,Khala,Sheila,Nomolanga,,Lesotho,Southern Africa,F,,https://viaf.org/viaf/131772565/,,
-ap.per.00233,Khalifa,Ehab,Mahmoud,,Egypt,Northern Africa,,,,,Found (maybe) on Poem Hunter
-ap.per.00205,Khan,Amin,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/17267056/,,
-ap.per.00353,Khumalo,Mbongeni,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/39086573/,,
-ap.per.00183,Kiguwa,Melissa,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/309900337/,,
-ap.per.00155,Kinyatti,Maina,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/73884979/,,
-ap.per.00024,Kishani,Bongasu Tanla,,,Cameroon,Middle Africa,M,,,,
-ap.per.00284,Kok,Ingrid de,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/93075890/,,
-ap.per.00025,Kombem,Sim,,,Cameroon,Middle Africa,M,,,,
-ap.per.00026,Kor,Buma,,,Cameroon,Middle Africa,M,,,,
-ap.per.00289,Kozain,Rustum,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/24338888/,,
-ap.per.00283,Krog,Antjie,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/162851/,,
-ap.per.00332,Kunene,Mazisi,Raymond,,South Africa,Southern Africa,M,,http://viaf.org/viaf/100271242,,
-ap.per.00103,Kuwabong,Dannabang,,,Ghana,Western Africa,M,,https://viaf.org/viaf/24665152/,,
-ap.per.00027,Kwachou,Monique,,,Cameroon,Middle Africa,F,,,,
-ap.per.00246,Laâbi,Abdellatif,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/31998568/,,
-ap.per.00202,Laghouati,Abdelhamid,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/56770547/,,
-ap.per.00107,Laing,Kojo,Bernard,,Ghana,Western Africa,M,,https://viaf.org/viaf/66517334/,,
-ap.per.00249,Lamrani,Wafa'a,,,Morocco,Northern Africa,,,,,
-ap.per.00028,Langmia,Irmagard Anchang,,,Cameroon,Middle Africa,F,,,,
-ap.per.00009,Lara,Alda,Alda Ferreira Pires Barreto de Lara Albuquerque,,Angola,Middle Africa,F,,,,
-ap.per.00254,Laugier,Emmanuel,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/46310431/,,
-ap.per.00029,Lawo-Sukam,Alain,,,Cameroon,Middle Africa,M,,,,
-ap.per.00168,Leite,Ana Mafalda,,,Mozambique,Eastern Africa,F,,https://viaf.org/viaf/310659233/,,
-ap.per.00143,Libsekal,Liyou,,,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/316802225/,,
-ap.per.00005,Lima,Maria Eugénia,,,Angola,Middle Africa,F,,,,
-ap.per.00053,Losambe,Lokangaka,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00002,Lukau,Amy,,,Angola,Middle Africa,F,,http://viaf.org/viaf/316802226,,
-ap.per.00043,Mabanckou,Alain,,,Congo (Brazzaville),Middle Africa,M,,,,
-ap.per.00190,Mabasa,Ignatius T,Tirivangani,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/58730700/,,
-ap.per.00378,Mabejane,Refiloe,Letokoto,,Lesotho,Southern Africa,F,,https://viaf.org/viaf/285508745/,,"has a book ""Strawberry Lips"" (female poet from Lesotho)"
-ap.per.00153,MacGoye,Marjorie Oludhe,Marjorie Phyllis King,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/33111942/,,
-ap.per.00030,MacViban,Mwalimu,Johnnie,,Cameroon,Middle Africa,M,,,,
-ap.per.00247,Madani,Rachida,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/17451550/,,
-ap.per.00241,Mahmoud,Fatima,,,Libya,Northern Africa,,,,,Found (?) in Banipal
-ap.per.00323,Mahola,Mzi,Mzikayise Winston,,South Africa,Southern Africa,M,,http://viaf.org/viaf/65730318/,,
-ap.per.00258,Majdouline,Touria,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/63587128/,,
-ap.per.00267,Majen,Ben Younes,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/37005421/,,
-ap.per.00006,Makisosila,Mawete,,,Angola,Middle Africa,M,,http://viaf.org/viaf/54250626,,
-ap.per.00179,Makoha,Nick,,,Uganda,Eastern Africa,M,,https://viaf.org/viaf/24154381017330292053/,,
-ap.per.00039,Makombo,Bamboté,,,Central Africa,Middle Africa,M,,,,
-ap.per.00034,Makuchi,Juliana Nfah-Abbenyi,,,Cameroon,Middle Africa,F,,,,
-ap.per.00328,Malan,Lucas,Cornelius,,South Africa,Southern Africa,M,,http://viaf.org/viaf/62964608/,,
-ap.per.00372,Malikongwa,Albert,G. T. K. ,,Botswana,Southern Africa,M,,https://viaf.org/viaf/77600595/,,
-ap.per.00291,Maluleke,Vuyelwa,,,South Africa,Southern Africa,F,,viaf.org/viaf/41145003632961341470/,,
-ap.per.00129,Manirambona,Thierry,,,Burundi,Eastern Africa,M,,https://viaf.org/viaf/289491424/,,
-ap.per.00331,Mann,Chris,Christopher Michael Zithulele,,South Africa,Southern Africa,M,,http://viaf.org/viaf/248129306/,,
-ap.per.00225,Mansour,Ali,,,Egypt,Northern Africa,,,,,
-ap.per.00159,Mapanje,Jack,John Alfred Clement,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/68944702/,,
-ap.per.00317,Marais,Danie,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/4695851/,,
-ap.per.00326,Marais,Loftus,Lodewikus Stefanus,,South Africa,Southern Africa,M,,http://viaf.org/viaf/71225662/,,
-ap.per.00007,Masaki,Makuzayi,Makuzaki?,,Angola,Middle Africa,M,,,,
-ap.per.00354,Mashile,Lebo,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/4667782/,,
-ap.per.00376,Masilo,Rethabile,,,Lesotho,Southern Africa,M,,https://viaf.org/viaf/305200150/,,
-ap.per.00345,Mattera,Dawn,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/91733621/,,"I believe this is ""Don"" Mattera"
-ap.per.00164,Maunick,Edouard,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/39381088/,,
-ap.per.00149,Mawiyoo,Ngwatilo,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/134121105/,,
-ap.per.00018,Mbah,Margaret,Afuh,,Cameroon,Middle Africa,F,,,,
-ap.per.00321,Mbangjwa,Bongekile Joyce,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/86394366/,,
-ap.per.00031,Mbuh,Mbuh Tennu,,,Cameroon,Middle Africa,M,,,,
-ap.per.00350,McGrane,Michelle,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/44034993/,,
-ap.per.00375,Mekgwe,Pinkie,Magocha,,Botswana,Southern Africa,,,,,
-ap.per.00032,Menkan-Mbunda,Frida Nekang,,,Cameroon,Middle Africa,F,,,,
-ap.per.00217,Mersal,Iman,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/120213787/,,
-ap.per.00300,Metelerkamp,Joan,,,South Africa,Southern Africa,F,,viaf.org/viaf/78043087/,,
-ap.per.00224,Metwalli,Mohamed,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/17131537/,,
-ap.per.00324,Mgqwetho,Nontsizi,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/66260596/,,
-ap.per.00315,Mhlophe,Gcina,,,South Africa,Southern Africa,F,,viaf.org/viaf/85339492/,,
-ap.per.00351,Mitra,Amitabh,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/308754367/,,
-ap.per.00319,Mkiva,Zolani,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/68571821/,,
-ap.per.00373,Modise,Rogoff,,,Botswana,Southern Africa,,,https://viaf.org/viaf/193823932/,,
-ap.per.00384,Molapong,Keamogetsi J.,Joseph,,Namibia,Southern Africa,M,,https://viaf.org/viaf/53881702/,,
-ap.per.00299,Moolman,Kobus,,,South Africa,Southern Africa,M,,viaf.org/viaf/239040265/,,
-ap.per.00259,Morchid,Fatiha,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/97041176/,,
-ap.per.00305,moses,Croc,,,South Africa,Southern Africa,M,,viaf.org/viaf/74145003297861301081/,,
-ap.per.00309,Motadinyane,Isabella,,,South Africa,Southern Africa,F,,viaf.org/viaf/264322018/,, (maybe?): Touting Taxi
-ap.per.00296,Motsapi,Seithamo,,,South Africa,Southern Africa,M,,viaf.org/viaf/51290643/,,
-ap.per.00268,Mouissi,Abdelilah,,,Morocco,Northern Africa,M,,,,found on Poetry International
-ap.per.00276,Moussa,Amel,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/44463379/,,
-ap.per.00359,Mpe,Phaswane,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/46985906/,,
-ap.per.00162,Mphande,Lupenga,,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/17266372/,,
-ap.per.00335,Mtshali,Mbuyiseni,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/112337775/,,
-ap.per.00156,Mugo,Micere Githae,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/71403362/,,
-ap.per.00313,Mulgrew,Nick,,,South Africa,Southern Africa,M,,viaf.org/viaf/50146634519941932718/,,
-ap.per.00361,Mulia,Ike Mboneni,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/71073381/,,"This is actually Ike Mboneni ""Muila"""
-ap.per.00318,Muller,Petra,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/17521103/,,
-ap.per.00368,Murray,Sally-Ann,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/58658552/,,
-ap.per.00191,Musariri,Blessing,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/106907389/,,
-ap.per.00177,Mushi,Sandra A,Aikaruwa,,Tanzania,Eastern Africa,F,,,,Found on Badilisha Poetry X-change
-ap.per.00158,Muthoni,Phyllis,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/305833791/,,
-ap.per.00033,Mutia,Ba'Bila,,,Cameroon,Middle Africa,M,,,,
-ap.per.00040,Mutombo,Nkulu-N'Sengha,,,The Congo,Middle Africa,M,,,,
-ap.per.00240,Muttawa,Khaled,,,Libya,Northern Africa,M,,https://viaf.org/viaf/14023382/,,
-ap.per.00193,Muzanenhamo,Togara,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/14531283/,,
-ap.per.00220,Naaot,Fatima,,,Egypt,Northern Africa,F,,,,Found on Poem Hunter
-ap.per.00278,Najar,Khaled,,,Tunisia,Northern Africa,M,,,,found in Banipal
-ap.per.00250,Najmi,Hassan,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/244877856/,,—maybe “The War” with benefit of doubt
-ap.per.00379,Nangolo,Mvula,,,Namibia,Southern Africa,M,,https://viaf.org/viaf/277998219/,,
-ap.per.00056,Napo,Ciriaco Bokesa,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00341,Naude,Charl-Pierre,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/120732398/,,
-ap.per.00073,Nduka,Uche,,,Nigeria,Western Africa,M,,,,
-ap.per.00211,Negrouche,Samira,,,Algeria,Northern Africa,F,,https://viaf.org/viaf/27310889,,"doublecheck (w JohnK, Major will research)"
-ap.per.00333,Nel,Gert Vlok,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/2075523,,
-ap.per.00016,Nganang,Patrice,,,Cameroon,Middle Africa,M,,,,
-ap.per.00035,Ngong,John Ngong Kum,,,Cameroon,Middle Africa,M,,,,
-ap.per.00152,Ngugi,Mukoma wa,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/31709139/,,
-ap.per.00364,Ngwenya,Siphiwe,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/24096627/,,
-ap.per.00337,Niekerk,Marlene,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/59307255/,,
-ap.per.00148,Nirina,Esther,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/51233071/,, (if no suitable poem found for anthology)
-ap.per.00251,Nissabouri,Mostafa,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/256756371/,,
-ap.per.00036,Njanke,Marcel,,,Cameroon,Middle Africa,M,,,,
-ap.per.00048,Nkulu,Mutombo,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00070,nnadi,Amu,,,Nigeria,Western Africa,M,,,,
-ap.per.00057,No Poets,,,,Gabon,Middle Africa,,,,,
-ap.per.00058,No Poets,,,,Equatorial Guinea,Middle Africa,,,,,
-ap.per.00122,No Poets,,,,Benin,Western Africa,,,,,
-ap.per.00123,No Poets,,,,Burkina Faso,Western Africa,,,,,
-ap.per.00124,No Poets,,,,Guinea-Bissau,Western Africa,,,,,
-ap.per.00125,No Poets,,,,Mali,Western Africa,,,,,
-ap.per.00126,No Poets,,,,Mauritania,Western Africa,,,,,
-ap.per.00127,No Poets,,,,Togo,Western Africa,,,,,
-ap.per.00128,No Poets,,,,Saint Helena,Western Africa,,,,,
-ap.per.00199,No Poets,,,,Reunion,Eastern Africa,,,,,
-ap.per.00200,No Poets,,,,Rwanda,Eastern Africa,,,,,
-ap.per.00201,No Poets,,,,Seychelles,Eastern Africa,,,,,
-ap.per.00385,No Poets,,,,Swaziland,Southern Africa,,,,,
-ap.per.00181,Nsengiynva,Beverley Nambozo,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/185807456/,,"This is Beverely Nambozo ""Nsengiyunva"""
-ap.per.00071,Nwakanma,Obi,,,Nigeria,Western Africa,M,,,,
-ap.per.00185,Nyamubaya,Freedom,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/61609397/,,
-ap.per.00194,Nyathi,Albert,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/86145003296761301574/,,
-ap.per.00298,Nyezwa,Mxolisi,,,South Africa,Southern Africa,M,,viaf.org/viaf/89915180/,,
-ap.per.00085,Obiwu,Obiwu,,,Nigeria,Western Africa,M,,,,
-ap.per.00084,Oguibe,Olu,,,Nigeria,Western Africa,M,,,,
-ap.per.00082,Ogunlesi,Tolu,,,Nigeria,Western Africa,M,,,,
-ap.per.00067,Ojaide,Tanure,,,Nigeria,Western Africa,M,,,,
-ap.per.00109,Okai,Atukwei,,,Ghana,Western Africa,M,,https://viaf.org/viaf/46378080,,
-ap.per.00078,Okara,Gabriel,,Y,Nigeria,Western Africa,M,,,"Selected Works
+ap.per.00076,Dema,TJ,Tjawangwa,,Botswana,Southern Africa,F,,https://viaf.org/viaf/296144782721303542620/,,
+ap.per.00077,Dendy,Gail,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/63598376,,
+ap.per.00078,Deressa,Solomon,,,Madagascar,Eastern Africa,M,,https://viaf.org/viaf/21408976/,,the Solomon Deressa from Ethiopia?
+ap.per.00079,Diallo,Kumanthio Zeinab,,,Guinea,Western Africa,F,,https://viaf.org/viaf/37054160/,,2 books/ Blue modern African anthology
+ap.per.00080,Dipoko,Mbella Sonne,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/114535959/,,
+ap.per.00081,Dixon,Isobel,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/9530213/,,
+ap.per.00082,Djangrang,Nimrod Ben,,,Chad,Middle Africa,M,,,,
+ap.per.00083,Djebel,Mourad,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/22320292/,,
+ap.per.00084,Djedja,Beatrice,,,Cote d’Ivoire,Western Africa,F,,,,
+ap.per.00085,Dladla,Angifi,Proctor,,South Africa,Southern Africa,M,,https://viaf.org/viaf/16886715/,,
+ap.per.00086,Doh,Emmanuel Fru,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/17037401/,,
+ap.per.00087,Dowling,Finuala,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/39537935/,,
+ap.per.00088,Du Plessis,Clinton V.,Vivian,,South Africa,Southern Africa,M,,https://viaf.org/viaf/61153077/,,
+ap.per.00089,Ebini,Christmas Atem,,,Cameroon,Middle Africa,M,,https://viaf.org/viaf/26340686/,,
+ap.per.00090,Ebnu,Mohammed,,,Western Sahara,Northern Africa,,,,,Found on Poetry Translation
+ap.per.00091,Ede,Amatoritsero,"""Godwin""",,Nigeria,Western Africa,M,,https://viaf.org/viaf/102734171/,,
+ap.per.00092,Ehikhamenor,Victor,Ehighale,,Nigeria,Western Africa,M,,https://viaf.org/viaf/48966873,,
+ap.per.00093,El Assimi,Malika,,,Morocco,Northern Africa,,,https://viaf.org/viaf/305977882,,
+ap.per.00094,El Auofi,Boujem,,,Morocco,Northern Africa,,,,,"Could this be ""Boujema"""
+ap.per.00095,El-Dinosauri,Osama,,,Egypt,Northern Africa,,,,,
+ap.per.00096,El-Gabry,Magdy,,,Egypt,Northern Africa,,,,,Found in Angry Voices Anthology
+ap.per.00097,Elhillo,Safia,,,Sudan,Northern Africa,F,,https://viaf.org/viaf/105146461554227731538/,,
+ap.per.00098,Ellams,Inua,,,Nigeria,Western Africa,M,,https://viaf.org/viaf/106879285/,,
+ap.per.00099,Ellis,Hugh,,,Namibia,Southern Africa,,,,,
+ap.per.00100,Elmi,Idris Yusuf,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/49342208/,,
+ap.per.00101,Eppel,John,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/259565/,,
+ap.per.00102,Etwebi,Ashur,,,Libya,Northern Africa,M,,https://viaf.org/viaf/53816760/,,
+ap.per.00103,Fathy,Safaa,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/39557892/,,—waiting for more work
+ap.per.00104,Fortes,Corsino António,,,Cape Verde,Western Africa,M,,https://viaf.org/viaf/76333379/,,
+ap.per.00105,Fouad,Imad,,,Egypt,Northern Africa,,,https://viaf.org/viaf/74167637,,
+ap.per.00106,Fugard,Sheila Meiring,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/2485138/,,
+ap.per.00107,Gachagua,Clifton,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/305039255/,,
+ap.per.00108,Gardini,Genna,,,South Africa,Southern Africa,F,,viaf.org/viaf/14146634446341932080/,,
+ap.per.00109,Garisch,Dawn,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/21451931,,
+ap.per.00110,Garuba,Harry,,,Nigeria,Western Africa,M,,,,
+ap.per.00111,Girmay,Aracelis,,,Eritrea,Eastern Africa,F,,https://viaf.org/viaf/28922635,,Women I found was born in California
+ap.per.00112,GMT,Assefa,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/11478587/,,
+ap.per.00113,Gnepo,Werewere-Liking,,,Cameroon,Middle Africa,F,,,,
+ap.per.00114,Gottschalk,Keith,,,South Africa,Southern Africa,M,,viaf.org/viaf/3908135/,,
+ap.per.00115,Gray,Stephen,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/56624358/,,
+ap.per.00116,Guébo,Josué,Yoroba,,Cote d’Ivoire,Western Africa,M,,,,
+ap.per.00117,Gwala,Mafika Pascal,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/112719265/,,
+ap.per.00118,Gwangwa,Gahlia Njogoh,,,Cameroon,Middle Africa,M,,,,
+ap.per.00119,Haarhoff,Dorian,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/242865808/,,
+ap.per.00120,Hachi,Isman Omar,,,Djibouti,Eastern Africa,M,,,,
+ap.per.00121,Haile,Reesom,,,Eritrea,Eastern Africa,M,,https://viaf.org/viaf/69217657/,,
+ap.per.00122,Haji,Haji Gora,,,Tanzania,Eastern Africa,M,,https://viaf.org/viaf/43963638/,,
+ap.per.00123,Hall,Megan,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/137475085/,,
+ap.per.00124,Hambidge,Joan,Helene,,South Africa,Southern Africa,F,,https://viaf.org/viaf/56456166/,,
+ap.per.00125,Haresnape,Geoffrey,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/73042725/,, (Loka will look for more)
+ap.per.00126,Hassaan,Youssri,,,Egypt,Northern Africa,M,,,,Found in Angry Voices Anthology
+ap.per.00127,Head,Vernon,,,South Africa,Southern Africa,M,,viaf.org/viaf/315189354/,,
+ap.per.00128,Horn,Peter,Rudolf Gisela,,South Africa,Southern Africa,M,,https://viaf.org/viaf/14782556/,,
+ap.per.00129,Horne,Naana Banyiwa,,,Ghana,Western Africa,F,,https://viaf.org/viaf/66050872/,,
+ap.per.00130,Horwitz,Allan Kolski,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/268813333/,,
+ap.per.00131,Hove,Chenjerai,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/85361612/,,
+ap.per.00132,Hussein,Hoda,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/37203270/,,"Is this ""Huda Husayn"" (1972)"
+ap.per.00133,Ifowodo,Ogaga,,,Nigeria,Western Africa,M,,,,
+ap.per.00134,Ijadjei,Mawuli,,,Ghana,Western Africa,M,,https://viaf.org/viaf/283671954,,"Is this ""Mawuli Adjei""?"
+ap.per.00135,Ipadeola,Tade,,,Nigeria,Western Africa,M,,,,
+ap.per.00136,Isaak,Angessom,,,Eritrea,Eastern Africa,M,,,,
+ap.per.00137,Iye,Ali Moussa,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/66567744/,,
+ap.per.00138,Iyob,Ararat,,,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/43622986/,,
+ap.per.00139,Jaji,Tsitsi,Ella,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/58840027/,,
+ap.per.00140,Jelloun,Tahar Ben,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/61541657/,,
+ap.per.00141,Jobson,Liesl,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/100777096/,,
+ap.per.00142,Johnson,Sarah,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/58800371/,,
+ap.per.00143,Joumari,Ahmed,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00144,Kadmi-Nzuji,Mukula,Dieudonné,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00145,Kahengua,Kavevangua,,,Namibia,Southern Africa,M,,https://viaf.org/viaf/56309568/,,
+ap.per.00146,Kaldas,Pauline,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/15881499/,,
+ap.per.00147,Kalu,Uchechi,,,Nigeria,Western Africa,F,,,,
+ap.per.00148,Kalu,Pete,,,Nigeria,Western Africa,M,,,,
+ap.per.00149,Kamanda,Kama Sywor,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00150,Kamfer,Ronelda,,,South Africa,Southern Africa,F,,viaf.org/viaf/2286276/,,
+ap.per.00151,Kane,Amadou Lamine,,,Senegal,Western Africa,M,,,,
+ap.per.00152,Kaouah,Abdelmajib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/44457358/,,"spelled ""Abdelmadjid"""
+ap.per.00153,Karim,Abdul,,,Egypt,Northern Africa,,,,,Found on Poem Hunter
+ap.per.00154,Kasese,Nyachiro Lydia,,,Tanzania,Eastern Africa,F,,https://viaf.org/viaf/112146461455727730608/,,
+ap.per.00155,Kes,Kat Kol,Katlego Kai Kolanyane-Kesupile,,Botswana,Southern Africa,,,,,Has website: https://kkolkes.wixsite.com/kkolkes
+ap.per.00156,Kgositsile,Keorapetse,"William, ""Bra Willie""",,South Africa,Southern Africa,M,,https://viaf.org/viaf/61565142,,
+ap.per.00157,Khala,Sheila,Nomolanga,,Lesotho,Southern Africa,F,,https://viaf.org/viaf/131772565/,,
+ap.per.00158,Khalifa,Ehab,Mahmoud,,Egypt,Northern Africa,,,,,Found (maybe) on Poem Hunter
+ap.per.00159,Khan,Amin,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/17267056/,,
+ap.per.00160,Khumalo,Mbongeni,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/39086573/,,
+ap.per.00161,Kiguwa,Melissa,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/309900337/,,
+ap.per.00162,Kinyatti,Maina,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/73884979/,,
+ap.per.00163,Kishani,Bongasu Tanla,,,Cameroon,Middle Africa,M,,,,
+ap.per.00164,Kok,Ingrid de,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/93075890/,,
+ap.per.00165,Kombem,Sim,,,Cameroon,Middle Africa,M,,,,
+ap.per.00166,Kor,Buma,,,Cameroon,Middle Africa,M,,,,
+ap.per.00167,Kozain,Rustum,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/24338888/,,
+ap.per.00168,Krog,Antjie,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/162851/,,
+ap.per.00169,Kunene,Mazisi,Raymond,,South Africa,Southern Africa,M,,http://viaf.org/viaf/100271242,,
+ap.per.00170,Kuwabong,Dannabang,,,Ghana,Western Africa,M,,https://viaf.org/viaf/24665152/,,
+ap.per.00171,Kwachou,Monique,,,Cameroon,Middle Africa,F,,,,
+ap.per.00172,Laâbi,Abdellatif,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/31998568/,,
+ap.per.00173,Laghouati,Abdelhamid,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/56770547/,,
+ap.per.00174,Laing,Kojo,Bernard,,Ghana,Western Africa,M,,https://viaf.org/viaf/66517334/,,
+ap.per.00175,Lamrani,Wafa'a,,,Morocco,Northern Africa,,,,,
+ap.per.00176,Langmia,Irmagard Anchang,,,Cameroon,Middle Africa,F,,,,
+ap.per.00177,Lara,Alda,Alda Ferreira Pires Barreto de Lara Albuquerque,,Angola,Middle Africa,F,,,,
+ap.per.00178,Laugier,Emmanuel,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/46310431/,,
+ap.per.00179,Lawo-Sukam,Alain,,,Cameroon,Middle Africa,M,,,,
+ap.per.00180,Leite,Ana Mafalda,,,Mozambique,Eastern Africa,F,,https://viaf.org/viaf/310659233/,,
+ap.per.00181,Libsekal,Liyou,,,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/316802225/,,
+ap.per.00182,Lima,Maria Eugénia,,,Angola,Middle Africa,F,,,,
+ap.per.00183,Losambe,Lokangaka,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00184,Lukau,Amy,,,Angola,Middle Africa,F,,http://viaf.org/viaf/316802226,,
+ap.per.00185,Mabanckou,Alain,,,Congo (Brazzaville),Middle Africa,M,,,,
+ap.per.00186,Mabasa,Ignatius T,Tirivangani,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/58730700/,,
+ap.per.00187,Mabejane,Refiloe,Letokoto,,Lesotho,Southern Africa,F,,https://viaf.org/viaf/285508745/,,"has a book ""Strawberry Lips"" (female poet from Lesotho)"
+ap.per.00188,MacGoye,Marjorie Oludhe,Marjorie Phyllis King,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/33111942/,,
+ap.per.00189,MacViban,Mwalimu,Johnnie,,Cameroon,Middle Africa,M,,,,
+ap.per.00190,Madani,Rachida,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/17451550/,,
+ap.per.00191,Mahmoud,Fatima,,,Libya,Northern Africa,,,,,Found (?) in Banipal
+ap.per.00192,Mahola,Mzi,Mzikayise Winston,,South Africa,Southern Africa,M,,http://viaf.org/viaf/65730318/,,
+ap.per.00193,Majdouline,Touria,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/63587128/,,
+ap.per.00194,Majen,Ben Younes,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/37005421/,,
+ap.per.00195,Makisosila,Mawete,,,Angola,Middle Africa,M,,http://viaf.org/viaf/54250626,,
+ap.per.00196,Makoha,Nick,,,Uganda,Eastern Africa,M,,https://viaf.org/viaf/24154381017330292053/,,
+ap.per.00197,Makombo,Bamboté,,,Central Africa,Middle Africa,M,,,,
+ap.per.00198,Makuchi,Juliana Nfah-Abbenyi,,,Cameroon,Middle Africa,F,,,,
+ap.per.00199,Malan,Lucas,Cornelius,,South Africa,Southern Africa,M,,http://viaf.org/viaf/62964608/,,
+ap.per.00200,Malikongwa,Albert,G. T. K. ,,Botswana,Southern Africa,M,,https://viaf.org/viaf/77600595/,,
+ap.per.00201,Maluleke,Vuyelwa,,,South Africa,Southern Africa,F,,viaf.org/viaf/41145003632961341470/,,
+ap.per.00202,Manirambona,Thierry,,,Burundi,Eastern Africa,M,,https://viaf.org/viaf/289491424/,,
+ap.per.00203,Mann,Chris,Christopher Michael Zithulele,,South Africa,Southern Africa,M,,http://viaf.org/viaf/248129306/,,
+ap.per.00204,Mansour,Ali,,,Egypt,Northern Africa,,,,,
+ap.per.00205,Mapanje,Jack,John Alfred Clement,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/68944702/,,
+ap.per.00206,Marais,Danie,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/4695851/,,
+ap.per.00207,Marais,Loftus,Lodewikus Stefanus,,South Africa,Southern Africa,M,,http://viaf.org/viaf/71225662/,,
+ap.per.00208,Masaki,Makuzayi,Makuzaki?,,Angola,Middle Africa,M,,,,
+ap.per.00209,Mashile,Lebo,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/4667782/,,
+ap.per.00210,Masilo,Rethabile,,,Lesotho,Southern Africa,M,,https://viaf.org/viaf/305200150/,,
+ap.per.00211,Mattera,Dawn,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/91733621/,,"I believe this is ""Don"" Mattera"
+ap.per.00212,Maunick,Edouard,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/39381088/,,
+ap.per.00213,Mawiyoo,Ngwatilo,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/134121105/,,
+ap.per.00214,Mbah,Margaret,Afuh,,Cameroon,Middle Africa,F,,,,
+ap.per.00215,Mbangjwa,Bongekile Joyce,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/86394366/,,
+ap.per.00216,Mbuh,Mbuh Tennu,,,Cameroon,Middle Africa,M,,,,
+ap.per.00217,McGrane,Michelle,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/44034993/,,
+ap.per.00218,Mekgwe,Pinkie,Magocha,,Botswana,Southern Africa,,,,,
+ap.per.00219,Menkan-Mbunda,Frida Nekang,,,Cameroon,Middle Africa,F,,,,
+ap.per.00220,Mersal,Iman,,,Egypt,Northern Africa,F,,https://viaf.org/viaf/120213787/,,
+ap.per.00221,Metelerkamp,Joan,,,South Africa,Southern Africa,F,,viaf.org/viaf/78043087/,,
+ap.per.00222,Metwalli,Mohamed,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/17131537/,,
+ap.per.00223,Mgqwetho,Nontsizi,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/66260596/,,
+ap.per.00224,Mhlophe,Gcina,,,South Africa,Southern Africa,F,,viaf.org/viaf/85339492/,,
+ap.per.00225,Mitra,Amitabh,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/308754367/,,
+ap.per.00226,Mkiva,Zolani,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/68571821/,,
+ap.per.00227,Modise,Rogoff,,,Botswana,Southern Africa,,,https://viaf.org/viaf/193823932/,,
+ap.per.00228,Molapong,Keamogetsi J.,Joseph,,Namibia,Southern Africa,M,,https://viaf.org/viaf/53881702/,,
+ap.per.00229,Moolman,Kobus,,,South Africa,Southern Africa,M,,viaf.org/viaf/239040265/,,
+ap.per.00230,Morchid,Fatiha,,,Morocco,Northern Africa,F,,https://viaf.org/viaf/97041176/,,
+ap.per.00231,moses,Croc,,,South Africa,Southern Africa,M,,viaf.org/viaf/74145003297861301081/,,
+ap.per.00232,Motadinyane,Isabella,,,South Africa,Southern Africa,F,,viaf.org/viaf/264322018/,, (maybe?): Touting Taxi
+ap.per.00233,Motsapi,Seithamo,,,South Africa,Southern Africa,M,,viaf.org/viaf/51290643/,,
+ap.per.00234,Mouissi,Abdelilah,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00235,Moussa,Amel,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/44463379/,,
+ap.per.00236,Mpe,Phaswane,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/46985906/,,
+ap.per.00237,Mphande,Lupenga,,,Malawi,Eastern Africa,M,,https://viaf.org/viaf/17266372/,,
+ap.per.00238,Mtshali,Mbuyiseni,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/112337775/,,
+ap.per.00239,Mugo,Micere Githae,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/71403362/,,
+ap.per.00240,Mulgrew,Nick,,,South Africa,Southern Africa,M,,viaf.org/viaf/50146634519941932718/,,
+ap.per.00241,Mulia,Ike Mboneni,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/71073381/,,"This is actually Ike Mboneni ""Muila"""
+ap.per.00242,Muller,Petra,,,South Africa,Southern Africa,F,,http://viaf.org/viaf/17521103/,,
+ap.per.00243,Murray,Sally-Ann,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/58658552/,,
+ap.per.00244,Musariri,Blessing,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/106907389/,,
+ap.per.00245,Mushi,Sandra A,Aikaruwa,,Tanzania,Eastern Africa,F,,,,Found on Badilisha Poetry X-change
+ap.per.00246,Muthoni,Phyllis,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/305833791/,,
+ap.per.00247,Mutia,Ba'Bila,,,Cameroon,Middle Africa,M,,,,
+ap.per.00248,Mutombo,Nkulu-N'Sengha,,,The Congo,Middle Africa,M,,,,
+ap.per.00249,Muttawa,Khaled,,,Libya,Northern Africa,M,,https://viaf.org/viaf/14023382/,,
+ap.per.00250,Muzanenhamo,Togara,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/14531283/,,
+ap.per.00251,Naaot,Fatima,,,Egypt,Northern Africa,F,,,,Found on Poem Hunter
+ap.per.00252,Najar,Khaled,,,Tunisia,Northern Africa,M,,,,found in Banipal
+ap.per.00253,Najmi,Hassan,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/244877856/,,—maybe “The War” with benefit of doubt
+ap.per.00254,Nangolo,Mvula,,,Namibia,Southern Africa,M,,https://viaf.org/viaf/277998219/,,
+ap.per.00255,Napo,Ciriaco Bokesa,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00256,Naude,Charl-Pierre,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/120732398/,,
+ap.per.00257,Nduka,Uche,,,Nigeria,Western Africa,M,,,,
+ap.per.00258,Negrouche,Samira,,,Algeria,Northern Africa,F,,https://viaf.org/viaf/27310889,,"doublecheck (w JohnK, Major will research)"
+ap.per.00259,Nel,Gert Vlok,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/2075523,,
+ap.per.00260,Nganang,Patrice,,,Cameroon,Middle Africa,M,,,,
+ap.per.00261,Ngong,John Ngong Kum,,,Cameroon,Middle Africa,M,,,,
+ap.per.00262,Ngugi,Mukoma wa,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/31709139/,,
+ap.per.00263,Ngwenya,Siphiwe,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/24096627/,,
+ap.per.00264,Niekerk,Marlene,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/59307255/,,
+ap.per.00265,Nirina,Esther,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/51233071/,, (if no suitable poem found for anthology)
+ap.per.00266,Nissabouri,Mostafa,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/256756371/,,
+ap.per.00267,Njanke,Marcel,,,Cameroon,Middle Africa,M,,,,
+ap.per.00268,Nkulu,Mutombo,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00269,nnadi,Amu,,,Nigeria,Western Africa,M,,,,
+ap.per.00270,Nsengiynva,Beverley Nambozo,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/185807456/,,"This is Beverely Nambozo ""Nsengiyunva"""
+ap.per.00271,Nwakanma,Obi,,,Nigeria,Western Africa,M,,,,
+ap.per.00272,Nyamubaya,Freedom,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/61609397/,,
+ap.per.00273,Nyathi,Albert,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/86145003296761301574/,,
+ap.per.00274,Nyezwa,Mxolisi,,,South Africa,Southern Africa,M,,viaf.org/viaf/89915180/,,
+ap.per.00275,Obiwu,Obiwu,,,Nigeria,Western Africa,M,,,,
+ap.per.00276,Oguibe,Olu,,,Nigeria,Western Africa,M,,,,
+ap.per.00277,Ogunlesi,Tolu,,,Nigeria,Western Africa,M,,,,
+ap.per.00278,Ojaide,Tanure,,,Nigeria,Western Africa,M,,,,
+ap.per.00279,Okai,Atukwei,,,Ghana,Western Africa,M,,https://viaf.org/viaf/46378080,,
+ap.per.00280,Okara,Gabriel,,Y,Nigeria,Western Africa,M,,,"Selected Works
 Poems
 
     Adhiambo
@@ -393,11 +380,11 @@ Poetry Collections
     Gabriel Okara was born at Bumoundi, Bayelsa State, in the Niger Delta in 1921 and educated at Government College Umuahia in Nigeria and Northwestern University in Evanston, Illinois. He worked as a bookbinder and printer for Federal Government Press at Lagos, served as the director of cultural and information services for the short-lived Republic of Biafra, and was the general manager of the Rivers State newspaper and broadcasting corporations. He was an honorary member of the Pan-African Writers’ Association, a fellow of the Nigerian Academy of Letters, and served as a writer in residence at the University of Port Harcourt, Rivers State, Nigeria.
 
     (source University of Nebraska Press)",
-ap.per.00090,Okewole,Niran,,,Nigeria,Western Africa,M,,,,
-ap.per.00089,Okri,Ben,,,Nigeria,Western Africa,M,,,,
-ap.per.00106,Opoku-Agyemang,Kwadwo,,,Ghana,Western Africa,M,,https://viaf.org/viaf/118284993/,,
-ap.per.00080,Oriogun,Romeo,,,Nigeria,Western Africa,M,,,,(chapbook pending??)
-ap.per.00171,Osman,Ladan,,Y,Somalia,Eastern Africa,F,,https://viaf.org/viaf/311769690/,"Selected Works
+ap.per.00281,Okewole,Niran,,,Nigeria,Western Africa,M,,,,
+ap.per.00282,Okri,Ben,,,Nigeria,Western Africa,M,,,,
+ap.per.00283,Opoku-Agyemang,Kwadwo,,,Ghana,Western Africa,M,,https://viaf.org/viaf/118284993/,,
+ap.per.00284,Oriogun,Romeo,,,Nigeria,Western Africa,M,,,,(chapbook pending??)
+ap.per.00285,Osman,Ladan,,Y,Somalia,Eastern Africa,F,,https://viaf.org/viaf/311769690/,"Selected Works
 Poems
 
     The Bee’s Gospel
@@ -432,42 +419,42 @@ Osman has received fellowships from the Fine Arts Work Center, Cave Canem, and t
 (sourced from Poetry Foundation, 9/12/19)
 
 Website: https://www.ladanosman.com/ ",
-ap.per.00065,Osundare,Niyi,,,Nigeria,Western Africa,M,,,,
-ap.per.00068,Otiono,Nduka,,,Nigeria,Western Africa,M,,,,
-ap.per.00265,Ouzzani,Hassan,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/20015054/,,
-ap.per.00083,Oyebode,Femi,,,Nigeria,Western Africa,M,,,,
-ap.per.00362,Parenzee,Donald,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/2494469,,
-ap.per.00100,Parkes,Nii,,,Ghana,Western Africa,M,,,,
-ap.per.00157,Partington,Stephen Derwent,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/4645765/,,
-ap.per.00151,Patel,Shalija,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/145661558/,,"Actually spelled ""Shailja Patel"""
-ap.per.00358,Patel,Amira,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/403147905064279091003/,,
-ap.per.00008,Pedro,Joao,,,Angola,Middle Africa,M,,,,
-ap.per.00327,Pieterse,H.J.,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/33785909/,,
-ap.per.00352,Pieterse,Cosmo,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/108735180/,,
-ap.per.00297,Press,Karen,,,South Africa,Southern Africa,F,,viaf.org/viaf/9906476/,,
-ap.per.00272,Raddi,Al-Saddiq,,,Sudan,Northern Africa,M,,https://viaf.org/viaf/288942811/,,
-ap.per.00069,Raji,Remi,,,Nigeria,Western Africa,M,,,,
-ap.per.00230,Rakha,Youssef,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/121146025/,,
-ap.per.00311,Rampolokeng,Lesego,,,South Africa,Southern Africa,M,,viaf.org/viaf/3305243/,,~~ need to find something else
-ap.per.00003,Rocha,Jofre,,,Angola,Middle Africa,M,,http://viaf.org/viaf/118911190,,
-ap.per.00196,Runganyo,Kristina,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/16197423/,,"Spelled Kristina ""Rungano"""
-ap.per.00215,Sabry,Maher,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/238837549/,,
-ap.per.00277,Said,Amina,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/92589997/,,
-ap.per.00355,Salafranca,Arja,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/21501817/,,
-ap.per.00269,Salhi,Abdel-ilah,,,Morocco,Northern Africa,M,,,,found on Poetry International
-ap.per.00117,Sall,Thierno Seydou,,,Senegal,Western Africa,M,,https://viaf.org/viaf/59134279/,,
-ap.per.00112,Sallah,Tijan,,,The Gambia,Western Africa,M,,https://viaf.org/viaf/115335161/,,
-ap.per.00050,Santo,Alda do Espirito,,,"Congo, Democratic Republic Of",Middle Africa,F,,,,
-ap.per.00371,Seboni,Barolong,,,Botswana,Southern Africa,M,,https://viaf.org/viaf/65532767/,,(poem in penguin modern anthology)
-ap.per.00208,Sehaba,Mohamed,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/41850485/,,
-ap.per.00343,Sepamla,Sydney Sipho,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/49220500/,,
-ap.per.00312,Serote,Mongane Wally,,,South Africa,Southern Africa,M,,viaf.org/viaf/22154429/,,
-ap.per.00114,Sesay,Kadija,,,Sierra Leone,Western Africa,F,,https://viaf.org/viaf/217148955/,,
-ap.per.00144,Seyoum,Bewketu,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/34152452/,, (maybe)
-ap.per.00221,Shahawi,Ahmed,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/119035635/,,
-ap.per.00222,Sharaf,Mahmoud,,,Egypt,Northern Africa,,,,,
-ap.per.00235,Shawwaf,Hatham,,,Egypt,Northern Africa,,,,,
-ap.per.00142,Shiferraw,Mahtem,,Y,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/178144647668719453468/,"Selected Works
+ap.per.00286,Osundare,Niyi,,,Nigeria,Western Africa,M,,,,
+ap.per.00287,Otiono,Nduka,,,Nigeria,Western Africa,M,,,,
+ap.per.00288,Ouzzani,Hassan,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/20015054/,,
+ap.per.00289,Oyebode,Femi,,,Nigeria,Western Africa,M,,,,
+ap.per.00290,Parenzee,Donald,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/2494469,,
+ap.per.00291,Parkes,Nii,,,Ghana,Western Africa,M,,,,
+ap.per.00292,Partington,Stephen Derwent,,,Kenya,Eastern Africa,M,,https://viaf.org/viaf/4645765/,,
+ap.per.00293,Patel,Shalija,,,Kenya,Eastern Africa,F,,https://viaf.org/viaf/145661558/,,"Actually spelled ""Shailja Patel"""
+ap.per.00294,Patel,Amira,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/403147905064279091003/,,
+ap.per.00295,Pedro,Joao,,,Angola,Middle Africa,M,,,,
+ap.per.00296,Pieterse,H.J.,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/33785909/,,
+ap.per.00297,Pieterse,Cosmo,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/108735180/,,
+ap.per.00298,Press,Karen,,,South Africa,Southern Africa,F,,viaf.org/viaf/9906476/,,
+ap.per.00299,Raddi,Al-Saddiq,,,Sudan,Northern Africa,M,,https://viaf.org/viaf/288942811/,,
+ap.per.00300,Raji,Remi,,,Nigeria,Western Africa,M,,,,
+ap.per.00301,Rakha,Youssef,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/121146025/,,
+ap.per.00302,Rampolokeng,Lesego,,,South Africa,Southern Africa,M,,viaf.org/viaf/3305243/,,~~ need to find something else
+ap.per.00303,Rocha,Jofre,,,Angola,Middle Africa,M,,http://viaf.org/viaf/118911190,,
+ap.per.00304,Runganyo,Kristina,,,Zimbabwe,Eastern Africa,F,,https://viaf.org/viaf/16197423/,,"Spelled Kristina ""Rungano"""
+ap.per.00305,Sabry,Maher,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/238837549/,,
+ap.per.00306,Said,Amina,,,Tunisia,Northern Africa,F,,https://viaf.org/viaf/92589997/,,
+ap.per.00307,Salafranca,Arja,,,South Africa,Southern Africa,F,,https://viaf.org/viaf/21501817/,,
+ap.per.00308,Salhi,Abdel-ilah,,,Morocco,Northern Africa,M,,,,found on Poetry International
+ap.per.00309,Sall,Thierno Seydou,,,Senegal,Western Africa,M,,https://viaf.org/viaf/59134279/,,
+ap.per.00310,Sallah,Tijan,,,The Gambia,Western Africa,M,,https://viaf.org/viaf/115335161/,,
+ap.per.00311,Santo,Alda do Espirito,,,"Congo, Democratic Republic Of",Middle Africa,F,,,,
+ap.per.00312,Seboni,Barolong,,,Botswana,Southern Africa,M,,https://viaf.org/viaf/65532767/,,(poem in penguin modern anthology)
+ap.per.00313,Sehaba,Mohamed,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/41850485/,,
+ap.per.00314,Sepamla,Sydney Sipho,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/49220500/,,
+ap.per.00315,Serote,Mongane Wally,,,South Africa,Southern Africa,M,,viaf.org/viaf/22154429/,,
+ap.per.00316,Sesay,Kadija,,,Sierra Leone,Western Africa,F,,https://viaf.org/viaf/217148955/,,
+ap.per.00317,Seyoum,Bewketu,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/34152452/,, (maybe)
+ap.per.00318,Shahawi,Ahmed,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/119035635/,,
+ap.per.00319,Sharaf,Mahmoud,,,Egypt,Northern Africa,,,,,
+ap.per.00320,Shawwaf,Hatham,,,Egypt,Northern Africa,,,,,
+ap.per.00321,Shiferraw,Mahtem,,Y,Ethiopia,Eastern Africa,F,,https://viaf.org/viaf/178144647668719453468/,"Selected Works
 Poems
 
     Synesthesia
@@ -498,55 +485,55 @@ Speeches, Lectures, Interviews, Performances / Critical Articles, Media:
     (sourced from poets.org, https://poets.org/poet/mahtem-shiferraw, accessed October 7, 2019)
 
     Website: https://www.mahtem-shiferraw.com/ ",
-ap.per.00173,Shire,Warsan,,,Somalia,Eastern Africa,F,,https://viaf.org/viaf/296881583/,,
-ap.per.00081,Shoneyin,Lola,,,Nigeria,Western Africa,F,,,,
-ap.per.00234,Shoukry,Guirguis,,,Egypt,Northern Africa,,,,,"Is this ""Girgis Shoukry""?"
-ap.per.00214,Shouman,Mas'oud,,,Egypt,Northern Africa,M,,,,"Found in ""Angry Voices"" anthology"
-ap.per.00135,Sibhatu,Ribka,,,Eritrea,Eastern Africa,F,,https://viaf.org/viaf/36659462/,,
-ap.per.00197,Sigauke,Emmanuel,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/283344290/,,
-ap.per.00046,Sinda,Theirry,,,Congo (Brazzaville),Middle Africa,M,,,,
+ap.per.00322,Shire,Warsan,,,Somalia,Eastern Africa,F,,https://viaf.org/viaf/296881583/,,
+ap.per.00323,Shoneyin,Lola,,,Nigeria,Western Africa,F,,,,
+ap.per.00324,Shoukry,Guirguis,,,Egypt,Northern Africa,,,,,"Is this ""Girgis Shoukry""?"
+ap.per.00325,Shouman,Mas'oud,,,Egypt,Northern Africa,M,,,,"Found in ""Angry Voices"" anthology"
+ap.per.00326,Sibhatu,Ribka,,,Eritrea,Eastern Africa,F,,https://viaf.org/viaf/36659462/,,
+ap.per.00327,Sigauke,Emmanuel,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/283344290/,,
+ap.per.00328,Sinda,Theirry,,,Congo (Brazzaville),Middle Africa,M,,,,
 ap.per.00329,Small,Adam,,,South Africa,Southern Africa,M,,http://viaf.org/viaf/59264296/,,
-ap.per.00286,Sole,Kelwyn,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/27119906/,,
-ap.per.00169,Sousa,Noemia,,,Mozambique,Eastern Africa,F,Girls from the Docks,https://viaf.org/viaf/99494767/,,
-ap.per.00064,Soyinka,Wole,Akinwande Oluwole Babatunde,,Nigeria,Western Africa,M,,,,
-ap.per.00293,Stockenstrom,Wilma,,,South Africa,Southern Africa,F,,viaf.org/viaf/79049421/,,
-ap.per.00088,Sule,EE,,,Nigeria,Western Africa,M,,,,
-ap.per.00270,Tabbal,Abdelkarim,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/64259161/,,
-ap.per.00093,Tadjo,Veronique,,,Cote d’Ivoire,Western Africa,F,,,,
-ap.per.00213,Taha,Ahmed,,,Egypt,Northern Africa,,,,,
-ap.per.00037,Takwi,Matthew,,,Cameroon,Middle Africa,M,,,,
-ap.per.00044,Tati Loutard,Jean-Baptiste,,,Congo (Brazzaville),Middle Africa,M,,,,
-ap.per.00206,Tengour,Habib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/79036588,,double check
-ap.per.00167,Tengour,Habib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/79036588/,,
-ap.per.00207,Tibouchi,Hamib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/7556672/,,
-ap.per.00165,Timol,Umar,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/30641985/,,
-ap.per.00166,Torabully,Khal,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/119776207/,,
-ap.per.00045,Tsibinda,Marie-Leontine,,,Congo (Brazzaville),Middle Africa,F,,,,
-ap.per.00146,Tuma,Hama,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/113631866/,,
-ap.per.00010,Veiga,Amelia,,,Angola,Middle Africa,F,,,,
-ap.per.00170,Verwey,Len,,,Mozambique,Eastern Africa,M,,https://viaf.org/viaf/56338972/,,
-ap.per.00290,Villiers,Phillippa,,,South Africa,Southern Africa,F,,viaf.org/viaf/46532775/,,
-ap.per.00130,Waberi,Abdourahman,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/54240269/,,
-ap.per.00182,Wabuke,Hope,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/50146461447527730435/,,
-ap.per.00038,Wakai,Kangsen Feka,,,Cameroon,Middle Africa,M,,,,
-ap.per.00357,Walter,Brian Ernest,,,South Africa,Southern Africa,M,,,,Found in Badilisha
-ap.per.00382,Warner,Christi,,,Namibia,Southern Africa,F,,https://viaf.org/viaf/51421106/,,singer
-ap.per.00252,Wassat,Mubarak,,,Morocco,Northern Africa,M,,,,Found on Banipal
-ap.per.00292,Watson,Stephen,,,South Africa,Southern Africa,M,,viaf.org/viaf/24624530/,,
-ap.per.00132,Watta,Chehem,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/66605826/,,
-ap.per.00092,Watta,Oumarou,,,Niger,Western Africa,M,,,,
-ap.per.00004,Wendel,Ngudia,,,Angola,Middle Africa,M,,,,
-ap.per.00121,Wesley,Patricia Jabbeh,,,Liberia,Western Africa,F,,https://viaf.org/viaf/29157178/,,
-ap.per.00304,Williams,Athol,,,South Africa,Southern Africa,M,,viaf.org/viaf/315602972/,,
-ap.per.00111,Worsonu,Lade,,,Ghana,Western Africa,M,,https://viaf.org/viaf/39614344/,,"Is this ""Lade Wosornu""?"
-ap.per.00369,Wylie,Dan,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/26667365/,,
-ap.per.00303,Xaba,Makhaosazana,,,South Africa,Southern Africa,F,,viaf.org/viaf/40518803/,,
-ap.per.00226,Yamani,Ahmed,,,Egypt,Northern Africa,M,,,,Found on Beirut 39
-ap.per.00054,Yamusangie,Frederick,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
-ap.per.00139,Yassin,Zeineb,,,Eritrea,Eastern Africa,F,,,,
-ap.per.00212,Youssri,Zahrah,,,Egypt,Northern Africa,F,,,,"Found in ""Angry Voices"" anthology"
-ap.per.00219,Zaher,Maged,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/26774224/,,Has published with Chatwin Books
-ap.per.00198,Zhuwao,Phillip,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/41525393/,,
-ap.per.00189,Zimunya,Musaemura,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/61568234/,,
-ap.per.00271,Zouitni,Norddine,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/317183718/,,
-ap.per.00253,Zreka,Abdallah,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/51811926/,,"Sometimes also spelled ""Zrika"""
+ap.per.00330,Sole,Kelwyn,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/27119906/,,
+ap.per.00331,Sousa,Noemia,,,Mozambique,Eastern Africa,F,Girls from the Docks,https://viaf.org/viaf/99494767/,,
+ap.per.00332,Soyinka,Wole,Akinwande Oluwole Babatunde,,Nigeria,Western Africa,M,,,,
+ap.per.00333,Stockenstrom,Wilma,,,South Africa,Southern Africa,F,,viaf.org/viaf/79049421/,,
+ap.per.00334,Sule,EE,,,Nigeria,Western Africa,M,,,,
+ap.per.00335,Tabbal,Abdelkarim,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/64259161/,,
+ap.per.00336,Tadjo,Veronique,,,Cote d’Ivoire,Western Africa,F,,,,
+ap.per.00337,Taha,Ahmed,,,Egypt,Northern Africa,,,,,
+ap.per.00338,Takwi,Matthew,,,Cameroon,Middle Africa,M,,,,
+ap.per.00339,Tati Loutard,Jean-Baptiste,,,Congo (Brazzaville),Middle Africa,M,,,,
+ap.per.00340,Tengour,Habib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/79036588,,double check
+ap.per.00341,Tengour,Habib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/79036588/,,
+ap.per.00342,Tibouchi,Hamib,,,Algeria,Northern Africa,M,,https://viaf.org/viaf/7556672/,,
+ap.per.00343,Timol,Umar,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/30641985/,,
+ap.per.00344,Torabully,Khal,,,Mauritius,Eastern Africa,M,,https://viaf.org/viaf/119776207/,,
+ap.per.00345,Tsibinda,Marie-Leontine,,,Congo (Brazzaville),Middle Africa,F,,,,
+ap.per.00346,Tuma,Hama,,,Ethiopia,Eastern Africa,M,,https://viaf.org/viaf/113631866/,,
+ap.per.00347,Veiga,Amelia,,,Angola,Middle Africa,F,,,,
+ap.per.00348,Verwey,Len,,,Mozambique,Eastern Africa,M,,https://viaf.org/viaf/56338972/,,
+ap.per.00349,Villiers,Phillippa,,,South Africa,Southern Africa,F,,viaf.org/viaf/46532775/,,
+ap.per.00350,Waberi,Abdourahman,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/54240269/,,
+ap.per.00351,Wabuke,Hope,,,Uganda,Eastern Africa,F,,https://viaf.org/viaf/50146461447527730435/,,
+ap.per.00352,Wakai,Kangsen Feka,,,Cameroon,Middle Africa,M,,,,
+ap.per.00353,Walter,Brian Ernest,,,South Africa,Southern Africa,M,,,,Found in Badilisha
+ap.per.00354,Warner,Christi,,,Namibia,Southern Africa,F,,https://viaf.org/viaf/51421106/,,singer
+ap.per.00355,Wassat,Mubarak,,,Morocco,Northern Africa,M,,,,Found on Banipal
+ap.per.00356,Watson,Stephen,,,South Africa,Southern Africa,M,,viaf.org/viaf/24624530/,,
+ap.per.00357,Watta,Chehem,,,Djibouti,Eastern Africa,M,,https://viaf.org/viaf/66605826/,,
+ap.per.00358,Watta,Oumarou,,,Niger,Western Africa,M,,,,
+ap.per.00359,Wendel,Ngudia,,,Angola,Middle Africa,M,,,,
+ap.per.00360,Wesley,Patricia Jabbeh,,,Liberia,Western Africa,F,,https://viaf.org/viaf/29157178/,,
+ap.per.00361,Williams,Athol,,,South Africa,Southern Africa,M,,viaf.org/viaf/315602972/,,
+ap.per.00362,Worsonu,Lade,,,Ghana,Western Africa,M,,https://viaf.org/viaf/39614344/,,"Is this ""Lade Wosornu""?"
+ap.per.00363,Wylie,Dan,,,South Africa,Southern Africa,M,,https://viaf.org/viaf/26667365/,,
+ap.per.00364,Xaba,Makhaosazana,,,South Africa,Southern Africa,F,,viaf.org/viaf/40518803/,,
+ap.per.00365,Yamani,Ahmed,,,Egypt,Northern Africa,M,,,,Found on Beirut 39
+ap.per.00366,Yamusangie,Frederick,,,"Congo, Democratic Republic Of",Middle Africa,M,,,,
+ap.per.00367,Yassin,Zeineb,,,Eritrea,Eastern Africa,F,,,,
+ap.per.00368,Youssri,Zahrah,,,Egypt,Northern Africa,F,,,,"Found in ""Angry Voices"" anthology"
+ap.per.00369,Zaher,Maged,,,Egypt,Northern Africa,M,,https://viaf.org/viaf/26774224/,,Has published with Chatwin Books
+ap.per.00370,Zhuwao,Phillip,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/41525393/,,
+ap.per.00371,Zimunya,Musaemura,,,Zimbabwe,Eastern Africa,M,,https://viaf.org/viaf/61568234/,,
+ap.per.00372,Zouitni,Norddine,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/317183718/,,
+ap.per.00373,Zreka,Abdallah,,,Morocco,Northern Africa,M,,https://viaf.org/viaf/51811926/,,"Sometimes also spelled ""Zrika"""

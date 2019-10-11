@@ -1,7 +1,10 @@
 class FileCsv < FileType
 
   def row_to_es(headers, row)
+    
     doc = {}
+
+    # See data repo readme file for description of use of fields
 
     doc["collection"]  = @options["collection"]
     doc["category"]    = "Person"
@@ -13,6 +16,7 @@ class FileCsv < FileType
 
     doc["identifier"]  = row["ID"]
 
+    # Will potentially need to add more code to deal with more genders later
     gender = 
       case
       when row["Gender"] == "F" 
@@ -35,6 +39,7 @@ class FileCsv < FileType
       doc["people"]    = row["Alternate Name"]
     end
 
+    # Featured authors have more information
     if row["Featured"] == "Y"
       doc["type"]      = "Featured"
     end
@@ -54,5 +59,6 @@ class FileCsv < FileType
     doc["text"] = textcomplete.join(" ")
 
     doc
+
   end
 end
