@@ -6,6 +6,8 @@ class FileCsv < FileType
 
     # See data repo readme file for description of use of fields
 
+    doc["identifier"]  = row["ID"]
+
     doc["collection"]  = @options["collection"]
     doc["category"]    = "Person"
     doc["subcategory"] = "Contemporary Poet"
@@ -13,8 +15,6 @@ class FileCsv < FileType
 
     authorname = [ row["Last Name"], row["Given Name"] ].compact.join(", ")
     titlename = "#{row["Given Name"]} #{row["Last Name"]}"
-
-    doc["identifier"]  = row["ID"]
 
     # Will potentially need to add more code to deal with more genders later
     gender = 
@@ -27,7 +27,7 @@ class FileCsv < FileType
         "Unknown"
       end
 
-    doc["person"]      = {"name" => authorname, "id" => row["ID"], "role" => gender}
+    doc["person"]      = {"name" => authorname, "id" => row["Authority"], "role" => gender}
     doc["title"]       = authorname
     doc["title_sort"]  = authorname.downcase # need more sorting rules?
     doc["alternative"] = titlename
