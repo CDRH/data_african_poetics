@@ -1,12 +1,17 @@
 class FileCsv < FileType
 
+  def build_source_filepath(id)
+    File.join(@options["collection_dir"], "source", "html", "#{id}.html")
+  end
+
   def row_to_es(headers, row)
     
     doc = {}
 
     # See data repo readme file for description of use of fields
 
-    doc["identifier"]  = row["ID"]
+    id = row["ID"]
+    doc["identifier"]  = id
 
     doc["collection"]  = @options["collection"]
     doc["category"]    = "Person"
@@ -42,6 +47,22 @@ class FileCsv < FileType
     # Featured authors have more information
     if row["Featured"] == "Y"
       doc["type"]      = "Featured"
+      # if this is a featured author, then
+      #   grab their HTML file and populate the text search
+      #   add uriHTML pointing at that location
+      html_in = build_source_filepath(id)
+      if File.file?(html_in)
+        # gets the text of the html
+        html_file_contents = File.read(html_in)
+        html = Nokogiri::HTML(html_file_contents).remove_namespaces!
+        html_text = html.xpath("/html").text()
+
+        # adds reference
+        output_path = File.join(@options["data_base"], "data", @options["collection"], "output", @options["environment"], "html", "#{id}.html")
+        doc["uriHTML"] = output_path
+      else
+        raise "did not find HTML for featured author: #{id}"
+      end
     end
 
     if row["Bibliography"]
@@ -52,13 +73,31 @@ class FileCsv < FileType
                       authorname, 
                       doc["places"], 
                       doc["keywords"],
-                      gender, 
-                      row["Text"]
+                      gender
                     ] 
 
     doc["text"] = textcomplete.join(" ")
+    doc["text"] += " #{html_text}" if html_text
 
     doc
 
+  end
+
+  def transform_html
+    puts "copying HTML referenced in #{self.filename} to HTML subdocuments"
+    @csv.each do |row|
+      next if row.header_row?
+      # copy featured poet HTML files
+      if row["Featured"] == "Y"
+        id = row["ID"]
+        html_in = build_source_filepath(id)
+        if File.file?(html_in)
+          puts "copying #{id} to html output"
+          html_out = File.join(@options["collection_dir"], "output", @options["environment"], "html", "#{id}.html")
+          FileUtils.cp(html_in, html_out)
+        end
+      end
+    end
+    {}
   end
 end
