@@ -84,7 +84,6 @@ class FileCsv < FileType
   end
 
   def transform_html
-    puts "copying HTML referenced in #{self.filename} to HTML subdocuments"
     @csv.each do |row|
       next if row.header_row?
       # copy featured poet HTML files
