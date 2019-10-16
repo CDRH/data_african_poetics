@@ -49,7 +49,7 @@ class FileCsv < FileType
       doc["type"]      = "Featured"
       # if this is a featured author, then
       #   grab their HTML file and populate the text search
-      #   add uriHTML pointing at that location
+      #   add uri_html pointing at that location
       html_in = build_source_filepath(id)
       if File.file?(html_in)
         # gets the text of the html
@@ -59,7 +59,7 @@ class FileCsv < FileType
 
         # adds reference
         output_path = File.join(@options["data_base"], "data", @options["collection"], "output", @options["environment"], "html", "#{id}.html")
-        doc["uriHTML"] = output_path
+        doc["uri_html"] = output_path
       else
         raise "did not find HTML for featured author: #{id}"
       end
