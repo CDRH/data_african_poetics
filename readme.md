@@ -45,7 +45,7 @@ The first two sections of the portal — Contemporary African Poets and African 
 
 ## Technical Information
 
-See project site [Technical information page](https://africanpoetics.unl.edu/about/technicaldetails)
+See the project site [About page](https://africanpoetics.unl.edu/about/technicaldetails) for technical details.
 
 See the [Datura documentation](https://github.com/CDRH/datura) for general updating and posting instructions. 
 
