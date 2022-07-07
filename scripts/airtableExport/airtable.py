@@ -27,6 +27,7 @@ def getTable(table):
 	res = requests.get(url, params = PARAMS, headers = HEADERS)
 	data = res.json()
 	for record in data['records']:
+		record['fields']['airtableID'] = record['id']
 		records[record['id']] = record
 
 	count = 1

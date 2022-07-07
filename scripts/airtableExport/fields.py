@@ -1,6 +1,7 @@
 table_fields = {
   "news items": {
-    "Id": "title",
+    "airtableID":"airtableID",
+	"Id": "title",
     "unique_id": "identifier",
     "Article title": "alternative",
     "Document type": "format",
@@ -26,6 +27,7 @@ table_fields = {
 #    "Summary": ""
   },
   "events": {
+    "airtableID":"airtableID",
     "Primary Field": "n/a",
     "Name": "title",
     "Date not before": "date_not_before",
@@ -39,6 +41,7 @@ table_fields = {
     "[news items]": "[news items]"
   },
   "people": {
+    "airtableID":"airtableID",
     "Primary Field": "title",
     "Name last": "n/a",
     "Name given": "n/a",
@@ -61,6 +64,7 @@ table_fields = {
     "Name [Role] (from news item roles [join])": "Name [Role]",
   },
   "works": {
+    "airtableID":"airtableID",
     "Primary Field": "title",
     "Title": "alternative",
     "Work type": "type",
@@ -77,6 +81,7 @@ table_fields = {
     "[news items]": "[news items]"
   },
   "locations": {
+    "airtableID":"airtableID",
     "Primary Field": "",
     "Place": "",
     "Local place": "",
@@ -97,6 +102,7 @@ table_fields = {
 #    "[repositories-archives]":""
   },
   "publications": {
+    "airtableID":"airtableID",
     "Id": "",
     "Name": "",
     "[location]": "",
@@ -104,6 +110,7 @@ table_fields = {
     "[news items]": ""
   },
   "publishers": {
+    "airtableID":"airtableID",
     "Primary field": "",
     "Name": "",
     "[location]": "",
@@ -111,12 +118,14 @@ table_fields = {
     "Count (works)": ""
   },
   "universities": {
+    "airtableID":"airtableID",
     "Id": "",
     "Name": "",
     "[locations]": "",
     "educations [join]": ""
   },
   "repositories-archives": {
+    "airtableID":"airtableID",
     "Id": "",
     "Name": "",
 #    "Id [Location]":"",
@@ -125,6 +134,7 @@ table_fields = {
     "publications": ""
   },
   "commentaries": {
+    "airtableID":"airtableID",
     "Id": "",
     "Name": "",
     "Content": "",
@@ -142,6 +152,7 @@ table_fields = {
     "[events]": ""
   },
   "commentary author": {
+    "airtableID":"airtableID",
     "primary field": "",
     "Name last": "",
     "Name given": "",
@@ -151,6 +162,7 @@ table_fields = {
 #    "Id copy": ""   
   },
   "work roles [join]": {
+    "airtableID":"airtableID",
     "Primary Field": "",
     "Author": "",
     "[person]": "",
@@ -159,6 +171,7 @@ table_fields = {
 #    "Primary Field copy": ""
   },
   "news item roles [join]": {
+    "airtableID":"airtableID",
     "Id": "",
     "Author": "",
     "[person]": "",
@@ -166,6 +179,7 @@ table_fields = {
     "Name [Role]": ""
   },
   "educations [join]": {
+    "airtableID":"airtableID",
     "Id": "",
     "[person]": "",
     "[universities]": "",
