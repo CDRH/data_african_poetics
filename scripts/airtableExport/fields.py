@@ -81,7 +81,7 @@ table_fields = {
     "[news items]": "[news items]"
   },
   "locations": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Primary Field": "",
     "Place": "",
     "Local place": "",
@@ -102,7 +102,7 @@ table_fields = {
 #    "[repositories-archives]":""
   },
   "publications": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Id": "",
     "Name": "",
     "[location]": "",
@@ -110,7 +110,7 @@ table_fields = {
     "[news items]": ""
   },
   "publishers": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Primary field": "",
     "Name": "",
     "[location]": "",
@@ -118,14 +118,14 @@ table_fields = {
     "Count (works)": ""
   },
   "universities": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Id": "",
     "Name": "",
     "[locations]": "",
     "educations [join]": ""
   },
   "repositories-archives": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Id": "",
     "Name": "",
 #    "Id [Location]":"",
@@ -134,7 +134,7 @@ table_fields = {
     "publications": ""
   },
   "commentaries": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Id": "",
     "Name": "",
     "Content": "",
@@ -152,7 +152,7 @@ table_fields = {
     "[events]": ""
   },
   "commentary author": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "primary field": "",
     "Name last": "",
     "Name given": "",
@@ -162,7 +162,7 @@ table_fields = {
 #    "Id copy": ""   
   },
   "work roles [join]": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Primary Field": "",
     "Author": "",
     "[person]": "",
@@ -171,7 +171,7 @@ table_fields = {
 #    "Primary Field copy": ""
   },
   "news item roles [join]": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Id": "",
     "Author": "",
     "[person]": "",
@@ -179,7 +179,7 @@ table_fields = {
     "Name [Role]": ""
   },
   "educations [join]": {
-    "airtableID":"airtableID",
+    "airtableID":"",
     "Id": "",
     "[person]": "",
     "[universities]": "",

@@ -35,6 +35,7 @@ def getTables():
 
 getTables()
 
+#save data to json
 with open('json/tables.json','w') as f:
 	json.dump(tables,f,indent=2)
 
@@ -49,7 +50,7 @@ for table in tables:
 	csvfile = open('csv/'+table+'.csv', 'w')
 	writer = csv.DictWriter(csvfile,fieldnames=header,extrasaction='ignore',quoting=csv.QUOTE_ALL)
 	
-
+	#if no values are set in table for mapping will use the Airtable field names
 	if all(list(table_fields[table].values())):
 		writer.writeheader()
 	else:
