@@ -1,4 +1,4 @@
-"airtableID","","","","","","",""
+"airtableID","Id","[person]","[universities]","Year ended","Graduated","Degree","Complete"
 "recHYegQSMzrqHePJ","""University of Ibadan,  (Nigeria |  |  | Ibadan |  |  |)""","['recOo2kpeQuQEciaC']","['reclpHNGTKzlJ6PFd']","1953","True","[unknown]",""
 "rec3bN6h4RzKwzRxn","""University of Cape Town,  (South Africa |  |  | Cape Town |  |  |)""","['rec9NVjOrXGIXxw9F']","['recmFvtzUMqaFmOoC']","1952","True","BA","True"
 "recdlkYgscpxaEubi","""University of Ibadan,  (Nigeria |  |  | Ibadan |  |  |)""","['recZ9vZliUqTyGjRQ']","['reclpHNGTKzlJ6PFd']","1961","True","[unknown]",""
