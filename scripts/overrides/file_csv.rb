@@ -107,6 +107,8 @@ class FileCsv < FileType
       CsvToEsNews.new(row, options, @csv, self.filename(false)).json
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
+    elsif table == "people"
+      CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
     end
   end
 
@@ -138,7 +140,8 @@ class FileCsv < FileType
       "news_items"
     when "works.csv"
       "works"
+    when "people.csv"
+      "people"
     end
-    
   end
 end
