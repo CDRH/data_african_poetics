@@ -47,6 +47,7 @@ table_fields = {
   },
   "people": {
     "airtableID":"airtableID",
+    "Unique ID":"identifier",
     "Primary Field": "title",
     "Name last": "n/a",
     "Name given": "n/a",
