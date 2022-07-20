@@ -8,4 +8,7 @@ class CsvToEs
       end
     end
   end
+
+  def abstract
+  end
 end
