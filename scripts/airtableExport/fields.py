@@ -32,6 +32,7 @@ table_fields = {
   },
   "events": {
     "airtableID":"airtableID",
+    "Unique ID": "identifier",
     "Primary Field": "n/a",
     "Name": "title",
     "Date not before": "date_not_before",
