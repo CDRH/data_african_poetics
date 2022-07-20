@@ -108,7 +108,9 @@ class FileCsv < FileType
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
     elsif table == "people"
-      CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
+      if row["Major african poet"] == "True"
+        CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
+      end
     end
   end
 
