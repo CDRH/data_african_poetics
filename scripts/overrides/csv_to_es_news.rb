@@ -48,7 +48,7 @@ class CsvToEsNews < CsvToEs
   end
 
   def rights_holder
-    get_value("right_holder")
+    get_value("rights_holder", true)
   end
 
   def description
