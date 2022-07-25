@@ -32,7 +32,9 @@ class CsvToEsNews < CsvToEs
   end
 
   def type
-    get_value("Content type")
+    if get_value("Content type")
+      get_value("Content type").split("|")
+    end
   end
 
   def date(before=false)
