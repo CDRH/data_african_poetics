@@ -4,9 +4,6 @@ class CsvToEsWorks < CsvToEs
     @json["page_k"] = get_value("Page no")
     @json["issue_k"] = get_value("Issue")
     @json["volume_k"] = get_value("Volume")
-    @json["commentaries_k"] = get_value("[commentaries]")
-    @json["complete_k"] = get_value("Complete")
-    puts get_value("Page no"), get_value("Issue"), get_value("Volume"), get_value("[commentaries]"), get_value("Complete")
   end
 
   def id
@@ -40,19 +37,51 @@ class CsvToEsWorks < CsvToEs
   end
 
   def publisher
-    get_value("[publisher]")
+    get_value("publisher", true)
   end
 
   def spatial
-    if get_value("[location]")
-      puts get_value("[location]")
+    locations = []
+    if get_value("spatial.country")
+      JSON.parse(get_value("spatial.country")).each do |country|
+        location = { "country" => JSON.parse(get_value("spatial.country")) }
+        if get_value("spatial.city")
+          location["city"] = JSON.parse(get_value("spatial.city"))
+        end
+        locations << location
+      end
+    end
+    locations
+  end
+
+  def rights_uri
+    if get_value("Source link")
+      get_value("Source link")
     end
   end
 
-  def source
-    if get_value("[news item]")
-      puts get_value("[news item]")
+  def topics
+    if get_value("news_items")
+      get_value("news_items")
     end
+  end
+
+  def person
+    result = []
+    people = get_value("person")
+    if people && people.length > 0
+      people = people.split(";;;")
+      people.each do |person|
+        data = person.split("|")
+        if data[0]
+          name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
+          id = /\((.*)\)/.match(data[0])[1] if /\((.*)\)/.match(data[0])
+          role = data[1]
+          result << { name: name, role: role, id: id }
+        end
+      end
+    end
+    result
   end
 
 end
