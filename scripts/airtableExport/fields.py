@@ -86,7 +86,7 @@ table_fields = {
     "[commentaries]": "commentaries_k",
     "person": "person",
     "Complete": "Complete",
-    "news_items": "topic"
+    "news_items": "topics"
   },
   "locations": {
     "airtableID":"airtableID",
