@@ -76,16 +76,17 @@ table_fields = {
     "Title": "alternative",
     "Work type": "type",
     "Year": "date_display",
-    "[publisher]": "publisher",
-    "[location]": "spatial",
+    "publisher": "publisher",
+    "spatial.country": "spatial.country",
+    "spatial.city": "spatial.city",
     "Page no": "page_k",
     "Issue":"issue_k",
     "Volume":"volume_k",
     "Source link": "rights_uri",
     "[commentaries]": "commentaries_k",
-    "[work roles]": "person",
+    "person": "person",
     "Complete": "Complete",
-    "[news items]": "[news items]"
+    "news_items": "topic"
   },
   "locations": {
     "airtableID":"airtableID",
