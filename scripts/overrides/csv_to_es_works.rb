@@ -64,7 +64,7 @@ class CsvToEsWorks < CsvToEs
 
   def topics
     if get_value("news_items")
-      get_value("news_items")
+      get_value("news_items").split(";;;")
     end
   end
 
