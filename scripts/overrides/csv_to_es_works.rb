@@ -29,7 +29,9 @@ class CsvToEsWorks < CsvToEs
   end
 
   def type
-    get_value("Work type")
+    if get_value("Work type")
+      get_value("Work type").split("|")
+    end
   end
 
   def date_display
