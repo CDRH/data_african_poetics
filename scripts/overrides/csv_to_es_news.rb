@@ -27,20 +27,21 @@ class CsvToEsNews < CsvToEs
     get_value("Article title")
   end
 
-  def format
+  def type
     get_value("Document type")
   end
 
-  def type
-    get_value("Content type")
-  end
+  # NOT CURRENTLY USED
+  # def type
+  #   get_value("Content type")
+  # end
 
   def date(before=false)
     Datura::Helpers.date_standardize(@row["Article Date"], before)
   end
 
-  def source
-    get_value("source", true)
+  def publisher
+    get_value("publisher", true)
   end
 
   def rights_uri
@@ -62,9 +63,7 @@ class CsvToEsNews < CsvToEs
   end
 
   def topics
-    if get_value("topics")
-      get_value("topics").split(";;;")
-    end
+    get_value("topics-decade")
   end
 
   def keywords
@@ -98,4 +97,29 @@ class CsvToEsNews < CsvToEs
       Datura::Helpers.date_standardize(@row["Source access date"], false)
     end
   end
+
+  def contributor
+    names = get_value("contributor.name", true)
+    if names
+      names.collect{ |name| { "name": name }}
+    end
+  end
+
+  def creator
+    names = get_value("creator.name", true)
+    if names
+      names.collect{ |name| { "name": name }}
+    end
+  end
+
+  def subjects
+    if get_value("subjects")
+      get_value("subjects").split(";;;")
+    end
+  end
+
+  def relation
+    get_value("commentaries-link")
+  end
+
 end
