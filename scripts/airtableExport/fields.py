@@ -79,7 +79,7 @@ table_fields = {
     "Primary Field": "title",
     "Title": "alternative",
     "Work type": "type",
-    "Year": "date_display",
+    "Year": "date.year",
     "publisher": "publisher",
     "spatial.country": "spatial.country",
     "spatial.city": "spatial.city",
@@ -90,7 +90,10 @@ table_fields = {
     "[commentaries]": "commentaries_k",
     "person": "person",
     "Complete": "Complete",
-    "news_items": "topics"
+    "news_items": "medium",
+    "name-major-poet": "contributor.name",
+    "person-author": "creator.name",
+    "topics-decade": "topics"
   },
   "locations": {
     "airtableID":"",
