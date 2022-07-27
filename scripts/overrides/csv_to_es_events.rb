@@ -83,11 +83,11 @@ class CsvToEsEvents < CsvToEs
   end
 
   def relation
-    get_value("commentaries_relation")
+    get_value("commentaries_relation", true)
   end
 
   def medium
-    get_value("news_items")
+    get_value("news_items", true)
   end
 
 end
