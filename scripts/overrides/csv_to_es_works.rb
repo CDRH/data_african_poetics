@@ -34,6 +34,12 @@ class CsvToEsWorks < CsvToEs
     end
   end
 
+  def date(before=false)
+    if @row["Year"]
+      Datura::Helpers.date_standardize(@row["Year"], before)
+    end
+  end
+
   def date_display
     get_value("Year")
   end
@@ -62,7 +68,7 @@ class CsvToEsWorks < CsvToEs
     end
   end
 
-  def topics
+  def medium
     if get_value("news_items")
       get_value("news_items").split(";;;")
     end
@@ -84,6 +90,24 @@ class CsvToEsWorks < CsvToEs
       end
     end
     result
+  end
+
+  def contributor
+    names = get_value("name-major-name", true)
+    if names
+      names.collect{ |name| { "name": name }}
+    end
+  end
+
+  def creator
+    names = get_value("person-author", true)
+    if names
+      names.collect{ |name| { "name": name }}
+    end
+  end
+
+  def topics
+    get_value("topics-decade")
   end
 
 end
