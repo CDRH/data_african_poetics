@@ -150,9 +150,9 @@ table_fields = {
   },
   "commentaries": {
     "airtableID":"",
-    "Id": "",
-    "Name": "",
-    "Content": "",
+    "Unique ID": "identifier",
+    "Name": "title",
+    "Content": "text",
     "Featured": "",
 #    "Id [Metacommentary objects]":"",
 #    "Id [Subjects]":"",
