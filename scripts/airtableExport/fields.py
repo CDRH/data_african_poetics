@@ -6,7 +6,7 @@ table_fields = {
     "Article title": "alternative",
     "Document type": "type",
     # "Content type": "type",
-    "Article Date": "date",
+    "Article Date (formatted)": "date",
     "[publication]": "[publication]",
     "publisher": "publisher",
     "Source page no": "page_k",

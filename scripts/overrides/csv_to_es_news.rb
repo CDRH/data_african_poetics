@@ -37,7 +37,7 @@ class CsvToEsNews < CsvToEs
   # end
 
   def date(before=false)
-    Datura::Helpers.date_standardize(@row["Article Date"], before)
+    Datura::Helpers.date_standardize(@row["Article Date (formatted)"], before)
   end
 
   def publisher
