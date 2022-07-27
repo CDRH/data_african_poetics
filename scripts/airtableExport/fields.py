@@ -47,7 +47,16 @@ table_fields = {
     "Complete": "Complete",
     "[commentaries]": "[commentaries]",
     "[people]": "[people]",
-    "[news items]": "[news items]"
+    "[news items]": "[news items]",
+    "person-notpoet": "person.name",
+    "person-poet": "person",
+    "topics-decades": "topics",
+    "places": "places",
+    "spatial.region": "spatial.region",
+    "spatial.country": "spatial.country",
+    "spatial.city": "spatial.city",
+    "commentaries_relation": "relation",
+    "news_items": "medium"
   },
   "people": {
     "airtableID":"airtableID",
