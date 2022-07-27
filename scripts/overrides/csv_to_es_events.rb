@@ -66,20 +66,16 @@ class CsvToEsEvents < CsvToEs
   end
 
   def spatial
-    locations = []
     if get_value("spatial.country")
-      JSON.parse(get_value("spatial.country")).each do |country|
-        location = { "country" => JSON.parse(get_value("spatial.country")) }
-        if get_value("spatial.city")
-          location["city"] = JSON.parse(get_value("spatial.city"))
-        end
-        if get_value("spatial.region")
-          location["region"] = JSON.parse(get_value("spatial.region"))
-        end
-        locations << location
+      location = { "country" => JSON.parse(get_value("spatial.country"))[0] }
+      if get_value("spatial.city")
+        location["city"] = JSON.parse(get_value("spatial.city"))[0]
       end
+      if get_value("spatial.region")
+        location["region"] = JSON.parse(get_value("spatial.region"))[0]
+      end
+      location
     end
-    locations
   end
 
   def relation
