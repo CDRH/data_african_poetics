@@ -64,7 +64,7 @@ table_fields = {
     "Name Built": "title",
     "Major african poet": "type",
     "nationality-country": "places",
-    "short biography": "description",
+    "Short biography": "description",
     "name-letter": "alternative",
     "education": "keywords",
     "events": "subjects",
