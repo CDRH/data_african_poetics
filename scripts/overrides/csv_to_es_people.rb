@@ -82,4 +82,8 @@ class CsvToEsPeople < CsvToEs
     get_value("events", true)
   end
 
+  def relation
+    get_value("Title markdown")
+  end
+
 end
