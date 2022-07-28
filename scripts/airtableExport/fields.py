@@ -66,12 +66,16 @@ table_fields = {
     "nationality-country": "places",
     "Short biography": "description",
     "name-letter": "alternative",
-    "education": "keywords",
+    "year_degree_institution": "keywords",
     "events": "subjects",
     "work roles": "works",
     "news item roles": "medium",
     "birth-decade": "topics",
-    "nationality-region": "spatial.region"
+    "nationality-region": "spatial.region",
+    "Date birth": "date_not_before",
+    "Date death": "date_not_after",
+    "birth_spatial.country": "spatial.country",
+    "birth_spatial.city": "spatial.city"
   },
   "works": {
     "airtableID":"airtableID",
