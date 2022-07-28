@@ -14,7 +14,7 @@ class CsvToEsPeople < CsvToEs
   end
 
   def title
-    get_value("Primary Field")
+    get_value("Name Built")
   end
 
   def date(before=false)
@@ -31,17 +31,46 @@ class CsvToEsPeople < CsvToEs
     get_value("Short biography")
   end
 
-  def abstract
-    get_value("Bibliography")
-  end
-
-  def extent
-    get_value("Name [Gender]")
-  end
-
   def type
     if @row["Major african poet"] == "True"
       "Major African poet"
     end
   end
+
+  def spatial
+    if get_value("nationality-region")
+      { "region" => JSON.parse(get_value("nationality-region"))[0] }
+    end
+  end
+
+  def places
+    get_value("nationality-country", true)
+  end
+
+  def keywords
+    get_value("education", true)
+  end
+
+  def alternative
+    get_value("name-letter")
+  end
+
+  def works
+    works = get_value("work roles")
+    works.split(";;;") if works
+  end
+
+  def medium
+    news_items = get_value("news item roles")
+    news_items.split(";;;") if news_items
+  end
+
+  def topics
+    get_value("birth-decade")
+  end
+
+  def subjects
+    get_value("events", true)
+  end
+
 end
