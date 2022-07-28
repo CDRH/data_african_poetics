@@ -38,9 +38,18 @@ class CsvToEsPeople < CsvToEs
   end
 
   def spatial
+    places = []
     if get_value("nationality-region")
-      { "region" => JSON.parse(get_value("nationality-region"))[0] }
+      places << { "region" => JSON.parse(get_value("nationality-region"))[0], "type" => "nationality" }
     end
+    if get_value("birth_spatial.country")
+      birthplace = { "country" => JSON.parse(get_value("birth_spatial.country"))[0], "type" => "birth place" }
+      if get_value("birth_spatial.city")
+        birthplace["city"] = { "city" => JSON.parse(get_value("birth_spatial.city"))[0] }
+      end
+      places << birthplace
+    end
+    places
   end
 
   def places
@@ -48,7 +57,7 @@ class CsvToEsPeople < CsvToEs
   end
 
   def keywords
-    get_value("education", true)
+    get_value("year_degree_institution", true)
   end
 
   def alternative
