@@ -76,7 +76,8 @@ table_fields = {
     "Date death": "date_not_after",
     "birth_spatial.country": "spatial.country",
     "birth_spatial.city": "spatial.city",
-    "Title markdown": "relation"
+    "Title markdown": "relation",
+    "related-people": "people"
   },
   "works": {
     "airtableID":"airtableID",
