@@ -86,4 +86,22 @@ class CsvToEsPeople < CsvToEs
     get_value("Title markdown")
   end
 
+  def person
+    people = get_value("related-people")
+    if people
+      people = people.split(";;;") if people
+      unique = people.uniq
+      result = []
+      unique.each do |person|
+        name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
+        id = /\((.*)\)/.match(person)[1] if /\((.*)\)/.match(person)
+        count = people.select{|p| p == person}.count
+        if name
+          result << { name: name, role: count, id: id }
+        end
+      end
+      result
+    end
+  end
+
 end
