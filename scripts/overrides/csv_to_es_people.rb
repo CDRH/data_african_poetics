@@ -83,7 +83,7 @@ class CsvToEsPeople < CsvToEs
   end
 
   def relation
-    get_value("Title markdown")
+    get_value("commentaries_relation", true)
   end
 
   def person

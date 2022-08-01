@@ -119,7 +119,7 @@ class CsvToEsNews < CsvToEs
   end
 
   def relation
-    get_value("commentaries-link")
+    get_value("commentaries_relation", true)
   end
 
 end

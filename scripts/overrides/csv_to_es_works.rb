@@ -109,4 +109,8 @@ class CsvToEsWorks < CsvToEs
     get_value("topics-decade")
   end
 
+  def relation
+    get_value("commentaries_relation", true)
+  end
+
 end
