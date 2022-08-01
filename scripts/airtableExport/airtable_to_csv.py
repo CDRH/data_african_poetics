@@ -54,7 +54,7 @@ for table in tables:
 	records = tables[table]
 	for record in records.values():
 		for key, value in record['fields'].items():
-			if key in ["source", "Tags", "spatial.country", "spatial.city", "spatial.region", "rights_holder", "publisher", "contributor.name", "creator.name", "publisher", "person-notpoet", "person-poet", "name-major-poet", "person-author", "news_items", "commentaries_relation", "nationality-region", "nationality-country", "education", "events", "birth_spatial.country", "birth_spatial.city", "year_degree_institution"]:
+			if key in ["source", "Tags", "spatial.country", "spatial.city", "spatial.region", "rights_holder", "publisher", "contributor.name", "creator.name", "publisher", "person-notpoet", "person-poet", "name-major-poet", "person-author", "news_items", "commentaries_relation", "nationality-region", "nationality-country", "education", "events", "birth_spatial.country", "birth_spatial.city", "year_degree_institution", "events-subjects", "works", "news-items_medium"]:
 				record['fields'][key] = json.dumps(value)
 		writer.writerow(record['fields'])
 

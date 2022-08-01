@@ -159,18 +159,11 @@ table_fields = {
     "Unique ID": "identifier",
     "Name": "title",
     "Content": "text",
-    "Featured": "",
-#    "Id [Metacommentary objects]":"",
-#    "Id [Subjects]":"",
-#    "Name [Subjects]":"",
-#    "Id [Metacommentary subjects]":"",
-#    "Id [Meta objects]":"",
-#    "Name [Meta objects]":"",
-    "[commentary author]": "",
-    "[news items]": "",
-    "[people]": "",
-    "[works]": "",
-    "[events]": ""
+    "person-poet": "person.name",
+    "creator.name": "creator.name",
+    "events-subjects": "subjects",
+    "works": "works",
+    "news-items_medium": "medium"
   },
   "commentary author": {
     "airtableID":"",
