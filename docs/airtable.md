@@ -2,7 +2,7 @@
 
 ## Tables 
 
-The Airtable contains 5 tables that will be pulled down to populate data. There are many more linked tables, but all the data from linked tables is included through lookup tables in the 5 tables. 
+The Airtable contains 5 tables that will be pulled down to populate data. There are many more linked tables, but all the data from linked tables is included through lookup tables in the 5 tables. See below for the data definitions of each field.
 
 These tables are: 
 
