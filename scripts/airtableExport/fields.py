@@ -32,7 +32,7 @@ table_fields = {
     "contributor.name": "contributor.name",
     "creator.name": "creator.name",
     "topics-decade": "topics",
-    "commentaries-link": "relation"
+    "commentaries_relation": "relation"
   },
   "events": {
     "airtableID":"airtableID",
@@ -76,8 +76,8 @@ table_fields = {
     "Date death": "date_not_after",
     "birth_spatial.country": "spatial.country",
     "birth_spatial.city": "spatial.city",
-    "Title markdown": "relation",
-    "related-people": "people"
+    "related-people": "people",
+    "commentaries_relation": "relation"
   },
   "works": {
     "airtableID":"airtableID",
@@ -99,7 +99,8 @@ table_fields = {
     "news_items": "medium",
     "name-major-poet": "contributor.name",
     "person-author": "creator.name",
-    "topics-decade": "topics"
+    "topics-decade": "topics", 
+    "commentaries_relation": "relation"
   },
   "locations": {
     "airtableID":"",
