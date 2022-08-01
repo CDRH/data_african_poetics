@@ -1,5 +1,10 @@
 require 'byebug'
 class CsvToEsCommentaries < CsvToEs
+
+  def assemble_collection_specific
+    @json["html_k"] = get_value("Content")
+  end
+
   def id
     get_id
   end
@@ -21,4 +26,37 @@ class CsvToEsCommentaries < CsvToEs
   def text
     get_value("Content")
   end
+
+  def person
+    result = []
+    people = get_value("person-poet", true)
+    if people && people.length > 0
+      people.each do |person|
+        name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
+        id = /\((.*)\)/.match(person)[1] if /\((.*)\)/.match(person)
+        result << { name: name, id: id }
+      end
+    end
+    result
+  end
+
+  def creator
+    names = get_value("creator.name", true)
+    if names
+      names.collect{ |name| { "name": name }}
+    end
+  end
+
+  def subjects
+    get_value("events-subjects", true)
+  end
+
+  def medium
+    get_value("news-items_medium", true)
+  end
+
+  def works
+    get_value("works", true)
+  end
+
 end
