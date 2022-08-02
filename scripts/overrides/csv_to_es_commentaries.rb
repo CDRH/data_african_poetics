@@ -32,6 +32,7 @@ class CsvToEsCommentaries < CsvToEs
     people = get_value("person-poet", true)
     if people && people.length > 0
       people.each do |person|
+        # markdown parsing
         name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
         id = /\((.*)\)/.match(person)[1] if /\((.*)\)/.match(person)
         result << { name: name, id: id }

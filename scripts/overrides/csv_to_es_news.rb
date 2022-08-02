@@ -82,6 +82,7 @@ class CsvToEsNews < CsvToEs
       people.each do |person|
         data = person.split("|")
         if data[0]
+          # markdown parsing
           name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
           id = /\((.*)\)/.match(data[0])[1] if /\((.*)\)/.match(data[0])
           role = data[1]

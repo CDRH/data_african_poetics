@@ -38,16 +38,19 @@ class CsvToEsEvents < CsvToEs
 
   def person
     people = []
+    #non-poets just have a name, poets also have id and role
     nonpoets = get_value("person-notpoet", true)
     poets = get_value("person-poet", true)
     if nonpoets && nonpoets.length > 0
       nonpoets.each do |nonpoet|
+        # markdown parsing
         name = /\[(.*)\]/.match(nonpoet)[1] if /\[(.*)\]/.match(nonpoet)
         people << { name: name }
       end
     end
     if poets && poets.length > 0
       poets.each do |poet|
+        # markdown parsing
         name = /\[(.*)\]/.match(poet)[1] if /\[(.*)\]/.match(poet)
         id = /\((.*)\)/.match(poet)[1] if /\((.*)\)/.match(poet)
         role = "African Poet"
