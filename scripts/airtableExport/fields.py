@@ -50,7 +50,7 @@ table_fields = {
     "[news items]": "[news items]",
     "person-notpoet": "person.name",
     "person-poet": "person",
-    "topics-decades": "topics",
+    "topics-decade": "topics",
     "places": "places",
     "spatial.region": "spatial.region",
     "spatial.country": "spatial.country",
