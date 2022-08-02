@@ -70,8 +70,7 @@ class CsvToEsPeople < CsvToEs
   end
 
   def medium
-    news_items = get_value("news item roles")
-    news_items.split(";;;") if news_items
+    get_value("news item roles", true)
   end
 
   def topics
