@@ -43,7 +43,7 @@ Run `python3 scripts/airtableExport/airtable_to_csv.py`. The json export from Ai
 
 Create and edit `private.yml` and `public.yml` as needed to establish the elasticsearch and API connections.
 
-Run `es_clear_index` to clear the elasticsearch index. Run `post -r [table name]` to post each given table via Datura. For instance, “news items.csv” can be downloaded by running `post -r news`.
+Run `es_clear_index` to clear the elasticsearch index. Run `post -r [table name]` to post each given table via Datura. For instance, “news items.csv” can be ingested by running `post -r news`.
 
 If any of the above Datura commands fail, try running `bundle` and try again, and then try running `bundle update`.
 
