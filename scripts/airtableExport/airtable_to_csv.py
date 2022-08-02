@@ -47,7 +47,10 @@ with open('scripts/airtableExport/json/tables.json','w') as f:
 for table in tables:
 	# read in the keys defined in fields.py
 	header = list(table_fields[table].keys())
-	csvfile = open('scripts/airtableExport/csv/'+table+'.csv', 'w')
+	if table in ["commentaries", "events", "news items", "people", "works"]:
+		csvfile = open('source/csv/'+table+'.csv', 'w')
+	else:
+		csvfile = open('scripts/airtableExport/csv/'+table+'.csv', 'w')
 	writer = csv.DictWriter(csvfile,fieldnames=header,extrasaction='ignore',quoting=csv.QUOTE_ALL)
 	
 	
