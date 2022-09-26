@@ -35,29 +35,27 @@ def getTables():
 
 getTables()
 
-#save data to json
-with open('json/tables.json','w') as f:
+with open('scripts/airtableExport/json/tables.json','w') as f:
 	json.dump(tables,f,indent=2)
 
-#with open('json/tables.json','r') as f:
-#	tables = json.load(f)
+# with open('scripts/airtableExport/json/tables.json','r') as f:
+# 	table_json = json.load(f)
 
 
 #Export tables to csv
 for table in tables:
 	header = list(table_fields[table].keys())
-	
-	csvfile = open('csv/'+table+'.csv', 'w')
+	csvfile = open('scripts/airtableExport/csv/'+table+'.csv', 'w')
 	writer = csv.DictWriter(csvfile,fieldnames=header,extrasaction='ignore',quoting=csv.QUOTE_ALL)
 	
-	#if no values are set in table for mapping will use the Airtable field names
-	if all(list(table_fields[table].values())):
-		writer.writeheader()
-	else:
-		writer.writer.writerow(list(table_fields[table].values()))
+	
+	writer.writeheader()
 
 	records = tables[table]
 	for record in records.values():
+		for key, value in record['fields'].items():
+			if key in ["source", "Tags"]:
+				record['fields'][key] = json.dumps(value)
 		writer.writerow(record['fields'])
 
 	csvfile.close()

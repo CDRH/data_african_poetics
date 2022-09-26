@@ -10,4 +10,5 @@ config/private.yml
 !/output/production
 /output/production/*
 !/output/production/html
-
+.env
+.byebug_history
