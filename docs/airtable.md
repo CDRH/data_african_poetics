@@ -39,7 +39,7 @@ Create a `.env` file in the base directory of the data repo, it should be automa
 BASE_ID=app**************
 API_KEY=key**************
 ```
-Run `python3 scripts/airtableExport/airtable_to_csv.py`. You may need to first run `pip3 install requests`. The json export from Airtable will be in `scripts/airtableExport/json` and the generated csv files will be in `scripts/airtableExport/csv`. Copy any files that you want to ingest into `source/csv`. The repo is currently set up to ingest news items, commentaries, works, events, and people (poets).
+Run `python3 scripts/airtableExport/airtable_to_csv.py`. You may need to first run `pip3 install requests`. The json export from Airtable will be in `scripts/airtableExport/json` and the generated csv files will be in `scripts/airtableExport/csv` and `source/csv` (the latter containing the tables that will be ingested by Datura). The repo is currently set up to ingest news items, commentaries, works, events, and people (poets).
 
 Create and edit `private.yml` and `public.yml` as needed to establish the elasticsearch and API connections.
 
