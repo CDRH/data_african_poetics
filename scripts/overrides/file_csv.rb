@@ -13,7 +13,9 @@ class FileCsv < FileType
     @csv.each do |row|
         if !row.header_row? # && (row["Case ID"] || row["unique_id"])
           new_row = row_to_es(@csv.headers, row, table)
-          es_doc << new_row
+          if new_row
+            es_doc << new_row
+          end
         end
     end
     if @options["output"]
@@ -107,6 +109,10 @@ class FileCsv < FileType
       CsvToEsNews.new(row, options, @csv, self.filename(false)).json
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
+    elsif table == "people"
+      if row["Major african poet"] == "True"
+        CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
+      end
     end
   end
 
@@ -138,7 +144,8 @@ class FileCsv < FileType
       "news_items"
     when "works.csv"
       "works"
+    when "people.csv"
+      "people"
     end
-    
   end
 end

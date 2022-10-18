@@ -34,12 +34,12 @@ There are a few kinds of data that will be pulled from airtable, and processing 
 ## How to download the files from Airtable:
 
 Make sure you have an API key from Airtable and know the base ID of the tables you want to download.
-Create a `.env` file in the base directory of the data repo, it should be automatically be .gitignore'd as secrets should never be committed. Add the base ID and API key to `.env`:
+Create a `.env` file in the base directory of the data repo, it should be automatically be .gitignore'd as secrets should never be committed. Find the base ID by navigating to the project page on airtable, clicking on Help and then "Api Documentation" at the bottom of the sidebar, where it says "The ID of this base is ****". The API key can be found on your account page Add the base ID and API key to `.env`:
 ```
 BASE_ID=app**************
 API_KEY=key**************
 ```
-Run `python3 scripts/airtableExport/airtable_to_csv.py`. You may need to first run `pip3 install requests`. The json export from Airtable will be in `scripts/airtableExport/json` and the generated csv files will be in `scripts/airtableExport/csv`. Copy any files that you want to ingest into `source/csv`. The repo is currently set up to ingest news items, commentaries, works, events, and people (poets).
+Run `python3 scripts/airtableExport/airtable_to_csv.py`. You may need to first run `pip3 install requests`. The json export from Airtable will be in `scripts/airtableExport/json` and the generated csv files will be in `scripts/airtableExport/csv` and `source/csv` (the latter containing the tables that will be ingested by Datura). The repo is currently set up to ingest news items, commentaries, works, events, and people (poets).
 
 Create and edit `private.yml` and `public.yml` as needed to establish the elasticsearch and API connections.
 
@@ -61,4 +61,4 @@ If the field in question is an array, add the column name to the following array
             if key in ["source", "Tags”,.. ]#INSERT MORE COLUMN NAMES HERE
 ```
  You may need to run the `airtable_to_csv.py` script and look at `scripts/airtableExport/tables.json` to determine the format of the downloaded field.
-When the output is to your satisfaction, run the scripts again and move the desired csv to `source/csv` to update your tables.
+When the output is to your satisfaction, run the scripts again to update your tables.

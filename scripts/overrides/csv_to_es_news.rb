@@ -27,20 +27,21 @@ class CsvToEsNews < CsvToEs
     get_value("Article title")
   end
 
-  def format
+  def type
     get_value("Document type")
   end
 
-  def type
-    get_value("Content type")
-  end
+  # NOT CURRENTLY USED
+  # def type
+  #   get_value("Content type")
+  # end
 
   def date(before=false)
-    Datura::Helpers.date_standardize(@row["Article Date"], before)
+    Datura::Helpers.date_standardize(@row["Article Date (formatted)"], before)
   end
 
-  def source
-    get_value("source", true)
+  def publisher
+    get_value("publisher", true)
   end
 
   def rights_uri
@@ -48,7 +49,7 @@ class CsvToEsNews < CsvToEs
   end
 
   def rights_holder
-    get_value("right_holder")
+    get_value("rights_holder", true)
   end
 
   def description
@@ -62,9 +63,7 @@ class CsvToEsNews < CsvToEs
   end
 
   def topics
-    if get_value("topics")
-      get_value("topics").split(";;;")
-    end
+    get_value("topics-decade")
   end
 
   def keywords
@@ -83,6 +82,7 @@ class CsvToEsNews < CsvToEs
       people.each do |person|
         data = person.split("|")
         if data[0]
+          # markdown parsing
           name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
           id = /\((.*)\)/.match(data[0])[1] if /\((.*)\)/.match(data[0])
           role = data[1]
@@ -93,19 +93,34 @@ class CsvToEsNews < CsvToEs
     result
   end
 
-  def get_value(name, parse=false)
-    if @row[name] && @row[name].length > 0
-      if parse
-        JSON.parse(@row[name])
-      else
-        @row[name]
-      end
-    end
-  end
-
   def date_not_after
     if @row["Source access date"]
       Datura::Helpers.date_standardize(@row["Source access date"], false)
     end
   end
+
+  def contributor
+    names = get_value("contributor.name", true)
+    if names
+      names.collect{ |name| { "name": name }}
+    end
+  end
+
+  def creator
+    names = get_value("creator.name", true)
+    if names
+      names.collect{ |name| { "name": name }}
+    end
+  end
+
+  def subjects
+    if get_value("subjects")
+      get_value("subjects").split(";;;")
+    end
+  end
+
+  def relation
+    get_value("commentaries_relation", true)
+  end
+
 end
