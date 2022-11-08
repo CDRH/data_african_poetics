@@ -13,7 +13,9 @@ class FileCsv < FileType
     @csv.each do |row|
         if !row.header_row? # && (row["Case ID"] || row["unique_id"])
           new_row = row_to_es(@csv.headers, row, table)
-          es_doc << new_row
+          if new_row
+            es_doc << new_row
+          end
         end
     end
     if @options["output"]
@@ -58,6 +60,49 @@ class FileCsv < FileType
       doc["places"]      = row["Country"]
       doc["keywords"]    = row["Region"]
       doc["source"]      = row["Source"]
+
+      # adding new fields from expanded spreadsheet as is for now
+      #ID - previously done
+      #Last Name - previously done
+      #Given Name - previously done
+      #Alternate Name - previously done
+      #Née - skip for now
+      #Featured - done, but may need to revisit
+      #person_nationality_k - done
+      #Country - previously done
+      #Region - previously done
+      #Gender - previously done
+      #person_birth_date_k
+      #spatial_name_birth_k
+      #person_death_date_k
+      #spatial_name_death_k
+      #person_trait1_k
+      #citation_title_k
+      #Selected Works Year Published - skip for now
+      #citation_publisher
+      #citation_place_k
+      #language
+      #citation_role_k
+      #Authority - previously done
+      #description
+      #contributor.name
+      #Notes - skip for now
+      #Bio Sources (MLA)
+      #Contact
+      #Status
+      doc["person_nationality_k"]      = row["person_nationality_k"]
+      doc["person_birth_date_k"]      = row["person_birth_date_k"]
+      doc["patial_name_birth_k"]      = row["patial_name_birth_k"]
+      doc["person_death_date_k"]      = row["person_death_date_k"]
+      doc["spatial_name_death_k"]      = row["spatial_name_death_k"]
+      doc["person_trait1_k"]      = row["person_trait1_k"]
+      doc["citation_title_k"]      = row["citation_title_k"]
+      doc["citation_publisher"]      = row["citation_publisher"]
+      doc["citation_place_k"]      = row["citation_place_k"]
+      doc["language"]      = row["language"]
+      doc["citation_role_k"]      = row["citation_role_k"]
+      doc["description"]      = row["description"]
+      doc["contributor_name_k"]      = row["contributor.name"]
       
       unless row["Alternate Name"].to_s.strip.empty?
         doc["people"]    = row["Alternate Name"]
@@ -107,6 +152,10 @@ class FileCsv < FileType
       CsvToEsNews.new(row, options, @csv, self.filename(false)).json
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
+    elsif table == "people"
+      if row["Major african poet"] == "True"
+        CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
+      end
     end
   end
 
@@ -128,7 +177,7 @@ class FileCsv < FileType
   end
   def table_type
     case self.filename
-    when "African_Poetics_Contemporary_Poet_DB - Master List.csv"
+    when "contemporary_poets.csv"
       "contemporary_poets"
     when "commentaries.csv"
       "commentaries"
@@ -138,7 +187,8 @@ class FileCsv < FileType
       "news_items"
     when "works.csv"
       "works"
+    when "people.csv"
+      "people"
     end
-    
   end
 end

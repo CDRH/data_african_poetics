@@ -12,3 +12,5 @@ config/private.yml
 !/output/production/html
 .env
 .byebug_history
+# ignore pycache
+/scripts/airtableExport/__pycache__/*
