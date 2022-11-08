@@ -33,6 +33,8 @@ There are a few kinds of data that will be pulled from airtable, and processing 
 
 ## How to download the files from Airtable:
 
+Note: for the time being, do this step on a local machine and then pull to the data repository on the server.
+
 Make sure you have an API key from Airtable and know the base ID of the tables you want to download.
 Create a `.env` file in the base directory of the data repo, it should be automatically be .gitignore'd as secrets should never be committed. Find the base ID by navigating to the project page on airtable, clicking on Help and then "Api Documentation" at the bottom of the sidebar, where it says "The ID of this base is ****". The API key can be found on your account page Add the base ID and API key to `.env`:
 ```
