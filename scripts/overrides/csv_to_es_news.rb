@@ -3,6 +3,17 @@ class CsvToEsNews < CsvToEs
   def assemble_collection_specific
     @json["page_k"] = get_value("Source page no")
     @json["identifier_original_k"] = get_value("Gale ID")
+    if @row["has_part_image"]
+      @json["has_part_image_k"] = @row["has_part_image"].split("; ").map { |filename|
+        File.join(
+          @options["data_base"],
+          "data",
+          @options["collection"],
+          "source/images/gale",
+          "#{filename}"
+        )
+      }.join("; ")
+    end
   end
 
   def id
@@ -122,5 +133,6 @@ class CsvToEsNews < CsvToEs
   def relation
     get_value("commentaries_relation", true)
   end
+
 
 end
