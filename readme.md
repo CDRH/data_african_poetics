@@ -8,9 +8,7 @@ The data set for contemporary African poets is a Google Spreadsheet. It must be 
 
 Ask Karin if you do not have permission to the spreadsheet or containing folder. 
 
-There are currently HTML files not being used, until these are worked into the site run the "post" command with datatype CSV.
-
-`post -f csv`
+See [posting instructions](https://github.com/CDRH/data_african_poetics/blob/main/docs/posting.md) for how to post to the API.
 
 Text for searching featured poets is simply pasted into spreadsheet at this point, will eventually draw from html in source folder.
 
