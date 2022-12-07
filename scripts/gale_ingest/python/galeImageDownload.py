@@ -26,6 +26,7 @@ for image_cell in images:
     for image_url in image_list:
         # check if image already exists
         image_name = image_url.split("/")[-1] + ".jpg"
+        image_names = image_name if (image_names == "") else (image_names + "; " + image_name)
         image_relative = "source/images/gale/" + image_name
         filename = (cwd / image_relative).resolve()
         if not os.path.isfile(filename):
@@ -34,9 +35,6 @@ for image_cell in images:
             # save image to source/images/gale
             request = requests.get(image_url)
             image = Image.open(BytesIO(request.content))
-            image_names = image_name if (image_names == "") else (image_names + "; " + image_name)
-            image_relative = "source/images/gale/" + image_name
-            filename = (cwd / image_relative).resolve()
             try:
                 with image as im:
                     im.thumbnail(image_size)
