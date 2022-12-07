@@ -14,6 +14,14 @@ Create and edit `private.yml` and `public.yml` as needed to establish the elasti
 
 Run `es_clear_index` to clear the elasticsearch index. Run `post -r [table name]` to post each given table via Datura. For instance, “news items.csv” can be ingested by running `post -r news`.
 
+Running `post` should also work. If not, follow instructions above with the table names that follow for African Poetics:
+   - news
+   - events
+   - people
+   - works
+   - commentaries
+   - contemporary_poets
+
 If any of the above Datura commands fail, try running `bundle` and try again, and then try running `bundle update`.
 
 (Please note: this has only been tested on a Mac. If you want to update files on the dev server it is best to run the scripts on your local machine and push the resulting tables to GitHub, then pull them down from the server)
