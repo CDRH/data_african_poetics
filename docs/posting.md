@@ -28,4 +28,4 @@ If any of the above Datura commands fail, try running `bundle` and try again, an
 
 ## How to download image thumbnails
 
-Run `python3 scripts/gale_ingest/python/galeDataExport.py`. This script requires the file `scripts/gale_ingest/output/api_data.csv`. Thumbnail images will be downloaded from Gale and saved into `gale_ingest/source/images/gale`. The script will modify `sources/csv/news items.csv` with the associated image filenames. After running the script you may want to commit these files to git. After running the script, run `post -r news` to post the image filenames to the API.
+Run `python3 scripts/gale_ingest/python/galeImageDownload.py`. This script requires the file `scripts/gale_ingest/output/api_data.csv`. Thumbnail images will be downloaded from Gale and saved into `gale_ingest/source/images/gale`. The script will modify `sources/csv/news items.csv` with the associated image filenames. After running the script you may want to commit these files to git. After running the script, run `post -r news` to post the image filenames to the API.
