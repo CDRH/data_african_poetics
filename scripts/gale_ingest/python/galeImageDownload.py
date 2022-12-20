@@ -7,7 +7,7 @@ from io import BytesIO
 import os
 # open the spreadsheet file and get the image column
 script_loc = Path(__file__).parent
-gale_relative = "../output/api_data.csv"
+gale_relative = "../output/gale_ids.csv"
 gale_path = (script_loc / gale_relative).resolve()
 gale_frame = pd.read_csv(gale_path)
 images = gale_frame[["image_url"]].to_numpy()
