@@ -6,10 +6,10 @@ class CsvToEsNews < CsvToEs
     if @row["has_part_image"]
       @json["has_part_image_k"] = @row["has_part_image"].split("; ").map { |filename|
         File.join(
-          @options["data_base"],
-          "data",
+          @options["media_base"],
+          "images",
           @options["collection"],
-          "source/images/gale",
+          "gale",
           "#{filename}"
         )
       }.join("; ")
