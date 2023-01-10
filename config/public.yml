@@ -16,6 +16,7 @@ development:
   es_index: cdrhapidev-v1
   site_url: https://cdrhdev1.unl.edu/african_poetics
   data_base: https://cdrhdev1.unl.edu/media
+  media_base: https://cdrhdev1.unl.edu/media
 production:
   es_path: https://cdrhapi.unl.edu/elastic
   es_index: cdrhapi-v1
