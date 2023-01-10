@@ -1,6 +1,7 @@
 import requests
 import json
 import csv
+from pathlib import Path
 
 # Function to call gale api and generate key using institutional user id
 def generateKey(user):
@@ -30,7 +31,10 @@ def retrieveDocument(doc_id, apiKey):
 
 # Extract gale document ids from csv file
 gale_ids = []
-with open('../input/gale_ids.csv','r') as csvfile:
+script_loc = Path(__file__).parent
+input_relative = "../input/gale_ids.csv"
+input_filename = (script_loc / input_relative).resolve()
+with open(input_filename,'r') as csvfile:
 	csvreader = csv.reader(csvfile)
 	next(csvreader) # skip header row
 	for row in csvreader:
@@ -51,67 +55,69 @@ for id in gale_ids:
 	record = {}
 
 	# Process doc data
+	if 'doc' in data:
+	#	record['id'] = data['doc']['id']
+		record['title'] = data['doc']['title']
+	#	record['description'] = data['doc']['description']
+		
+		if 'authors' in data['doc']:
+			record['authors'] = data['doc']['authors']
+		else:
+			record['authors'] =''
 
-#	record['id'] = data['doc']['id']
-	record['title'] = data['doc']['title']
-#	record['description'] = data['doc']['description']
-	
-	if 'authors' in data['doc']:
-		record['authors'] = data['doc']['authors']
-	else:
-		record['authors'] =''
+		record['pub_title'] = data['doc']['publication']['title']
+		record['pub_date'] = data['doc']['publication']['date']
+		
+		if 'issueNumber' in data['doc']['publication']: 
+			record['pub_issuenum'] = data['doc']['publication']['issueNumber']
+		else:
+			record['pub_issuenum']=''
 
-	record['pub_title'] = data['doc']['publication']['title']
-	record['pub_date'] = data['doc']['publication']['date']
-	
-	if 'issueNumber' in data['doc']['publication']: 
-		record['pub_issuenum'] = data['doc']['publication']['issueNumber']
-	else:
-		record['pub_issuenum']=''
+	#	record['pub_issn'] = data['doc']['publication']['issn']
+	#	record['content_type'] = data['doc']['contentType']
+		
+		if 'startPage' in data['doc']: 
+			record['start_page'] = data['doc']['startPage']
+		else:
+			record['start_page'] =''
+		
+	#	record['word_count'] = data['doc']['wordCount']
+		
+		if 'subjects' in data['doc']:
+			record['subjects'] = data['doc']['subjects']
+		else:
+			record['subjects']=''
 
-#	record['pub_issn'] = data['doc']['publication']['issn']
-#	record['content_type'] = data['doc']['contentType']
-	
-	if 'startPage' in data['doc']: 
-		record['start_page'] = data['doc']['startPage']
-	else:
-		record['start_page'] =''
-	
-#	record['word_count'] = data['doc']['wordCount']
-	
-	if 'subjects' in data['doc']:
-		record['subjects'] = data['doc']['subjects']
-	else:
-		record['subjects']=''
-
-#	record['rights'] = data['doc']['rights']
-	record['citation'] = data['doc']['citation']
-	record['url'] = data['doc']['isShownAt']
+	#	record['rights'] = data['doc']['rights']
+		record['citation'] = data['doc']['citation']
+		record['url'] = data['doc']['isShownAt']
 
 
 
-	# Process pageResponse data
+		# Process pageResponse data
 
-	record['doc_id'] = data['pageResponse']['docId']
-	record['dvi_type'] = data['pageResponse']['dviType']
+		record['doc_id'] = data['pageResponse']['docId']
+		record['dvi_type'] = data['pageResponse']['dviType']
 
-	pages = data['pageResponse']['pages']
-	image_url = []
-	image_ocr = []
-	for page in pages:
-		image_url.append(page['image']['url'])
-		image_ocr.append(page['ocrText'])
+		pages = data['pageResponse']['pages']
+		image_url = []
+		image_ocr = []
+		for page in pages:
+			image_url.append(page['image']['url'])
+			image_ocr.append(page['ocrText'])
 
-	record['image_url'] = image_url
-#	record['image_ocr'] = image_ocr
-#	record['full_ocr_text'] = data['pageResponse']['fullOcrText']
+		record['image_url'] = image_url
+	#	record['image_ocr'] = image_ocr
+	#	record['full_ocr_text'] = data['pageResponse']['fullOcrText']
 
 	rows.append(record)
 
 
 # Export data to csv file
 keys = rows[0].keys()
-with open('../output/api_data.csv', 'w', newline='')  as output_file:
+output_relative = "../output/gale_ids.csv"
+output_filename = (script_loc / output_relative).resolve()
+with open(output_filename, 'w', newline='')  as output_file:
     dict_writer = csv.DictWriter(output_file, keys)
     dict_writer.writeheader()
     dict_writer.writerows(rows)
