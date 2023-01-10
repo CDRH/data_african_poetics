@@ -45,7 +45,7 @@ class CsvToEsPeople < CsvToEs
     if get_value("birth_spatial.country")
       birthplace = { "country" => JSON.parse(get_value("birth_spatial.country"))[0], "type" => "birth place" }
       if get_value("birth_spatial.city")
-        birthplace["city"] = { "city" => JSON.parse(get_value("birth_spatial.city"))[0] }
+        birthplace["city"] = JSON.parse(get_value("birth_spatial.city"))[0]
       end
       places << birthplace
     end
