@@ -5,9 +5,10 @@ default:
   threads: 20
   data_base: https://cdrhmedia.unl.edu  # (do not include /data/ in path)
   media_base: https://cdrhmedia.unl.edu
+  site_url: https://africanpoetics.unl.edu
 
   variables_html:
-    site_url: override_in_public
+    site_url: https://africanpoetics.unl.edu
     image_large: 800
     image_thumb: 150
 
