@@ -19,7 +19,10 @@ image_size = (120, 120)
 news_frame["has_part_image"] = ""
 # iterate through images
 for image_cell in images:
-    image_list = ast.literal_eval(image_cell[0])
+    try:
+        image_list = ast.literal_eval(image_cell[0])
+    except ValueError:
+        break
     image_names = ""
     gale_id = gale_frame.loc[gale_frame["image_url"] == image_cell[0], "doc_id"].tolist()[0]
     for image_url in image_list:
