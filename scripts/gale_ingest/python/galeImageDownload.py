@@ -15,7 +15,7 @@ images = gale_frame[["image_url"]].to_numpy()
 news_relative = "../../../source/csv/news items.csv"
 news_path = (script_loc / news_relative).resolve()
 news_frame = pd.read_csv(news_path)
-image_size = (120, 120)
+image_size = (240, 240)
 news_frame["has_part_image"] = ""
 # iterate through images
 for image_cell in images:
@@ -36,7 +36,7 @@ for image_cell in images:
             # transform image (resize, change into JPEG)
             # save image to source/images/gale
             request = requests.get(image_url)
-            image = Image.open(BytesIO(request.content))
+            image = Image.open(BytesIO(request.content)).convert('L')
             try:
                 with image as im:
                     im.thumbnail(image_size)
