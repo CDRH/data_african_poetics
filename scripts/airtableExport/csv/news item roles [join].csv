@@ -31,6 +31,7 @@
 "rec35jrTJzV9X0CAv"," ()","","","",""
 "recCWhGmpdtCmEaQD"," ()","","","",""
 "reck0rzb1X2Qa8bAn"," ()","","","",""
+"recMhpF5Ur1VMZt3q"," ()","","","",""
 "recPh7sQ42pjA4j3C"," (Artist)","","","['recGjVj0WUovDEM7y']","Artist"
 "recCfCKQwx6NbbO8D"," (Author) - author","True","","['recg78HVigrvLFRmT']","Author"
 "recoegcWBRSYlYsj1"," (Mentioned Poet)","","","['recoqGeFOattbRXZx']","Mentioned Poet"
@@ -158,7 +159,7 @@
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recoqGeFOattbRXZx']","Poet"
 "recL7x4BR5jt3meEq","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recEx39IzX0Gac3Y4']","Poet"
-"recOeA7s4maDYZZIk","""Achebe, Chinua 'Albert Chinualumogu' 
+"","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recOkJu6mtUkcPmtE']","Poet"
 "","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recIjfQ0QIp3nX2aL']","Poet"
@@ -400,6 +401,10 @@
 (-)"" (Reporter)","","['recbdyDGxb1hyPsrw']","['recN6ESnXd64J2xOf']","Reporter"
 "","""Allen, Neil 
 (-)"" (Reporter)","","['recbdyDGxb1hyPsrw']","['recNhCCs9VwCCwimc']","Reporter"
+"","""Allen, Neil 
+(-)"" (Reporter)","","['recbdyDGxb1hyPsrw']","['recIzmpFNrzfvQThD']","Reporter"
+"","""Allen, Neil 
+(-)"" (Reporter)","","['recbdyDGxb1hyPsrw']","['recCUg2N8drmt0YGT']","Reporter"
 "","""Allende, Salvador Lewis 
 (1908-1973)"" (Writer)","","['recVFOLnLJyuN3iDI']","['recdKq8wHbzdqRVIO']","Writer"
 "","""Allfrey, Ellah 
@@ -866,6 +871,8 @@
 (1952-)"" (Writer)","","['recSYHHo06oyCU0b7']","['recUgOojrwKRCWa30']","Writer"
 "","""Boyd, William 
 (1952-)"" (Writer)","","['recSYHHo06oyCU0b7']","['rec6giEhz34B3GRq6']","Writer"
+"","""Bradbrook , Muriel 
+(-)"" (Critic)","","['recvDATXsgcMWKCsF']","['rec8xzcwUaZ6cYn1w']","Critic"
 "","""Bradbury, Malcolm Stanley 
 (1932-2000)"" (Author)","","['recpUA0b1wYg1IvfB']","['rectGwJjD0d9ThSmm']","Author"
 "","""Bradbury, Malcolm Stanley 
@@ -1023,6 +1030,10 @@
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['recV9AERqQFpRBtyj']","Mentioned Poet"
 "","""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['recIzmpFNrzfvQThD']","Mentioned Poet"
+"","""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['recCUg2N8drmt0YGT']","Mentioned Poet"
+"","""Brutus, Dennis Vincent 
 (1924-2009)"" (Poet)","","['recaLBDKPomp4cstB']","['recoqGeFOattbRXZx']","Poet"
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Poet)","","['recaLBDKPomp4cstB']","['recOoEneTir5X10Yw']","Poet"
@@ -1132,6 +1143,8 @@
 (-)"" (Politician)","","['recMP0uMWpkXQzq9J']","['recPKVxdVcIXdCAen']","Politician"
 "","""Bushrui, S. B. 
 (-)"" (Editor)","","['recJR0C9J2QdqkZhk']","['recwSqOrdELYDNm9y']","Editor"
+"","""Butler, Guy 
+(1918-2001)"" (Critic)","","['recjKvU9JG4GftnEK']","['rec8xzcwUaZ6cYn1w']","Critic"
 "","""Butler, Guy 
 (1918-2001)"" (Mentioned Poet)","","['recjKvU9JG4GftnEK']","['recJdioe7L3mYtRBz']","Mentioned Poet"
 "","""Butler, Guy 
@@ -1663,7 +1676,7 @@
 "","""Couto, António Emílio Leite 'Mia' 
 (1955-)"" (Writer)","","['recpBZAd7n0hfg0pz']","['rec0TIahem39zRiFK']","Writer"
 "","""Couto, Maria 
-(-)"" (Critic) - author","True","['recTnIh5ZAWCWFJlJ']","['recQmRptXoG3q9IPo']","Critic"
+(-)"" (Critic) - author","True","['recTnIh5ZAWCWFJlJ']","['recQmRptXoG3q9IPo', 'recfYsnEWREjHQADS']","Critic"
 "","""Couzyn, Jeni 
 (1942-)"" (Mentioned Poet)","","['reczJCspFdg3hHW9B']","","Mentioned Poet"
 "","""Couzyn, Jeni 
@@ -2974,6 +2987,10 @@
 (1970-)"" (Reporter)","","['recJYKC3N7IWiGJwD']","['rec3gFpzBZDmEq5jm']","Reporter"
 "","""Kennedy, Ray 
 (1970-)"" (Reporter)","","['recJYKC3N7IWiGJwD']","['recwpdJftwhqtIHfL']","Reporter"
+"","""Kennedy, Ray 
+(1970-)"" (Reporter)","","['recJYKC3N7IWiGJwD']","['recqRcZsLUOMIIoL4']","Reporter"
+"","""Kennedy, Ray 
+(1970-)"" (Reporter)","","['recJYKC3N7IWiGJwD']","['recvbt7pUbznGAljU']","Reporter"
 "","""Kenneth Hare, W. P 
 (-)"" (Author)","","['recyHtU4rjVgXko9u']","['recHyFgqrGOIplqAg']","Author"
 "","""Kente, Gibson 
@@ -3811,11 +3828,15 @@
 "","""Molobi, Eric 
 (1947-2006)"" (Civilian)","","['recpUWbvrxn1BFMkl']","['recyGJHtAyUDKxVv0']","Civilian"
 "","""Moloise, Benjamin 
+(1955-1985)"" ()","","['reclRsCpN7UKUY3Tk']","['recvbt7pUbznGAljU']",""
+"","""Moloise, Benjamin 
 (1955-1985)"" (Mentioned Poet)","","['reclRsCpN7UKUY3Tk']","['recolyS8ooaKO8RwY']","Mentioned Poet"
 "","""Moloise, Benjamin 
 (1955-1985)"" (Mentioned Poet)","","['reclRsCpN7UKUY3Tk']","['rectyFpz9TVUBrHrO']","Mentioned Poet"
 "","""Moloise, Benjamin 
 (1955-1985)"" (Mentioned Poet)","","['reclRsCpN7UKUY3Tk']","['recCMeStt6oGVRTLs']","Mentioned Poet"
+"","""Moloise, Benjamin 
+(1955-1985)"" (Mentioned Poet) - author","True","['reclRsCpN7UKUY3Tk']","['recqRcZsLUOMIIoL4']","Mentioned Poet"
 "","""Moloise, Benjamin 
 (1955-1985)"" (Poet)","","['reclRsCpN7UKUY3Tk']","['rec3gFpzBZDmEq5jm']","Poet"
 "","""Moloise, Benjamin 
