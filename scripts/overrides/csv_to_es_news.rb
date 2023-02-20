@@ -131,7 +131,9 @@ class CsvToEsNews < CsvToEs
   end
 
   def relation
-    get_value("commentaries_relation", true)
+    if get_value("commentaries_relation", true)
+      get_value("commentaries_relation").split(";;;")
+    end
   end
 
 
