@@ -94,8 +94,8 @@ class CsvToEsNews < CsvToEs
         data = person.split("|")
         if data[0]
           # markdown parsing
-          name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
-          id = /\((.*)\)/.match(data[0])[1] if /\((.*)\)/.match(data[0])
+          name = parse_md_brackets(data[0])
+          id = parse_md_parentheses(data[0])
           role = data[1]
           result << { name: name, role: role, id: id }
         end
