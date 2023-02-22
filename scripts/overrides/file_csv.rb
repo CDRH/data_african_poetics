@@ -57,7 +57,11 @@ class FileCsv < FileType
       doc["title"]       = authorname
       doc["title_sort"]  = authorname.downcase # need more sorting rules?
       doc["alternative"] = titlename
-      doc["places"]      = row["Country"]
+      if row["Country"] == "Congo, Democratic Republic Of"
+        doc["places"] = ["Congo, Democratic Republic Of"]
+      else
+        doc["places"]    = row["Country"].split(", ") if row["Country"]
+      end
       doc["keywords"]    = row["Region"]
       doc["source"]      = row["Source"]
 
