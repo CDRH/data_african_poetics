@@ -39,7 +39,7 @@ class FileCsv < FileType
       doc["data_type"]   = "csv"
 
       authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
-      titlename = "#{row["Name given"]} #{row["Name given"]}"
+      titlename = "#{row["Name given"]} #{row["Name last"]}"
 
       # Will potentially need to add more code to deal with more genders later
       gender = 
@@ -56,11 +56,7 @@ class FileCsv < FileType
       doc["title"]       = authorname
       doc["title_sort"]  = authorname.downcase # need more sorting rules?
       doc["alternative"] = titlename
-      if row["Country"] == "Congo, Democratic Republic Of"
-        doc["places"] = ["Congo, Democratic Republic Of"]
-      else
-        doc["places"]    = row["Country"].split(", ") if row["Country"]
-      end
+      doc["places"]      = row["Country"].strip.split(", ") if row["Country"]
       doc["keywords"]    = row["Region"]
       doc["source"]      = row["Bio Sources (MLA)"]
 
