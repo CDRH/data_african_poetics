@@ -26,21 +26,20 @@ class FileCsv < FileType
   end
 
   def row_to_es(headers, row, table)
-    if table == "contemporary_poets"
+    if table == "contemporary poets"
       doc = {}
 
       # See data repo readme file for description of use of fields
 
-      id = row["ID"]
-      doc["identifier"]  = id
+      doc["identifier"]  = row["Unique-ID"]
 
       doc["collection"]  = @options["collection"]
       doc["category"]    = "Person"
       doc["subcategory"] = "Contemporary Poet"
       doc["data_type"]   = "csv"
 
-      authorname = [ row["Last Name"], row["Given Name"] ].compact.join(", ")
-      titlename = "#{row["Given Name"]} #{row["Last Name"]}"
+      authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
+      titlename = "#{row["Name given"]} #{row["Name last"]}"
 
       # Will potentially need to add more code to deal with more genders later
       gender = 
@@ -57,9 +56,9 @@ class FileCsv < FileType
       doc["title"]       = authorname
       doc["title_sort"]  = authorname.downcase # need more sorting rules?
       doc["alternative"] = titlename
-      doc["places"]      = row["Country"]
+      doc["places"]      = row["Country"].strip.split(", ") if row["Country"]
       doc["keywords"]    = row["Region"]
-      doc["source"]      = row["Source"]
+      doc["source"]      = row["Bio Sources (MLA)"]
 
       # adding new fields from expanded spreadsheet as is for now
       #ID - previously done
@@ -90,22 +89,23 @@ class FileCsv < FileType
       #Bio Sources (MLA)
       #Contact
       #Status
-      doc["person_nationality_k"]      = row["person_nationality_k"]
-      doc["person_birth_date_k"]      = row["person_birth_date_k"]
-      doc["patial_name_birth_k"]      = row["patial_name_birth_k"]
-      doc["person_death_date_k"]      = row["person_death_date_k"]
-      doc["spatial_name_death_k"]      = row["spatial_name_death_k"]
-      doc["person_trait1_k"]      = row["person_trait1_k"]
-      doc["citation_title_k"]      = row["citation_title_k"]
-      doc["citation_publisher"]      = row["citation_publisher"]
-      doc["citation_place_k"]      = row["citation_place_k"]
-      doc["language"]      = row["language"]
-      doc["citation_role_k"]      = row["citation_role_k"]
-      doc["description"]      = row["description"]
-      doc["contributor_name_k"]      = row["contributor.name"]
+      doc["person_nationality_k"]      = row["Country of Nationality"]
+      doc["person_birth_date_k"]      = row["birth-year"]
+      doc["patial_name_birth_k"]      = row["birth_spatial.country"] # note, this is now in two field. I will skip city
+      doc["person_death_date_k"]      = row["death-year"]
+      doc["spatial_name_death_k"]      = row["death-place"]
+      # I am unsure of the below fields in the new Airtable--WD
+      # doc["person_trait1_k"]      = row["Ethnicity"]
+      # doc["citation_title_k"]      = row["citation_title_k"]
+      # doc["citation_publisher"]      = row["citation_publisher"]
+      # doc["citation_place_k"]      = row["citation_place_k"]
+      doc["language"]      = row["Languages spoken"]
+      # doc["citation_role_k"]      = row["citation_role_k"]
+      doc["description"]      = row["Bio"]
+      # doc["contributor_name_k"]      = row["contributor.name"]
       
-      unless row["Alternate Name"].to_s.strip.empty?
-        doc["people"]    = row["Alternate Name"]
+      unless row["Name alt"].to_s.strip.empty?
+        doc["people"]    = row["Name alt"]
       end
 
       # Featured authors have more information
@@ -129,9 +129,9 @@ class FileCsv < FileType
         end
       end
 
-      if row["Bibliography"]
-        doc["works"]       = row["Bibliography"].split("\n")
-      end
+      # if row["Bibliography"]
+      #   doc["works"]       = row["Bibliography"].split("\n")
+      # end
 
       textcomplete =  [ doc["title"], 
                         authorname, 
@@ -177,8 +177,8 @@ class FileCsv < FileType
   end
   def table_type
     case self.filename
-    when "contemporary_poets.csv"
-      "contemporary_poets"
+    when "contemporary poets.csv"
+      "contemporary poets"
     when "commentaries.csv"
       "commentaries"
     when "events.csv"
@@ -190,5 +190,9 @@ class FileCsv < FileType
     when "people.csv"
       "people"
     end
+  end
+
+  def parse_md_parentheses(query)
+    /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
   end
 end

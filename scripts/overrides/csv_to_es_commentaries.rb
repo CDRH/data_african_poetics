@@ -33,8 +33,8 @@ class CsvToEsCommentaries < CsvToEs
     if people && people.length > 0
       people.each do |person|
         # markdown parsing
-        name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
-        id = /\((.*)\)/.match(person)[1] if /\((.*)\)/.match(person)
+        name = parse_md_brackets(person)
+        id = parse_md_parentheses(person)
         result << { name: name, id: id }
       end
     end

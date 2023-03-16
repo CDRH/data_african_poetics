@@ -57,7 +57,13 @@ class CsvToEsPeople < CsvToEs
   end
 
   def keywords
-    get_value("year_degree_institution", true)
+    if get_value("year_degree_institution", true)
+      educations = []
+      get_value("year_degree_institution", true).each do |school|
+        educations << school.split(":")[1].strip
+      end
+      educations
+    end
   end
 
   def alternative
