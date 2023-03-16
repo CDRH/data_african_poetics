@@ -19,7 +19,8 @@ tables = {
 	'commentary author':{},
 	'work roles [join]':{},
 	'news item roles [join]':{},
-	'educations [join]':{}
+	'educations [join]':{},
+	'contemporary poets':{}
 }
 
 table_fields = fields.table_fields
@@ -47,7 +48,7 @@ with open('scripts/airtableExport/json/tables.json','w') as f:
 for table in tables:
 	# read in the keys defined in fields.py
 	header = list(table_fields[table].keys())
-	if table in ["commentaries", "events", "news items", "people", "works"]:
+	if table in ["commentaries", "events", "news items", "people", "works", "contemporary poets"]:
 		csvfile = open('source/csv/'+table+'.csv', 'w')
 	else:
 		csvfile = open('scripts/airtableExport/csv/'+table+'.csv', 'w')

@@ -44,15 +44,15 @@ class CsvToEsEvents < CsvToEs
     if nonpoets && nonpoets.length > 0
       nonpoets.each do |nonpoet|
         # markdown parsing
-        name = /\[(.*)\]/.match(nonpoet)[1] if /\[(.*)\]/.match(nonpoet)
+        name = parse_md_brackets(nonpoet)
         people << { name: name }
       end
     end
     if poets && poets.length > 0
       poets.each do |poet|
         # markdown parsing
-        name = /\[(.*)\]/.match(poet)[1] if /\[(.*)\]/.match(poet)
-        id = /\((.*)\)/.match(poet)[1] if /\((.*)\)/.match(poet)
+        name = parse_md_brackets(poet)
+        id = parse_md_parentheses(poet)
         role = "African Poet"
         people << { name: name, role: role, id: id }
       end
