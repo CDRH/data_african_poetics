@@ -82,7 +82,7 @@ class CsvToEsWorks < CsvToEs
         data = person.split("|")
         if data[0]
           name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
-          id = /\((.*)\)/.match(data[0])[1] if /\((.*)\)/.match(data[0])
+          id = /\]\((.*)\)/.match(data[0])[1] if /\]\((.*)\)/.match(data[0])
           role = data[1]
           result << { name: name, role: role, id: id }
         end

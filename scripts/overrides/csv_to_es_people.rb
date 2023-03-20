@@ -99,7 +99,7 @@ class CsvToEsPeople < CsvToEs
       result = []
       unique.each do |person|
         name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
-        id = /\((.*)\)/.match(person)[1] if /\((.*)\)/.match(person)
+        id = /\]\((.*)\)/.match(person)[1] if /\]\((.*)\)/.match(person)
         count = people.select{|p| p == person}.count
         if name
           result << { name: name, role: count, id: id }
