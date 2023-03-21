@@ -11,7 +11,7 @@ class FileCsv < FileType
     es_doc = []
     table = table_type
     @csv.each do |row|
-        if !row.header_row? # && (row["Case ID"] || row["unique_id"])
+        if !row.header_row? && row["Title"] != ""
           new_row = row_to_es(@csv.headers, row, table)
           if new_row
             es_doc << new_row
@@ -109,24 +109,8 @@ class FileCsv < FileType
       end
 
       # Featured authors have more information
-      if row["Featured"] == "Y"
+      if row["Featured"] == "True"
         doc["type"]      = "Featured"
-        # if this is a featured author, then
-        #   grab their HTML file and populate the text search
-        #   add uri_html pointing at that location
-        html_in = build_source_filepath(id)
-        if File.file?(html_in)
-          # gets the text of the html
-          html_file_contents = File.read(html_in)
-          html = Nokogiri::HTML(html_file_contents).remove_namespaces!
-          html_text = html.xpath("/html").text()
-
-          # adds reference
-          output_path = File.join(@options["data_base"], "data", @options["collection"], "output", @options["environment"], "html", "#{id}.html")
-          doc["uri_html"] = output_path
-        else
-          raise "did not find HTML for featured author: #{id}"
-        end
       end
 
       # if row["Bibliography"]
@@ -141,7 +125,6 @@ class FileCsv < FileType
                       ] 
 
       doc["text"] = textcomplete.join(" ")
-      doc["text"] += " #{html_text}" if html_text
 
       doc
     elsif table == "commentaries"
