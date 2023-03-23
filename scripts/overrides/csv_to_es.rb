@@ -28,6 +28,9 @@ class CsvToEs
   def text
     built_text = []
     @row.each do |column_name, value|
+      if column_name == "related-people"
+        next
+      end
       built_text << value.to_s
     end
     return array_to_string(built_text, " ")
