@@ -15,7 +15,11 @@ class CsvToEs
   end
 
   def parse_md_brackets(query)
-    /\[(.*)\]/.match(query)[1] if /\[(.*)\]/.match(query)
+    if /\[(.*)\]/.match(query)
+      /\[(.*)\]/.match(query)[1]
+    else
+      query
+    end
   end
 
   def parse_md_parentheses(query)
@@ -28,11 +32,33 @@ class CsvToEs
   def text
     built_text = []
     @row.each do |column_name, value|
-      if column_name == "related-people"
+      excluded_columns = ["related-people", "airtableID", "Primary Field", "Complete", "Source page no", "Source link", "Gale ID", "Source access date", "rights_holder", "major african poet", "name-letter", "Page no", "Issue", "Volume"]
+      if excluded_columns.include?(column_name) || /\[.*\]/.match(column_name)
         next
       end
-      built_text << value.to_s
+      if valid_json?(value) && JSON.parse(value).is_a?(Array)
+        built_text << parse_array(JSON.parse(value))
+      elsif value.include?(";;;")
+        built_text << parse_array(value.split(";;;"))
+      else
+        built_text << parse_value(value)
+      end
     end
     return array_to_string(built_text, " ")
+  end
+
+  def parse_array(arr)
+    arr.map { |value| parse_md_brackets(value) }.join(" ")
+  end
+
+  def parse_value(value)
+    parse_md_brackets(value)
+  end
+
+  def valid_json?(json)
+    JSON.parse(json)
+    true
+  rescue JSON::ParserError, TypeError => e
+    false
   end
 end
