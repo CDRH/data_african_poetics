@@ -16,7 +16,7 @@ class CsvToEs
 
   def parse_md_brackets(query)
     if /\[(.*)\]/.match(query)
-      /\[(.*)\]/.match(query)[1]
+      /\[(.*?)\]/.match(query)[1]
     else
       query
     end
@@ -32,7 +32,7 @@ class CsvToEs
   def text
     built_text = []
     @row.each do |column_name, value|
-      excluded_columns = ["related-people", "airtableID", "Primary Field", "Complete", "Source page no", "Source link", "Gale ID", "Source access date", "rights_holder", "major african poet", "name-letter", "Page no", "Issue", "Volume"]
+      excluded_columns = ["related-people", "airtableID", "Primary Field", "Complete", "Source page no", "Source link", "Gale ID", "Source access date", "rights_holder", "Major african poet", "name-letter", "Page no", "Issue", "Volume"]
       if excluded_columns.include?(column_name) || /\[.*\]/.match(column_name)
         next
       end
@@ -48,7 +48,10 @@ class CsvToEs
   end
 
   def parse_array(arr)
-    arr.map { |value| parse_md_brackets(value) }.join(" ")
+    arr.map { |value|
+      parsed = parse_md_brackets(value)
+      check_markdown(parsed) ? parsed : next
+    }.join(" ")
   end
 
   def parse_value(value)
@@ -60,5 +63,9 @@ class CsvToEs
     true
   rescue JSON::ParserError, TypeError => e
     false
+  end
+
+  def check_markdown(value)
+    !(value == nil || value[0] == "|")
   end
 end
