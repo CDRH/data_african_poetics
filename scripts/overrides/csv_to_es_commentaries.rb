@@ -23,10 +23,6 @@ class CsvToEsCommentaries < CsvToEs
     get_value("Name")
   end
 
-  def text
-    get_value("Content")
-  end
-
   def person
     result = []
     people = get_value("person-poet", true)
