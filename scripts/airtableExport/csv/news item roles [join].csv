@@ -1,44 +1,6 @@
 "airtableID","Id","Author","[person]","[news item]","Name [Role]"
-"recfZJ7A4rImNW0FO"," ()","","","['recaS3VIsSbvtPPQe']",""
-"recTUSsfemY48Yb17"," ()","","","['recW9dbqxtMEuj0Oq']",""
-"rec2KIYf8Q54yfLI1"," ()","","","['recLIRgb0bC56iCwL']",""
-"rec31gBa1Jt6ZTHjM"," ()","","","['recIXIq5wTRq6UDbL']",""
-"rec5VdjZn7JBDa7ge"," ()","","","['rec4F6R8XyKi1IPLO']",""
-"recwt8Ye4yycog4gM"," ()","","","['recvCjz3fvGX04xHA']",""
-"recBCUyW4mWA4Yedz"," ()","","","['rec610EoPGo4hcJGo']",""
-"recItZO0DeQHtdFch"," ()","","","['receERoAMLxF8hPUU']",""
-"recJeRlF5GtpIdRKh"," ()","","","['recNhCCs9VwCCwimc']",""
-"recorQ4VNjpxPWupb"," ()","","","",""
-"recBQarslSV5ks7FW"," ()","","","",""
-"recYLxglDyCftDtUb"," ()","","","",""
-"recDV2I4rQE4hdTLO"," ()","","","",""
-"rec6LTzBtb4BzXmZW"," ()","","","['recpe46hPtG5uMHJu']",""
-"reci4ThY7lylPx1uI"," ()","","","['recpe46hPtG5uMHJu']",""
-"recEc6FgaOMaqk546"," ()","","","['recpe46hPtG5uMHJu']",""
-"recXMCbrC0pEDYTaq"," ()","","","['recpe46hPtG5uMHJu']",""
-"recEu9Z54QOlUlgcz"," ()","","","['reck5VDB734XzpsCx']",""
-"recd7aFQZfvCJpcDj"," ()","","","",""
-"recIAAXAjDhvQpK74"," ()","","","",""
-"recvyBzKqoE8pen7v"," ()","","","",""
-"reccZSyFu5YO81YmT"," ()","","","",""
-"recsLLmfKe3jlldMI"," ()","","","",""
-"rec0JmwpPtg3yvWc9"," ()","","","",""
-"recmBmGLIh9EwRDhA"," ()","","","",""
-"recktu6ukrwmbJN5M"," ()","","","",""
-"recRCce2UghvMys3d"," ()","","","",""
-"recd6zYMyh96SKd4h"," ()","","","",""
-"rect5PkdBLNdUgz0C"," ()","","","",""
-"rec35jrTJzV9X0CAv"," ()","","","",""
-"recCWhGmpdtCmEaQD"," ()","","","",""
-"reck0rzb1X2Qa8bAn"," ()","","","",""
-"recMhpF5Ur1VMZt3q"," ()","","","",""
-"recPh7sQ42pjA4j3C"," (Artist)","","","['recGjVj0WUovDEM7y']","Artist"
-"recCfCKQwx6NbbO8D"," (Author) - author","True","","['recg78HVigrvLFRmT']","Author"
-"recoegcWBRSYlYsj1"," (Mentioned Poet)","","","['recoqGeFOattbRXZx']","Mentioned Poet"
-"recA2EMJBjClJUCMZ"," (Mentioned Poet)","","","","Mentioned Poet"
-"recrrfXuLWWs9S6Jq"," (Poet)","","","['rec6QuZ5DBVeu6oA9']","Poet"
-"recXhMFXNcTGbTKnk"," (Reporter)","","","['recJjdUkJv2Li0kMB']","Reporter"
-"recuORgWzjvjv7xyA"," (Writer)","","","['rec0BA065c4oQiaW8']","Writer"
+"rec8iJmqFaSWceSmK",""",  'Pope Paul' 
+(-)"" (Clergy)","","['recGqR8s54IwiEYa3']","['reccQARv4jigxuU1F']","Clergy"
 "recycdVOlTEBnxb3j","""Abacha, Sani 
 (1943-1998)"" ()","","['recl6SJoWqlpPAy4Y']","['recoDKc5eOHoFv3Lw']",""
 "recencZm8wnDvbnpl","""Abacha, Sani 
@@ -138,7 +100,7 @@
 "rechKyHjCKeRf4Ois","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['recLwVLBdHUqSvdrf']","Mentioned Poet"
 "recFrarkE4HQf4za2","""Achebe, Chinua 'Albert Chinualumogu' 
-(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['rectL9Eo8b0KpPNC2']","Mentioned Poet"
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","","Mentioned Poet"
 "recbHl9YYiMQETsG0","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['rec89wygvAuOFRpC6']","Poet"
 "recd5QT6h5q346vMt","""Achebe, Chinua 'Albert Chinualumogu' 
@@ -159,83 +121,83 @@
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recoqGeFOattbRXZx']","Poet"
 "recL7x4BR5jt3meEq","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recEx39IzX0Gac3Y4']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recOeA7s4maDYZZIk","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recOkJu6mtUkcPmtE']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recRSrVDTEwaeDOqq","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recIjfQ0QIp3nX2aL']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recRZPNGFilRFCphl","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recTYUbWJ3zqL1sQA']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recSeprdsiZQb3OMS","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recxJbjHt4qdtcBgi']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recSrkiU1tokf68OO","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recW9dbqxtMEuj0Oq']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recU2U8tJVuAeYRmZ","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recupfdDSalFAm6qS']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recU4QqwMWjvfvuPu","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['rec4F6R8XyKi1IPLO']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recXIQ6Bw0IV9WNbG","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['rec77Z1aOFiEhsKq7']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"rec5neoKb4RTVM3j1","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recWqywnLxSBGtrOu']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recorFsHj4zhzcJdG","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['receERoAMLxF8hPUU']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recoXUvQ7OpfStpQN","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['rece7x6nOnDMC8bNd']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recp1nQrGF2t2FVcK","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['reczuJWA0MAtCcwpO']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recAFhKWBu6ZcCQ8d","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recRVbyA9ZycAcGSs']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recCcsciPbFQeXFSs","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recIXIq5wTRq6UDbL']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recE4kLMsb1PJ7r2v","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recU03rmFlrPw8m0w']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recE8Xyjq9uNFTtdh","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recjpnB6GZQDx9dfZ']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recFeqf0bGnf6IRjY","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recJz8tZuY74SA920']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recFNMPUYjOCYrEyW","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recVnDUW44v6sbnTj']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recHMlKNWYWvUPMDC","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recENYPFi07koxKf6']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recH8PY0nSiOnwhlI","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['rec0smUvluYtYb152']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recIHzk5gxp9YBeP9","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recj74yJ8VjUT3rGb']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recIiVRdI7A6C70yb","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recis3okRt5GNSVdA']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recJxMTlEHayxlRb9","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['reczrwp4RfkSUtmLL']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recKVLP1l97Qc4IfI","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Poet)","","['recOo2kpeQuQEciaC']","['recPiNogrpz632nkQ']","Poet"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"rec9zfAqLkgRRbZUp","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recWmVwHm68yAPoBb']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recmkFfDDioIyUWyH","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recBEcvZKlbK9so77']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recThYLk1K2okAmm2","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['rec6y5irxVicI2bcT']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recwSvUnWPU5DncJ8","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recrXFoBFfsPdawn1']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recMAiVJqs3hC2rnB","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recv7iwE3H2ARe0rF']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"rec3FIZBw8UbaPdVW","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recyYavWwYAF3Oj2f']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recYNeASFiqeKeFem","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recM2qnTfltzhooXi']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"rec9Barrhe3tYOfjv","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recFHfek0FvhHWPpE']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recSr8aS23mCAhj4X","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['reclXDmtxYMqHFnWT']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recr5gbmE4TisCAU2","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recC9Rv0xcOscXHXE']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recmJPDwstnoCM2xB","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recIrdnJshsoZywqZ']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recmGLvVTqoCadQf4","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recRopJa7nFzHm8yS']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"rec85E0w6yfr4NJK5","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recep6ww2i3TGnPEg']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"rec7uzKcMVdWhaA9B","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recsWjpkmNVnEVaM3']","Writer"
-"","""Achebe, Chinua 'Albert Chinualumogu' 
+"recW2DHJugr31kqhI","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recDDgDwa4fjDRsbk']","Writer"
 "","""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recWg57S2pBvn3KXF']","Writer"
@@ -381,6 +343,8 @@
 (1951-2018)"" (Writer)","","['rec9BhgucY3qVKvkT']","['recQmRptXoG3q9IPo']","Writer"
 "","""Alexander, Reginald 
 (-)"" (Politician)","","['recIqktsOCwkNihLE']","['recvZrOZg6TvCZPkS']","Politician"
+"","""Alexandra Mary, Windsor 'Queen Elizabeth' 
+(1926-2022)"" (Politician)","","['recD6EqPH6UuGwzdR']","['recy5Xz2MbMdzHQv3']","Politician"
 "","""Alighieri, Dante 
 (1265-1321)"" (Mentioned Poet)","","['recA5pcTPppkOR0dg']","['rec0s2gCL9JF8Gqpv']","Mentioned Poet"
 "","""Allan, Elkan 
@@ -437,6 +401,8 @@
 (-)"" (Actor)","","['recYuESNOlnppFktb']","['recC5bXsuN4NnvmMJ']","Actor"
 "","""Amin, Idi 
 (1925-2003)"" (Politician)","","['recSug3i1wNsqqBMG']","['recPWWWP8TAaCmDzv']","Politician"
+"","""Amin, Idi 
+(1925-2003)"" (Politician)","","['recSug3i1wNsqqBMG']","['recwAhH4kvTColLJ7']","Politician"
 "","""Amis, Kingsley 
 (1922-1995)"" (Author)","","['recmwWJePE6WSvOwS']","['recCNeCNRUC7cWymO']","Author"
 "","""Amis, Kingsley 
@@ -473,8 +439,12 @@
 (1942-2001)"" (Writer)","","['rec0VPjg7qiVPPrxl']","['rec6QuZ5DBVeu6oA9']","Writer"
 "","""Anozie, Sunday Ogbonna 
 (1942-2001)"" (Writer)","","['rec0VPjg7qiVPPrxl']","['recGLuYuqGBULdcFn']","Writer"
+"","""Anthony , Rudolf 
+(-)"" (Publisher)","","['recDW67xtLssz1L3f']","['recog58WJsQ6W3L7d']","Publisher"
 "","""Anyidoho, Kofi 
 (1947-)"" (Editor)","","['recW2LITFLTa3ZxhL']","['recVCcr2e6uwbU29h']","Editor"
+"","""Apithy, Sourou-Migan Marcellin Joseph 
+(1913-1965)"" (Politician)","","['rec56I5HSXXPtsbcZ']","['recxdEHr6vqnjlsuq']","Politician"
 "","""Appiah (Cripps), Enid Margaret 'Peggy' 
 (1921-2006)"" (Writer)","","['recDniiD9wqPDauim']","['recPYudkZMt7z98iw']","Writer"
 "","""Appleyard, Bryan 
@@ -515,6 +485,8 @@
 (1961-)"" (Actor)","","['rechyVaEbYd7Wmu86']","['recKPMd8DAEOVBdWw']","Actor"
 "","""Armstrong, Louis 
 (-)"" (Musician)","","['recTPHXOxBOCkZ6Hz']","['recVvHF0HlgYza5BX']","Musician"
+"","""Arnold, Eve 
+(-)"" (Reporter)","","['rec7Gah5IX2GYP2Ey']","['recKkKqMgjYiJhjaJ']","Reporter"
 "","""Arnold, Matthew 
 (1822-1888)"" (Mentioned Poet)","","['rectb2diwbIUCvFyN']","['recytcYH8Qx0pDzkl']","Mentioned Poet"
 "","""Arrechea, Alexandre 
@@ -621,6 +593,8 @@
 (1904-1996)"" (Politician)","","['recPqiwAFiwt5ngyn']","['recMpBSCVww1TsIAI']","Politician"
 "","""Azikiwe, Nnamdi 
 (1904-1996)"" (Politician)","","['recPqiwAFiwt5ngyn']","['recWzdG5N5pMOyg7S']","Politician"
+"","""Azikiwe, Nnamdi 
+(1904-1996)"" (Politician)","","['recPqiwAFiwt5ngyn']","['recfVAyWZHoQAkCm8']","Politician"
 "","""Babalola, Solomon Adeboye 
 (1926-2008)"" (Academic)","","['recwbrq283hTFWQ4v']","['rec3rTDhxYfJP29OP']","Academic"
 "","""Babangida, Ibrahim 
@@ -639,6 +613,8 @@
 (-)"" (Artist)","","['recQDAdMAwMfZMIYq']","['recvforEjCYb8aDqu']","Artist"
 "","""Badejo, Peter 
 (-)"" (Reporter)","","['recQDAdMAwMfZMIYq']","['recDDgDwa4fjDRsbk']","Reporter"
+"","""Badejo, Peter 
+(-)"" (Reporter)","","['recQDAdMAwMfZMIYq']","['recWaJSk4cY8ZjS4d']","Reporter"
 "","""Bailey, Paul 
 (1936-)"" (Writer) - author","True","['recwsfNVGTQWlq3j9']","['reccqYr0AwyjBXpTT']","Writer"
 "","""Bakare, Muhtar 
@@ -655,6 +631,8 @@
 (1924-1987)"" (Writer)","","['recFk5oQdh4w5pPax']","['recTYUbWJ3zqL1sQA']","Writer"
 "","""Baldwin, James 
 (1924-1987)"" (Writer)","","['recFk5oQdh4w5pPax']","['recdKq8wHbzdqRVIO']","Writer"
+"","""Balewa, Abubakar Tafawa 
+(1957-1966)"" (Politician)","","['recSeZXUpMFrOVp03']","['reccnHhxDgkb8ABWr']","Politician"
 "","""Ballantyne, David 
 (1924-1986)"" (Writer)","","['recmikWGVvCTYLEYk']","['recENYPFi07koxKf6']","Writer"
 "","""Balmires, Harry 
@@ -719,8 +697,6 @@
 (1922-2011)"" (Academic)","","['recR5ozQC8BdAtBze']","['recm1IzCn1OrPx3iM']","Academic"
 "","""Beier, Ulli 
 (1922-2011)"" (Academic)","","['recR5ozQC8BdAtBze']","['recJz8tZuY74SA920']","Academic"
-"","""Beier, Ulli 
-(1922-2011)"" (Academic)","","['recR5ozQC8BdAtBze']","['recl63QvnF4mWX3TE']","Academic"
 "","""Beier, Ulli 
 (1922-2011)"" (Academic)","","['recR5ozQC8BdAtBze']","['reclba6LHb1UskaoG']","Academic"
 "","""Beier, Ulli 
@@ -829,10 +805,14 @@
 (1934-)"" (Writer)","","['recbwUbxQcq6h2sJu']","['recQGzFGGvi0szAm7']","Writer"
 "","""Bonfanti, Giosue 
 (-)"" (Writer)","","['rec2rcCW5ORyHSpz3']","['recFeFocv5ZmkVHLV']","Writer"
+"","""Bongo, Omar 'Albert-Bernard Bongo' 
+(1935-2009)"" (Politician)","","['recSOusXMFkqHoDpk']","['rec2AXgQ6vAIiokvF']","Politician"
 "","""Bonhoeffer, Dietrich 
 (1906-1945)"" (Writer)","","['recGxq3nO436x3eBz']","['recPiNogrpz632nkQ']","Writer"
 "","""Bonhoeffer, Dietrich 
 (1906-1945)"" (Writer)","","['recGxq3nO436x3eBz']","['recS9t3CWP8B2djWJ']","Writer"
+"","""Bontemps , Arna Wendell 
+(1902-1973)"" (Editor)","","['recorD2RBDThrvT21']","['recwX4XlfTyopr0hu']","Editor"
 "","""Borges, Jorge Luis 
 (1899-1986)"" (Mentioned Poet)","","['rec1c8BYTgvC88PTK']","['rec8JlRx6kNmlAUIk']","Mentioned Poet"
 "","""Bosman, Herman Charles 
@@ -966,8 +946,6 @@
 "","""Brooks, Richard 
 (-)"" (Reporter)","","['recqAADXb7iwHeIZ3']","['recmdoRKpglkbmyED']","Reporter"
 "","""Brosnahan, Leonard Francis 'L. F.' 
-(-)"" ()","","['rec3lBnyOHhevdML4']","['recl63QvnF4mWX3TE']",""
-"","""Brosnahan, Leonard Francis 'L. F.' 
 (-)"" (Academic)","","['rec3lBnyOHhevdML4']","['recweTupFvBBMDjLi']","Academic"
 "","""Brown, George Mackay 
 (1921-1996)"" (Mentioned Poet)","","['rec7TviELiDVAbSWY']","['rec8JlRx6kNmlAUIk']","Mentioned Poet"
@@ -975,6 +953,8 @@
 (1913-2003)"" (Academic)","","['recREWFAE83gjHTET']","['reccTYj0vQIigPKuY']","Academic"
 "","""Brown, Mervyn 
 (1923-)"" (Politician)","","['rec1EW9xIXZhNDHWK']","['rec1oobEy7AlCGFVX']","Politician"
+"","""Brown, Sterling Allen 
+(1901-1989)"" (Editor)","","['recjTn7kYwxXI6PSV']","['recwX4XlfTyopr0hu']","Editor"
 "","""Browning, Elizabeth Barrett 
 (1806-1861)"" (Mentioned Poet)","","['reciML359PlJkU6UA']","['rec7QDWEjvfHWmqS8']","Mentioned Poet"
 "","""Browning, Robert 
@@ -985,8 +965,6 @@
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['recsNkxWqIBR0iMQl']","Mentioned Poet"
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['recoCw7OqF6IXT9GR']","Mentioned Poet"
-"","""Brutus, Dennis Vincent 
-(1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['rec4FUjwSPskfwn2o']","Mentioned Poet"
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['recof5iUwZO1hqrUG']","Mentioned Poet"
 "","""Brutus, Dennis Vincent 
@@ -1015,8 +993,6 @@
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['recOUZuCxJdUsU0wf']","Mentioned Poet"
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['recj9QF8WgFGn0Kl7']","Mentioned Poet"
-"","""Brutus, Dennis Vincent 
-(1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['recpQlXdoSxGb10F7']","Mentioned Poet"
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","['rec3mAmKT1ic3Ufwt']","Mentioned Poet"
 "","""Brutus, Dennis Vincent 
@@ -1077,8 +1053,6 @@
 (1924-2009)"" (Poet)","","['recaLBDKPomp4cstB']","['recQz5M7aCaGwZuZg']","Poet"
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Poet)","","['recaLBDKPomp4cstB']","['rec7ZIDKAVItj5dNb']","Poet"
-"","""Brutus, Dennis Vincent 
-(1924-2009)"" (Poet)","","['recaLBDKPomp4cstB']","['recl63QvnF4mWX3TE']","Poet"
 "","""Brutus, Dennis Vincent 
 (1924-2009)"" (Poet)","","['recaLBDKPomp4cstB']","['recis3okRt5GNSVdA']","Poet"
 "","""Brutus, Dennis Vincent 
@@ -1332,7 +1306,7 @@
 "","""Campbell, Roy 
 (1901-1957)"" (Poet)","","['recZCHkAMEtH7xn9G']","['recYMrdADFxZvXz4x']","Poet"
 "","""Campbell, Roy 
-(1901-1957)"" (Poet) - author","True","['recZCHkAMEtH7xn9G']","['rec4M32tAX1bcTRD2']","Poet"
+(1901-1957)"" (Poet) - author","True","['recZCHkAMEtH7xn9G']","['rec7qhKCxlhAUmD0d']","Poet"
 "","""Campbell, Roy 
 (1901-1957)"" (Translator)","","['recZCHkAMEtH7xn9G']","['recEOtsqOnhhSe4fJ']","Translator"
 "","""Campbell, Wilfred 
@@ -1413,6 +1387,8 @@
 (1913-2008)"" (Writer)","","['rec2z09hX5pCtvqpR']","['rec9g8o8XDQLBGmtC']","Writer"
 "","""Césaire, Aimé 
 (1913-2008)"" (Writer)","","['rec2z09hX5pCtvqpR']","['recDYMT97QYq3ew4L']","Writer"
+"","""Césaire, Aimé 
+(1913-2008)"" (Writer)","","['rec2z09hX5pCtvqpR']","['reccnHhxDgkb8ABWr']","Writer"
 "","""Chandler, Valerie 
 (-)"" (Editor)","","['recbujWoHt1u4INVA']","['rec6QuZ5DBVeu6oA9']","Editor"
 "","""Charley, Dele 
@@ -1485,8 +1461,6 @@
 (1935-)"" (Poet)","","['recmyildMjXhoC72X']","['rece7x6nOnDMC8bNd']","Poet"
 "","""Clark, John Pepper 'J. P.' 
 (1935-)"" (Poet)","","['recmyildMjXhoC72X']","['recENYPFi07koxKf6']","Poet"
-"","""Clark, John Pepper 'J. P.' 
-(1935-)"" (Poet)","","['recmyildMjXhoC72X']","['recl63QvnF4mWX3TE']","Poet"
 "","""Clark, John Pepper 'J. P.' 
 (1935-)"" (Poet)","","['recmyildMjXhoC72X']","['recm1IzCn1OrPx3iM']","Poet"
 "","""Clark, John Pepper 'J. P.' 
@@ -1622,15 +1596,13 @@
 "","""Connock, Michael Barry 
 (-)"" (Critic) - author","True","['recdQe13X5TLVLu7K']","['rec77Z1aOFiEhsKq7']","Critic"
 "","""Connolly, Cyril Vernon 'Cyril Connolly' 
-(1903-1974)"" (Critic)","","['recJprzU0vEqwgMv1']","['rec4FUjwSPskfwn2o']","Critic"
-"","""Connolly, Cyril Vernon 'Cyril Connolly' 
-(1903-1974)"" (Critic)","","['recJprzU0vEqwgMv1']","['rec2b0DnihcNKvwSR']","Critic"
-"","""Connolly, Cyril Vernon 'Cyril Connolly' 
 (1903-1974)"" (Critic)","","['recJprzU0vEqwgMv1']","['recZO9YRaunCDD56g']","Critic"
 "","""Connolly, Cyril Vernon 'Cyril Connolly' 
 (1903-1974)"" (Critic)","","['recJprzU0vEqwgMv1']","['recn06WyQbwanjPcb']","Critic"
 "","""Connolly, Cyril Vernon 'Cyril Connolly' 
 (1903-1974)"" (Critic)","","['recJprzU0vEqwgMv1']","['recV9AERqQFpRBtyj']","Critic"
+"","""Connolly, Cyril Vernon 'Cyril Connolly' 
+(1903-1974)"" (Critic)","","['recJprzU0vEqwgMv1']","['recS0knvFOoQIGIsC']","Critic"
 "","""Connolly, Cyril Vernon 'Cyril Connolly' 
 (1903-1974)"" (Critic) - author","True","['recJprzU0vEqwgMv1']","['rec3W1R7AzhO37i4W', 'reclfN3SysRq83Ekv', 'recr7ZCnkKEuoATVG', 'recxquzUPDP6uLoYR', 'rec1fwuJ7Ae1EUckc', 'recx23187A5uaWUpm', 'recQnqoBQVnXqeHca', 'rec1Kf8srqjEH1oAD', 'recihKjMoC5xSl52O', 'rec5m9rhBwFhP1GpI']","Critic"
 "","""Conrad, Joseph 
@@ -1669,14 +1641,16 @@
 (1882-1913)"" (Academic)","","['recoHlaU8OtzCEFml']","['recDbm03bi52xErRe']","Academic"
 "","""Cory, George Edward  'G. E.' 
 (1862-1935)"" (Academic)","","['rec3bg3CYj67PFsAL']","['recwm8Hc1e9H9Zt8C']","Academic"
+"","""Coulter, Stephen 
+(-)"" (Reporter)","","['reccMKaOR9lg77NS1']","['recTFzP5lRNgdeAoW']","Reporter"
+"","""Coulter, Stephen 
+(-)"" (Reporter)","","['reccMKaOR9lg77NS1']","['recRbTRu2QdwZfjz9']","Reporter"
 "","""Couto, António Emílio Leite 'Mia' 
 (1955-)"" (Writer)","","['recpBZAd7n0hfg0pz']","['recfpSJ65dLBFBPeQ']","Writer"
 "","""Couto, António Emílio Leite 'Mia' 
 (1955-)"" (Writer)","","['recpBZAd7n0hfg0pz']","['recoqGeFOattbRXZx']","Writer"
 "","""Couto, António Emílio Leite 'Mia' 
 (1955-)"" (Writer)","","['recpBZAd7n0hfg0pz']","['rec0TIahem39zRiFK']","Writer"
-"","""Couto, Maria 
-(-)"" (Critic) - author","True","['recTnIh5ZAWCWFJlJ']","['recQmRptXoG3q9IPo', 'recfYsnEWREjHQADS']","Critic"
 "","""Couzyn, Jeni 
 (1942-)"" (Mentioned Poet)","","['reczJCspFdg3hHW9B']","","Mentioned Poet"
 "","""Couzyn, Jeni 
@@ -1727,6 +1701,8 @@
 (-)"" (Publisher)","","['rec7EukUBwXIQCBl6']","['recdVioIaYIu6Zmuh']","Publisher"
 "","""Crowder, Michael 
 (1934-1988)"" (Critic) - author","True","['recGqG9bp2xL3d97s']","['recxJbjHt4qdtcBgi']","Critic"
+"","""Cullen, Countee Porter 
+(1903-1946)"" (Mentioned Poet)","","['recIVubH3R4gTP3GO']","['recwX4XlfTyopr0hu']","Mentioned Poet"
 "","""Cullinan, Patrick 
 (1933-2011)"" (Mentioned Poet)","","['recyw3iYZDrBScLGY']","['reccH3MMGguAfqiFn']","Mentioned Poet"
 "","""Cullinan, Patrick 
@@ -1739,8 +1715,6 @@
 (1907-2001)"" (Mentioned Poet)","","['recN2CQ0lURxrndsj']","['recdYS5upn9tBVgzT']","Mentioned Poet"
 "","""Currey, Ralph Nixon 'R. N.' 
 (1907-2001)"" (Mentioned Poet)","","['recN2CQ0lURxrndsj']","['recAQq3gxrZ3aUDOe']","Mentioned Poet"
-"","""Currey, Ralph Nixon 'R. N.' 
-(1907-2001)"" (Mentioned Poet)","","['recN2CQ0lURxrndsj']","['rec2b0DnihcNKvwSR']","Mentioned Poet"
 "","""Currey, Ralph Nixon 'R. N.' 
 (1907-2001)"" (Poet)","","['recN2CQ0lURxrndsj']","['recjKYnmAaGlURITq']","Poet"
 "","""Currey, Ralph Nixon 'R. N.' 
@@ -1759,6 +1733,8 @@
 (1931-2011)"" (Athlete)","","['rec0XMcvyIa24y5mI']","['recDTbZjo2nGlEBBQ']","Athlete"
 "","""D'Souza, Christa 
 (-)"" (Reporter)","","['reckx8a0fFbgStvJB']","['recAMo8xw85bZziUQ']","Reporter"
+"","""da Silva Neto, António Agostinho 'Agostinho Neto' 
+(1975-1979)"" (Politician)","","['rec0APt6GgQqIavKF']","['recGpTEgS1aOhHvTN']","Politician"
 "","""Dadié, Bernard Binlin 
 (1916-2019)"" (Poet)","","['rec11TfWLtdgg0lSe']","['recDbm03bi52xErRe']","Poet"
 "","""Dadié, Bernard Binlin 
@@ -1791,6 +1767,8 @@
 (1946-)"" (Reporter)","","['recpAWLanrYst2D4t']","['rectg82EaW7Lib0G1']","Reporter"
 "","""Davis, Angela 
 (1944-)"" (Writer)","","['recD9tUpWu6jiUniz']","['recCnWW9lSaRUZ5jA']","Writer"
+"","""Davis, Arthur Paul 
+(1904-1996)"" (Editor)","","['recySJY6KqscA33eX']","['recwX4XlfTyopr0hu']","Editor"
 "","""Davis, Sally A 
 (-)"" (Reporter)","","['recu0r4A4dCwb87Nq']","['rec6giEhz34B3GRq6']","Reporter"
 "","""Davison, Peter 
@@ -1807,6 +1785,26 @@
 (1930-2014)"" (Politician)","","['recI7ybLTJAm0G78f']","['recbsXLfR606pjLvG']","Politician"
 "","""de Cervantes Saavedra, Miguel 'Cervantes ' 
 (1547-1616)"" (Author)","","['recxe16N7W3sFaTce']","['reciQXF8qQOGnL0vl']","Author"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['rec1iojDYGdPvw5Ho']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['recdXL0ZId7ICud8j']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['reccimZmjHvYHuT5Y']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['recSRbQy8B78nb25r']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['rec1WBnqtYq8sei69']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['recxdEHr6vqnjlsuq']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['reccQARv4jigxuU1F']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['recRbTRu2QdwZfjz9']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['recKkKqMgjYiJhjaJ']","Politician"
+"","""de Gaulle, André Joseph Marie de Gaulle 'Charles de Gaulle' 
+(1890-1970)"" (Politician)","","['recw7oHEFLF0YumGj']","['rec8IEM9kwLFkASVn']","Politician"
 "","""de Graft, Joseph Coleman 'J. C.' 
 (1924-1978)"" (Academic)","","['recaE3xZF2cKk8k8Z']","['rec89wygvAuOFRpC6']","Academic"
 "","""de Graft, Joseph Coleman 'J. C.' 
@@ -1825,6 +1823,8 @@
 (-)"" (Artist)","","['reczUdGWmvdPDQGWM']","['recYXEfLMPnRDXRVU']","Artist"
 "","""Debayo, Jumoke 
 (-)"" (Artist)","","['reczUdGWmvdPDQGWM']","['recGjVj0WUovDEM7y']","Artist"
+"","""Debré, Michel Jean-Pierre 
+(1912-1996)"" (Politician)","","['recJF9NZvTsRfGf4o']","['recdXL0ZId7ICud8j']","Politician"
 "","""Decker, Thomas Leighton 
 (1916-1978)"" (Politician)","","['recIYQSlGmRFxXzQt']","['recIjfQ0QIp3nX2aL']","Politician"
 "","""Decker, Thomas Leighton 
@@ -1865,6 +1865,12 @@
 (-)"" (Reporter)","","['recIVWuW9KL5o1c9i']","['recDHQqDxwf8OKeFd']","Reporter"
 "","""Dia, Mamadou 
 (1910-2009)"" (Politician)","","['recvwMhQk3UEaVfHO']","['reciFi4NqPhllcgJz']","Politician"
+"","""Dia, Mamadou 
+(1910-2009)"" (Politician)","","['recvwMhQk3UEaVfHO']","['recITMWtbuFYOCXKV']","Politician"
+"","""Dia, Mamadou 
+(1910-2009)"" (Politician)","","['recvwMhQk3UEaVfHO']","['recdXL0ZId7ICud8j']","Politician"
+"","""Diagne, Blaise 
+(1872-1934)"" (Politician)","","['recXmxJZFLC42VKkU']","['reccnHhxDgkb8ABWr']","Politician"
 "","""Diakhate, Lamine 
 (1928-1987)"" (Poet)","","['recce49CVohdYLw2s']","['rec9g8o8XDQLBGmtC']","Poet"
 "","""Dickens, Charles 
@@ -1899,10 +1905,16 @@
 (1941-)"" (Artist)","","['receKun0aLot3KvXn']","['recVTBs0O18OqtdWw']","Artist"
 "","""Dipoko, Mbella Sonne 
 (1936-2009)"" (Writer)","","['recaEXdUYZk3OmqFS']","['recis3okRt5GNSVdA']","Writer"
+"","""Divine, David 
+(-)"" (Reporter)","","['rec5MgqrQA8ljl4op']","['recs6SUBSxo451log']","Reporter"
 "","""Dixon, Melvin 
 (1950-)"" (Academic)","","['recAV5Sc5OCfXa8U7']","['recp35x6I8i1KJBIe']","Academic"
 "","""Djebar, Assia 
 (1936-2015)"" (Writer)","","['recVC8MWDzkqQgVa3']","['recCnWW9lSaRUZ5jA']","Writer"
+"","""Djibo, Bakary 
+(-)"" (Politician)","","['recAfgMghlSZsXt7n']","['recSRbQy8B78nb25r']","Politician"
+"","""Djibo, Bakary 
+(-)"" (Politician)","","['recAfgMghlSZsXt7n']","['recxdEHr6vqnjlsuq']","Politician"
 "","""Djoleto, Solomon Alexander Amu 
 (1929-)"" (Writer)","","['rec0TXkbX1WorJ145']","['recis3okRt5GNSVdA']","Writer"
 "","""Dogbé, Yves-Emmanuel 
@@ -1997,6 +2009,8 @@
 (1980-)"" (Musician)","","['recvMf97sMKrqumsZ']","['recep6ww2i3TGnPEg']","Musician"
 "","""Egbuna, Obi 
 (1838-2014)"" (Critic) - author","True","['recHoRnE9H142WJdN']","['recQfMqjbzuY69kDQ']","Critic"
+"","""Eglin, Colin 
+(-)"" (Politician)","","['recnbD7RJYpDUuVvw']","['reckxFllcVmaCTH2l']","Politician"
 "","""Eglington, Charles 
 (1918-1972)"" (Poet)","","['recVITrnlYju5VVOR']","['recjKYnmAaGlURITq']","Poet"
 "","""Eglington, Charles 
@@ -2040,7 +2054,7 @@
 "","""Ekwensi, Cyprian 
 (1921-2007)"" (Writer)","","['rechc9BFreKE5N8OU']","['recWqywnLxSBGtrOu']","Writer"
 "","""Ekwensi, Cyprian 
-(1921-2007)"" (Writer)","","['rechc9BFreKE5N8OU']","['rectL9Eo8b0KpPNC2']","Writer"
+(1921-2007)"" (Writer)","","['rechc9BFreKE5N8OU']","","Writer"
 "","""El Hadj Belarbi, Sheik Benguedda 
 (-1932)"" (Poet)","","['recLnMJdgNFWWgjLQ']","['recNvSSrC0BvfGxUb']","Poet"
 "","""el-Saadawi, Nawal 
@@ -2261,6 +2275,8 @@
 (-)"" (Reporter)","","['recRqU3UGuiFAqisk']","['recP9KZi1MDRqoqDa']","Reporter"
 "","""Frangoul, Anmar 
 (-)"" (Reporter)","","['recZvtM2Yxm2o083h']","['recwidGcnpezMwhcs']","Reporter"
+"","""Frank MacDermot, Frank MacDermot 
+(-)"" (Reporter)","","['recNHfufT2HtrxxXq']","['rec7Lkxi6U5ytvhSM']","Reporter"
 "","""Franklin, Olga 
 (-)"" (Writer)","","['rec9K5W30t0mwfK9g']","['recWSnJjydBzbYefw']","Writer"
 "","""Fraser, George Sutherland 'G. S.' 
@@ -2426,7 +2442,9 @@
 "","""Gordimer, Nadine 
 (1923-2014)"" (Writer)","","['recXnMjnpFniojKZ9']","['recFwIlEv85rW9Z4l']","Writer"
 "","""Gordimer, Nadine 
-(1923-2014)"" (Writer)","","['recXnMjnpFniojKZ9']","['recMEbJoZvma2yUQk']","Writer"
+(1923-2014)"" (Writer)","","['recXnMjnpFniojKZ9']","","Writer"
+"","""Gordimer, Nadine 
+(1923-2014)"" (Writer)","","['recXnMjnpFniojKZ9']","['recb9u4ozlNtW8Svi']","Writer"
 "","""Gordon, Adam Lindsay 
 (1833-1870)"" (Mentioned Poet)","","['recFeijCpLM3fMFKm']","['recACSTohY60AvhNQ']","Mentioned Poet"
 "","""Gordon, Adam Lindsay 
@@ -2475,6 +2493,8 @@
 (-)"" (Academic)","","['rec34fTmO88ZXC97i']","['recdVioIaYIu6Zmuh']","Academic"
 "","""Guevara, Ernesto """"Che""""  
 (-)"" (Politician)","","['rechnC9NyKhmBPk2s']","['recYjL0tjNB6xLDrU']","Politician"
+"","""Gueye, Lamine 
+(-)"" (Politician)","","['recCjGpwBtoXU3ti7']","['recTFzP5lRNgdeAoW']","Politician"
 "","""Guibert, Armand 
 (1906-1990)"" (Mentioned Poet)","","['recFYUhCAwiAu7nDU']","['recKqPLKRHHgjzBli']","Mentioned Poet"
 "","""Guibert, Armand 
@@ -2489,6 +2509,8 @@
 (-)"" (Reporter)","","['recm4pRJYHximKSkg']","['rec4y9fb0YYj6TTie']","Reporter"
 "","""Gwala, Pascal 
 (1946-2014)"" (Poet)","","['recO7fQ9N6fKpWsLF']","['recjKYnmAaGlURITq']","Poet"
+"","""Hadgson, Godfrey 
+(-)"" (Reporter)","","['recrOBFZjTPtqK9VO']","['reccQARv4jigxuU1F']","Reporter"
 "","""Hadrawi, Mohamed Ibrahim Warsame 
 (1943-)"" (Mentioned Poet)","","['recHJuwR7fOu9dqiJ']","['recvCjz3fvGX04xHA']","Mentioned Poet"
 "","""Haight, G. S. 'Gordon Sherman Haight' 
@@ -2585,6 +2607,8 @@
 (1933-2020)"" (Reporter)","","['rec7Gjte8crN200nS']","['recbsXLfR606pjLvG']","Reporter"
 "","""Herbstein, Denis 
 (1933-2020)"" (Reporter)","","['rec7Gjte8crN200nS']","['receIXs0awMA1CJQR']","Reporter"
+"","""Herbstein, Denis 
+(1933-2020)"" (Reporter)","","['rec7Gjte8crN200nS']","['rec1WBnqtYq8sei69']","Reporter"
 "","""Heren, Louis 
 (1919-1995)"" (Politician)","","['recOWvYm5GRq858wh']","['recWSnJjydBzbYefw']","Politician"
 "","""Heren, Louis 
@@ -2642,6 +2666,8 @@
 "","""Hooks, Bell 
 (1952-)"" (Writer)","","['recoSlBoIjaKEQdqY']","['recCnWW9lSaRUZ5jA']","Writer"
 "","""Hope, Christopher 
+(1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recdrxGty73tsE5Ra']","Mentioned Poet"
+"","""Hope, Christopher 
 (1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recbSeazw2jEnUnlM']","Mentioned Poet"
 "","""Hope, Christopher 
 (1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recvXuDK6gGkJTvtD']","Mentioned Poet"
@@ -2657,8 +2683,6 @@
 (1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recnufq092rVKEj0a']","Mentioned Poet"
 "","""Hope, Christopher 
 (1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recf8C5tXrafcbJKn']","Mentioned Poet"
-"","""Hope, Christopher 
-(1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recE4UL7HlyHFrOzx']","Mentioned Poet"
 "","""Hope, Christopher 
 (1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recql8NBuJKmrYT4X']","Mentioned Poet"
 "","""Hope, Christopher 
@@ -2682,8 +2706,6 @@
 "","""Hope, Christopher 
 (1944-)"" (Poet)","","['recRT3BRC72sBNfZo']","['rec4y9fb0YYj6TTie']","Poet"
 "","""Hope, Christopher 
-(1944-)"" (Poet)","","['recRT3BRC72sBNfZo']","['recVJVwpyEcE5Ta0P']","Poet"
-"","""Hope, Christopher 
 (1944-)"" (Poet)","","['recRT3BRC72sBNfZo']","['recvXSjjUmNiZdMLi']","Poet"
 "","""Hope, Daniel 
 (-)"" (Musician)","","['recKc6Aym96lQS0eq']","['recP9KZi1MDRqoqDa']","Musician"
@@ -2693,6 +2715,8 @@
 (-)"" (Academic)","","['recFY7TktKJxWFoBy']","['recJrcWm5Usg0ct3S']","Academic"
 "","""Hopkins, Gerard Manley 
 (1844-1889)"" (Mentioned Poet)","","['rec9GWnjDwQIeeeaU']","['recZmMtfaTx1eXHGZ']","Mentioned Poet"
+"","""Hopkins, Gerard Manley 
+(1844-1889)"" (Mentioned Poet)","","['rec9GWnjDwQIeeeaU']","['recITMWtbuFYOCXKV']","Mentioned Poet"
 "","""Hopkins, Gerard Manley 
 (1844-1889)"" (Writer)","","['rec9GWnjDwQIeeeaU']","['rechqvCgTEB1rDk0k']","Writer"
 "","""Hopkins, John 
@@ -2721,6 +2745,16 @@
 (1942-)"" (Writer)","","['rec2ueQlTgNN8qNdy']","['recqB1HuXjMNEncKo']","Writer"
 "","""Houphouët-Boigny, Félix 
 (1905-1993)"" (Politician)","","['reck7dOewDiqeF9Lu']","['recPWWWP8TAaCmDzv']","Politician"
+"","""Houphouët-Boigny, Félix 
+(1905-1993)"" (Politician)","","['reck7dOewDiqeF9Lu']","['rec2AXgQ6vAIiokvF']","Politician"
+"","""Houphouët-Boigny, Félix 
+(1905-1993)"" (Politician)","","['reck7dOewDiqeF9Lu']","['rec1WBnqtYq8sei69']","Politician"
+"","""Houphouët-Boigny, Félix 
+(1905-1993)"" (Politician)","","['reck7dOewDiqeF9Lu']","['recxdEHr6vqnjlsuq']","Politician"
+"","""Houphouët-Boigny, Félix 
+(1905-1993)"" (Politician)","","['reck7dOewDiqeF9Lu']","['recRbTRu2QdwZfjz9']","Politician"
+"","""Houphouët-Boigny, Félix 
+(1905-1993)"" (Politician)","","['reck7dOewDiqeF9Lu']","['recOyJabvQmT2Hy0W']","Politician"
 "","""Hove, Chenjerai 
 (1956-2015)"" (Poet)","","['recO9FKEa52lghKi9']","['rec69hBscHBTDezoU']","Poet"
 "","""Hove, Chenjerai 
@@ -2735,6 +2769,14 @@
 (1956-2015)"" (Poet)","","['recO9FKEa52lghKi9']","['rec4mXU5fd20NlITu']","Poet"
 "","""Howard, Philip 
 (1933-2014)"" (Reporter)","","['recVd26pgDhVdyLtU']","['recFXZLpvzOAKJgtK']","Reporter"
+"","""Howe, Russell 
+(-)"" (Editor)","","['rec8LVyNtsJUlLbRf']","['recdXIp5uEJCjqzOd']","Editor"
+"","""Howe, Russell 
+(-)"" (Reporter)","","['rec8LVyNtsJUlLbRf']","['recSRbQy8B78nb25r']","Reporter"
+"","""Howe, Russell 
+(-)"" (Reporter)","","['rec8LVyNtsJUlLbRf']","['reccimZmjHvYHuT5Y']","Reporter"
+"","""Howe, Russell 
+(-)"" (Reporter)","","['rec8LVyNtsJUlLbRf']","['recbMtNLZIZ64M78u']","Reporter"
 "","""Howell, Denis 
 (1923-1998)"" (Politician)","","['recjzwT0QN0Xne926']","['recsvSuMfdoml9ybQ', 'recXMkCkChD0t6MLE']","Politician"
 "","""Howell, Jane 
@@ -2743,6 +2785,8 @@
 (-)"" (Reporter)","","['recKhMt3CKkow48hd']","['recMJYg0SsD6u3qJ1']","Reporter"
 "","""Huddleston, Trevor 
 (-)"" ()","","['recmfvH2oqxLxn8Pf']","['recFImb3P4YFDqsWE']",""
+"","""Hughes, Langston 
+(1901-1967)"" (Editor)","","['rec2CIPZQriDcjGVE']","['recwX4XlfTyopr0hu']","Editor"
 "","""Hughes, Langston 
 (1901-1967)"" (Mentioned Poet)","","['rec2CIPZQriDcjGVE']","['reclba6LHb1UskaoG']","Mentioned Poet"
 "","""Hughes, Langston 
@@ -2809,8 +2853,6 @@
 (1931-2020)"" (Writer)","","['recq74RZx9SvOKLO4']","['recWqywnLxSBGtrOu']","Writer"
 "","""Ikejiani, O. 
 (-)"" (Academic)","","['recsPz9i1ZUns8CuG']","['recm1IzCn1OrPx3iM']","Academic"
-"","""Ingrams,  
-(-)"" ()","","['rec24Zy0jKYkThnGX']","['rec0BA065c4oQiaW8']",""
 "","""Irele, Francis Abiola 
 (1936-2017)"" (Writer)","","['rec238l2rZXRpNNNN']","['reczrwp4RfkSUtmLL']","Writer"
 "","""Isegawa, Moses 'Sey Wava' 
@@ -2875,6 +2917,8 @@
 (1979-)"" (Writer)","","['recHuObIT4xi6vhP0']","['recJz8tZuY74SA920']","Writer"
 "","""Jemie, Onwuchekwa 
 (-)"" (Writer)","","['recEV8ZTMkV7nfMCb']","['reczrwp4RfkSUtmLL']","Writer"
+"","""Jenkins, Alan 
+(-)"" (Editor)","","['rec1QO4lD58FHqhU6']","['recog58WJsQ6W3L7d']","Editor"
 "","""Jenkins, David Andrew 
 (1952-)"" (Athlete)","","['rec47tRZegJ5rkqfK']","['recJLYS42ADuDmmjF']","Athlete"
 "","""Jenkins, Simon David 
@@ -2895,6 +2939,8 @@
 (-)"" (Academic)","","['recNPgBQZSFZ1VM8V']","['rec0eF62DQBqHza2d']","Academic"
 "","""Johnson, Femi 
 (-)"" (Artist)","","['recSVk97N1epE70gE']","['recCQ2zRi2YGDOjgG']","Artist"
+"","""Johnson, James Weldon 
+(1871-1938)"" (Mentioned Poet)","","['recIXDg4nDrSTzVKb']","['recwX4XlfTyopr0hu']","Mentioned Poet"
 "","""Johnson, R. W.  
 (1943-)"" (Reporter)","","['recRzcZL43I51VmL7']","['recnPd3vVIE487M0b']","Reporter"
 "","""Johnson, R. W.  
@@ -2970,6 +3016,8 @@
 "","""Kaunda, Kenneth 
 (1924-)"" (Politician)","","['rec9Ih4VHNATBvX5S']","['recPWWWP8TAaCmDzv']","Politician"
 "","""Kaunda, Kenneth 
+(1924-)"" (Politician)","","['rec9Ih4VHNATBvX5S']","['rec2AXgQ6vAIiokvF']","Politician"
+"","""Kaunda, Kenneth 
 (1924-)"" (Writer)","","['rec9Ih4VHNATBvX5S']","['recis3okRt5GNSVdA']","Writer"
 "","""Kavan, Anna 
 (1901-1968)"" (Writer)","","['recE1giVYut6w3UmO']","['reckhOjGKPM0yJst3']","Writer"
@@ -2979,6 +3027,8 @@
 (1883-1957)"" (Writer)","","['recNrhNxlkZqkuSa0']","['recdKq8wHbzdqRVIO']","Writer"
 "","""Keats, John 
 (1795-1821)"" (Mentioned Poet)","","['rec3gA4aKUEGG6s0D']","['recxJbjHt4qdtcBgi']","Mentioned Poet"
+"","""Keïta, Modibo 
+(1915-1977)"" (Politician)","","['recjMD8QVUcjzrbZC']","['recdXL0ZId7ICud8j']","Politician"
 "","""Keita, Sundiata 
 (1217-1255)"" (Politician)","","['recx66ImZY817tRe1']","['reciMPeHDFpI9tIhG']","Politician"
 "","""Kellner, Peter 
@@ -2995,6 +3045,8 @@
 (-)"" (Author)","","['recyHtU4rjVgXko9u']","['recHyFgqrGOIplqAg']","Author"
 "","""Kente, Gibson 
 (1932-2004)"" (Writer)","","['recIXtmATsHimTUzG']","['recfpF3zzwX1EL7PY']","Writer"
+"","""Kenyatta, Jomo  
+(1964-1978)"" (Politician)","","['recUkcuAdibO1kqF4']","['recwDJKEOxUoHdSoR']","Politician"
 "","""Kenyatta, Uhuru 
 (1961-)"" (Politician)","","['recxSzNbrRzRtVxfd']","['rec9Q5lnwQfQAhSKB']","Politician"
 "","""Kerouac, Jack 
@@ -3009,6 +3061,8 @@
 (1938-2018)"" (Poet)","","['recUdQmKx7qE4ymS1']","['rectV1ZugZ0YQlmbv']","Poet"
 "","""Kgositsile, Keorapetse 
 (1938-2018)"" (Poet)","","['recUdQmKx7qE4ymS1']","['recwykA5QjLjM2KtW']","Poet"
+"","""Khama, Seretse Goitsebeng Maphiri 
+(1921-1980)"" (Politician)","","['recpfsfuR04EdpQiX']","['recR5OoX4V9mtVl9y']","Politician"
 "","""Khane, Cheikh Ahmadou 
 (-)"" (Writer)","","['rec5pmAg2eNRGDXzh']","['recIjfQ0QIp3nX2aL']","Writer"
 "","""Khunga, Cuthbert 
@@ -3037,6 +3091,8 @@
 (1865-1936)"" (Mentioned Poet)","","['reczzEEtGIZ7fG1l5']","['rec8aeCfbBOLP7ZTV']","Mentioned Poet"
 "","""Kipling, Rudyard 
 (1865-1936)"" (Poet)","","['reczzEEtGIZ7fG1l5']","['recNjcqZR6NkLlKuy']","Poet"
+"","""Kipphoff, Petra 
+(-)"" (Critic)","","['recg4keKAgyWpAhnz']","['recv1V2UFpXcwzPmi']","Critic"
 "","""Kirk-Greene, Anthony 
 (1925-2018)"" (Politician)","","['recwVEzsPhj88Zq2a']","['recWzdG5N5pMOyg7S']","Politician"
 "","""Kirkwood, Mike 
@@ -3074,7 +3130,7 @@
 "","""Krige, Uys 
 (1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","['recJdioe7L3mYtRBz']","Mentioned Poet"
 "","""Krige, Uys 
-(1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","['recV4j4YY8t3a5Sct']","Mentioned Poet"
+(1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","","Mentioned Poet"
 "","""Krige, Uys 
 (1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","['recyqzkBXJvSClNFc']","Mentioned Poet"
 "","""Krige, Uys 
@@ -3203,6 +3259,8 @@
 (1895-1978)"" (Academic)","","['recmBtLxEACEqNOw5']","['rec8JlRx6kNmlAUIk']","Academic"
 "","""Leavis, Frank Raymond 'F. R.' 
 (1895-1978)"" (Writer)","","['recmBtLxEACEqNOw5']","['reca1yPsLY4rGRCdv']","Writer"
+"","""Lee, Ulysses Grant Jr 
+(1913-1969)"" (Editor)","","['recjM84TqPkS9iUjQ']","['recwX4XlfTyopr0hu']","Editor"
 "","""Lees, Caroline 
 (-)"" (Reporter)","","['rec4G4dnEL7GjfHP2']","['recjV32JHQqqFWpLf']","Reporter"
 "","""Lees, Caroline 
@@ -3233,6 +3291,8 @@
 (-)"" (Reporter)","","['recWacLLUfT3r73ZW']","['recwykA5QjLjM2KtW']","Reporter"
 "","""Levertov, Denise 
 (1923-1997)"" (Mentioned Poet)","","['recVnZp1BtO30tCuc']","['rec7QDWEjvfHWmqS8']","Mentioned Poet"
+"","""Levi, Primo Michele 
+(1919-1987)"" (Mentioned Poet)","","['recR4PFXORlcS7zYW']","['recog58WJsQ6W3L7d']","Mentioned Poet"
 "","""Levin, Bernard 'Henry' 
 (1928-2004)"" (Author) - author","True","['rec0ODHXzNrCY3Sat']","['recSpWUd4Q0nRazQw']","Author"
 "","""Levin, Harry Tuchman 
@@ -3329,6 +3389,8 @@
 (-)"" (Writer)","","['rec6JTNSxMsv8cWkD']","['recWzdG5N5pMOyg7S']","Writer"
 "","""Ludwig, Jack Barry 
 (1922-2018)"" (Writer)","","['recPru4bzCYYOEOtP']","['recENYPFi07koxKf6']","Writer"
+"","""Lugard, Frederick John Dealtry 'Lord Lugard' 
+(1858-1919)"" (Politician)","","['rec4V1w9oT2NguKSQ']","['recwDJKEOxUoHdSoR']","Politician"
 "","""Lukacs, Goerg 
 (1885-1971)"" (Writer)","","['reciKEjiuTv7FDW44']","['recdKq8wHbzdqRVIO']","Writer"
 "","""Lumumba, Patrice Hemery 
@@ -3473,6 +3535,8 @@
 (1898-1967)"" (Writer)","","['recv9QeengHWIeWT2']","['rec77Z1aOFiEhsKq7']","Writer"
 "","""Lyman, Andrews 
 (-)"" (Critic)","","['rec28aD9Mslx6bzPp']","['recOVwCmbBEwJH2tu']","Critic"
+"","""Lyman, Andrews 
+(-)"" (Critic)","","['rec28aD9Mslx6bzPp']","['reccQiQ4GtXhrMMpU']","Critic"
 "","""Lyon, John 
 (-)"" (Editor)","","['reckgNOQCl1IaJ9Lo']","['rec0s2gCL9JF8Gqpv']","Editor"
 "","""MacBeth, George 
@@ -3480,7 +3544,7 @@
 "","""MacBride, Sean 
 (1904-1988)"" (Politician)","","['recJhJmyN1sObAjdK']","['recaS3VIsSbvtPPQe']","Politician"
 "","""MacCarthy, Desmond 
-(1877-1952)"" (Critic) - author","True","['recoSVCBq0kyfUfNB']","['reccXchcTo32BrBxp', 'rec7qhKCxlhAUmD0d', 'rec9Lw8gUwCCpank5', 'recUcMaWkBLFauZSf', 'recgxZTFTqPqMfUaN', 'rec8MMCha1iVdrmXC', 'recEOtsqOnhhSe4fJ', 'recDxlwfsiQeOR1K2', 'rec4M32tAX1bcTRD2']","Critic"
+(1877-1952)"" (Critic) - author","True","['recoSVCBq0kyfUfNB']","['reccXchcTo32BrBxp', 'rec7qhKCxlhAUmD0d', 'rec9Lw8gUwCCpank5', 'recUcMaWkBLFauZSf', 'recgxZTFTqPqMfUaN', 'rec8MMCha1iVdrmXC', 'recEOtsqOnhhSe4fJ', 'recDxlwfsiQeOR1K2']","Critic"
 "","""MacDiarmid, Hugh 
 (1892-1978)"" (Academic)","","['rec9bCjQ0kizpfyaj']","['rec8JlRx6kNmlAUIk']","Academic"
 "","""MacDiarmid, Hugh 
@@ -3539,6 +3603,8 @@
 (1923-2007)"" (Writer)","","['recDPByzZTh3qi8rB']","['recdKq8wHbzdqRVIO']","Writer"
 "","""Maimane, Arthur 
 (1932-2005)"" (Writer)","","['recOsD4ksu71kt7cF']","['receERoAMLxF8hPUU']","Writer"
+"","""Mäkonnän, Täfäri 'Haile Selassie I' 
+(1930-1975)"" (Politician)","","['recKqtRxFO0s8F5V5']","['recS0knvFOoQIGIsC']","Politician"
 "","""Malamud, Bernard 
 (1914-1986)"" (Writer)","","['recHKiNGw50ph1hV6']","['recdKq8wHbzdqRVIO']","Writer"
 "","""Malé, Belkis Cuza 
@@ -3573,6 +3639,8 @@
 (1918-2013)"" (Politician)","","['recHlERbE1Q46jDLb']","['recWg57S2pBvn3KXF']","Politician"
 "","""Mandela, Nelson 
 (1918-2013)"" (Politician)","","['recHlERbE1Q46jDLb']","['recnPd3vVIE487M0b']","Politician"
+"","""Mandelstam, Nadezhda Yakovlevna 'Khazina' 
+(1899-1980)"" (Mentioned Poet)","","['recWQg9O8a81sjo7A']","['recog58WJsQ6W3L7d']","Mentioned Poet"
 "","""Manley, Michael 
 (1924-1997)"" (Politician)","","['recUp6195LGoxSR19']","['recN6ESnXd64J2xOf']","Politician"
 "","""Mann, Chris 
@@ -3671,6 +3739,8 @@
 (-)"" (Reporter)","","['reczxnZeT4c762299']","['recolyS8ooaKO8RwY']","Reporter"
 "","""Marsden, Eric 
 (-)"" (Reporter)","","['reczxnZeT4c762299']","['recCMeStt6oGVRTLs']","Reporter"
+"","""Marsden, Eric 
+(-)"" (Reporter)","","['reczxnZeT4c762299']","['reckxFllcVmaCTH2l']","Reporter"
 "","""Marsh, Ngaio 
 (1895-1982)"" (Writer)","","['recMrVFevlARFCmY4']","['recywx7QF3cptCuUb']","Writer"
 "","""Marshall, Anthony Dryden 
@@ -3691,6 +3761,8 @@
 (1942-2020)"" (Author)","","['recfFG5FSIYbD9JbF']","['recoBfNsqihwxQ0ig']","Author"
 "","""Mason, Sheila 
 (-)"" (Critic) - author","True","['recb7LnS7rW5pa2nT']","['recp35x6I8i1KJBIe']","Critic"
+"","""Massigli, Rene 
+(-)"" (Diplomat)","","['recNDFQ2QoHvwrtKg']","['reczW33Sn1XFlwpn2']","Diplomat"
 "","""Masters, John 
 (1914-1983)"" (Writer)","","['recF4Tx8UFZbNU6H8']","['recdKq8wHbzdqRVIO']","Writer"
 "","""Mathew, Ray 
@@ -3811,6 +3883,8 @@
 (1930-1997)"" (Politician)","","['reclQJruf2IDM1rs5']","['recDYMT97QYq3ew4L']","Politician"
 "","""Mobutu, Joseph-Désiré 'Mobutu Sese Seko Kuku Ngbendu Wa Za Banga' 
 (1930-1997)"" (Politician)","","['reclQJruf2IDM1rs5']","['rec9Nqnu7vJr7epFG']","Politician"
+"","""Mobutu, Joseph-Désiré 'Mobutu Sese Seko Kuku Ngbendu Wa Za Banga' 
+(1930-1997)"" (Politician)","","['reclQJruf2IDM1rs5']","['recGpTEgS1aOhHvTN']","Politician"
 "","""Modisane, William 'Bloke' 
 (1923-1986)"" (Poet)","","['recWUkXNwQfeBxTpq']","['recDETBAQUjlRzEfH']","Poet"
 "","""Modisane, William 'Bloke' 
@@ -3900,8 +3974,6 @@
 "","""Moore, Gerald 
 (1924-)"" (Critic) - author","True","['rec9fhaSuS1VCt72x']","['rec5kVBQGudI2jH9U']","Critic"
 "","""Moore, Gerald 
-(1924-)"" (Critic) - author","True","['rec9fhaSuS1VCt72x']","['recl63QvnF4mWX3TE']","Critic"
-"","""Moore, Gerald 
 (1924-)"" (Critic) - author","True","['rec9fhaSuS1VCt72x']","['recADGyDOHhFmmjUJ']","Critic"
 "","""Moore, Gerald 
 (1924-)"" (Critic) - author","True","['rec9fhaSuS1VCt72x']","['receERoAMLxF8hPUU']","Critic"
@@ -3953,6 +4025,10 @@
 (1930-1989)"" (Poet)","","['recUow1lTAv9Qiv3V']","['recP0ZxifIUUAwELF']","Poet"
 "","""Motsisi, Casey 
 (1932-1977)"" (Writer)","","['rec5bIFDLtBv91o9c']","['receERoAMLxF8hPUU']","Writer"
+"","""Mountbatten, Albert Victor Nicholas Louis Francis 'Earl of Burma' 
+(-)"" (Politician)","","['recJGIqC3DM1WLJ6V']","['recnJRCipgnHFZBPe']","Politician"
+"","""Mountbatten, Albert Victor Nicholas Louis Francis 'Earl of Burma' 
+(-)"" (Politician)","","['recJGIqC3DM1WLJ6V']","['recs6SUBSxo451log']","Politician"
 "","""Moxon, James 
 (-)"" (Critic) - author","True","['recZuTARSVCkBrtHM']","['recPYudkZMt7z98iw']","Critic"
 "","""Moynihan, Michael 
@@ -3977,12 +4053,10 @@
 (1919-2008)"" (Writer)","","['recnNkf2IUSFuHWfT']","['rec77Z1aOFiEhsKq7']","Writer"
 "","""Mphahlele, Ezekiel 'Es'kia' 
 (1919-2008)"" (Writer)","","['recnNkf2IUSFuHWfT']","['recdKq8wHbzdqRVIO']","Writer"
-"","""Mphahlele, Ezekiel 'Es'kia' 
-(1919-2008)"" (Writer)","","['recnNkf2IUSFuHWfT']","['recl63QvnF4mWX3TE']","Writer"
 "","""Mpina, Edison 
 (1948-)"" (Mentioned Poet)","","['recR2GuqJRCNRrMzz']","['recVCcr2e6uwbU29h']","Mentioned Poet"
 "","""Mtshali, Oswald Mbuyiseni 
-(1940-)"" (Mentioned Poet)","","['reczK3i9PQzDoN6ks']","['recMEbJoZvma2yUQk']","Mentioned Poet"
+(1940-)"" (Mentioned Poet)","","['reczK3i9PQzDoN6ks']","","Mentioned Poet"
 "","""Mtshali, Oswald Mbuyiseni 
 (1940-)"" (Mentioned Poet)","","['reczK3i9PQzDoN6ks']","['recDF2ZQGL8uCPj0b']","Mentioned Poet"
 "","""Mtshali, Oswald Mbuyiseni 
@@ -4134,7 +4208,7 @@
 "","""Niven, Alastair 
 (1944-)"" (Critic) - author","True","['reccZ7R9Kkzxw0uo7']","['recW9dbqxtMEuj0Oq']","Critic"
 "","""Niven, Alastair 
-(1944-)"" (Critic) - author","True","['reccZ7R9Kkzxw0uo7']","['reczrwp4RfkSUtmLL']","Critic"
+(1944-)"" (Critic) - author","True","['reccZ7R9Kkzxw0uo7']","['reczrwp4RfkSUtmLL', 'recweTupFvBBMDjLi']","Critic"
 "","""Nixon, Rob 
 (-)"" (Critic) - author","True","['recucIqFkGGlN87tk']","['recfpSJ65dLBFBPeQ']","Critic"
 "","""Njau, Rebeka 'Marina Gashe' 
@@ -4164,6 +4238,20 @@
 "","""Nkrumah, Kwame 
 (1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['rec7vp5hBKwAJ5J05']","Politician"
 "","""Nkrumah, Kwame 
+(1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['recJrncoQXiKzB8G3']","Politician"
+"","""Nkrumah, Kwame 
+(1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['recSRbQy8B78nb25r']","Politician"
+"","""Nkrumah, Kwame 
+(1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['recbMtNLZIZ64M78u']","Politician"
+"","""Nkrumah, Kwame 
+(1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['reccnHhxDgkb8ABWr']","Politician"
+"","""Nkrumah, Kwame 
+(1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['recdXIp5uEJCjqzOd']","Politician"
+"","""Nkrumah, Kwame 
+(1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['recj4x30KQAxSR7ZR']","Politician"
+"","""Nkrumah, Kwame 
+(1909-1972)"" (Politician)","","['recqZZToLmc4MZm2q']","['recwDJKEOxUoHdSoR']","Politician"
+"","""Nkrumah, Kwame 
 (1909-1972)"" (Writer)","","['recqZZToLmc4MZm2q']","['recis3okRt5GNSVdA']","Writer"
 "","""Norman, Frank 
 (1930-1980)"" (Reporter)","","['recP95QQzCWhLrhwJ']","['recb9u4ozlNtW8Svi']","Reporter"
@@ -4179,8 +4267,6 @@
 (1880-1958)"" (Mentioned Poet)","","['recCsIv15eEnZEnWp']","['rec8JlRx6kNmlAUIk']","Mentioned Poet"
 "","""Ntuli, Pitika 
 (1942-)"" (Mentioned Poet)","","['recPgm4Uyjhs03RyH']","['recPvkrbwdOKufuYP']","Mentioned Poet"
-"","""Ntuli, Pitika 
-(1942-)"" (Poet)","","['recPgm4Uyjhs03RyH']","['rectH75LftSZ6rlLV']","Poet"
 "","""Ntuli, Pitika 
 (1942-)"" (Poet)","","['recPgm4Uyjhs03RyH']","['receIXs0awMA1CJQR']","Poet"
 "","""Nwakanma, Obi 
@@ -4212,8 +4298,6 @@
 "","""Nwapa, Flora 
 (1931-1993)"" (Writer)","","['rec2dKxSQV9Sa1IlR']","['recis3okRt5GNSVdA']","Writer"
 "","""Nwoga, Donatus 
-(1933-1991)"" (Academic)","","['recDQMBa1OHuxLg3X']","['recl63QvnF4mWX3TE']","Academic"
-"","""Nwoga, Donatus 
 (1933-1991)"" (Critic) - author","True","['recDQMBa1OHuxLg3X']","['reczrwp4RfkSUtmLL']","Critic"
 "","""Nwoga, Donatus 
 (1933-1991)"" (Writer)","","['recDQMBa1OHuxLg3X']","['recweTupFvBBMDjLi']","Writer"
@@ -4221,6 +4305,8 @@
 (1922-1999)"" (Politician)","","['recXXj3rqxEWMI5AO']","['recOGtOmNyZOR1F2p']","Politician"
 "","""Nyerere, Julius 
 (1922-1999)"" (Politician)","","['recXXj3rqxEWMI5AO']","['rec9Nqnu7vJr7epFG']","Politician"
+"","""Nyerere, Julius 
+(1922-1999)"" (Politician)","","['recXXj3rqxEWMI5AO']","['recS0knvFOoQIGIsC']","Politician"
 "","""Nzekwu, Onuora 
 (1928-2017)"" (Writer)","","['recJCLO6Lqzhsrs4g']","['recis3okRt5GNSVdA']","Writer"
 "","""Nzekwu, Onuora 
@@ -4326,7 +4412,7 @@
 "","""Okara, Gabriel 
 (1921-2019)"" (Mentioned Poet)","","['recUiPx4caoRhWvaM']","['recNtKYDmekIRLoHV']","Mentioned Poet"
 "","""Okara, Gabriel 
-(1921-2019)"" (Mentioned Poet)","","['recUiPx4caoRhWvaM']","['rectL9Eo8b0KpPNC2']","Mentioned Poet"
+(1921-2019)"" (Mentioned Poet)","","['recUiPx4caoRhWvaM']","","Mentioned Poet"
 "","""Okara, Gabriel 
 (1921-2019)"" (Poet)","","['recUiPx4caoRhWvaM']","['recU03rmFlrPw8m0w']","Poet"
 "","""Okara, Gabriel 
@@ -4365,8 +4451,6 @@
 (1921-2019)"" (Poet)","","['recUiPx4caoRhWvaM']","['recZmMtfaTx1eXHGZ']","Poet"
 "","""Okara, Gabriel 
 (1921-2019)"" (Poet)","","['recUiPx4caoRhWvaM']","['receERoAMLxF8hPUU']","Poet"
-"","""Okara, Gabriel 
-(1921-2019)"" (Poet)","","['recUiPx4caoRhWvaM']","['recl63QvnF4mWX3TE']","Poet"
 "","""Okara, Gabriel 
 (1921-2019)"" (Poet)","","['recUiPx4caoRhWvaM']","['recupfdDSalFAm6qS']","Poet"
 "","""Okara, Gabriel 
@@ -4421,8 +4505,6 @@
 (1932-1967)"" (Poet)","","['recBvLFtelOVzL0YK']","['recupfdDSalFAm6qS']","Poet"
 "","""Okigbo, Christopher 
 (1932-1967)"" (Poet)","","['recBvLFtelOVzL0YK']","['reco8V3iXiXAedDyW']","Poet"
-"","""Okigbo, Christopher 
-(1932-1967)"" (Poet)","","['recBvLFtelOVzL0YK']","['recl63QvnF4mWX3TE']","Poet"
 "","""Okigbo, Christopher 
 (1932-1967)"" (Poet)","","['recBvLFtelOVzL0YK']","['recis3okRt5GNSVdA']","Poet"
 "","""Okigbo, Christopher 
@@ -4685,6 +4767,8 @@
 (1959-)"" (Writer)","","['recRIfDTZDIHzLGPC']","['rectDEDUUbiudeFxH']","Writer"
 "","""Okri, Ben 
 (1959-)"" (Writer)","","['recRIfDTZDIHzLGPC']","['recLRFfRM25rjBpxD']","Writer"
+"","""Oliver, Roland 
+(1923-2014)"" (Academic)","","['rect39E2jvhWiCjN1']","['recwDJKEOxUoHdSoR']","Academic"
 "","""Oliver, Roland 
 (1923-2014)"" (Critic) - author","True","['rect39E2jvhWiCjN1']","['rec7hdkInw2rfF8XF']","Critic"
 "","""Olowofoyeku, Babatunji 
@@ -4951,6 +5035,8 @@
 (-)"" (Reporter)","","['recsHFTgQAJHPcEb7']","['reca3D5JiFKfZOnDa']","Reporter"
 "","""Pile, Stephen  
 (-)"" (Reporter)","","['recsHFTgQAJHPcEb7']","['recLzzC9H1faxel6N']","Reporter"
+"","""Pile, Stephen  
+(-)"" (Reporter)","","['recsHFTgQAJHPcEb7']","['recog58WJsQ6W3L7d']","Reporter"
 "","""Pilinszky, Janos 
 (1921-1981)"" (Mentioned Poet)","","['rec24BHMMEdH7TOMX']","['rec7ZIDKAVItj5dNb']","Mentioned Poet"
 "","""Pilinszky, Janos 
@@ -4987,6 +5073,8 @@
 (1940-)"" (Mentioned Poet)","","['recFCzUYJIO5fzyxF']","['recfpSJ65dLBFBPeQ']","Mentioned Poet"
 "","""Pogrund, Benjamin 
 (1933-)"" (Reporter)","","['reck6s4bgNSOC1xz9']","['rec7rjBFJ7ms0SPd6']","Reporter"
+"","""Pogrund, Benjamin 
+(1933-)"" (Reporter)","","['reck6s4bgNSOC1xz9']","['rec2AXgQ6vAIiokvF']","Reporter"
 "","""Pogrund, Benjamin 
 (1933-)"" (Reporter) - author","True","['reck6s4bgNSOC1xz9']","['rec3ZF6VURkXV9lzH']","Reporter"
 "","""Polley, James 
@@ -5524,11 +5612,29 @@
 "","""Senaye, Erasmus Elikplim Forster 
 (-)"" (Mentioned Poet)","","['recfipWTz8xuuCs1U']","['recVCcr2e6uwbU29h']","Mentioned Poet"
 "","""Senghor, Léopold Sédar 
+(1906-2001)"" ()","","['recBdxaNWIHd4zhkg']","['recSRbQy8B78nb25r']",""
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" ()","","['recBdxaNWIHd4zhkg']","['recdXIp5uEJCjqzOd']",""
+"","""Senghor, Léopold Sédar 
 (1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recjpnB6GZQDx9dfZ']","Mentioned Poet"
 "","""Senghor, Léopold Sédar 
 (1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['rec5VG4rYGmqjoOJA']","Mentioned Poet"
 "","""Senghor, Léopold Sédar 
 (1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recV9AERqQFpRBtyj']","Mentioned Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recITMWtbuFYOCXKV']","Mentioned Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recwX4XlfTyopr0hu']","Mentioned Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recTYZnZIvwhh7K2L']","Mentioned Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recog58WJsQ6W3L7d']","Mentioned Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['reccQARv4jigxuU1F']","Mentioned Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['reccQiQ4GtXhrMMpU']","Mentioned Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recS0knvFOoQIGIsC']","Mentioned Poet"
 "","""Senghor, Léopold Sédar 
 (1906-2001)"" (Poet)","","['recBdxaNWIHd4zhkg']","['recis3okRt5GNSVdA']","Poet"
 "","""Senghor, Léopold Sédar 
@@ -5584,7 +5690,83 @@
 "","""Senghor, Léopold Sédar 
 (1906-2001)"" (Poet)","","['recBdxaNWIHd4zhkg']","['recG5hXNTuoyfWKV5']","Poet"
 "","""Senghor, Léopold Sédar 
+(1906-2001)"" (Poet)","","['recBdxaNWIHd4zhkg']","['recv1V2UFpXcwzPmi']","Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Poet)","","['recBdxaNWIHd4zhkg']","['recpkG1sJpsBr8XI3']","Poet"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recsIwNtMhql1xDbK']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['rec1iojDYGdPvw5Ho']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recfVAyWZHoQAkCm8']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['rec7lsiRqsee980ye']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recy5Xz2MbMdzHQv3']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recR5OoX4V9mtVl9y']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recowCNVswjOjHN9j']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recJrncoQXiKzB8G3']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recdXL0ZId7ICud8j']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['rec2AXgQ6vAIiokvF']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recnJRCipgnHFZBPe']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['reccimZmjHvYHuT5Y']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['reckxFllcVmaCTH2l']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['rec1WBnqtYq8sei69']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recxdEHr6vqnjlsuq']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recTFzP5lRNgdeAoW']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recs6SUBSxo451log']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recRbTRu2QdwZfjz9']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recbMtNLZIZ64M78u']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['reccnHhxDgkb8ABWr']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recwAhH4kvTColLJ7']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recGpTEgS1aOhHvTN']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recHAzeZnl8pjil4B']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recgvfNtAROhkokhI']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recE4Y4Rh7cq7iWUy']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recAdj4yDyNhnieiM']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['reczW33Sn1XFlwpn2']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['rec7Lkxi6U5ytvhSM']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recOyJabvQmT2Hy0W']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recj4x30KQAxSR7ZR']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recYojALJmMxwBpE4']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recwDJKEOxUoHdSoR']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recqQCVd1t6l6yhCD']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['recKkKqMgjYiJhjaJ']","Politician"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['rec8IEM9kwLFkASVn']","Politician"
+"","""Senghor, Léopold Sédar 
 (1906-2001)"" (Writer)","","['recBdxaNWIHd4zhkg']","['recDDgDwa4fjDRsbk']","Writer"
+"","""Senghor, Léopold Sédar 
+(1906-2001)"" (Writer)","","['recBdxaNWIHd4zhkg']","['recki4We3yvj86bt8']","Writer"
 "","""Sepamla, Sydney Sipho 
 (1932-2007)"" (Poet)","","['rec5BGwLzTuFn1Wef']","['recjKYnmAaGlURITq']","Poet"
 "","""Sepamla, Sydney Sipho 
@@ -5633,6 +5815,8 @@
 (1879-1976)"" (Artist)","","['recWibXrOg5n2nsd1']","['recBpfUia0SLUXjKe']","Artist"
 "","""Sheppard, David 
 (1929-2005)"" (Civilian)","","['recsPa3p26yZl7ebP']","['recr5hN2JLrrMW6UK']","Civilian"
+"","""Shepperson, George Albert 'Sam' 
+(1922-2020)"" (Academic)","","['recVVItUz66TFkE8t']","['recwX4XlfTyopr0hu']","Academic"
 "","""Shervington, Keith 
 (-2009)"" (Politician)","","['recp9GcY98c5lbnKb']","['recJLYS42ADuDmmjF']","Politician"
 "","""Shirlaw, Isobel 
@@ -5671,6 +5855,8 @@
 (1925-1997)"" (Mentioned Poet)","","['recdqc2lote3Ay4Ep']","['recj74yJ8VjUT3rGb']","Mentioned Poet"
 "","""Skotnes, Cecil 
 (1926-2009)"" (Artist)","","['recy3i3WdQW9IdI6E']","['recxPD7NKRawGu4So']","Artist"
+"","""Slade-Baker, J. B. 
+(-)"" (Reporter)","","['rec63hQB2LqamonOj']","['recAdj4yDyNhnieiM']","Reporter"
 "","""Slater, Francis Carey 'F. C.' 
 (1876-1958)"" (Mentioned Poet)","","['recA1aXEUqGwSRQhI']","['recJdioe7L3mYtRBz']","Mentioned Poet"
 "","""Slater, Francis Carey 'F. C.' 
@@ -5764,193 +5950,193 @@
 "","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
 (1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['rechxMk9iCuWThgDJ']","Mentioned Poet"
 "","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recBey94YcpNHirc9']","Mentioned Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recZmMtfaTx1eXHGZ']","Mentioned Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recADGyDOHhFmmjUJ']","Mentioned Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recVxpSLc9wcUETRK']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec57K1OQ09vtCXUl']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recLX1xTn3mnaNbOi']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['reco18MdcDqcO54bx']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['reclba6LHb1UskaoG']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recsRQSeqNR0twAdA']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec4dMEcqxt6NxgFs']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recFjioXds4eBb3DB']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recU9qoTInyOZjiQ0']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recKH7lEGkyVkOhXk']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recULPUQoY2dS5DYT']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recnIo7iOFEae2WAk']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recFe8lcjSMVDTygv']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recmwSMRFAEGrWSEM']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recOGtOmNyZOR1F2p']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['reckteZuH52aqkrks']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recj9rYnMPVinTs2s']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recZ3aZhLCPuvFzdb']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recs9dFChdGaEEyds']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recLIRgb0bC56iCwL']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recqB1HuXjMNEncKo']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recCQ2zRi2YGDOjgG']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recM00YWwHnopYhzN']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec3egwoA7fCsUZKn']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recvforEjCYb8aDqu']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recDAo3hZsGJsapGc']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recYaPssl4ZMHzQVo']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recb4IqOepnZLpPx2']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recywx7QF3cptCuUb']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recQDaIuzcvt3qF4E']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recaioIZVSNKKbnO7']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recSymlviVmKkNdVN']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec3B1KIXA2GTOXtI']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec0BA065c4oQiaW8']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recuhOgiylOWO9JT4']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recvhCqGMChL6QvZI']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recGjVj0WUovDEM7y']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recJjdUkJv2Li0kMB']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recYXEfLMPnRDXRVU']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recyHqeh0mzgSFLip']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recHGZOXIDcuhOM73']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recxrGODZ06npUEsl']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recGP3WMsqYQCZoOg']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recQIvZRJ1xtwBBtm']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['receeTDEHoERkn5AE']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recL6ui98Gg7a7SCy']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recJCIUErhKZlCT6g']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recAjk6I8N3kY7mvF']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec8fGtKwAaCWSYIm']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recQGzFGGvi0szAm7']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recgjdI9yhNYJ0U8z']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recxJbjHt4qdtcBgi']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recACSTohY60AvhNQ']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recjpnB6GZQDx9dfZ']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['reczrwp4RfkSUtmLL']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recW9dbqxtMEuj0Oq']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec9TPUSsok6XXOgI']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec5kVBQGudI2jH9U']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recENYPFi07koxKf6']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recWqywnLxSBGtrOu']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recIjfQ0QIp3nX2aL']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recupfdDSalFAm6qS']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recweTupFvBBMDjLi']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recU03rmFlrPw8m0w']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recnBoCfV6zivh3nk']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recaUCGdyqex9Jihj']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec8JlRx6kNmlAUIk']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec4F6R8XyKi1IPLO']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recM4fBQO6nT81IaX']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rece7x6nOnDMC8bNd']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recJz8tZuY74SA920']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec0smUvluYtYb152']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recWzdG5N5pMOyg7S']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recEx39IzX0Gac3Y4']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec4UYMRIP0SsA1tu']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recis3okRt5GNSVdA']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recOkJu6mtUkcPmtE']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recDETBAQUjlRzEfH']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec6QuZ5DBVeu6oA9']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['reczuJWA0MAtCcwpO']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recaYCmxeuNsDYCRi']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recq81AIWpTgPFDkw']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recfpF3zzwX1EL7PY']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec3pN3zdI6oP8jZg']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recm1IzCn1OrPx3iM']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec89wygvAuOFRpC6']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recj74yJ8VjUT3rGb']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['recCNeCNRUC7cWymO']","Poet"
+"","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
 (1934-)"" (Writer)","","['recrkX4daZNLsq0cZ']","['recIrdnJshsoZywqZ']","Writer"
 "","""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
 (1934-)"" (Writer)","","['recrkX4daZNLsq0cZ']","['recDDgDwa4fjDRsbk']","Writer"
-"","""Soyinka, Wole 
-(1934-)"" ()","","['recFI0UKub8dFqzKy']","['recCNeCNRUC7cWymO']",""
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['recWqywnLxSBGtrOu']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['rec0smUvluYtYb152']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['recBey94YcpNHirc9']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['reczrwp4RfkSUtmLL']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['recaUCGdyqex9Jihj']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['recADGyDOHhFmmjUJ']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['rec4UYMRIP0SsA1tu']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Mentioned Poet)","","['recFI0UKub8dFqzKy']","['rec4dMEcqxt6NxgFs']","Mentioned Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recQDaIuzcvt3qF4E']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec3B1KIXA2GTOXtI']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recaYCmxeuNsDYCRi']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recmwSMRFAEGrWSEM']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recLIRgb0bC56iCwL']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['reclba6LHb1UskaoG']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recgjdI9yhNYJ0U8z']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recYaPssl4ZMHzQVo']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recFjioXds4eBb3DB']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec5kVBQGudI2jH9U']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recULPUQoY2dS5DYT']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recW9dbqxtMEuj0Oq']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec57K1OQ09vtCXUl']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['reczuJWA0MAtCcwpO']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recACSTohY60AvhNQ']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recGP3WMsqYQCZoOg']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec89wygvAuOFRpC6']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recQIvZRJ1xtwBBtm']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['receeTDEHoERkn5AE']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec0BA065c4oQiaW8']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec6QuZ5DBVeu6oA9']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recs9dFChdGaEEyds']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recJjdUkJv2Li0kMB']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recQGzFGGvi0szAm7']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recENYPFi07koxKf6']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['reco18MdcDqcO54bx']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recAjk6I8N3kY7mvF']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec9TPUSsok6XXOgI']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recDETBAQUjlRzEfH']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recl63QvnF4mWX3TE']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recaioIZVSNKKbnO7']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recjpnB6GZQDx9dfZ']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recm1IzCn1OrPx3iM']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recSymlviVmKkNdVN']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recFe8lcjSMVDTygv']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recU9qoTInyOZjiQ0']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recGjVj0WUovDEM7y']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recL6ui98Gg7a7SCy']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recnBoCfV6zivh3nk']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recyHqeh0mzgSFLip']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recVxpSLc9wcUETRK']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recvforEjCYb8aDqu']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recweTupFvBBMDjLi']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recZmMtfaTx1eXHGZ']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recnIo7iOFEae2WAk']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recb4IqOepnZLpPx2']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recj9rYnMPVinTs2s']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recZ3aZhLCPuvFzdb']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['reckteZuH52aqkrks']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec8JlRx6kNmlAUIk']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rece7x6nOnDMC8bNd']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recM00YWwHnopYhzN']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recsRQSeqNR0twAdA']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recq81AIWpTgPFDkw']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recfpF3zzwX1EL7PY']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recuhOgiylOWO9JT4']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recLX1xTn3mnaNbOi']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recywx7QF3cptCuUb']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recvhCqGMChL6QvZI']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recWzdG5N5pMOyg7S']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recOkJu6mtUkcPmtE']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recis3okRt5GNSVdA']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recOGtOmNyZOR1F2p']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recDAo3hZsGJsapGc']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recJCIUErhKZlCT6g']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec3pN3zdI6oP8jZg']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recU03rmFlrPw8m0w']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec8fGtKwAaCWSYIm']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec3egwoA7fCsUZKn']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recj74yJ8VjUT3rGb']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recYXEfLMPnRDXRVU']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recxJbjHt4qdtcBgi']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recupfdDSalFAm6qS']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recqB1HuXjMNEncKo']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recEx39IzX0Gac3Y4']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recKH7lEGkyVkOhXk']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recHGZOXIDcuhOM73']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recM4fBQO6nT81IaX']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recJz8tZuY74SA920']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recxrGODZ06npUEsl']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recIjfQ0QIp3nX2aL']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['recCQ2zRi2YGDOjgG']","Poet"
-"","""Soyinka, Wole 
-(1934-)"" (Poet)","","['recFI0UKub8dFqzKy']","['rec4F6R8XyKi1IPLO']","Poet"
 "","""Spark, Muriel 
 (1918-2006)"" (Writer)","","['reckm5MbR4S5enPi5']","['reckhOjGKPM0yJst3']","Writer"
 "","""Spark, Muriel 
@@ -6037,6 +6223,8 @@
 (-)"" (Reporter)","","['recPrmepNZoCyyzFr']","['recag8yTFd3yhM7Qz']","Reporter"
 "","""Sweeney, Philip 
 (-)"" (Reporter)","","['rec45YhEkG27je1uH']","['recDDgDwa4fjDRsbk']","Reporter"
+"","""Sweeney, Philip 
+(-)"" (Reporter)","","['rec45YhEkG27je1uH']","['recWaJSk4cY8ZjS4d']","Reporter"
 "","""Sweetman, David 
 (1943-2002)"" (Author)","","['reckPtLd2K2UzY6WJ']","['recWlFQqfxyPAlqcj']","Author"
 "","""Sweetman, David 
@@ -6060,7 +6248,7 @@
 "","""Symon, Julian 'Gustave' 
 (1912-1994)"" (Critic)","","['recdw0H1VUWu955BU']","['recY9yY2KgyDvRmZq', 'recX4m6FJo1XDCeAr']","Critic"
 "","""Symon, Julian 'Gustave' 
-(1912-1994)"" (Critic)","","['recdw0H1VUWu955BU']","['recV4j4YY8t3a5Sct']","Critic"
+(1912-1994)"" (Critic)","","['recdw0H1VUWu955BU']","","Critic"
 "","""Szalwinska, Maxie 
 (-)"" (Reporter)","","['recwlf4JO6B0CL6xD']","['recukEBoIzBIL1KHo']","Reporter"
 "","""T D,  
@@ -6099,6 +6287,8 @@
 (1809-1892)"" (Mentioned Poet)","","['recyMJkgGQhomNEFI']","['recxJbjHt4qdtcBgi']","Mentioned Poet"
 "","""Tennyson, Alfred Lloyd 
 (1809-1892)"" (Mentioned Poet)","","['recyMJkgGQhomNEFI']","['reciQXF8qQOGnL0vl']","Mentioned Poet"
+"","""Terry, Antony 
+(-)"" (Editor)","","['recJ54It0477TSHNT']","['recGpTEgS1aOhHvTN']","Editor"
 "","""Thatcher, Margaret 
 (1925-2013)"" (Politician)","","['recFV5ow8F77ZNEm9']","['rec4DDpq8hdctcRBa']","Politician"
 "","""Themba, Daniel Canodoce 'Can' 
@@ -6167,6 +6357,10 @@
 (1927-2015)"" (Academic)","","['recgHOpzR9lchpt0M']","['recwSqOrdELYDNm9y']","Academic"
 "","""Toure, Ahmed Sekou 
 (1922-1984)"" (Politician)","","['recfude6DYnpmKWXO']","['recvCjz3fvGX04xHA']","Politician"
+"","""Toure, Ahmed Sekou 
+(1922-1984)"" (Politician)","","['recfude6DYnpmKWXO']","['recTYZnZIvwhh7K2L']","Politician"
+"","""Toure, Ahmed Sekou 
+(1922-1984)"" (Politician)","","['recfude6DYnpmKWXO']","['reccQARv4jigxuU1F']","Politician"
 "","""Towers, Frances 
 (1885-)"" (Writer)","","['rec5IZ8hJLU6D8nmD']","['recg6W3fpn1kW2yUF']","Writer"
 "","""Trapido, Barbara 
@@ -6331,6 +6525,14 @@
 (-1915)"" (Politician)","","['recQu5CsE6O8WXn1G']","['rec3ZF6VURkXV9lzH']","Politician"
 "","""Vorster, Balthazar Johannes Vorster 'B. J. Vorster' 
 (-1915)"" (Politician)","","['recQu5CsE6O8WXn1G']","['recoCw7OqF6IXT9GR']","Politician"
+"","""Vorster, Balthazar Johannes Vorster 'B. J. Vorster' 
+(-1915)"" (Politician)","","['recQu5CsE6O8WXn1G']","['rec2AXgQ6vAIiokvF']","Politician"
+"","""Vorster, Balthazar Johannes Vorster 'B. J. Vorster' 
+(-1915)"" (Politician)","","['recQu5CsE6O8WXn1G']","['reckxFllcVmaCTH2l']","Politician"
+"","""Vorster, Balthazar Johannes Vorster 'B. J. Vorster' 
+(-1915)"" (Politician)","","['recQu5CsE6O8WXn1G']","['rec1WBnqtYq8sei69']","Politician"
+"","""Vorster, Balthazar Johannes Vorster 'B. J. Vorster' 
+(-1915)"" (Politician)","","['recQu5CsE6O8WXn1G']","['recGpTEgS1aOhHvTN']","Politician"
 "","""wa Thiong'o, Ngugi 'James' 
 (1938-)"" (Writer)","","['rec37zp2sfvgsuWjX']","['recEx39IzX0Gac3Y4']","Writer"
 "","""wa Thiong'o, Ngugi 'James' 
@@ -6474,6 +6676,8 @@
 "","""Wells, John 
 (1956-)"" (Writer)","","['reco1bklMesYkWBwc']","['rec0BA065c4oQiaW8']","Writer"
 "","""West,  Richard 
+(-)"" (Editor)","","['recsweFGMrNHs7yqY']","['recYojALJmMxwBpE4']","Editor"
+"","""West,  Richard 
 (-)"" (Reporter)","","['recsweFGMrNHs7yqY']","['recHaIXOqnGW4mT9l']","Reporter"
 "","""West, Cornel Ronald 
 (1953-)"" (Writer)","","['recOWwgGyhg1G4JFc']","['recM00YWwHnopYhzN']","Writer"
@@ -6521,8 +6725,6 @@
 (-)"" (Poet)","","['recs9kG0NrJCfCRu5']","['receAwJJeZIpNbLPl']","Poet"
 "","""Wilderson, Frank 
 (1956-)"" (Writer)","","['recyoGp93fm5CUNbw']","['recfpSJ65dLBFBPeQ']","Writer"
-"","""Willett, John William Mills 
-(1917-2002)"" (Critic) - author","True","['reclnjxzj85nMhgsy']","['recweTupFvBBMDjLi', 'recl63QvnF4mWX3TE']","Critic"
 "","""Williams , Nigel ' Henry Nigel Williams' 
 (1948-)"" (Author)","","['recrmSyg0CTFMMVsI']","['recxLvAY4xpd79iGz']","Author"
 "","""Williams, Basil 
@@ -6537,6 +6739,8 @@
 (1923-1998)"" (Writer)","","['recvppMii5R7tKjcq']","['recENYPFi07koxKf6']","Writer"
 "","""Williams, Eric 
 (1911-1981)"" (Writer)","","['recfVtEOOp5wDZw1x']","['reczrwp4RfkSUtmLL']","Writer"
+"","""Williams, Eric Eustace  
+(1962-1981)"" (Politician)","","['recSNXGgYnUw8V2xH']","['reccnHhxDgkb8ABWr']","Politician"
 "","""Williams, Gaston Bart 
 (1938-1990)"" (Writer)","","['recMHf9tSBUwlcoOU']","['rec1TeG6QTvvqDCDk']","Writer"
 "","""Williams, Jack 
