@@ -1,6 +1,7 @@
 import requests
 import json
 import csv
+import re
 from pathlib import Path
 
 # Function to call gale api and generate key using institutional user id
@@ -49,6 +50,10 @@ apiKey = generateKey(user)['apiKey']
 # store data into records by key/value
 rows=[]
 for id in gale_ids:
+	#check if this column is composed of urls, if so extract the id
+	url_match = re.match("https:\/\/.*?\/apps\/doc\/(.*?)\/", id)
+	if url_match:
+		id = "GALE|" + url_match.group(1)
 	data = retrieveDocument(id,apiKey)
 	print('Retreived doc: '+id)
 
