@@ -64,7 +64,7 @@ table_fields = {
     "Name Built": "title",
     "Major african poet": "type",
     "nationality-country": "places",
-    "Short biography": "description",
+    "Biography": "description",
     "name-letter": "alternative",
     "year_degree_institution": "keywords",
     "events": "subjects",
@@ -77,7 +77,13 @@ table_fields = {
     "birth_spatial.country": "spatial.country",
     "birth_spatial.city": "spatial.city",
     "related-people": "people",
-    "commentaries_relation": "relation"
+    "commentaries_relation": "relation",
+    "site section": "subcategory",
+    "Name last": "person.name",
+    "Name given": "person.name",
+    "(CAP) Bio Sources (MLA)": "source",
+    "(CAP) death place": "spatial_name_death_k",
+    "(CAP) Languages spoken": "language"
   },
   "works": {
     "airtableID":"airtableID",

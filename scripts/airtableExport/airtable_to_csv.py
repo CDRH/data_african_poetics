@@ -19,8 +19,7 @@ tables = {
 	'commentary author':{},
 	'work roles [join]':{},
 	'news item roles [join]':{},
-	'educations [join]':{},
-	'contemporary poets':{}
+	'educations [join]':{}
 }
 
 table_fields = fields.table_fields
@@ -48,7 +47,7 @@ with open('scripts/airtableExport/json/tables.json','w') as f:
 for table in tables:
 	# read in the keys defined in fields.py
 	header = list(table_fields[table].keys())
-	if table in ["commentaries", "events", "news items", "people", "works", "contemporary poets"]:
+	if table in ["commentaries", "events", "news items", "people", "works"]:
 		csvfile = open('source/csv/'+table+'.csv', 'w')
 	else:
 		csvfile = open('scripts/airtableExport/csv/'+table+'.csv', 'w')
@@ -60,7 +59,7 @@ for table in tables:
 	for record in records.values():
 		# make sure that each cell in the csv, if stored as an array, can be parsed as json
 		for key, value in record['fields'].items():
-			if key in ["source", "Tags", "spatial.country", "spatial.city", "spatial.region", "rights_holder", "publisher", "contributor.name", "creator.name", "publisher", "person-notpoet", "person-poet", "name-major-poet", "person-author", "news_items", "commentaries_relation", "nationality-region", "nationality-country", "education", "events", "birth_spatial.country", "birth_spatial.city", "year_degree_institution", "events-subjects", "works", "news-items_medium", "news item roles"]:
+			if key in ["source", "Tags", "spatial.country", "spatial.city", "spatial.region", "rights_holder", "publisher", "contributor.name", "creator.name", "publisher", "person-notpoet", "person-poet", "name-major-poet", "person-author", "news_items", "commentaries_relation", "nationality-region", "nationality-country", "education", "events", "birth_spatial.country", "birth_spatial.city", "year_degree_institution", "events-subjects", "works", "news-items_medium", "news item roles", "site section"]:
 				record['fields'][key] = json.dumps(value)
 		writer.writerow(record['fields'])
 
