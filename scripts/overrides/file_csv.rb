@@ -12,7 +12,11 @@ class FileCsv < FileType
     table = table_type
     @csv.each do |row|
         if !row.header_row? && row["Title"] != ""
-          new_row = row_to_es(@csv.headers, row, table)
+          begin
+            new_row = row_to_es(@csv.headers, row, table)
+          rescue
+            puts "error for item " + row["Unique ID"]
+          end
           if new_row
             es_doc << new_row
           end
@@ -26,13 +30,12 @@ class FileCsv < FileType
   end
 
   def row_to_es(headers, row, table)
-    if table == "contemporary poets"
+    if table == "people" && JSON.parse(row["site section"]).include?("Index of Poets")
       doc = {}
 
       # See data repo readme file for description of use of fields
 
-      doc["identifier"]  = row["Unique-ID"]
-
+      doc["identifier"]  = row["Unique ID"]
       doc["collection"]  = @options["collection"]
       doc["category"]    = "Person"
       doc["subcategory"] = "Contemporary Poet"
@@ -56,9 +59,9 @@ class FileCsv < FileType
       doc["title"]       = authorname
       doc["title_sort"]  = authorname.downcase # need more sorting rules?
       doc["alternative"] = titlename
-      doc["places"]      = row["Country"].strip.split(", ") if row["Country"]
-      doc["keywords"]    = row["Region"]
-      doc["source"]      = row["Bio Sources (MLA)"]
+      doc["places"]      = row["nationality-country"].strip.split(", ") if row["nationality-country"]
+      doc["keywords"]    = row["nationality-region"]
+      doc["source"]      = row["(CAP) Bio Sources (MLA)"]
 
       # adding new fields from expanded spreadsheet as is for now
       #ID - previously done
@@ -89,19 +92,19 @@ class FileCsv < FileType
       #Bio Sources (MLA)
       #Contact
       #Status
-      doc["person_nationality_k"]      = row["Country of Nationality"]
-      doc["person_birth_date_k"]      = row["birth-year"]
-      doc["patial_name_birth_k"]      = row["birth_spatial.country"] # note, this is now in two field. I will skip city
-      doc["person_death_date_k"]      = row["death-year"]
-      doc["spatial_name_death_k"]      = row["death-place"]
+      doc["person_nationality_k"]      = row["nationality-country"]
+      doc["person_birth_date_k"]      = row["Date birth"]
+      doc["spatial_name_birth_k"]      = row["birth_spatial.country"] # note, this is now in two field. I will skip city
+      doc["person_death_date_k"]      = row["Date death"]
+      doc["spatial_name_death_k"]      = row["(CAP) death place"]
       # I am unsure of the below fields in the new Airtable--WD
       # doc["person_trait1_k"]      = row["Ethnicity"]
       # doc["citation_title_k"]      = row["citation_title_k"]
       # doc["citation_publisher"]      = row["citation_publisher"]
       # doc["citation_place_k"]      = row["citation_place_k"]
-      doc["language"]      = row["Languages spoken"]
+      doc["language"]      = row["(CAP) Languages spoken"]
       # doc["citation_role_k"]      = row["citation_role_k"]
-      doc["description"]      = row["Bio"]
+      doc["description"]      = row["Biography"]
       # doc["contributor_name_k"]      = row["contributor.name"]
       
       unless row["Name alt"].to_s.strip.empty?
@@ -125,7 +128,6 @@ class FileCsv < FileType
                       ] 
 
       doc["text"] = textcomplete.join(" ")
-
       doc
     elsif table == "commentaries"
       CsvToEsCommentaries.new(row, options, @csv, self.filename(false)).json
@@ -135,7 +137,7 @@ class FileCsv < FileType
       CsvToEsNews.new(row, options, @csv, self.filename(false)).json
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
-    elsif table == "people"
+    elsif table == "people" && JSON.parse(row["site section"]).include?("In the News")
       if row["Major african poet"] == "True"
         CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
       end
