@@ -32,9 +32,7 @@ class FileCsv < FileType
   def row_to_es(headers, row, table)
     if table == "people" && JSON.parse(row["site section"]).include?("Index of Poets")
       doc = {}
-
       # See data repo readme file for description of use of fields
-
       doc["identifier"]  = row["Unique ID"]
       doc["collection"]  = @options["collection"]
       doc["category"]    = "Person"
@@ -59,8 +57,8 @@ class FileCsv < FileType
       doc["title"]       = authorname
       doc["title_sort"]  = authorname.downcase # need more sorting rules?
       doc["alternative"] = titlename
-      doc["places"]      = row["nationality-country"].strip.split(", ") if row["nationality-country"]
-      doc["keywords"]    = row["nationality-region"]
+      doc["places"]      = get_value(row, "nationality-country", true)
+      doc["keywords"]    = get_value(row, "nationality-region", true)
       doc["source"]      = row["(CAP) Bio Sources (MLA)"]
 
       # adding new fields from expanded spreadsheet as is for now
@@ -92,9 +90,9 @@ class FileCsv < FileType
       #Bio Sources (MLA)
       #Contact
       #Status
-      doc["person_nationality_k"]      = row["nationality-country"]
+      doc["person_nationality_k"]      = get_value(row, "nationality-country", true)
       doc["person_birth_date_k"]      = row["Date birth"]
-      doc["spatial_name_birth_k"]      = row["birth_spatial.country"] # note, this is now in two field. I will skip city
+      doc["spatial_name_birth_k"]      = get_value(row, "birth_spatial.country", true) # note, this is now in two field. I will skip city
       doc["person_death_date_k"]      = row["Date death"]
       doc["spatial_name_death_k"]      = row["(CAP) death place"]
       # I am unsure of the below fields in the new Airtable--WD
@@ -177,9 +175,19 @@ class FileCsv < FileType
     when "people.csv"
       "people"
     end
-  end
+  end 
 
   def parse_md_parentheses(query)
     /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
+  end
+
+  def get_value(row, name, parse=false)
+    if row[name] && row[name].length > 0
+      if parse
+        JSON.parse(row[name])
+      else
+        row[name]
+      end
+    end
   end
 end
