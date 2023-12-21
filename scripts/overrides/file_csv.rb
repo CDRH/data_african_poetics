@@ -134,7 +134,9 @@ class FileCsv < FileType
     elsif table == "events"
       CsvToEsEvents.new(row, options, @csv, self.filename(false)).json
     elsif table == "news_items"
-      CsvToEsNews.new(row, options, @csv, self.filename(false)).json
+      if row["Complete"] == "Publish"
+        CsvToEsNews.new(row, options, @csv, self.filename(false)).json
+      end
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
     elsif table == "people" && JSON.parse(row["site section"]).include?("In the News")
