@@ -83,7 +83,8 @@ table_fields = {
     "Name given": "person.name",
     "(CAP) Bio Sources (MLA)": "source",
     "(CAP) death place": "spatial_name_death_k",
-    "(CAP) Languages spoken": "language"
+    "(CAP) Languages spoken": "language",
+    "Gender": "person.gender"
   },
   "works": {
     "airtableID":"airtableID",
