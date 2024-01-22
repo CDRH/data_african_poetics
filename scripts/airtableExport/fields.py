@@ -63,6 +63,7 @@ table_fields = {
     "Unique ID":"identifier",
     "Name Built": "title",
     "Major african poet": "type",
+    "Featured": "type",
     "nationality-country": "places",
     "Biography": "description",
     "name-letter": "alternative",
