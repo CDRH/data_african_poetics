@@ -36,7 +36,7 @@ class FileCsv < FileType
       doc["identifier"]  = row["Unique ID"]
       doc["collection"]  = @options["collection"]
       doc["category"]    = "Person"
-      doc["subcategory"] = "Contemporary Poet"
+      doc["subcategory"] = "Index of Poets"
       doc["data_type"]   = "csv"
 
       authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
@@ -108,7 +108,6 @@ class FileCsv < FileType
       unless row["Name alt"].to_s.strip.empty?
         doc["people"]    = row["Name alt"]
       end
-
       # Featured authors have more information
       if row["Featured"] == "True"
         doc["type"]      = "Featured"
