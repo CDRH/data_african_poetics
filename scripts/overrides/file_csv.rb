@@ -94,7 +94,7 @@ class FileCsv < FileType
       doc["person_birth_date_k"]      = row["Date birth"]
       doc["spatial_name_birth_k"]      = get_value(row, "birth_spatial.country", true) # note, this is now in two field. I will skip city
       doc["person_death_date_k"]      = row["Date death"]
-      doc["spatial_name_death_k"]      = row["death place"]
+      doc["spatial_name_death_k"]      = row["Death place"]
       # I am unsure of the below fields in the new Airtable--WD
       # doc["person_trait1_k"]      = row["Ethnicity"]
       # doc["citation_title_k"]      = row["citation_title_k"]
