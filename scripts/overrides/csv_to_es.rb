@@ -37,12 +37,14 @@ class CsvToEs
         next
       end
       if valid_json?(value) && JSON.parse(value).is_a?(Array)
-        built_text << parse_array(JSON.parse(value))
+        new_value = parse_array(JSON.parse(value))
       elsif value.include?(";;;")
-        built_text << parse_array(value.split(";;;"))
+        new_value = parse_array(value.split(";;;"))
       else
-        built_text << parse_value(value)
+        new_value = parse_value(value)
       end
+      #strip out quoted values and ids other than item itself
+      built_text << new_value.to_s.gsub("\"", "").gsub(/(hc\..+?\d)\D/, "")
     end
     return array_to_string(built_text, " ")
   end
