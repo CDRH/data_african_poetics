@@ -59,7 +59,7 @@ class FileCsv < FileType
       doc["alternative"] = titlename
       doc["places"]      = get_value(row, "nationality-country", true)
       doc["keywords"]    = get_value(row, "nationality-region", true)
-      doc["source"]      = row["(CAP) Bio Sources (MLA)"]
+      doc["source"]      = row["Bio Sources (MLA)"]
 
       # adding new fields from expanded spreadsheet as is for now
       #ID - previously done
@@ -94,13 +94,13 @@ class FileCsv < FileType
       doc["person_birth_date_k"]      = row["Date birth"]
       doc["spatial_name_birth_k"]      = get_value(row, "birth_spatial.country", true) # note, this is now in two field. I will skip city
       doc["person_death_date_k"]      = row["Date death"]
-      doc["spatial_name_death_k"]      = row["(CAP) death place"]
+      doc["spatial_name_death_k"]      = row["death place"]
       # I am unsure of the below fields in the new Airtable--WD
       # doc["person_trait1_k"]      = row["Ethnicity"]
       # doc["citation_title_k"]      = row["citation_title_k"]
       # doc["citation_publisher"]      = row["citation_publisher"]
       # doc["citation_place_k"]      = row["citation_place_k"]
-      doc["language"]      = row["(CAP) Languages spoken"]
+      doc["language"]      = row["Languages spoken"]
       # doc["citation_role_k"]      = row["citation_role_k"]
       doc["description"]      = row["Biography"]
       # doc["contributor_name_k"]      = row["contributor.name"]

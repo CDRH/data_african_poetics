@@ -82,9 +82,9 @@ table_fields = {
     "site section": "subcategory",
     "Name last": "person.name",
     "Name given": "person.name",
-    "(CAP) Bio Sources (MLA)": "source",
-    "(CAP) death place": "spatial_name_death_k",
-    "(CAP) Languages spoken": "language",
+    "Bio Sources (MLA)": "source",
+    "death place": "spatial_name_death_k",
+    "Languages spoken": "language",
     "Gender": "person.gender"
   },
   "works": {
