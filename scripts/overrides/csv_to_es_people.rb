@@ -28,7 +28,7 @@ class CsvToEsPeople < CsvToEs
   end
 
   def description
-    get_value("Short biography")
+    get_value("Biography")
   end
 
   def type

@@ -3,10 +3,10 @@
 Note: for the time being, do this step on a local machine and then pull to the data repository on the server.
 
 Make sure you have an API key from Airtable and know the base ID of the tables you want to download.
-Create a `.env` file in the base directory of the data repo, it should be automatically be .gitignore'd as secrets should never be committed. Find the base ID by navigating to the project page on airtable, clicking on Help and then "Api Documentation" at the bottom of the sidebar, where it says "The ID of this base is ****". The API key can be found on your account page Add the base ID and API key to `.env`:
+Create a `.env` file in the base directory of the data repo, it should be automatically be .gitignore'd as secrets should never be committed. Find the base ID by navigating to the project page on airtable, clicking on Help and then "Api Documentation" at the bottom of the sidebar, where it says "The ID of this base is ****". The API key can be found on your account page. Note that Airtable is transitioning to a new account system and that you now need to create a [personal access token](https://airtable.com/developers/web/guides/personal-access-tokens). The token can still be labeled API_KEY for the sake of the auehtnication system  When creating the token, give yourself read access for all options (no need for write access) and select the APDP table. Add the base ID and API key (or personal access token) to `.env`:
 ```
 BASE_ID=app**************
-API_KEY=key**************
+API_KEY=*****************
 ```
 Run `python3 scripts/airtableExport/airtable_to_csv.py`. You may need to first run `pip3 install -r requirements.txt`. The json export from Airtable will be in `scripts/airtableExport/json` and the generated csv files will be in `scripts/airtableExport/csv` and `source/csv` (the latter containing the tables that will be ingested by Datura). The repo is currently set up to ingest news items, commentaries, works, events, and people (poets).
 
