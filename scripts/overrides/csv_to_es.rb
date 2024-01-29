@@ -44,7 +44,7 @@ class CsvToEs
         new_value = parse_value(value)
       end
       #strip out quoted values and ids other than item itself
-      built_text << new_value.to_s.gsub("\"", "").gsub(/(hc\..+?\d)\D/, "")
+      built_text << new_value.to_s.gsub("\"", "").gsub(/apdp\..+?\d{6}/, "")
     end
     return array_to_string(built_text, " ")
   end
