@@ -36,7 +36,8 @@ class FileCsv < FileType
       doc["identifier"]  = row["Unique ID"]
       doc["collection"]  = @options["collection"]
       doc["category"]    = "Person"
-      doc["subcategory"] = "Index of Poets"
+      #may also be "In the News"
+      doc["subcategory"] = get_value(row, "site section", true)
       doc["data_type"]   = "csv"
 
       authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
