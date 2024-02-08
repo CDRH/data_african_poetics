@@ -11,7 +11,7 @@ class FileCsv < FileType
     es_doc = []
     table = table_type
     @csv.each do |row|
-        if !row.header_row? && row["Title"] != ""
+        if !row.header_row? 
           begin
             new_row = row_to_es(@csv.headers, row, table)
           rescue
@@ -30,7 +30,6 @@ class FileCsv < FileType
   end
 
   def row_to_es(headers, row, table)
-    if table == "people" && JSON.parse(row["site section"]).include?("Index of Poets")
       doc = {}
       # See data repo readme file for description of use of fields
       doc["identifier"]  = row["Unique ID"]
@@ -39,6 +38,7 @@ class FileCsv < FileType
       #may also be "In the News"
       doc["subcategory"] = get_value(row, "site section", true)
       doc["data_type"]   = "csv"
+    if table == "people" && row["Completion Status"] == "Publish" && JSON.parse(row["site section"]).include?("Index of Poets")
 
       authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
       titlename = "#{row["Name given"]} #{row["Name last"]}"
@@ -132,15 +132,13 @@ class FileCsv < FileType
     elsif table == "events"
       CsvToEsEvents.new(row, options, @csv, self.filename(false)).json
     elsif table == "news_items"
-      if row["Complete"] == "Publish"
+      if row["Completion Status"] == "Publish"
         CsvToEsNews.new(row, options, @csv, self.filename(false)).json
       end
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
-    elsif table == "people" && JSON.parse(row["site section"]).include?("In the News")
-      if row["Major african poet"] == "True"
-        CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
-      end
+    elsif table == "people" && row["Completion Status"] == "Publish" && JSON.parse(row["site section"]).include?("In the News")
+      CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
     end
   end
 
