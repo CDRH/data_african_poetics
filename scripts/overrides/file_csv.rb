@@ -30,103 +30,71 @@ class FileCsv < FileType
   end
 
   def row_to_es(headers, row, table)
-      doc = {}
-      # See data repo readme file for description of use of fields
-      doc["identifier"]  = row["Unique ID"]
-      doc["collection"]  = @options["collection"]
-      doc["category"]    = "Person"
-      #may also be "In the News"
-      doc["subcategory"] = get_value(row, "site section", true)
-      doc["data_type"]   = "csv"
     if table == "people" && row["Completion Status"] == "Publish" && JSON.parse(row["site section"]).include?("Index of Poets")
+        doc = {}
+        # See data repo readme file for description of use of fields
+        doc["identifier"]  = row["Unique ID"]
 
-      authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
-      titlename = "#{row["Name given"]} #{row["Name last"]}"
+        authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
+        titlename = "#{row["Name given"]} #{row["Name last"]}"
+        
+        doc["title"]       = authorname
+        doc["title_sort"]  = authorname.downcase # need more sorting rules?
+        doc["collection"]  = @options["collection"]
+        doc["category"]    = "People"
+        #may also be "In the News"
+        doc["subcategory"] = get_value(row, "site section", true)
+        doc["data_type"]   = "csv"
+        #initializing the spatial field to put some location-oriented data into later
+        doc["spatial"] = {}
 
-      # Will potentially need to add more code to deal with more genders later
-      gender = 
-        case
-        when row["Gender"] == "F" 
-          "Female"
-        when row["Gender"] == "M"
-          "Male"
-        else
-          "Unknown"
+
+
+        # Will potentially need to add more code to deal with more genders later
+        gender = 
+          case
+          when row["Gender"] == "F" 
+            "Female"
+          when row["Gender"] == "M"
+            "Male"
+          else
+            "Unknown"
+          end
+
+        doc["person_gender_k"] = gender
+        doc["alternative"] = titlename
+        doc["places"]      = get_value(row, "nationality-country", true)
+        doc["spatial"]["region"]    = get_value(row, "nationality-region", true)
+        doc["source"]      = row["Bio Sources (MLA)"]
+        doc["keywords"] = get_value(row, "education", true)
+        doc["date_not_before"]      = Datura::Helpers.date_standardize(row["Date birth"])
+        doc["spatial"]["country"]      = get_value(row, "birth_spatial.country", true)
+        doc["spatial"]["city"] = get_value(row, "birth_spatial.city", true)
+        doc["date_not_after"]      = Datura::Helpers.date_standardize(row["Date death"])
+        doc["spatial_name_death_k"]      = row["Death place"]
+        doc["language"]      = row["Languages spoken"]
+        doc["description"]      = row["Biography"]
+        if row["work roles"].length > 1
+          doc["works"] = row["work roles"].split(";;;")
+        end
+        unless row["Name alt"].to_s.strip.empty?
+          doc["people"]    = row["Name alt"]
+        end
+        # Featured authors have more information
+        if row["Featured"] == "True"
+          doc["type"]      = "Featured"
         end
 
-      doc["person"]      = {"name" => authorname, "id" => row["Authority"], "role" => gender}
-      doc["title"]       = authorname
-      doc["title_sort"]  = authorname.downcase # need more sorting rules?
-      doc["alternative"] = titlename
-      doc["places"]      = get_value(row, "nationality-country", true)
-      doc["keywords"]    = get_value(row, "nationality-region", true)
-      doc["source"]      = row["Bio Sources (MLA)"]
 
-      # adding new fields from expanded spreadsheet as is for now
-      #ID - previously done
-      #Last Name - previously done
-      #Given Name - previously done
-      #Alternate Name - previously done
-      #Née - skip for now
-      #Featured - done, but may need to revisit
-      #person_nationality_k - done
-      #Country - previously done
-      #Region - previously done
-      #Gender - previously done
-      #person_birth_date_k
-      #spatial_name_birth_k
-      #person_death_date_k
-      #spatial_name_death_k
-      #person_trait1_k
-      #citation_title_k
-      #Selected Works Year Published - skip for now
-      #citation_publisher
-      #citation_place_k
-      #language
-      #citation_role_k
-      #Authority - previously done
-      #description
-      #contributor.name
-      #Notes - skip for now
-      #Bio Sources (MLA)
-      #Contact
-      #Status
-      doc["person_nationality_k"]      = get_value(row, "nationality-country", true)
-      doc["person_birth_date_k"]      = row["Date birth"]
-      doc["spatial_name_birth_k"]      = get_value(row, "birth_spatial.country", true) # note, this is now in two field. I will skip city
-      doc["person_death_date_k"]      = row["Date death"]
-      doc["spatial_name_death_k"]      = row["Death place"]
-      # I am unsure of the below fields in the new Airtable--WD
-      # doc["person_trait1_k"]      = row["Ethnicity"]
-      # doc["citation_title_k"]      = row["citation_title_k"]
-      # doc["citation_publisher"]      = row["citation_publisher"]
-      # doc["citation_place_k"]      = row["citation_place_k"]
-      doc["language"]      = row["Languages spoken"]
-      # doc["citation_role_k"]      = row["citation_role_k"]
-      doc["description"]      = row["Biography"]
-      # doc["contributor_name_k"]      = row["contributor.name"]
-      
-      unless row["Name alt"].to_s.strip.empty?
-        doc["people"]    = row["Name alt"]
-      end
-      # Featured authors have more information
-      if row["Featured"] == "True"
-        doc["type"]      = "Featured"
-      end
+        textcomplete =  [ doc["title"], 
+                          authorname, 
+                          doc["places"], 
+                          doc["keywords"],
+                          gender
+                        ] 
 
-      # if row["Bibliography"]
-      #   doc["works"]       = row["Bibliography"].split("\n")
-      # end
-
-      textcomplete =  [ doc["title"], 
-                        authorname, 
-                        doc["places"], 
-                        doc["keywords"],
-                        gender
-                      ] 
-
-      doc["text"] = textcomplete.join(" ")
-      doc
+        doc["text"] = textcomplete.join(" ")
+        doc
     elsif table == "commentaries"
       CsvToEsCommentaries.new(row, options, @csv, self.filename(false)).json
     elsif table == "events"
