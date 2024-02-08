@@ -148,6 +148,7 @@ class FileCsv < FileType
   end
 
   def get_value(row, name, parse=false)
+    #should be true if an array field that should be parsed as JSON, otherwise false
     if row[name] && row[name].length > 0
       if parse
         JSON.parse(row[name])
