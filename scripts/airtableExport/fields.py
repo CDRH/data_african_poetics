@@ -87,7 +87,8 @@ table_fields = {
     "death place": "spatial_name_death_k",
     "Languages spoken": "language",
     "Gender": "person.gender",
-    "Completion Status": "complete"
+    "Completion Status": "complete",
+    "Manual data entry complete": "complete"
   },
   "works": {
     "airtableID":"airtableID",
