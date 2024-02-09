@@ -30,7 +30,10 @@ class FileCsv < FileType
   end
 
   def row_to_es(headers, row, table)
-    if table == "people" && row["Completion Status"] == "Publish" && JSON.parse(row["site section"]).include?("Index of Poets")
+    if table == "people" \
+      && row["Completion Status"] == "Publish" \
+      && row["Manual data entry complete"] == "True" \
+      && JSON.parse(row["site section"]).include?("Index of Poets")
         doc = {}
         # See data repo readme file for description of use of fields
         doc["identifier"]  = row["Unique ID"]
@@ -103,7 +106,10 @@ class FileCsv < FileType
       end
     elsif table == "works"
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
-    elsif table == "people" && row["Completion Status"] == "Publish" && JSON.parse(row["site section"]).include?("In the News")
+    elsif table == "people" \
+      && row["Completion Status"] == "Publish" \
+      && row["Manual data entry complete"] == "true" \
+      && JSON.parse(row["site section"]).include?("In the News")
       CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
     end
   end
