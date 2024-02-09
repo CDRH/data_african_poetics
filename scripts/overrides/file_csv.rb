@@ -84,7 +84,7 @@ class FileCsv < FileType
         if row["Featured"] == "True"
           doc["type"]      = "Featured"
         end
-
+        doc["alternative"] = row["name-letter"]
 
         textcomplete =  [ doc["title"], 
                           authorname, 
