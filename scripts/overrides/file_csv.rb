@@ -35,11 +35,11 @@ class FileCsv < FileType
         # See data repo readme file for description of use of fields
         doc["identifier"]  = row["Unique ID"]
 
-        authorname = [ row["Name last"], row["Name given"] ].compact.join(", ")
         titlename = "#{row["Name given"]} #{row["Name last"]}"
         
-        doc["title"]       = authorname
-        doc["title_sort"]  = authorname.downcase # need more sorting rules?
+        doc["title"]       = row["Name Built"]
+        doc["title_sort"]  = row["Name Built"].downcase # need more sorting rules?
+        doc["person_alternate_name_k"] = titlename
         doc["collection"]  = @options["collection"]
         doc["category"]    = "People"
         #may also be "In the News"
@@ -62,7 +62,6 @@ class FileCsv < FileType
           end
 
         doc["person_gender_k"] = gender
-        doc["alternative"] = titlename
         doc["places"]      = get_value(row, "nationality-country", true)
         doc["spatial"]["region"]    = get_value(row, "nationality-region", true)
         doc["source"]      = row["Bio Sources (MLA)"]
@@ -87,7 +86,6 @@ class FileCsv < FileType
         doc["alternative"] = row["name-letter"]
 
         textcomplete =  [ doc["title"], 
-                          authorname, 
                           doc["places"], 
                           doc["keywords"],
                           gender
