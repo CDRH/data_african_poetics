@@ -16,7 +16,6 @@ omeka_auth = OmekaAPIClient(
     key_identity=os.getenv('KEY_IDENTITY'),                        
     key_credential=os.getenv('KEY_CREDENTIAL')                        
 )
-breakpoint()
 print(omeka_auth.get_template_properties(1))
 #
 tables = [
@@ -29,14 +28,20 @@ tables = [
 #iterate through tables
 #load tables, note that I am just starting with one at first
 for table in tables:
-    with open('source/csv/#{table}.csv', newline='') as csvfile:
+    with open(f'source/csv/{table}.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             # print(row)
             #prepare item
             item = api_fields.prepare_item(row, table)
             # payload = omeka_auth.prepare_item_payload(item)
-            payload = omeka_auth.prepare_item_payload_using_template(item, 1)
-            #add item
-            breakpoint()
-            new_item = omeka_auth.add_item(payload)
+            if item:
+                payload = omeka_auth.prepare_item_payload_using_template(item, 1)
+                #check if item is in index already
+                #if so, update item
+                #otherwise, add item
+                new_item = omeka_auth.add_item(payload)
+            else:
+                break
+        else:
+            break
