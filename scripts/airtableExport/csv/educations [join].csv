@@ -36,7 +36,7 @@
 "rec25wtCU7I1NKGCl","""University of California, Davis,  (United States | California |  | Davis |  | )""","['rec5ZpzryXyI6MI3r']","['recVAvWJAPYxIkrsx']","","","",""
 "recc3oRsewsbqjH6a","""University of Michigan, Ann Arbor,  (United States | Michigan |  | Ann Arbor |  | )""","['rec5ZpzryXyI6MI3r']","['recds3PhMd8o29yyW']","","","",""
 "recpxHepyYfVH96f3","""American River College,  (United States | California |  | Sacramento |  | )""","['rec5ZpzryXyI6MI3r']","['rec3P2dsy8x6zGGvF']","","","",""
-"recuNNNSIrKFKY8Vu","""University of Ghana,  (Ghana |  |  | Accra |  | )""","['recCdkXP5jVXt4Mbr']","['recgQwTy8MZ3hhgA6']","","","",""
+"recuNNNSIrKFKY8Vu","""University of Ghana,  (Ghana |  |  | Accra |  | )""","","['recgQwTy8MZ3hhgA6']","","","",""
 "recbnleMepYBnZXNq","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","['recutLVTf8Hg91tI1']","['recmFvtzUMqaFmOoC']","","","",""
 "recQrhXcbrmaesK0d","""University of South Africa,  (South Africa |  |  | Pretoria |  | )""","['reclUNvSZgS44cVWd']","['recGqSSihJtYd3SZ5']","","","",""
 "recabdt0G0CSZBAgb","""University of California, Berkeley,  (United States | California |  | Berkeley |  | )""","['recKUUf0uPhSc4eOh']","['recEe7EiVLG3gFCVI']","","","",""
@@ -304,8 +304,8 @@
 "","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","['recv8pv0TUqUWz1dJ']","['recmFvtzUMqaFmOoC']","","","MA",""
 "","""Pretoria Normal College,  (South Africa |  |  | Pretoria |  | )""","['reccGeA0Fw8BFLrrn']","['recjAikPFs9Izr44v']","","","",""
 "","""Columbia University,  (United States | New York |  | New York |  | )""","['rec8qh8FJn89tBaIL']","['rec63dqyzlDx5zdLd']","1959","","MFA",""
-"","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","['recnKDHRaSij50tMc']","['recmFvtzUMqaFmOoC']","","","BA, Language and Philosophy",""
-"","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","['recnKDHRaSij50tMc']","['recmFvtzUMqaFmOoC']","1963","","MA, Philosophy",""
+"","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","['recXO2WiZ2k8Mqr6o']","['recmFvtzUMqaFmOoC']","","","BA, Language and Philosophy",""
+"","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","['recXO2WiZ2k8Mqr6o']","['recmFvtzUMqaFmOoC']","1963","","MA, Philosophy",""
 "","""University of Bordeaux,  (France |  |  | Bordeaux |  | )""","['recbrdJ4JhkPlcFMy']","['reccHWEEvoEBozrVG']","1964","","BA, Modern Literature",""
 "","""University of Burgandy,  (France |  |  | Dijon |  | )""","['recOSAm5YYGUeqIE0']","['recLrtQe1N1EWf5rD']","","","MA",""
 "","""Sorbonne Université,  (France |  |  | Paris |  | )""","['recOSAm5YYGUeqIE0']","['rec7hFTr0nzshwBWo']","","","PhD",""
@@ -461,9 +461,9 @@
 "","""University College of Ghana
 ,  (Ghana |  |  | Accra |  | )""","['recw6xteDA4loPFr8']","['recWTYOjdE4iyvqWj']","1960","True","BA
 ",""
-"","""University College London,  (England |  |  | London |  | )""","['recw6xteDA4loPFr8', 'recCdkXP5jVXt4Mbr']","['recZDrWl4hRL6BX1D']","1970","True","MA
+"","""University College London,  (England |  |  | London |  | )""","['recw6xteDA4loPFr8']","['recZDrWl4hRL6BX1D']","1970","True","MA
 ",""
-"","""SUNY at Stony Brook,  (United States | New York |  | New York |  | )""","['recw6xteDA4loPFr8', 'recCdkXP5jVXt4Mbr']","['rec8ZZC75PKfSknwR']","1972","True","PhD",""
+"","""SUNY at Stony Brook,  (United States | New York |  | New York |  | )""","['recw6xteDA4loPFr8']","['rec8ZZC75PKfSknwR']","1972","True","PhD",""
 "","""New College,  (England |  | Oxfordshire | Oxford |  | )""","['rec9R8HNlWmIM3Kc1']","['recTOPJPNxnOoaEO1']","1959","True","BA/MA
 ",""
 "","""University of Bristol
@@ -596,10 +596,10 @@
 "","""University of Stellenbosch,  (South Africa |  |  | Stellenbosch |  | )""","['recZS4g43q5Io7CpK']","['rece1L9bl6kn7HZTA']"," - ","","[unknown]",""
 "","""University of Ibadan,  (Nigeria |  |  | Ibadan |  | )""","['recmFLKhxO7oJeQEe']","['reclpHNGTKzlJ6PFd']","1965","True","[unknown]",""
 "","""University of Paris,  (France |  |  | Paris |  | )""","['recBdxaNWIHd4zhkg', 'recaEXdUYZk3OmqFS']","['recf8tVNTzQKnq93d']","1935","True","[unknown]",""
-"","""Pretoria Normal College,  (South Africa |  |  | Pretoria |  | )""","['rec5BGwLzTuFn1Wef']","['recjAikPFs9Izr44v']","1960","True","[unknown]",""
+"","""Pretoria Normal College,  (South Africa |  |  | Pretoria |  | )""","","['recjAikPFs9Izr44v']","1960","True","[unknown]",""
 "","""Columbia University,  (United States | New York |  | New York |  | )""","['recADnJms1RS8ueJD']","['rec63dqyzlDx5zdLd']","1979","True","[unknown]",""
 "","""University of South Africa,  (South Africa |  |  | Pretoria |  | )""","['recA1aXEUqGwSRQhI']","['recGqSSihJtYd3SZ5']","1947","True","Honorary",""
-"","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","['recXO2WiZ2k8Mqr6o']","['recmFvtzUMqaFmOoC']","1963","True","[unknown]",""
+"","""University of Cape Town,  (South Africa |  |  | Cape Town |  | )""","","['recmFvtzUMqaFmOoC']","1963","True","[unknown]",""
 "","""University of Ibadan,  (Nigeria |  |  | Ibadan |  | )""","['recrkX4daZNLsq0cZ']","['reclpHNGTKzlJ6PFd']","1958","True","",""
 "","""University of Leeds,  (England |  |  | Leeds |  | )""","['recrkX4daZNLsq0cZ']","['rec571VzGkER6dg0n']"," - ","","[unknown]",""
 "","""University of Stellenbosch,  (South Africa |  |  | Stellenbosch |  | )""","['recu43DbrUayW9AhJ']","['rece1L9bl6kn7HZTA']","1936","True","[unknown]",""
@@ -607,7 +607,7 @@
 "","""University of Stellenbosch,  (South Africa |  |  | Stellenbosch |  | )""","['rech3QgHUlRA7jtQu']","['rece1L9bl6kn7HZTA']"," - ","","[unknown]",""
 "","""Oriel College,  (England |  | Oxfordshire | Oxford |  | )""","['recX3e6HGV46vJgzl']","['recmfRi39g7JmO1Dc']","1942","True","[unknown]",""
 "","""University of Fort Hare,  (South Africa | Eastern Cape |  | Alice |  | )""","['recBIvEPMfSnuke1H']","['recX6WJVR4LmR7ZYu']","1973",""," - ",""
-"","""University of Limpopo,  (South Africa | Limpopo |  | Mankweng |  | )""","['rec67UXWcSQoH1N7i']","['rec3tGPsSMuQPpbcr']"," - ","True","[unknown]",""
+"","""University of Limpopo,  (South Africa | Limpopo |  | Mankweng |  | )""","['recDKCbVs9Y6DEDhz']","['rec3tGPsSMuQPpbcr']"," - ","True","[unknown]",""
 "","""University of Eastern Africa,  (Kenya |  | Nandi County | Kapsabet |  | )""","['recDGBtNDeMgPckHj']","['reclXkR5WWqI1ZHXO']"," - ","True","[unknown]",""
 "","""Gorky Literary Institute,  (Russia |  |  | Moscow |  | )""","['recNk4oqSzYFgciSx']","['recFn6m3UzWrYN6X2']","1967","True","[unknown]",""
 "","""University College London,  (England |  |  | London |  | )""","['recNk4oqSzYFgciSx']","['recZDrWl4hRL6BX1D']","1971","True","MA",""
@@ -619,7 +619,7 @@
 "","""University of Rhodesia,  (Zimbabwe |  |  | Harare |  | )""","['rec6AGwjH7PImbAAF']","['rec1JTP1il8NyQldy']","1973",""," - ",""
 "","""University of Kent,  (England |  | Kent | Canterbury |  | Canterbury)""","['rec6AGwjH7PImbAAF']","['recsEVCWVTSAhOiq8']","1978","True","Bachelors",""
 "","""University of Kent,  (England |  | Kent | Canterbury |  | Canterbury)""","['rec6AGwjH7PImbAAF']","['recsEVCWVTSAhOiq8']","1978","True","Masters of Arts (MA)",""
-"","""University of Bordeaux,  (France |  |  | Bordeaux |  | )""","['recWzBkkqbZTCLuTq']","['reccHWEEvoEBozrVG']","1964","True","Bachelors","True"
+"","""University of Bordeaux,  (France |  |  | Bordeaux |  | )""","","['reccHWEEvoEBozrVG']","1964","True","Bachelors","True"
 "","""University of Ibadan,  (Nigeria |  |  | Ibadan |  | )""","['recOo2kpeQuQEciaC']","['reclpHNGTKzlJ6PFd']","1953","True","BA","True"
 "","""University of Ghana,  (Ghana |  |  | Accra |  | )""","['recW2LITFLTa3ZxhL']","['recgQwTy8MZ3hhgA6']"," - ","True","BA","True"
 "","""Indiana University,  (United States | Indiana |  | Bloomington |  | )""","['recW2LITFLTa3ZxhL']","['rec0EZZr4GahJUHGn']","1980","True","MA","True"
