@@ -108,7 +108,7 @@ class FileCsv < FileType
       CsvToEsWorks.new(row, options, @csv, self.filename(false)).json
     elsif table == "people" \
       && row["Completion Status"] == "Publish" \
-      && row["Manual data entry complete"] == "true" \
+      && row["Manual data entry complete"] == "True" \
       && JSON.parse(row["site section"]).include?("In the News")
       CsvToEsPeople.new(row, options, @csv, self.filename(false)).json
     end
