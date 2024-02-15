@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 env_path = Path('.')/'.env'
 load_dotenv(dotenv_path=env_path)
+import copy
 
 #initialize api and auth info
 omeka = OmekaAPIClient('http://libr-cdrh2102vs3.unl.edu/omeka-s/api')
@@ -32,16 +33,23 @@ for table in tables:
         reader = csv.DictReader(csvfile)
         for row in reader:
             # print(row)
-            #prepare item
-            item = api_fields.prepare_item(row, table)
-            # payload = omeka_auth.prepare_item_payload(item)
-            if item:
-                payload = omeka_auth.prepare_item_payload_using_template(item, 1)
-                #check if item is in index already
-                #if so, update item
-                #otherwise, add item
-                new_item = omeka_auth.add_item(payload)
-            else:
-                break
+            #check if item is in index already
+            matching_items = omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
+            if matching_items:
+                #if item exists, update item
+                if matching_items["total_results"] == 1:
+                    item = api_fields.prepare_item(row, table, matching_items["results"][0])
+                    item_to_update = copy.deepcopy(item)
+                    if item:
+                        omeka_auth.update_resource(item, "items")
+                #otherwise, create item from scratch
+                elif matching_items["total_results"] == 0:
+                    item = api_fields.prepare_item(row, table)
+                    payload = omeka_auth.prepare_item_payload_using_template(item, 1)
+                    if item:
+                        omeka_auth.add_item(payload)
+                #if multiple matches
+                else:
+                    print(f"multiple matches for {row['Unique ID']}, please check Omeka admin site")
         else:
             break

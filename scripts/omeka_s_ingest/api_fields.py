@@ -1,56 +1,20 @@
 import json
 
-def build_people_dict(row):
+def build_people_dict(row, existing_item):
+    #i'm not sure it makes sense to combine this in one method, but creating and updating are different processes
     try:
-        return {
-            "dcterms:title": [
-                {
-                    "value": row["Name Built"]
-                }
-            ],
-            "dcterms:identifier": [
-                {
-                    "value": row["Unique ID"]
-                }
-            ],
-            "dcterms:date": [
-                {
-                    #note: standardized in the original
-                    "value": row["Date birth"]
-                }
-            ],
-            "dcterms:description": [
-                {
-                    "value": row["Biography"]
-                }
-            ],
-            "dcterms:spatial": [
-                {
-                    "value": spatial(row)
-                }
-            ],
-            "dcterms:alternative": [
-                {
-                    "value": row["name-letter"]
-                }
-            ],
-            "dcterms:format": [
-                {
-                    "value": get_json_value(row, "news item roles")
-                }
-            ],
-            "dcterms:subject": [
-                {
-                    "value": get_json_value(row, "events")
-                }
-            ],
-            "dcterms:relation": [
-                {
-                    "value": get_json_value(row, "commentaries_relation")
-                }
-            ]
-            
-        }
+        built_item = existing_item if existing_item else {}
+        #new_item['schema:name'][0]['@value'] = "value" is how you update
+        update_item_value(built_item, "dcterms:title", row["Name Built"])
+        update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
+        update_item_value(built_item, "dcterms:date", row["Date birth"])
+        update_item_value(built_item, "dcterms:description", row["Biography"])
+        update_item_value(built_item, "dcterms:spatial", spatial(row))
+        update_item_value(built_item, "dcterms:alternative", row["name-letter"])
+        update_item_value(built_item, "dcterms:format", get_json_value(row, "news item roles"))
+        update_item_value(built_item, "dcterms:subject", get_json_value(row, "events"))
+        update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
+        return built_item
     except ValueError:
         breakpoint()
 
@@ -58,7 +22,6 @@ def spatial(row):
     places = []
     if row["nationality-region"]:
         places.append({ "region" : json.loads(row["nationality-region"])[0], "type": "nationality" })
-
     if row["birth_spatial.country"]:
       birthplace = { "country" : json.loads(row["birth_spatial.country"])[0], "type": "birth place" }
       if row["birth_spatial.city"]:
@@ -69,9 +32,9 @@ def spatial(row):
     return places
 
 
-def prepare_item(row, table):
+def prepare_item(row, table, existing_item = None):
     if table == "people":
-        item_dict = build_people_dict(row)
+        item_dict = build_people_dict(row, existing_item)
     else:
         print(f"API for table {table} not yet implemented")
         return None
@@ -83,3 +46,14 @@ def get_json_value(row, name):
         return json.loads(row[name])
     else:
         return row[name]
+    
+def update_item_value(item, key, value):
+    if key in item:
+        item[key][0]['@value'] = value
+    else: 
+        #add the key
+        item[key] = [ 
+            {
+                "value": value
+            }
+        ]
