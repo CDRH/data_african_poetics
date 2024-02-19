@@ -18,6 +18,25 @@ def build_people_dict(row, existing_item):
     except ValueError:
         breakpoint()
 
+def build_commentaries_dict(row, existing_item):
+    #i'm not sure it makes sense to combine this in one method, but creating and updating are different processes
+    try:
+        built_item = existing_item if existing_item else {}
+        #new_item['schema:name'][0]['@value'] = "value" is how you update
+        update_item_value(built_item, "dcterms:type", "Commentaries")
+        update_item_value(built_item, "dcterms:title", row["Name"])
+        update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
+        update_item_value(built_item, "dcterms:description", row["Content"])
+        update_item_value(built_item, "dcterms:format", row["news-items_medium"])
+        update_item_value(built_item, "dcterms:subject", row["events-subjects"])
+        update_item_value(built_item, "dcterms:creator", row["creator.name"])
+        # I wonder if works should go into the below field
+        #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
+        return built_item
+    except ValueError:
+        breakpoint()
+
+
 def spatial(row):
     places = []
     if row["nationality-region"]:
@@ -35,6 +54,8 @@ def spatial(row):
 def prepare_item(row, table, existing_item = None):
     if table == "people":
         item_dict = build_people_dict(row, existing_item)
+    elif table == "commentaries":
+        item_dict = build_commentaries_dict(row, existing_item)
     else:
         print(f"API for table {table} not yet implemented")
         return None
