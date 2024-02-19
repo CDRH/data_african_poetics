@@ -38,15 +38,15 @@ for table in tables:
             if matching_items:
                 #if item exists, update item
                 if matching_items["total_results"] == 1:
-                    item = api_fields.prepare_item(row, table, matching_items["results"][0])
-                    item_to_update = copy.deepcopy(item)
-                    if item:
-                        omeka_auth.update_resource(item, "items")
+                    item_to_update = copy.deepcopy(matching_items["results"][0])
+                    updated_item = api_fields.prepare_item(row, table, item_to_update)
+                    if updated_item:
+                        omeka_auth.update_resource(updated_item, "items")
                 #otherwise, create item from scratch
                 elif matching_items["total_results"] == 0:
-                    item = api_fields.prepare_item(row, table)
-                    payload = omeka_auth.prepare_item_payload_using_template(item, 1)
-                    if item:
+                    new_item = api_fields.prepare_item(row, table)
+                    payload = omeka_auth.prepare_item_payload_using_template(new_item, 1)
+                    if payload:
                         omeka_auth.add_item(payload)
                 #if multiple matches
                 else:
