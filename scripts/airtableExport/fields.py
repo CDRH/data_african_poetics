@@ -87,8 +87,15 @@ table_fields = {
     "death place": "spatial_name_death_k",
     "Languages spoken": "language",
     "Gender": "person.gender",
+    "death_spatial.country": "place_death_k",
+    "death_spatial.city": "place_death_k",
+    "ethnicity.text": "ethnicity_k",
+    "country_residence.text": "country_residence_k",
+    "Poems": "poems_k",
+    "Poetry Collections": "poetry_collections_k",
+    "speeches lectures": "speeches_k",
     "Completion Status": "complete",
-    "Manual data entry complete": "complete"
+    "Manual data entry complete": "complete",
   },
   "works": {
     "airtableID":"airtableID",
