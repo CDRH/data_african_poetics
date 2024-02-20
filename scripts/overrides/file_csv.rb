@@ -63,7 +63,6 @@ class FileCsv < FileType
           else
             "Unknown"
           end
-
         doc["person_gender_k"] = gender
         doc["places"]      = get_value(row, "nationality-country", true)
         doc["source"]      = row["Bio Sources (MLA)"]
@@ -71,7 +70,15 @@ class FileCsv < FileType
         doc["date"]      = Datura::Helpers.date_standardize(row["Date birth"])
         doc["date_not_before"] = Datura::Helpers.date_standardize(row["Date birth"])
         doc["date_not_after"]      = Datura::Helpers.date_standardize(row["Date death"])
-        doc["spatial_name_death_k"]      = row["Death place"]
+        if row["death_spatial.country"] && row["death_spatial.country"].length > 0
+          country = get_value(row, "death_spatial.country", true)[0]
+          if row["death_spatial.city"] && row["death_spatial.city"].length > 0
+            city = get_value(row, "death_spatial.city", true)[0]
+            doc["place_death_k"]      = "#{city}, #{country}"
+          else
+            doc["place_death_k"]      = country
+          end
+        end
         doc["language"]      = row["Languages spoken"]
         doc["description"]      = row["Biography"]
         if row["work roles"].length > 1
@@ -105,19 +112,22 @@ class FileCsv < FileType
         end
 
         places = []
-        if row["nationality-region"]
+        if row["nationality-region"] && row["nationality-region"].length > 0
           places << { "region" => JSON.parse(row["nationality-region"])[0], "type" => "nationality" }
         end
-        if row["birth_spatial.country"]
+        if row["birth_spatial.country"] && row["birth_spatial.country"].length > 0
           birthplace = { "country" => JSON.parse(row["birth_spatial.country"])[0], "type" => "birth place" }
-          if row["birth_spatial.city"]
+          if row["birth_spatial.city"] && row["birth_spatial.city"].length > 0
             birthplace["city"] = JSON.parse(row["birth_spatial.city"])[0]
           end
           places << birthplace
         end
         doc["spatial"] = places
-      
-
+        doc["ethnicity_k"] = get_value(row, "ethnicity.text", true)
+        doc["country_residence_k"] = get_value(row, "country_residence.text", true)
+        doc["poems_k"] = row["Poems"]
+        doc["poetry_collections_k"] = row["Poetry Collections"]
+        doc["speeches_k"] = row["speeches lectures"]
         textcomplete =  [ doc["title"], 
                           doc["places"], 
                           doc["keywords"],
