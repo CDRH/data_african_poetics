@@ -69,7 +69,8 @@ class FileCsv < FileType
         doc["spatial"]["region"]    = get_value(row, "nationality-region", true)
         doc["source"]      = row["Bio Sources (MLA)"]
         doc["keywords"] = get_value(row, "education", true)
-        doc["date_not_before"]      = Datura::Helpers.date_standardize(row["Date birth"])
+        doc["date"]      = Datura::Helpers.date_standardize(row["Date birth"])
+        doc["date_not_before"] = Datura::Helpers.date_standardize(row["Date birth"])
         doc["spatial"]["country"]      = get_value(row, "birth_spatial.country", true)
         doc["spatial"]["city"] = get_value(row, "birth_spatial.city", true)
         doc["date_not_after"]      = Datura::Helpers.date_standardize(row["Date death"])
@@ -87,6 +88,25 @@ class FileCsv < FileType
           doc["type"]      = "Featured"
         end
         doc["alternative"] = row["name-letter"]
+        doc["medium"] = get_value(row, "news item roles", true)
+        doc["topics"] = row["birth-decade"]
+        doc["subjects"] = get_value(row, "events", true)
+        people = row["related-people"]
+        if people
+          people = people.split(";;;") if people
+          unique = people.uniq
+          result = []
+          unique.each do |person|
+            name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
+            id = /\]\((.*)\)/.match(person)[1] if /\]\((.*)\)/.match(person)
+            count = people.select{|p| p == person}.count
+            if name
+              result << { name: name, role: count, id: id }
+            end
+          end
+          doc["person"] = result
+        end
+      
 
         textcomplete =  [ doc["title"], 
                           doc["places"], 
