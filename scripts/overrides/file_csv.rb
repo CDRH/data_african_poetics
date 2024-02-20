@@ -66,13 +66,10 @@ class FileCsv < FileType
 
         doc["person_gender_k"] = gender
         doc["places"]      = get_value(row, "nationality-country", true)
-        doc["spatial"]["region"]    = get_value(row, "nationality-region", true)
         doc["source"]      = row["Bio Sources (MLA)"]
         doc["keywords"] = get_value(row, "education", true)
         doc["date"]      = Datura::Helpers.date_standardize(row["Date birth"])
         doc["date_not_before"] = Datura::Helpers.date_standardize(row["Date birth"])
-        doc["spatial"]["country"]      = get_value(row, "birth_spatial.country", true)
-        doc["spatial"]["city"] = get_value(row, "birth_spatial.city", true)
         doc["date_not_after"]      = Datura::Helpers.date_standardize(row["Date death"])
         doc["spatial_name_death_k"]      = row["Death place"]
         doc["language"]      = row["Languages spoken"]
@@ -106,6 +103,19 @@ class FileCsv < FileType
           end
           doc["person"] = result
         end
+
+        places = []
+        if row["nationality-region"]
+          places << { "region" => JSON.parse(row["nationality-region"])[0], "type" => "nationality" }
+        end
+        if row["birth_spatial.country"]
+          birthplace = { "country" => JSON.parse(row["birth_spatial.country"])[0], "type" => "birth place" }
+          if row["birth_spatial.city"]
+            birthplace["city"] = JSON.parse(row["birth_spatial.city"])[0]
+          end
+          places << birthplace
+        end
+        doc["spatial"] = places
       
 
         textcomplete =  [ doc["title"], 
