@@ -17,8 +17,6 @@ omeka_auth = OmekaAPIClient(
     key_identity=os.getenv('KEY_IDENTITY'),                        
     key_credential=os.getenv('KEY_CREDENTIAL')                        
 )
-print(omeka_auth.get_template_properties(1))
-#
 tables = [
     "people",
     "commentaries",
@@ -27,13 +25,15 @@ tables = [
     "works"
 ]
 #iterate through tables
-#load tables, note that I am just starting with one at first
 for table in tables:
+    #need to determine what the correct template is. Waiting on 
+    #iterate through each table in turn and read each csv row
     with open(f'source/csv/{table}.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
+        template_number = get_template_number_from_table(table)
+        #eventually will need to have a way to split up index of poets and in the news
         for row in reader:
-            # print(row)
-            #check if item is in index already
+            #check if item is in the API already
             matching_items = omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
             if matching_items:
                 #if item exists, update item
@@ -53,3 +53,10 @@ for table in tables:
                     print(f"multiple matches for {row['Unique ID']}, please check Omeka admin site")
         else:
             break
+
+def get_template_number_from_table(table):
+    #using the base template for now
+    #TODO return the number corresponding to the template for the type of item
+    #ie news items, events, etc.
+    return 1
+
