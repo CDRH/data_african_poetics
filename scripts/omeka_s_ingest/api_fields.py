@@ -70,7 +70,7 @@ def build_commentaries_dict(row, existing_item):
         update_item_value(built_item, "dcterms:title", row["Name"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
         update_item_value(built_item, "dcterms:description", row["Content"])
-        update_item_value(built_item, "dcterms:format", row["news-items_medium"])
+        #update_item_value(built_item, "dcterms:format", row["news-items_medium"])
         update_item_value(built_item, "dcterms:subject", row["events-subjects"])
         update_item_value(built_item, "dcterms:creator", row["creator.name"])
         # TODO below fields need some conditional logic for blank entries
@@ -98,8 +98,8 @@ def build_events_dict(row, existing_item):
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
         update_item_value(built_item, "dcterms:date", row["Date"])
         update_item_value(built_item, "dcterms:description", row["Summary"])
-        update_item_value(built_item, "dcterms:temporal", row["topics-decade"])
-        update_item_value(built_item, "dcterms:alternative", row["name-letter"])
+        #update_item_value(built_item, "dcterms:temporal", row["topics-decade"])
+        # update_item_value(built_item, "dcterms:alternative", row["name-letter"])
         update_item_value(built_item, "dcterms:spatial", row["Location (Country)"])
         update_item_value(built_item, "foaf:based_near", row["Location (City)"])
         update_item_value(built_item, "dcterms:type", row["Event type"])
@@ -118,8 +118,8 @@ def build_news_items_dict(row, existing_item):
         built_item = existing_item if existing_item else {}
         update_item_value(built_item, "dcterms:title", row["Article title"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
-        update_item_value(built_item, "dcterms:creator", row["Creator.name"])
-        update_item_value(built_item, "dcterms:date", row["Article Date"])
+        update_item_value(built_item, "dcterms:creator", row["creator.name"])
+        update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
         update_item_value(built_item, "dcterms:publisher", row["[publication]"]) #TODO make sure this is a readable field
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         update_item_value(built_item, "dcterms:subject", row["Tags"])
@@ -138,14 +138,18 @@ def build_works_dict(row, existing_item):
         update_item_value(built_item, "dcterms:title", row["Title"])
         update_item_value(built_item, "dcterms:creator", row["person-author"])
         update_item_value(built_item, "dcterms:created", row["Year"])
-        update_item_value(built_item, "dcterms:publisher", row["Publisher"])
+        update_item_value(built_item, "dcterms:publisher", row["publisher"])
         update_item_value(built_item, "dcterms:type", row["Work type"])
         #TODO check whether this column is correct. also need to include [news_items]
         update_item_value(built_item, "dcterms:isReferencedBy", row["[commentaries]"])
         #determine airtable column and how it should be parsed (if it's one of the md columns)
         update_item_value(built_item, "dcterms:references", row["References"])
+        return built_item
     except ValueError:
         breakpoint()
+
+
+
 
 def spatial(row):
     places = []
