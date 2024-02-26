@@ -2,7 +2,7 @@ table_fields = {
   "news items": {
     "airtableID":"airtableID",
 	  "title": "title",
-    "unique_id": "identifier",
+    "Unique ID": "identifier",
     "Article title": "alternative",
     "Document type": "type",
     # "Content type": "type",
@@ -32,7 +32,9 @@ table_fields = {
     "contributor.name": "contributor.name",
     "creator.name": "creator.name",
     "topics-decade": "topics",
-    "commentaries_relation": "relation"
+    "commentaries_relation": "relation",
+    "Related Event Omeka ID": "dcterms:relation", 
+    "Contributor Omeka ID": "dcterms:references" 
   },
   "events": {
     "airtableID":"airtableID",
@@ -56,7 +58,12 @@ table_fields = {
     "spatial.country": "spatial.country",
     "spatial.city": "spatial.city",
     "commentaries_relation": "relation",
-    "news_items": "medium"
+    "news_items": "medium",
+    "Location (Country)": "dcterms:spatial",
+    "Location (City)": "foaf:based_near",
+    "Event Type": "dcterms:type",
+    "Related News Item Omeka ID": "dcterms:isReferencedBy",
+    "Related Poet Omeka ID": "dcterms:references"
   },
   "people": {
     "airtableID":"airtableID",
@@ -85,7 +92,12 @@ table_fields = {
     "Bio Sources (MLA)": "source",
     "death place": "spatial_name_death_k",
     "Languages spoken": "language",
-    "Gender": "person.gender"
+    "Gender": "person.gender",
+    "Poet Omeka ID (Index of Poets)": "dcterms:references",
+    "University Omeka ID (from [universities]) (from educations [join])": "foaf:maker",
+    "News Item Omeka ID (from news item role join table)": "foaf:isPrimaryTopicOf",
+    "Event Omega ID (from events table)": "dcterms:isReferencedBy",
+    "Work Omega ID (from works table)": "foaf:made"
   },
   "works": {
     "airtableID":"airtableID",
@@ -108,7 +120,9 @@ table_fields = {
     "name-major-poet": "contributor.name",
     "person-author": "creator.name",
     "topics-decade": "topics", 
-    "commentaries_relation": "relation"
+    "commentaries_relation": "relation",
+    "[commentaries]": "dcterms:isReferencedBy",
+    "References": "dcterms:references"
   },
   "locations": {
     "airtableID":"",
@@ -172,7 +186,11 @@ table_fields = {
     "creator.name": "creator.name",
     "events-subjects": "subjects",
     "works": "works",
-    "news-items_medium": "medium"
+    "news-items_medium": "medium",
+    "Events Omeka ID": "dcterms:references",
+    "News Item Omeka ID": "bibo:cites",
+    "Referenced Poet Omeka ID": "dcterms:subject",
+    "Works Omeka ID": "dcterms:relation"
   },
   "commentary author": {
     "airtableID":"",
