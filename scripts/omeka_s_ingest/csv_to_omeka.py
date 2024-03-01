@@ -11,6 +11,7 @@ load_dotenv(dotenv_path=env_path)
 import copy
 
 #initialize api and auth info
+#TODO can these be refactored as instance variables somehow?
 omeka = OmekaAPIClient('http://libr-cdrh2102vs3.unl.edu/omeka-s/api')
 omeka_auth = OmekaAPIClient(
     api_url = 'http://libr-cdrh2102vs3.unl.edu/omeka-s/api',
@@ -24,7 +25,6 @@ tables = [
     "news items",
     "works"
 ]
-#iterate through tables
 
 def get_template_number_from_table(table):
     #return the number corresponding to the template for the type of item
@@ -43,7 +43,6 @@ def get_template_number_from_table(table):
 
 
 for table in tables:
-    #need to determine what the correct template is. Waiting on 
     #iterate through each table in turn and read each csv row
     with open(f'source/csv/{table}.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
