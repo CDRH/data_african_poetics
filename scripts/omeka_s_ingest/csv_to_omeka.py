@@ -80,4 +80,31 @@ for table in tables:
             else:
                 break
 
+#go through tables again to link records
+for table in tables:
+    #iterate through each table in turn and read each csv row
+    with open(f'source/csv/{table}.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            # if posting the people table, check for items that should not be ingested
+            if table == "people":
+                if not (row["Completion Status"] == "Publish"  and
+                        row["Manual data entry complete"] == "True" and
+                        "In the News" in row["site section"] and 
+                        row["Major african poet"] == "True"):
+                    continue
+            #check if item is in the API already TODO can this be made more efficient
+            #everything should be in the API by now
+            matching_items = omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
+            if matching_items and matching_items["total_results"] == 1:
+                #if item exists, update item with linked records
+                print(f"linking records for {matching_items["results"][0]["dcterms:identifier"][0]["@value"]}")
+                item_to_link = copy.deepcopy(matching_items["results"][0])
+                linked_item = api_fields.link_records(row, table, item_to_link, omeka)
+                if linked_item:
+                    omeka_auth.update_resource(linked_item, "items")
+                
+            else:
+                #if multiple matches or item not found, display warning
+                print(f"error retrieving {row['Unique ID']}, please check Omeka admin site")
 

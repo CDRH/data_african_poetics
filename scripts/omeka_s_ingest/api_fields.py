@@ -1,4 +1,5 @@
 import json
+import re
 
 def build_people_dict(row, existing_item):
     #in the news people only
@@ -15,11 +16,6 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "foaf:givenName", row["Name given"])
         update_item_value(built_item, "foaf:lastName", row["Name last"])
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
-        # TODO there needs to be conditional logic here to deal with blank entries
-        update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
-        update_item_value(built_item, "foaf:isPrimaryTopicOf", row["News Item Omeka ID (from news item role join table)"])
-        update_item_value(built_item, "dcterms:isReferencedBy", row["Event Omega ID (from events table)"])
-        update_item_value(built_item, "foaf:made", row["Work Omega ID (from works table)"])
         
         return built_item
     except ValueError:
@@ -148,7 +144,17 @@ def build_works_dict(row, existing_item):
     except ValueError:
         breakpoint()
 
+def link_people(row, existing_item, omeka):
 
+    cdrh_ids = get_matching_ids_from_markdown(row, "news item roles")
+    omeka_ids = get_omeka_ids(cdrh_ids, omeka)
+    link_item_record(existing_item, "foaf:isPrimaryTopicOf", omeka, omeka_ids)
+    return existing_item
+    # need to get matching item TODO add conditional logic for blank entries
+    # update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
+    # update_item_value(built_item, "foaf:isPrimaryTopicOf", row["News Item Omeka ID (from news item role join table)"])
+    # update_item_value(built_item, "dcterms:isReferencedBy", row["Event Omega ID (from events table)"])
+    # update_item_value(built_item, "foaf:made", row["Work Omega ID (from works table)"])
 
 
 def spatial(row):
@@ -181,6 +187,22 @@ def prepare_item(row, table, existing_item = None):
         return None
     return item_dict
 
+def link_records(row, table, existing_item, omeka):
+    if table == "people":
+        item_dict = link_people(row, existing_item, omeka)
+    # elif table == "commentaries":
+    #     item_dict = build_commentaries_dict(row, existing_item)
+    # elif table == "events":
+    #     item_dict = build_events_dict(row, existing_item)
+    # elif table == "news items":
+    #     item_dict = build_news_items_dict(row, existing_item)
+    # elif table == "works":
+    #     item_dict = build_works_dict(row, existing_item)
+    else:
+        print(f"linking records for table {table} not yet implemented")
+        return None
+    return item_dict
+
 def get_json_value(row, name):
     if len(row[name]) > 0:
         
@@ -198,3 +220,46 @@ def update_item_value(item, key, value):
                 "value": value
             }
         ]
+
+def get_matching_ids_from_markdown(row, field):
+    # takes in an array of strings in markdown format, which include CDRH IDs
+    # returns an array of just the IDs
+    if row[field]:
+        markdown_values = json.loads(row[field])
+
+        ids = []
+        for value in markdown_values:
+            #parse with regex to get ids
+            # ruby code below
+            # /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
+            match = re.search(r"\]\((.*)\)", value)
+            if match:
+                id_no = match.group(1)
+                ids.append(id_no)
+        return ids
+    else:
+        return []
+
+def get_omeka_ids(cdrh_ids, omeka):
+    omeka_ids = []
+    for cdrh_id in cdrh_ids:
+        match = omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = cdrh_id)
+        if match["total_results"] == 1:
+            omeka_id = match['results'][0]["o:id"]
+            omeka_ids.append(omeka_id)
+        else:
+            print(match)
+            print(f"Unable to link {cdrh_id}, match not found or multiple matches")
+    return omeka_ids
+
+def link_item_record(item, key, omeka, omeka_ids = [1]):
+    prop_id = omeka.get_property_id(key)
+    item[key] = []
+    for omeka_id in omeka_ids:
+        prop_value = {
+            "type": "resource:item",
+            "value": omeka_id
+        }
+        formatted = omeka.prepare_property_value(prop_value, prop_id)
+        item[key].append(formatted)
+    return item
