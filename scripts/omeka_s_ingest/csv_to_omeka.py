@@ -63,11 +63,10 @@ for table in tables:
                 #if item exists, update item
                 if matching_items["total_results"] == 1:
                     print(f"updating item {matching_items["results"][0]["dcterms:identifier"][0]["@value"]}")
-                    #temporarily commenting out until the API can be fixed
-                    # item_to_update = copy.deepcopy(matching_items["results"][0])
-                    # updated_item = api_fields.prepare_item(row, table, item_to_update)
-                    # if updated_item:
-                    #     omeka_auth.update_resource(updated_item, "items")
+                    item_to_update = copy.deepcopy(matching_items["results"][0])
+                    updated_item = api_fields.prepare_item(row, table, item_to_update)
+                    if updated_item:
+                        omeka_auth.update_resource(updated_item, "items")
                 #otherwise, create item from scratch
                 elif matching_items["total_results"] == 0:
                     print(f"creating item {row['Unique ID']}")
