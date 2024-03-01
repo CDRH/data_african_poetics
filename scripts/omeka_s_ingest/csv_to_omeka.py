@@ -51,6 +51,12 @@ for table in tables:
         # TODO eventually will need to have a way to split up index of poets and in the news
         for row in reader:
             # if posting the people table, check for items that should not be ingested
+            if table == "people":
+                if not (row["Completion Status"] == "Publish"  and
+                        row["Manual data entry complete"] == "True" and
+                        "In the News" in row["site section"] and 
+                        row["Major african poet"] == "True"):
+                    continue
             #check if item is in the API already TODO can this be made more efficient
             matching_items = omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
             if matching_items:
