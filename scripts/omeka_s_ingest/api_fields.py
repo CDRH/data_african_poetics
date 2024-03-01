@@ -120,9 +120,6 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         update_item_value(built_item, "dcterms:subject", row["Tags"])
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Source link"])
-        #TODO add code to handle blank entries
-        update_item_value(built_item, "dcterms:relation", row["Related Event Omeka ID"])
-        update_item_value(built_item, "dcterms:references", row["Contributor Omeka ID"])
         return built_item
     except ValueError:
         breakpoint()
@@ -155,6 +152,13 @@ def link_people(row, existing_item, omeka):
     # update_item_value(built_item, "dcterms:isReferencedBy", row["Event Omega ID (from events table)"])
     # update_item_value(built_item, "foaf:made", row["Work Omega ID (from works table)"])
 
+def link_news_items(row, existing_item, omeka):
+
+    cdrh_person_ids = get_matching_ids_from_markdown(row, "person")quit
+    link_item_record(existing_item, "dcterms:references", omeka, cdrh_person_ids)
+    return existing_item
+    #TODO add code to handle blank entries
+    # update_item_value(built_item, "dcterms:relation", row["Related Event Omeka ID"])
 
 def spatial(row):
     places = []
@@ -193,8 +197,8 @@ def link_records(row, table, existing_item, omeka):
     #     item_dict = build_commentaries_dict(row, existing_item)
     # elif table == "events":
     #     item_dict = build_events_dict(row, existing_item)
-    # elif table == "news items":
-    #     item_dict = build_news_items_dict(row, existing_item)
+    elif table == "news items":
+        item_dict = link_news_items(row, existing_item, omeka)
     # elif table == "works":
     #     item_dict = build_works_dict(row, existing_item)
     else:
@@ -204,8 +208,12 @@ def link_records(row, table, existing_item, omeka):
 
 def get_json_value(row, name):
     if len(row[name]) > 0:
-        
-        return json.loads(row[name])
+        if row[name].startswith('["'):
+            return json.loads(row[name])
+        elif ";;;" in row[name]:
+            return row[name].split(";;;")
+        else:
+            return row[name]
     else:
         return row[name]
     
@@ -224,24 +232,34 @@ def get_matching_ids_from_markdown(row, field):
     # takes in an array of strings in markdown format, which include CDRH IDs
     # returns an array of just the IDs
     if row[field]:
-        markdown_values = json.loads(row[field])
-
+        markdown_values = get_json_value(row, field)
         ids = []
-        for value in markdown_values:
-            #parse with regex to get ids
-            # ruby code below
-            # /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
-            match = re.search(r"\]\((.*)\)", value)
-            if match:
-                id_no = match.group(1)
-                ids.append(id_no)
-        return ids
+
+        if markdown_values:
+            #should be either single value or array
+            if type(markdown_values) == "str":
+                match = re.search(r"\]\((.*)\)", value)
+                if match:
+                    id_no = match.group(1)
+                    ids.append(id_no)
+            else:
+                for value in markdown_values:
+                    #parse with regex to get ids
+                    # ruby code below
+                    # /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
+                    match = re.search(r"\]\((.*)\)", value)
+                    if match:
+                        id_no = match.group(1)
+                        ids.append(id_no)
+                return ids
     else:
         return []
 
 def get_omeka_ids(cdrh_ids, omeka):
     omeka_ids = []
     for cdrh_id in cdrh_ids:
+        if cdrh_id == '':
+            continue
         match = omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = cdrh_id)
         if match["total_results"] == 1:
             omeka_id = match['results'][0]["o:id"]
