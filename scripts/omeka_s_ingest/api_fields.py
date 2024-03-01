@@ -146,9 +146,8 @@ def build_works_dict(row, existing_item):
 
 def link_people(row, existing_item, omeka):
 
-    cdrh_ids = get_matching_ids_from_markdown(row, "news item roles")
-    omeka_ids = get_omeka_ids(cdrh_ids, omeka)
-    link_item_record(existing_item, "foaf:isPrimaryTopicOf", omeka, omeka_ids)
+    cdrh_news_ids = get_matching_ids_from_markdown(row, "news item roles")
+    link_item_record(existing_item, "foaf:isPrimaryTopicOf", omeka, cdrh_news_ids)
     return existing_item
     # need to get matching item TODO add conditional logic for blank entries
     # update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
@@ -252,7 +251,8 @@ def get_omeka_ids(cdrh_ids, omeka):
             print(f"Unable to link {cdrh_id}, match not found or multiple matches")
     return omeka_ids
 
-def link_item_record(item, key, omeka, omeka_ids = [1]):
+def link_item_record(item, key, omeka, cdrh_ids):
+    omeka_ids = get_omeka_ids(cdrh_ids, omeka)
     prop_id = omeka.get_property_id(key)
     item[key] = []
     for omeka_id in omeka_ids:
