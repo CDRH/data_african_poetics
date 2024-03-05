@@ -69,7 +69,8 @@ def build_commentaries_dict(row, existing_item):
         update_item_value(built_item, "dcterms:description", row["Content"])
         #update_item_value(built_item, "dcterms:format", row["news-items_medium"])
         update_item_value(built_item, "dcterms:subject", row["events-subjects"])
-        update_item_value(built_item, "dcterms:creator", row["creator.name"])
+        if row["creator.name"]:
+            update_item_value(built_item, "dcterms:creator", json.loads(row["creator.name"]))
         # TODO below fields need some conditional logic for blank entries
         update_item_value(built_item, "dcterms:references", row["Events Omeka ID"])
         update_item_value(built_item, "bibo:cites", row["News Item Omeka ID"])
@@ -119,7 +120,8 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
         update_item_value(built_item, "dcterms:publisher", row["[publication]"]) #TODO make sure this is a readable field
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
-        update_item_value(built_item, "dcterms:subject", row["Tags"])
+        if row["Tags"]:
+            update_item_value(built_item, "dcterms:subject", json.loads(row["Tags"]))
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Source link"])
         return built_item
     except ValueError:
@@ -130,9 +132,11 @@ def build_works_dict(row, existing_item):
         built_item = existing_item if existing_item else {}
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
         update_item_value(built_item, "dcterms:title", row["Title"])
-        update_item_value(built_item, "dcterms:creator", row["person-author"])
+        if row["person-author"]:
+            update_item_value(built_item, "dcterms:creator", json.loads(row["person-author"]))
         update_item_value(built_item, "dcterms:created", row["Year"])
-        update_item_value(built_item, "dcterms:publisher", row["publisher"])
+        if row["publisher"]:
+            update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
         update_item_value(built_item, "dcterms:type", row["Work type"])
         #TODO check whether this column is correct. also need to include [news_items]
         update_item_value(built_item, "dcterms:isReferencedBy", row["[commentaries]"])
@@ -218,15 +222,40 @@ def get_json_value(row, name):
         return row[name]
     
 def update_item_value(item, key, value):
-    if key in item:
-        item[key][0]['@value'] = value
-    else: 
-        #add the key
-        item[key] = [ 
-            {
-                "value": value
-            }
-        ]
+    if type(value) == str:
+        if key in item:
+            item[key][0]['@value'] = value
+        else: 
+            #add the key
+            item[key] = [ 
+                {
+                    "value": value
+                }
+            ]
+    elif type(value) == list:
+        if key not in item:
+            item[key] = []
+            for v in value:
+                item[key].append(
+                    { 
+                        "value": v 
+                    }
+                )
+        else:
+            for i, v in enumerate(value):
+                # replace value at the given index, if it exists
+                try:
+                    item[key][i]['@value'] = v
+                # otherwise, prepare value and append it
+                except IndexError:
+                    prop_id = omeka.omeka.get_property_id(key)
+                    prop_value = {
+                        "value": v
+                    }
+                    formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
+                    item[key].append(formatted)
+
+
 
 def get_matching_ids_from_markdown(row, field):
     # takes in an array of strings in markdown format, which include CDRH IDs
