@@ -123,6 +123,8 @@ def build_news_items_dict(row, existing_item):
         if row["Tags"]:
             update_item_value(built_item, "dcterms:subject", json.loads(row["Tags"]))
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Source link"])
+        names = get_matching_names_from_markdown(row, "person")
+        update_item_value(built_item, "foaf:topic", names)
         return built_item
     except ValueError:
         breakpoint()
@@ -281,6 +283,34 @@ def get_matching_ids_from_markdown(row, field):
                         id_no = match.group(1)
                         ids.append(id_no)
                 return ids
+def get_matching_names_from_markdown(row, field):
+    # takes in an array of strings in markdown format, which include names
+    # returns an array of just the names
+    # filters out the ones that have a corresponding id, it is not necessary to get their names
+    if row[field]:
+        markdown_values = get_json_value(row, field)
+        names = []
+
+        if markdown_values:
+            #should be either single value or array
+            if type(markdown_values) == str:
+                name_match = re.search(r"\[(.*?)\]", markdown_values)
+                # filter out entries that have ids
+                id_match = re.search(r"\]\((.*)\)", markdown_values)
+                if name_match and not id_match:
+                    name = name_match.group(1)
+                    names.append(name)
+            else:
+                for value in markdown_values:
+                    #parse with regex to get ids
+                    # ruby code below
+                    # /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
+                    name_match = re.search(r"\[(.*?)\]", value)
+                    id_match = re.search(r"\]\((.*)\)", value)
+                    if name_match and not id_match:
+                        name = name_match.group(1)
+                        names.append(name)
+            return names
     else:
         return []
 
