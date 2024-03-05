@@ -158,9 +158,10 @@ def link_people(row, existing_item):
     # update_item_value(built_item, "dcterms:isReferencedBy", row["Event Omega ID (from events table)"])
     # update_item_value(built_item, "foaf:made", row["Work Omega ID (from works table)"])
 
-def link_news_items(row, existing_item, omeka):
 
-    cdrh_person_ids = get_matching_ids_from_markdown(row, "person")quit
+def link_news_items(row, existing_item):
+    cdrh_person_ids = get_matching_ids_from_markdown(row, "person")
+    if cdrh_person_ids:
         link_item_record(existing_item, "dcterms:references", cdrh_person_ids)
     return existing_item
     #TODO add code to handle blank entries
