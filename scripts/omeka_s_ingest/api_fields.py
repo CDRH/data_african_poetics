@@ -124,7 +124,8 @@ def build_news_items_dict(row, existing_item):
             update_item_value(built_item, "dcterms:subject", json.loads(row["Tags"]))
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Source link"])
         names = get_matching_names_from_markdown(row, "person")
-        update_item_value(built_item, "foaf:topic", names)
+        if names:
+            update_item_value(built_item, "foaf:topic", names)
         return built_item
     except ValueError:
         breakpoint()
@@ -150,6 +151,7 @@ def build_works_dict(row, existing_item):
 
 def link_people(row, existing_item):
     cdrh_news_ids = get_matching_ids_from_markdown(row, "news item roles")
+    if cdrh_news_ids:
         link_item_record(existing_item, "foaf:isPrimaryTopicOf", cdrh_news_ids)
     return existing_item
     # need to get matching item TODO add conditional logic for blank entries
