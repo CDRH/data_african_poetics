@@ -271,8 +271,8 @@ def get_matching_ids_from_markdown(row, field):
 
         if markdown_values:
             #should be either single value or array
-            if type(markdown_values) == "str":
-                match = re.search(r"\]\((.*)\)", value)
+            if type(markdown_values) == str:
+                match = re.search(r"\]\((.*)\)", markdown_values)
                 if match:
                     id_no = match.group(1)
                     ids.append(id_no)
@@ -285,7 +285,13 @@ def get_matching_ids_from_markdown(row, field):
                     if match:
                         id_no = match.group(1)
                         ids.append(id_no)
+                if len(ids) > 1:
+                    ids = list(filter(None, ids))
                 return ids
+            
+    else:
+        return []
+    
 def get_matching_names_from_markdown(row, field):
     # takes in an array of strings in markdown format, which include names
     # returns an array of just the names
