@@ -97,7 +97,9 @@ table_fields = {
     "University Omeka ID (from [universities]) (from educations [join])": "foaf:maker",
     "News Item Omeka ID (from news item role join table)": "foaf:isPrimaryTopicOf",
     "Event Omega ID (from events table)": "dcterms:isReferencedBy",
-    "Work Omega ID (from works table)": "foaf:made"
+    "Work Omega ID (from works table)": "foaf:made",
+    "Completion Status": "complete",
+    "Manual data entry complete": "complete",
   },
   "works": {
     "airtableID":"airtableID",
