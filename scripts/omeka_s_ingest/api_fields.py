@@ -67,15 +67,10 @@ def build_commentaries_dict(row, existing_item):
         update_item_value(built_item, "dcterms:title", row["Name"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
         update_item_value(built_item, "dcterms:description", row["Content"])
-        #update_item_value(built_item, "dcterms:format", row["news-items_medium"])
-        update_item_value(built_item, "dcterms:subject", row["events-subjects"])
         if row["creator.name"]:
             update_item_value(built_item, "dcterms:creator", json.loads(row["creator.name"]))
         # TODO below fields need some conditional logic for blank entries
-        update_item_value(built_item, "dcterms:references", row["Events Omeka ID"])
-        update_item_value(built_item, "bibo:cites", row["News Item Omeka ID"])
-        update_item_value(built_item, "dcterms:subject", row["Referenced Poet Omeka ID"])
-        update_item_value(built_item, "dcterms:relation", row["Works Omeka ID"])
+
         # TODO below fields are waiting on an airtable column
         # update_item_value(built_item, "dcterms:bibliographicCitation", "")
         # update_item_value(built_item, "dcterms:date", "")
@@ -102,8 +97,6 @@ def build_events_dict(row, existing_item):
         update_item_value(built_item, "foaf:based_near", row["Location (City)"])
         update_item_value(built_item, "dcterms:type", row["Event type"])
         #TODO add code to handle blank entries
-        update_item_value(built_item, "dcterms:isReferencedBy", row["Related News Item Omeka ID"])
-        update_item_value(built_item, "dcterms:references", row["Related Poet Omeka ID"])
 
         #update_item_value(built_item, "dcterms:format", get_json_value(row, "news items"))
         #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
@@ -153,21 +146,60 @@ def link_people(row, existing_item):
     cdrh_news_ids = get_matching_ids_from_markdown(row, "news item roles")
     if cdrh_news_ids:
         link_item_record(existing_item, "foaf:isPrimaryTopicOf", cdrh_news_ids)
+    cdrh_event_ids = get_matching_ids_from_markdown(row, "events")
+    if cdrh_event_ids:
+        link_item_record(existing_item, "dcterms:isReferencedBy", cdrh_event_ids)
+    cdrh_work_ids = get_matching_ids_from_markdown(row, "work roles")
+    if cdrh_work_ids:
+        link_item_record(existing_item, "foaf:made", cdrh_work_ids)
     return existing_item
     # need to get matching item TODO add conditional logic for blank entries
     # update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
-    # update_item_value(built_item, "foaf:isPrimaryTopicOf", row["News Item Omeka ID (from news item role join table)"])
-    # update_item_value(built_item, "dcterms:isReferencedBy", row["Event Omega ID (from events table)"])
-    # update_item_value(built_item, "foaf:made", row["Work Omega ID (from works table)"])
 
+def link_commentaries(row, existing_item):
+    cdrh_news_ids = get_matching_ids_from_markdown(row, "news-items_medium")
+    if cdrh_news_ids:
+        link_item_record(existing_item, "bibo_cites", cdrh_news_ids)
+    cdrh_person_ids = get_matching_ids_from_markdown(row, "person-poet")
+    if cdrh_person_ids:
+        link_item_record(existing_item, "dcterms:subject", cdrh_person_ids)
+    cdrh_event_ids = get_matching_ids_from_markdown(row, "events-subjects")
+    if cdrh_event_ids:
+        link_item_record(existing_item, "dcterms:references", cdrh_event_ids)
+    cdrh_work_ids = get_matching_ids_from_markdown(row, "works")
+    if cdrh_work_ids:
+        link_item_record(existing_item, "dcterms:relation", cdrh_work_ids)
+    return existing_item
 
 def link_news_items(row, existing_item):
     cdrh_person_ids = get_matching_ids_from_markdown(row, "person")
     if cdrh_person_ids:
         link_item_record(existing_item, "dcterms:references", cdrh_person_ids)
+    cdrh_event_ids = get_matching_ids_from_markdown(row, "subjects")
+    if cdrh_event_ids:
+        link_item_record(existing_item, "dcterms:relation", cdrh_event_ids)
     return existing_item
     #TODO add code to handle blank entries
-    # update_item_value(built_item, "dcterms:relation", row["Related Event Omeka ID"])
+    #TODO works are also here, but I don't think there is a field/Airtable column at present
+
+def link_events(row, existing_item):
+    cdrh_news_ids = get_matching_ids_from_markdown(row, "news_items")
+    if cdrh_news_ids:
+        link_item_record(existing_item, "dcterms:isReferencedBy", cdrh_news_ids)
+    cdrh_person_ids = get_matching_ids_from_markdown(row, "person-poet")
+    if cdrh_person_ids:
+        link_item_record(existing_item, "dcterms:references", cdrh_person_ids)
+    return existing_item
+
+def link_works(row, existing_item):
+    cdrh_person_ids = get_matching_ids_from_markdown(row, "person")
+    if cdrh_person_ids:
+        link_item_record(existing_item, "dcterms:references", cdrh_person_ids)
+    cdrh_news_ids = get_matching_ids_from_markdown(row, "news_items")
+    if cdrh_news_ids:
+        link_item_record(existing_item, "dcterms:isReferencedBy", cdrh_news_ids)
+    # TODO need to add commentaries
+    return existing_item
 
 def spatial(row):
     places = []
@@ -202,14 +234,14 @@ def prepare_item(row, table, existing_item = None):
 def link_records(row, table, existing_item):
     if table == "people":
         item_dict = link_people(row, existing_item)
-    # elif table == "commentaries":
-    #     item_dict = build_commentaries_dict(row, existing_item)
-    # elif table == "events":
-    #     item_dict = build_events_dict(row, existing_item)
+    elif table == "commentaries":
+        item_dict = link_commentaries(row, existing_item)
+    elif table == "events":
+        item_dict = link_events(row, existing_item)
     elif table == "news items":
         item_dict = link_news_items(row, existing_item)
-    # elif table == "works":
-    #     item_dict = build_works_dict(row, existing_item)
+    elif table == "works":
+        item_dict = link_works(row, existing_item)
     else:
         print(f"linking records for table {table} not yet implemented")
         return None
@@ -287,7 +319,7 @@ def get_matching_ids_from_markdown(row, field):
                         ids.append(id_no)
                 if len(ids) > 1:
                     ids = list(filter(None, ids))
-                return ids
+            return ids
             
     else:
         return []
