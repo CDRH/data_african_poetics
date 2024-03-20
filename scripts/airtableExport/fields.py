@@ -63,7 +63,9 @@ table_fields = {
     "Location (City)": "foaf:based_near",
     "Event Type": "dcterms:type",
     "Related News Item Omeka ID": "dcterms:isReferencedBy",
-    "Related Poet Omeka ID": "dcterms:references"
+    "Related Poet Omeka ID": "dcterms:subjects",
+    "events-subjects": "dcterms:references",
+    "works": "dcterms:relation"
   },
   "people": {
     "airtableID":"airtableID",
