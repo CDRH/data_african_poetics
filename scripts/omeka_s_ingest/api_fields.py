@@ -152,6 +152,12 @@ def link_people(row, existing_item):
     cdrh_work_ids = get_matching_ids_from_markdown(row, "work roles")
     if cdrh_work_ids:
         link_item_record(existing_item, "foaf:made", cdrh_work_ids)
+    cdrh_person_ids = get_matching_ids_from_markdown(row, "related-people")
+    if cdrh_person_ids:
+        link_item_record(existing_item, "dcterms:relation", cdrh_person_ids)
+    cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
+    if cdrh_commentary_ids:
+        link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
     return existing_item
     # need to get matching item TODO add conditional logic for blank entries
     # update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
@@ -178,6 +184,12 @@ def link_news_items(row, existing_item):
     cdrh_event_ids = get_matching_ids_from_markdown(row, "subjects")
     if cdrh_event_ids:
         link_item_record(existing_item, "dcterms:relation", cdrh_event_ids)
+    cdrh_work_ids = get_matching_ids_from_markdown(row, "works")
+    if cdrh_work_ids:
+        link_item_record(existing_item, "foaf:depicts", cdrh_work_ids)
+    cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
+    if cdrh_commentary_ids:
+        link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
     return existing_item
     #TODO add code to handle blank entries
     #TODO works are also here, but I don't think there is a field/Airtable column at present
@@ -189,6 +201,9 @@ def link_events(row, existing_item):
     cdrh_person_ids = get_matching_ids_from_markdown(row, "person-poet")
     if cdrh_person_ids:
         link_item_record(existing_item, "dcterms:references", cdrh_person_ids)
+    cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
+    if cdrh_commentary_ids:
+        link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
     return existing_item
 
 def link_works(row, existing_item):
@@ -198,6 +213,9 @@ def link_works(row, existing_item):
     cdrh_news_ids = get_matching_ids_from_markdown(row, "news_items")
     if cdrh_news_ids:
         link_item_record(existing_item, "dcterms:isReferencedBy", cdrh_news_ids)
+    cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
+    if cdrh_commentary_ids:
+        link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
     # TODO need to add commentaries
     return existing_item
 
