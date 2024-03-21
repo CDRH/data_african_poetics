@@ -219,7 +219,10 @@ def prepare_item(row, table, existing_item = None):
     if table == "people" and "In the News" in row["site section"]:
         item_dict = build_people_dict(row, existing_item)
     elif table == "people" and "Index of Poets" in row["site section"]:
-        item_dict = build_people_index_dict(row, existing_item)
+        # skipping for now
+        #item_dict = build_people_index_dict(row, existing_item)
+        print("Index of Poets ingest not implemented yet")
+        return None
     elif table == "commentaries":
         item_dict = build_commentaries_dict(row, existing_item)
     elif table == "events":
