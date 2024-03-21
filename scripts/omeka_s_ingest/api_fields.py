@@ -37,16 +37,16 @@ def build_people_index_dict(row, existing_item):
         #update_item_value(built_item, "dcterms:format", get_json_value(row, "news item roles"))
         #update_item_value(built_item, "dcterms:subject", get_json_value(row, "events"))
         #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
-        update_item_value(built_item, "dcterms:references", row["Poet Omeka ID (Index of Poets)"])
+        #update_item_value(built_item, "dcterms:references", row["Poet Omeka ID (Index of Poets)"])
         update_item_value(built_item, "foaf:givenName", row["Name given"])
         update_item_value(built_item, "foaf:lastName", row["Name last"])
         update_item_value(built_item, "foaf:gender", row["Gender"])
-        update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
-        # TODO there needs to be conditional logic here to deal with blank entries
-        update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
-        update_item_value(built_item, "foaf:isPrimaryTopicOf", row["News Item Omeka ID (from news item role join table)"])
-        update_item_value(built_item, "dcterms:isReferencedBy", row["Event Omega ID (from events table)"])
-        update_item_value(built_item, "foaf:made", row["Work Omega ID (from works table)"])
+        #update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
+        # TODO there needs to be conditional logic here to deal with blank entries and make them 
+        # update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
+        # update_item_value(built_item, "foaf:isPrimaryTopicOf", row["News Item Omeka ID (from news item role join table)"])
+        # update_item_value(built_item, "dcterms:isReferencedBy", row["Event Omega ID (from events table)"])
+        # update_item_value(built_item, "foaf:made", row["Work Omega ID (from works table)"])
         # there is some more API magic to do here but that is TODO later. currently no value. 
         # update_item_value(built_item, "foaf:img", "")
         # these ones do not have an airtable column. TODO either wait on airtable column
@@ -216,8 +216,10 @@ def spatial(row):
 
 
 def prepare_item(row, table, existing_item = None):
-    if table == "people":
+    if table == "people" and "In the News" in row["site section"]:
         item_dict = build_people_dict(row, existing_item)
+    elif table == "people" and "Index of Poets" in row["site section"]:
+        item_dict = build_people_index_dict(row, existing_item)
     elif table == "commentaries":
         item_dict = build_commentaries_dict(row, existing_item)
     elif table == "events":
