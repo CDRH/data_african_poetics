@@ -11,3 +11,11 @@ omeka_auth = OmekaAPIClient(
     key_identity=os.getenv('KEY_IDENTITY'),                        
     key_credential=os.getenv('KEY_CREDENTIAL')                        
 )
+
+def reset():
+    omeka = OmekaAPIClient('http://libr-cdrh2102vs3.unl.edu/omeka-s/api')
+    omeka_auth = OmekaAPIClient(
+        api_url = 'http://libr-cdrh2102vs3.unl.edu/omeka-s/api',
+        key_identity=os.getenv('KEY_IDENTITY'),                        
+        key_credential=os.getenv('KEY_CREDENTIAL')                        
+    )

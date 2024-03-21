@@ -70,7 +70,8 @@ for table in tables:
                     print(f"multiple matches for {row['Unique ID']}, please check Omeka admin site")
             else:
                 break
-
+#need to query the API again at this point so that records can be linked
+omeka.reset()
 #go through tables again to link records
 for table in tables:
     #iterate through each table in turn and read each csv row
