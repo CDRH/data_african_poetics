@@ -16,13 +16,13 @@ tables = [
     "works"
 ]
 
-def get_template_number_from_table(table, index_of_poets = False):
+def get_template_number_from_table(table, in_the_news = False):
     #return the number corresponding to the template for the type of item
     #ie news items, events, etc.
-    if table == "people" and index_of_poets:
-        return 9
-    if table == "people" and not index_of_poets:
+    if table == "people" and in_the_news:
         return 5
+    if table == "people" and not in_the_news:
+        return 9
     match table:
         case "commentaries":
             return 3
@@ -46,8 +46,8 @@ for table in tables:
                 if not (row["Completion Status"] == "Publish"  and
                         row["Manual data entry complete"] == "True"):
                     continue
-                index_of_poets = "Index of Poets" in row["site section"]
-                template_number = get_template_number_from_table(table, index_of_poets)
+                in_the_news = "In the News" in row["site section"]
+                template_number = get_template_number_from_table(table, in_the_news)
             #check if item is in the API already TODO can this be made more efficient
             matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
             if matching_items:
