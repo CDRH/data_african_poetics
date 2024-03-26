@@ -17,7 +17,11 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "foaf:givenName", row["Name given"])
         update_item_value(built_item, "foaf:lastName", row["Name last"])
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
-        
+        update_item_value(built_item, "foaf:maker", education(row["year_degree_institution"]))
+        update_item_value(built_item, "dcterms:type", "Person")
+        update_item_value(built_item, "geo:location", location(row["birth_spatial.country"]))
+        update_item_value(built_item, "dcterms:spatial", location(row["birth_spatial.city"]))
+        update_item_value(built_item, "foaf:based_near", location(row["nationality-region"]))
         return built_item
     except ValueError:
         breakpoint()
@@ -78,6 +82,7 @@ def build_commentaries_dict(row, existing_item):
         # update_item_value(built_item, "dcterms:created", "")
         # I wonder if works should go into the below field
         #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
+        update_item_value(built_item, "dcterms:type", "Commentary")
         return built_item
     except ValueError:
         breakpoint()
@@ -92,10 +97,10 @@ def build_events_dict(row, existing_item):
         update_item_value(built_item, "dcterms:date", row["Date"])
         update_item_value(built_item, "dcterms:description", row["Summary"])
         #update_item_value(built_item, "dcterms:temporal", row["topics-decade"])
-        # update_item_value(built_item, "dcterms:alternative", row["name-letter"])
-        update_item_value(built_item, "dcterms:spatial", row["Location (Country)"])
-        update_item_value(built_item, "foaf:based_near", row["Location (City)"])
-        update_item_value(built_item, "dcterms:type", row["Event type"])
+        #update_item_value(built_item, "dcterms:alternative", row["name-letter"])
+        update_item_value(built_item, "foaf:based_near", row["places"])
+        update_item_value(built_item, "dcterms:spatial", location(row["spatial.country"]))
+        update_item_value(built_item, "dcterms:type", "Event")
         #TODO add code to handle blank entries
 
         #update_item_value(built_item, "dcterms:format", get_json_value(row, "news items"))
@@ -115,7 +120,7 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         if row["Tags"]:
             update_item_value(built_item, "dcterms:subject", json.loads(row["Tags"]))
-        update_item_value(built_item, "dcterms:bibliographicCitation", row["Source link"])
+        update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
         names = get_matching_names_from_markdown(row, "person")
         if names:
             update_item_value(built_item, "foaf:topic", names)
@@ -133,7 +138,7 @@ def build_works_dict(row, existing_item):
         update_item_value(built_item, "dcterms:created", row["Year"])
         if row["publisher"]:
             update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
-        update_item_value(built_item, "dcterms:type", row["Work type"])
+        update_item_value(built_item, "dcterms:type", "Works")
         #TODO check whether this column is correct. also need to include [news_items]
         update_item_value(built_item, "dcterms:isReferencedBy", row["[commentaries]"])
         #determine airtable column and how it should be parsed (if it's one of the md columns)
@@ -403,4 +408,22 @@ def link_item_record(item, key, cdrh_ids):
         }
         formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
         item[key].append(formatted)
-    return item
+    return item    return item
+
+def education(markdown):
+    if markdown and len(markdown) > 0:
+        educations = []
+        for school in json.loads(markdown):
+            educations.append(school.split(":")[1].strip())
+        return educations
+
+def location(markdown):
+    if markdown and len(markdown) > 0:
+        return json.loads(markdown)[0]
+    
+def build_citation(row):
+    # TODO format the date better
+    return f"""
+        "{row["title"]}", {row["publisher"][0]}, {row["Article Date (formatted)"]}, {row["Source page no"]}.
+        Accessed {row["Source access date"]}. {row["Source link"]}.
+    """
