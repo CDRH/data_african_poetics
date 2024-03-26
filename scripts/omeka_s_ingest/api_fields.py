@@ -224,18 +224,16 @@ def link_works(row, existing_item):
     # TODO need to add commentaries
     return existing_item
 
-def spatial(row):
-    places = []
-    if row["nationality-region"]:
-        places.append({ "region" : json.loads(row["nationality-region"])[0], "type": "nationality" })
-    if row["birth_spatial.country"]:
-      birthplace = { "country" : json.loads(row["birth_spatial.country"])[0], "type": "birth place" }
-      if row["birth_spatial.city"]:
-        birthplace["city"] = json.loads(row["birth_spatial.city"])[0]
-
-      places.append(birthplace)
-
-    return places
+# def spatial(row):
+#     places = []
+#     if row["nationality-region"]:
+#         places.append({ "region" : json.loads(row["nationality-region"])[0], "type": "nationality" })
+#     if row["birth_spatial.country"]:
+#       birthplace = { "country" : json.loads(row["birth_spatial.country"])[0], "type": "birth place" }
+#       if row["birth_spatial.city"]:
+#         birthplace["city"] = json.loads(row["birth_spatial.city"])[0]
+#       places.append(birthplace)
+#     return places
 
 
 def prepare_item(row, table, existing_item = None):
