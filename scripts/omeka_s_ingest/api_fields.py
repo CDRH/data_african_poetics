@@ -406,7 +406,7 @@ def link_item_record(item, key, cdrh_ids):
         }
         formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
         item[key].append(formatted)
-    return item    return item
+    return item
 
 def education(markdown):
     if markdown and len(markdown) > 0:
