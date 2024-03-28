@@ -4,7 +4,7 @@ import omeka
 import api_fields
 
 import copy
-
+import json
 #initialize api and auth info
 #TODO can these be refactored as instance variables somehow?
 
@@ -40,6 +40,8 @@ for table in tables:
         reader = csv.DictReader(csvfile)
         template_number = get_template_number_from_table(table)
         # TODO eventually will need to have a way to split up index of poets and in the news
+        # initialize tags array
+        tags = []
         for row in reader:
             # if posting the people table, check for items that should not be ingested
             if table == "people":
@@ -48,6 +50,9 @@ for table in tables:
                     continue
                 in_the_news = "In the News" in row["site section"]
                 template_number = get_template_number_from_table(table, in_the_news)
+            if table == "news items" and row["Tags"]:
+                # combine with existing list and remove duplicates
+                tags = list(set(tags + json.loads(row["Tags"])))
             #check if item is in the API already TODO can this be made more efficient
             matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
             if matching_items:
@@ -71,6 +76,14 @@ for table in tables:
                     print(f"multiple matches for {row['Unique ID']}, please check Omeka admin site")
             else:
                 break
+        for tag in tags:
+            new_tag = api_fields.create_tags(tag)
+            if new_tag:
+                payload = omeka.omeka_auth.prepare_item_payload(new_tag)
+                #class_id=23 should associate item with dcType:Collection resource class
+                payload['o:resource_class'] = omeka.omeka_auth.format_resource_id(23, 'resource_classes')
+                omeka.omeka_auth.s.post(f'{omeka.omeka.api_url}/item_sets', json=payload, params=omeka.omeka_auth.params)
+
 #need to query the API again at this point so that records can be linked
 omeka.reset()
 #go through tables again to link records

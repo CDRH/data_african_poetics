@@ -1,6 +1,7 @@
 import json
 import re
 import omeka
+import math
 
 def build_people_dict(row, existing_item):
     #in the news people only
@@ -147,6 +148,12 @@ def build_works_dict(row, existing_item):
     except ValueError:
         breakpoint()
 
+def get_matching_tags(tag):
+    built_tag = {}
+    update_item_value(built_tag, "dcterms:title", tag)
+    update_item_value(built_tag, "dcterms:description", f"A collection of news items related to {tag}.")
+    return built_tag
+
 def link_people(row, existing_item):
     cdrh_news_ids = get_matching_ids_from_markdown(row, "news item roles")
     if cdrh_news_ids:
@@ -195,6 +202,9 @@ def link_news_items(row, existing_item):
     cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
+    tag_ids = get_ids_from_tags(row["Tags"])
+    if tag_ids:
+        existing_item["o:item_set"] = tag_ids
     return existing_item
     #TODO add code to handle blank entries
     #TODO works are also here, but I don't think there is a field/Airtable column at present
@@ -380,6 +390,26 @@ def get_matching_names_from_markdown(row, field):
             return names
     else:
         return []
+    
+def get_ids_from_tags(tags):
+    #given the name, find id of the resource template
+    ids = []
+    if tags:
+        parsed_tags = json.loads(tags)
+        #get all item sets so we can sort through them
+        # below looks simple, but will not work because only returns the first page of results
+        # item_sets = omeka.omeka.get_resources("item_sets")["results"]
+        item_sets = []
+        # TODO refactor so that API isn't called over and over again
+        pages = math.ceil(omeka.omeka.get_resources("item_sets")["total_results"] / 5)
+        for i in range(pages):
+            item_sets += omeka.omeka.get_resources("item_sets", page=i)["results"]
+        for tag in parsed_tags:
+            matching_items = [s for s in item_sets if s["dcterms:title"][0]["@value"] == tag]
+            if matching_items:
+                ids.append(matching_items[0]["o:id"])
+    return ids
+            
 
 def get_omeka_ids(cdrh_ids):
     omeka_ids = []
