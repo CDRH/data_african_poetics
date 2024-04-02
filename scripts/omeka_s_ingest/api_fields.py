@@ -23,6 +23,10 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "geo:location", location(row["birth_spatial.country"]))
         update_item_value(built_item, "dcterms:spatial", location(row["birth_spatial.city"]))
         update_item_value(built_item, "foaf:based_near", location(row["nationality-region"]))
+        lat = json.loads(row["Latitude (from Place of birth)"])[0]
+        lon = json.loads(row["Longitude (from Place of birth)"])[0]
+        if lat and lon:
+            update_item_value(built_item, "geo:lat_long", f"{lat}, {lon}")
         return built_item
     except ValueError:
         breakpoint()
@@ -106,6 +110,11 @@ def build_events_dict(row, existing_item):
 
         #update_item_value(built_item, "dcterms:format", get_json_value(row, "news items"))
         #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
+        if row["Latitude (from [location])"] and row["Longitude (from [location])"]:
+            lat = json.loads(row["Latitude (from [location])"])[0]
+            lon = json.loads(row["Longitude (from [location])"])[0]
+            if lat and lon:
+                update_item_value(built_item, "geo:lat_long", f"{lat}, {lon}")
         return built_item
     except ValueError:
         breakpoint()
