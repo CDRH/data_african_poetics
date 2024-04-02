@@ -22,6 +22,9 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "geo:location", location(row["birth_spatial.country"]))
         update_item_value(built_item, "dcterms:spatial", location(row["birth_spatial.city"]))
         update_item_value(built_item, "foaf:based_near", location(row["nationality-region"]))
+        names = get_matching_names_from_markdown(row, "related-people")
+        if names:
+            update_item_value(built_item, "dcterms:relation", names)
         lat = json.loads(row["Latitude (from Place of birth)"])[0]
         lon = json.loads(row["Longitude (from Place of birth)"])[0]
         if lat and lon:
@@ -86,6 +89,9 @@ def build_commentaries_dict(row, existing_item):
         # update_item_value(built_item, "dcterms:created", "")
         # I wonder if works should go into the below field
         #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
+        names = get_matching_names_from_markdown(row, "person-poet")
+        if names:
+            update_item_value(built_item, "dcterms:subject", names)
         update_item_value(built_item, "dcterms:type", "Commentary")
         return built_item
     except ValueError:
@@ -105,6 +111,9 @@ def build_events_dict(row, existing_item):
         update_item_value(built_item, "foaf:based_near", row["places"])
         update_item_value(built_item, "dcterms:spatial", location(row["spatial.country"]))
         update_item_value(built_item, "dcterms:type", "Event")
+        names = get_matching_names_from_markdown(row, "person-poet")
+        if names:
+            update_item_value(built_item, "dcterms:references", names)
         #TODO add code to handle blank entries
 
         #update_item_value(built_item, "dcterms:format", get_json_value(row, "news items"))
@@ -130,7 +139,7 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
         names = get_matching_names_from_markdown(row, "person")
         if names:
-            update_item_value(built_item, "foaf:topic", names)
+            update_item_value(built_item, "dcterms:references", names)
         return built_item
     except ValueError:
         breakpoint()
@@ -150,6 +159,9 @@ def build_works_dict(row, existing_item):
         update_item_value(built_item, "dcterms:isReferencedBy", row["[commentaries]"])
         #determine airtable column and how it should be parsed (if it's one of the md columns)
         update_item_value(built_item, "dcterms:references", row["References"])
+        names = get_matching_names_from_markdown(row, "person")
+        if names:
+            update_item_value(built_item, "dcterms:references", names)
         return built_item
     except ValueError:
         breakpoint()
@@ -382,6 +394,7 @@ def get_matching_names_from_markdown(row, field):
                 # filter out entries that have ids
                 id_match = re.search(r"\]\((.*)\)", markdown_values)
                 if name_match and not id_match:
+                if name_match and not id_match.group(1):
                     name = name_match.group(1)
                     names.append(name)
             else:
@@ -392,6 +405,7 @@ def get_matching_names_from_markdown(row, field):
                     name_match = re.search(r"\[(.*?)\]", value)
                     id_match = re.search(r"\]\((.*)\)", value)
                     if name_match and not id_match:
+                    if name_match and not id_match.group(1):
                         name = name_match.group(1)
                         names.append(name)
             return names
@@ -433,7 +447,8 @@ def get_omeka_ids(cdrh_ids):
 def link_item_record(item, key, input_ids, item_set=False):
     omeka_ids = input_ids if item_set else get_omeka_ids(input_ids)
     prop_id = omeka.omeka.get_property_id(key)
-    item[key] = []
+    if not key in item:
+        item[key] = []
     resource_type = "resource:itemset" if item_set else "resource:item"
     for omeka_id in omeka_ids:
         prop_value = {
