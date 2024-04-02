@@ -127,8 +127,6 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
         update_item_value(built_item, "dcterms:publisher", row["[publication]"]) #TODO make sure this is a readable field
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
-        if row["Tags"]:
-            update_item_value(built_item, "dcterms:subject", json.loads(row["Tags"]))
         update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
         names = get_matching_names_from_markdown(row, "person")
         if names:
@@ -213,6 +211,7 @@ def link_news_items(row, existing_item):
     tag_ids = get_ids_from_tags(row["Tags"])
     if tag_ids:
         existing_item["o:item_set"] = tag_ids
+        link_item_record(existing_item,"dcterms:subject", tag_ids, item_set=True)
     return existing_item
     #TODO add code to handle blank entries
     #TODO works are also here, but I don't think there is a field/Airtable column at present
@@ -431,16 +430,21 @@ def get_omeka_ids(cdrh_ids):
             print(f"Unable to link {cdrh_id}, match not found or multiple matches")
     return omeka_ids
 
-def link_item_record(item, key, cdrh_ids):
-    omeka_ids = get_omeka_ids(cdrh_ids)
+def link_item_record(item, key, input_ids, item_set=False):
+    omeka_ids = input_ids if item_set else get_omeka_ids(input_ids)
     prop_id = omeka.omeka.get_property_id(key)
     item[key] = []
+    resource_type = "resource:itemset" if item_set else "resource:item"
     for omeka_id in omeka_ids:
         prop_value = {
-            "type": "resource:item",
+            "type": resource_type,
             "value": omeka_id
         }
         formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
+        if item_set:
+            formatted['@id'] = f'{omeka.omeka_auth.api_url}/item_sets/{omeka_id}'
+            formatted['value_resource_id'] = omeka_id
+            formatted["value_resource_name"] = "item_sets"
         item[key].append(formatted)
     return item
 
