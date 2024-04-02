@@ -65,7 +65,9 @@ table_fields = {
     "Related News Item Omeka ID": "dcterms:isReferencedBy",
     "Related Poet Omeka ID": "dcterms:subjects",
     "events-subjects": "dcterms:references",
-    "works": "dcterms:relation"
+    "works": "dcterms:relation",
+    "Latitude (from [location])": "latitude",
+    "Longitude (from [location])": "longitude"
   },
   "people": {
     "airtableID":"airtableID",
@@ -102,6 +104,8 @@ table_fields = {
     "Work Omega ID (from works table)": "foaf:made",
     "Completion Status": "complete",
     "Manual data entry complete": "complete",
+    "Latitude (from Place of birth)": "latitude",
+    "Longitude (from Place of birth)": "longitude"
   },
   "works": {
     "airtableID":"airtableID",
