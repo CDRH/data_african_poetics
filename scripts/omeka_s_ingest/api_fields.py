@@ -1,7 +1,6 @@
 import json
 import re
 import omeka
-import math
 
 def build_people_dict(row, existing_item):
     #in the news people only
@@ -157,7 +156,7 @@ def build_works_dict(row, existing_item):
     except ValueError:
         breakpoint()
 
-def get_matching_tags(tag):
+def create_tags(tag):
     built_tag = {}
     update_item_value(built_tag, "dcterms:title", tag)
     update_item_value(built_tag, "dcterms:description", f"A collection of news items related to {tag}.")
@@ -408,11 +407,9 @@ def get_ids_from_tags(tags):
         #get all item sets so we can sort through them
         # below looks simple, but will not work because only returns the first page of results
         # item_sets = omeka.omeka.get_resources("item_sets")["results"]
-        item_sets = []
+        item_sets = omeka.item_sets()
         # TODO refactor so that API isn't called over and over again
-        pages = math.ceil(omeka.omeka.get_resources("item_sets")["total_results"] / 5)
-        for i in range(pages):
-            item_sets += omeka.omeka.get_resources("item_sets", page=i)["results"]
+
         for tag in parsed_tags:
             matching_items = [s for s in item_sets if s["dcterms:title"][0]["@value"] == tag]
             if matching_items:

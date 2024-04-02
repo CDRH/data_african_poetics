@@ -79,6 +79,9 @@ for table in tables:
         for tag in tags:
             new_tag = api_fields.create_tags(tag)
             if new_tag:
+            item_sets = omeka.item_sets()
+            #check to make sure tag isn't a duplicate
+            if new_tag and not any(item["dcterms:title"][0]["@value"] == new_tag["dcterms:title"][0]["value"] for item in item_sets):
                 payload = omeka.omeka_auth.prepare_item_payload(new_tag)
                 #class_id=23 should associate item with dcType:Collection resource class
                 payload['o:resource_class'] = omeka.omeka_auth.format_resource_id(23, 'resource_classes')
