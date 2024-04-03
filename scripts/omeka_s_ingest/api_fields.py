@@ -321,6 +321,8 @@ def update_item_value(item, key, value):
                 }
             ]
     elif type(value) == list:
+        # make sure values are unique
+        value = list(set(value))
         if key not in item:
             item[key] = []
             for v in value:
@@ -442,21 +444,26 @@ def get_omeka_ids(cdrh_ids):
 
 def link_item_record(item, key, input_ids, item_set=False):
     omeka_ids = input_ids if item_set else get_omeka_ids(input_ids)
+    #dedupe
+    omeka_ids = list(set(omeka_ids))
     prop_id = omeka.omeka.get_property_id(key)
     if not key in item:
         item[key] = []
     resource_type = "resource:itemset" if item_set else "resource:item"
     for omeka_id in omeka_ids:
-        prop_value = {
-            "type": resource_type,
-            "value": omeka_id
-        }
-        formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
-        if item_set:
-            formatted['@id'] = f'{omeka.omeka_auth.api_url}/item_sets/{omeka_id}'
-            formatted['value_resource_id'] = omeka_id
-            formatted["value_resource_name"] = "item_sets"
-        item[key].append(formatted)
+        #make sure item isn't already linked, to avoid duplicates
+        if not any(prop['value_resource_id'] == omeka_id for prop in item[key]):
+            prop_value = {
+                "type": resource_type,
+                "value": omeka_id
+            }
+            formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
+            #different format for item sets, plugin doesn't do it automatically
+            if item_set:
+                formatted['@id'] = f'{omeka.omeka_auth.api_url}/item_sets/{omeka_id}'
+                formatted['value_resource_id'] = omeka_id
+                formatted["value_resource_name"] = "item_sets"
+            item[key].append(formatted)
     return item
 
 def education(markdown):
