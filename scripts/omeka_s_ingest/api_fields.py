@@ -13,7 +13,6 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "dcterms:description", row["Biography"])
         #update_item_value(built_item, "dcterms:spatial", spatial(row))
         #update_item_value(built_item, "dcterms:alternative", row["name-letter"])
-        update_item_value(built_item, "dcterms:references", row["Poet Omeka ID (Index of Poets)"])
         update_item_value(built_item, "foaf:givenName", row["Name given"])
         update_item_value(built_item, "foaf:lastName", row["Name last"])
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
@@ -134,7 +133,7 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
         update_item_value(built_item, "dcterms:creator", row["creator.name"])
         update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
-        update_item_value(built_item, "dcterms:publisher", row["[publication]"]) #TODO make sure this is a readable field
+        update_item_value(built_item, "dcterms:publisher", row["publisher"]) #TODO this is a linked item in the original
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
         names = get_matching_names_from_markdown(row, "person")
@@ -155,10 +154,7 @@ def build_works_dict(row, existing_item):
         if row["publisher"]:
             update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
         update_item_value(built_item, "dcterms:type", "Works")
-        #TODO check whether this column is correct. also need to include [news_items]
-        update_item_value(built_item, "dcterms:isReferencedBy", row["[commentaries]"])
         #determine airtable column and how it should be parsed (if it's one of the md columns)
-        update_item_value(built_item, "dcterms:references", row["References"])
         names = get_matching_names_from_markdown(row, "person")
         if names:
             update_item_value(built_item, "dcterms:references", names)
