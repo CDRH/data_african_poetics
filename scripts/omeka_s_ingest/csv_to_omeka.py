@@ -78,7 +78,6 @@ for table in tables:
                 break
         for tag in tags:
             new_tag = api_fields.create_tags(tag)
-            if new_tag:
             item_sets = omeka.item_sets()
             #check to make sure tag isn't a duplicate
             if new_tag and not any(item["dcterms:title"][0]["@value"] == new_tag["dcterms:title"][0]["value"] for item in item_sets):

@@ -11,8 +11,6 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "dcterms:title", row["Name Built"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
         update_item_value(built_item, "dcterms:description", row["Biography"])
-        #update_item_value(built_item, "dcterms:spatial", spatial(row))
-        #update_item_value(built_item, "dcterms:alternative", row["name-letter"])
         update_item_value(built_item, "foaf:givenName", row["Name given"])
         update_item_value(built_item, "foaf:lastName", row["Name last"])
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
@@ -63,7 +61,6 @@ def build_people_index_dict(row, existing_item):
         # or make functions to calculate the values
         # update_item_value(built_item, "foaf:status", "")
         # update_item_value(built_item, "dcterms:relation", "")
-        
         return built_item
     except ValueError:
         breakpoint()
@@ -344,6 +341,7 @@ def update_item_value(item, key, value):
                     }
                     formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
                     item[key].append(formatted)
+    return item
 
 
 
@@ -353,7 +351,6 @@ def get_matching_ids_from_markdown(row, field):
     if row[field]:
         markdown_values = get_json_value(row, field)
         ids = []
-
         if markdown_values:
             #should be either single value or array
             if type(markdown_values) == str:
@@ -391,7 +388,6 @@ def get_matching_names_from_markdown(row, field):
                 name_match = re.search(r"\[(.*?)\]", markdown_values)
                 # filter out entries that have ids
                 id_match = re.search(r"\]\((.*)\)", markdown_values)
-                if name_match and not id_match:
                 if name_match and not id_match.group(1):
                     name = name_match.group(1)
                     names.append(name)
@@ -402,7 +398,6 @@ def get_matching_names_from_markdown(row, field):
                     # /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
                     name_match = re.search(r"\[(.*?)\]", value)
                     id_match = re.search(r"\]\((.*)\)", value)
-                    if name_match and not id_match:
                     if name_match and not id_match.group(1):
                         name = name_match.group(1)
                         names.append(name)
@@ -438,7 +433,6 @@ def get_omeka_ids(cdrh_ids):
             omeka_id = match['results'][0]["o:id"]
             omeka_ids.append(omeka_id)
         else:
-            print(match)
             print(f"Unable to link {cdrh_id}, match not found or multiple matches")
     return omeka_ids
 
