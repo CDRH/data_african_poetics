@@ -188,7 +188,7 @@ def link_people(row, existing_item):
 def link_commentaries(row, existing_item):
     cdrh_news_ids = get_matching_ids_from_markdown(row, "news-items_medium")
     if cdrh_news_ids:
-        link_item_record(existing_item, "bibo_cites", cdrh_news_ids)
+        link_item_record(existing_item, "bibo:cites", cdrh_news_ids)
     cdrh_person_ids = get_matching_ids_from_markdown(row, "person-poet")
     if cdrh_person_ids:
         link_item_record(existing_item, "dcterms:subject", cdrh_person_ids)
