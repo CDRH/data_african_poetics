@@ -478,6 +478,6 @@ def build_citation(row):
     # TODO format the date better
     if row["publisher"]:
         return f"""
-            "{row["title"]}", {row["publisher"][0]}, {row["Article Date (formatted)"]}, {row["Source page no"]}.
+            "{row["title"]}", {json.loads(row["publisher"])[0]}, {row["Article Date (formatted)"]}, {row["Source page no"]}.
             Accessed {row["Source access date"]}. {row["Source link"]}.
         """
