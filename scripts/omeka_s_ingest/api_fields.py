@@ -129,9 +129,12 @@ def build_news_items_dict(row, existing_item):
         built_item = existing_item if existing_item else {}
         update_item_value(built_item, "dcterms:title", row["Article title"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
-        update_item_value(built_item, "dcterms:creator", row["creator.name"])
+        if row["creator.name"]:
+            update_item_value(built_item, "dcterms:creator", json.loads(row["creator.name"]))
         update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
-        update_item_value(built_item, "dcterms:publisher", row["publisher"]) #TODO this is a linked item in the original
+        if row["publisher"]:
+            update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
+            #TODO this is a linked item in the original
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
         names = get_matching_names_from_markdown(row, "person")
