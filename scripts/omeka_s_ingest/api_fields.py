@@ -1,7 +1,6 @@
 import json
 import re
 import omeka
-from operator import itemgetter
 
 def build_people_dict(row, existing_item):
     #in the news people only
@@ -450,7 +449,7 @@ def link_item_record(item, key, input_ids, item_set=False):
     resource_type = "resource:itemset" if item_set else "resource:item"
     for omeka_id in omeka_ids:
         #make sure item isn't already linked, to avoid duplicates
-        if not item[key] or "value_resource_id" not in item[key] or not omeka_id in map(itemgetter("value_resource_id"), item[key]):
+        if not item[key] or not omeka_id in [value.get("value_resource_id") for value in item[key]]:
             prop_value = {
                 "type": resource_type,
                 "value": omeka_id
