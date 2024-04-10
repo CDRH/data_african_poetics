@@ -17,7 +17,7 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "foaf:maker", education(row["year_degree_institution"]))
         update_item_value(built_item, "geo:location", location(row["birth_spatial.country"]))
         update_item_value(built_item, "dcterms:spatial", location(row["birth_spatial.city"]))
-        update_item_value(built_item, "foaf:based_near", location(row["nationality-region"]))
+        update_item_value(built_item, "dcterms:coverage", location(row["nationality-region"]))
         names = get_matching_names_from_markdown(row, "related-people")
         if names:
             update_item_value(built_item, "dcterms:relation", names)
@@ -114,7 +114,8 @@ def build_events_dict(row, existing_item):
             lat = json.loads(row["Latitude (from [location])"])[0]
             lon = json.loads(row["Longitude (from [location])"])[0]
             if lat and lon:
-                update_item_value(built_item, "geo:lat_long", f"{lat}, {lon}")
+                update_item_value(built_item, "geo:lat", lat)
+                update_item_value(built_item, "geo:long", lon)
         return built_item
     except ValueError:
         breakpoint()
