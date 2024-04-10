@@ -70,7 +70,7 @@ for table in tables:
                     if new_item:
                         payload = omeka.omeka_auth.prepare_item_payload_using_template(new_item, template_number)
                         if payload:
-                            omeka.omeka_auth.add_item(payload)
+                            omeka.omeka_auth.add_item(payload, template_id=template_number)
                 #if multiple matches, warn but don't ingest
                 else:
                     print(f"multiple matches for {row['Unique ID']}, please check Omeka admin site")
