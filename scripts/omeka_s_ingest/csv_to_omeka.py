@@ -20,19 +20,18 @@ def get_template_number_from_table(table, in_the_news = False):
     #return the number corresponding to the template for the type of item
     #ie news items, events, etc.
     if table == "people" and in_the_news:
-        return 5
+        return 11
     if table == "people" and not in_the_news:
-        return 9
+        return 2
     match table:
         case "commentaries":
-            return 3
+            return 10
         case "events":
             return 4
         case "news items":
-            return 6
+            return 5
         case "works":
-            return 8
-
+            return 3
 
 for table in tables:
     #iterate through each table in turn and read each csv row
