@@ -1,6 +1,8 @@
 "airtableID","Id","Author","[person]","[news item]","Name [Role]"
 "recFrarkE4HQf4za2","[] ""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","","Mentioned Poet"
+"recHbxuTgQomNMioS","[] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Poet) - author","True","['recOo2kpeQuQEciaC']","","Poet"
 "recnNZgxbWS1vAnFr","[] ""Auden, Wystan Hugh 'W. H.' 
 (1907-1973)"" (Mentioned Poet)","","['recA21MaYTugsYbrg']","","Mentioned Poet"
 "rec99vOOpUFUaQTSn","[] ""Brooks, Richard 
@@ -197,7 +199,7 @@
 (1932-1996)"" (Poet)","","['recrAaXXhIPMbulnW']","['recjKYnmAaGlURITq']","Poet"
 "recp26StyaYhudJ6M","[apdp.news.000016] ""Mann, Chris 'Christopher Michael Zithulele' 
 (1948-2021)"" (Poet)","","['recU0GqypnmAL84T5']","['recjKYnmAaGlURITq']","Poet"
-"receYA6WVUMcrue4J","[apdp.news.000016] ""McKuen, Rod 
+"","[apdp.news.000016] ""McKuen, Rod 
 (1933-2015)"" (Mentioned Poet)","","['recRbiux7XIQ815vz']","['recjKYnmAaGlURITq']","Mentioned Poet"
 "","[apdp.news.000016] ""Moodie, Duncan Campbell Francis 'D. C. F.' 
 (1838-1891)"" (Mentioned Poet)","","['recIYP7wIGHjr9az0']","['recjKYnmAaGlURITq']","Mentioned Poet"
