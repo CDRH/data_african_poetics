@@ -6,17 +6,17 @@ env_path = Path('.')/'.env'
 load_dotenv(dotenv_path=env_path)
 from omeka_s_tools.api import OmekaAPIClient
 import math
-omeka = OmekaAPIClient('http://libr-cdrh2102vs3.unl.edu/omeka-s/api')
+omeka = OmekaAPIClient('https://libr-cdrh2102vs3.unl.edu/apdp/api')
 omeka_auth = OmekaAPIClient(
-    api_url = 'http://libr-cdrh2102vs3.unl.edu/omeka-s/api',
+    api_url = 'https://libr-cdrh2102vs3.unl.edu/apdp/api',
     key_identity=os.getenv('KEY_IDENTITY'),                        
     key_credential=os.getenv('KEY_CREDENTIAL')                        
 )
 
 def reset():
-    omeka = OmekaAPIClient('http://libr-cdrh2102vs3.unl.edu/omeka-s/api')
+    omeka = OmekaAPIClient('https://libr-cdrh2102vs3.unl.edu/apdp/api')
     omeka_auth = OmekaAPIClient(
-        api_url = 'http://libr-cdrh2102vs3.unl.edu/omeka-s/api',
+        api_url = 'https://libr-cdrh2102vs3.unl.edu/apdp/api',
         key_identity=os.getenv('KEY_IDENTITY'),                        
         key_credential=os.getenv('KEY_CREDENTIAL')                        
     )

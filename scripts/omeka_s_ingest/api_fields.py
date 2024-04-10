@@ -15,10 +15,9 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "foaf:lastName", row["Name last"])
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
         update_item_value(built_item, "foaf:maker", education(row["year_degree_institution"]))
-        update_item_value(built_item, "dcterms:type", "Person")
         update_item_value(built_item, "geo:location", location(row["birth_spatial.country"]))
         update_item_value(built_item, "dcterms:spatial", location(row["birth_spatial.city"]))
-        update_item_value(built_item, "foaf:based_near", location(row["nationality-region"]))
+        update_item_value(built_item, "dcterms:coverage", location(row["nationality-region"]))
         names = get_matching_names_from_markdown(row, "related-people")
         if names:
             update_item_value(built_item, "dcterms:relation", names)
@@ -70,10 +69,10 @@ def build_commentaries_dict(row, existing_item):
     try:
         built_item = existing_item if existing_item else {}
         #new_item['schema:name'][0]['@value'] = "value" is how you update
-        #update_item_value(built_item, "dcterms:type", "Commentaries")
         update_item_value(built_item, "dcterms:title", row["Name"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
-        update_item_value(built_item, "dcterms:description", row["Content"])
+        content = re.sub('<[^<]+?>', '', row["Content"])
+        update_item_value(built_item, "dcterms:description", content)
         if row["creator.name"]:
             update_item_value(built_item, "dcterms:creator", json.loads(row["creator.name"]))
         # TODO below fields need some conditional logic for blank entries
@@ -88,7 +87,6 @@ def build_commentaries_dict(row, existing_item):
         names = get_matching_names_from_markdown(row, "person-poet")
         if names:
             update_item_value(built_item, "dcterms:subject", names)
-        update_item_value(built_item, "dcterms:type", "Commentary")
         return built_item
     except ValueError:
         breakpoint()
@@ -106,7 +104,6 @@ def build_events_dict(row, existing_item):
         #update_item_value(built_item, "dcterms:alternative", row["name-letter"])
         update_item_value(built_item, "foaf:based_near", row["places"])
         update_item_value(built_item, "dcterms:spatial", location(row["spatial.country"]))
-        update_item_value(built_item, "dcterms:type", "Event")
         names = get_matching_names_from_markdown(row, "person-poet")
         if names:
             update_item_value(built_item, "dcterms:references", names)
@@ -118,7 +115,8 @@ def build_events_dict(row, existing_item):
             lat = json.loads(row["Latitude (from [location])"])[0]
             lon = json.loads(row["Longitude (from [location])"])[0]
             if lat and lon:
-                update_item_value(built_item, "geo:lat_long", f"{lat}, {lon}")
+                update_item_value(built_item, "geo:lat", lat)
+                update_item_value(built_item, "geo:long", lon)
         return built_item
     except ValueError:
         breakpoint()
@@ -153,7 +151,6 @@ def build_works_dict(row, existing_item):
         update_item_value(built_item, "dcterms:created", row["Year"])
         if row["publisher"]:
             update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
-        update_item_value(built_item, "dcterms:type", "Works")
         #determine airtable column and how it should be parsed (if it's one of the md columns)
         names = get_matching_names_from_markdown(row, "person")
         if names:
@@ -184,6 +181,9 @@ def link_people(row, existing_item):
     cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
+    item_set_id = get_ids_from_tags("[\"Poets in the News\"]")
+    existing_item["o:item_set"] = item_set_id
+    link_item_record(existing_item, "dcterms:type", item_set_id, item_set=True)
     return existing_item
     # need to get matching item TODO add conditional logic for blank entries
     # update_item_value(built_item, "foaf:maker", row["University Omeka ID (from [universities]) (from educations [join])"])
@@ -201,6 +201,9 @@ def link_commentaries(row, existing_item):
     cdrh_work_ids = get_matching_ids_from_markdown(row, "works")
     if cdrh_work_ids:
         link_item_record(existing_item, "dcterms:relation", cdrh_work_ids)
+    item_set_id = get_ids_from_tags("[\"Commentary\"]")
+    existing_item["o:item_set"] = item_set_id
+    link_item_record(existing_item, "dcterms:type", item_set_id, item_set=True)
     return existing_item
 
 def link_news_items(row, existing_item):
@@ -220,6 +223,9 @@ def link_news_items(row, existing_item):
     if tag_ids:
         existing_item["o:item_set"] = tag_ids
         link_item_record(existing_item,"dcterms:subject", tag_ids, item_set=True)
+    item_set_id = get_ids_from_tags("[\"News Items\"]")
+    existing_item["o:item_set"].append(item_set_id[0])
+    link_item_record(existing_item, "dcterms:type", item_set_id, item_set=True)
     return existing_item
     #TODO add code to handle blank entries
     #TODO works are also here, but I don't think there is a field/Airtable column at present
@@ -234,6 +240,9 @@ def link_events(row, existing_item):
     cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
+    item_set_id = get_ids_from_tags("[\"Event\"]")
+    existing_item["o:item_set"] = item_set_id
+    link_item_record(existing_item, "dcterms:type", item_set_id, item_set=True)
     return existing_item
 
 def link_works(row, existing_item):
@@ -247,6 +256,9 @@ def link_works(row, existing_item):
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
     # TODO need to add commentaries
+    item_set_id = get_ids_from_tags("[\"Works\"]")
+    existing_item["o:item_set"] = item_set_id
+    link_item_record(existing_item, "dcterms:type", item_set_id, item_set=True)
     return existing_item
 
 # def spatial(row):
