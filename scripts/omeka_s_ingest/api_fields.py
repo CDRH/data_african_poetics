@@ -125,15 +125,14 @@ def build_news_items_dict(row, existing_item):
     try:
         built_item = existing_item if existing_item else {}
         update_item_value(built_item, "dcterms:title", row["Article title"])
+        # change if we move away from CDRH IDs
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
-        if row["creator.name"]:
-            update_item_value(built_item, "dcterms:creator", json.loads(row["creator.name"]))
+        #format date properly
         update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
-        if row["publisher"]:
-            update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
             #TODO this is a linked item in the original
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
+        #this one already works, I am filtering for names without ids
         names = get_matching_names_from_markdown(row, "person")
         if names:
             update_item_value(built_item, "dcterms:references", names)
@@ -207,6 +206,12 @@ def link_commentaries(row, existing_item):
     return existing_item
 
 def link_news_items(row, existing_item):
+    # need to look up publisher
+    # use creator instead?
+    #this needs to change to be incorporated with linked records
+    if row["creator.name"]:
+        #look up creator name by title
+        link_item_record(existing_item, "dcterms:creator", json.loads(row["creator.name"]), filter_property="dcterms:title")
     cdrh_person_ids = get_matching_ids_from_markdown(row, "person")
     if cdrh_person_ids:
         link_item_record(existing_item, "dcterms:references", cdrh_person_ids)
@@ -219,6 +224,9 @@ def link_news_items(row, existing_item):
     cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
+    publisher_ids = json.loads(row["Publication Internal ID"])
+    if publisher_ids:
+        link_item_record(existing_item, "dcterms:publisher", cdrh_commentary_ids)
     tag_ids = get_ids_from_tags(row["Tags"])
     if tag_ids:
         existing_item["o:item_set"] = tag_ids
@@ -438,23 +446,29 @@ def get_ids_from_tags(tags):
     return ids
             
 
-def get_omeka_ids(cdrh_ids):
+def get_omeka_ids(lookup_values, filter_property):
+    #lookup_values are usually a list of cdrh_ids, but may be another value
     omeka_ids = []
-    for cdrh_id in cdrh_ids:
-        if cdrh_id == '':
+    for lookup_value in lookup_values:
+        if lookup_value == '':
             continue
-        match = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = cdrh_id)
+        match = omeka.omeka.filter_items_by_property(filter_property = filter_property, filter_value = lookup_value)
         if match["total_results"] == 1:
             omeka_id = match['results'][0]["o:id"]
             omeka_ids.append(omeka_id)
         else:
-            print(f"Unable to link {cdrh_id}, match not found or multiple matches")
+            print(f"Unable to link {lookup_value}, match not found or multiple matches")
     return omeka_ids
 
-def link_item_record(item, key, input_ids, item_set=False):
-    omeka_ids = input_ids if item_set else get_omeka_ids(input_ids)
+
+
+def link_item_record(item, key, values, item_set=False, filter_property = "dcterms:identifier"):
+    omeka_ids = values if item_set else get_omeka_ids(values, filter_property)
     #dedupe
     omeka_ids = list(set(omeka_ids))
+    # if there are no ids found, just add the provided value(s) under the provided key
+    if len(omeka_ids) == 0:
+        update_item_value(item, key, values)
     prop_id = omeka.omeka.get_property_id(key)
     if not key in item:
         item[key] = []
