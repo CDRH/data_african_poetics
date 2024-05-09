@@ -109,7 +109,10 @@ for id in gale_ids:
 		image_ocr = []
 		for page in pages:
 			image_url.append(page['image']['url'])
-			image_ocr.append(page['ocrText'])
+			if "ocrText" in page:
+				image_ocr.append(page['ocrText'])
+			else:
+				image_ocr.append("")
 
 		record['image_url'] = image_url
 	#	record['image_ocr'] = image_ocr
