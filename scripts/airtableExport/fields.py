@@ -34,7 +34,8 @@ table_fields = {
     "topics-decade": "topics",
     "commentaries_relation": "relation",
     "Related Event Omeka ID": "dcterms:relation", 
-    "Contributor Omeka ID": "dcterms:references" 
+    "Contributor Omeka ID": "dcterms:references", 
+    "Publication Internal ID": "dcterms:publisher"
   },
   "events": {
     "airtableID":"airtableID",
