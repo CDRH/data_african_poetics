@@ -108,19 +108,18 @@ def build_events_dict(row, existing_item):
         #new_item['schema:name'][0]['@value'] = "value" is how you update
         update_item_value(built_item, "dcterms:title", row["Name"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
-        update_item_value(built_item, "dcterms:date", row["Date"])
+        try:
+            #make sure date can be parsed in the correct format, will throw exception if not
+            date = datetime.strptime(row["Date"], '%Y-%m-%d')
+            if date:
+                update_item_value(built_item, "dcterms:date", row["Date"])
+        except:
+            print(row["Date"] + " is not a valid date")
+            pass
         update_item_value(built_item, "dcterms:description", row["Summary"])
-        #update_item_value(built_item, "dcterms:temporal", row["topics-decade"])
-        #update_item_value(built_item, "dcterms:alternative", row["name-letter"])
-        update_item_value(built_item, "foaf:based_near", row["places"])
-        update_item_value(built_item, "dcterms:spatial", location(row["spatial.country"]))
         names = get_matching_names_from_markdown(row, "person-poet")
         if names:
             update_item_value(built_item, "dcterms:references", names)
-        #TODO add code to handle blank entries
-
-        #update_item_value(built_item, "dcterms:format", get_json_value(row, "news items"))
-        #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
         if row["Latitude (from [location])"] and row["Longitude (from [location])"]:
             lat = json.loads(row["Latitude (from [location])"])[0]
             lon = json.loads(row["Longitude (from [location])"])[0]
@@ -256,6 +255,19 @@ def link_news_items(row, existing_item):
     #TODO works are also here, but I don't think there is a field/Airtable column at present
 
 def link_events(row, existing_item):
+    if row["spatial.country"]:
+        #look up country by title
+        country = json.loads(row["spatial.country"])
+        link_item_record(existing_item, "dcterms:spatial", country, filter_property="dcterms:title")
+        if row["spatial.city"]:
+            #look up county, city by title
+            city = json.loads(row["spatial.country"])[0] + ", " + json.loads(row["spatial.city"])[0]
+            link_item_record(existing_item, "geo:location", [city], filter_property="dcterms:title")
+    if row["spatial.place"]:
+        #look up place name
+        link_item_record(existing_item, "foaf:based_near", json.loads(row["spatial.place"]), filter_property="foaf:based_near")
+    # update_item_value(built_item, "foaf:based_near", row["places"])
+    # update_item_value(built_item, "dcterms:spatial", location(row["spatial.country"]))
     cdrh_news_ids = get_matching_ids_from_markdown(row, "news_items")
     if cdrh_news_ids:
         link_item_record(existing_item, "dcterms:isReferencedBy", cdrh_news_ids)
