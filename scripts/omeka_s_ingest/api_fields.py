@@ -105,7 +105,6 @@ def build_events_dict(row, existing_item):
     #i'm not sure it makes sense to combine this in one method, but creating and updating are different processes
     try:
         built_item = existing_item if existing_item else {}
-        #new_item['schema:name'][0]['@value'] = "value" is how you update
         update_item_value(built_item, "dcterms:title", row["Name"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
         try:
@@ -162,7 +161,13 @@ def build_works_dict(row, existing_item):
         update_item_value(built_item, "dcterms:title", row["Title"])
         if row["person-author"]:
             update_item_value(built_item, "dcterms:creator", json.loads(row["person-author"]))
-        update_item_value(built_item, "dcterms:created", row["Year"])
+        #format date properly, should be in yyyy format
+        try:
+            date = datetime.strptime(row["Year"], '%Y')
+            update_item_value(built_item, "dcterms:created", date)
+        except:
+            print(row["Year"] + " is not a valid date")
+            pass
         if row["publisher"]:
             update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
         #determine airtable column and how it should be parsed (if it's one of the md columns)
