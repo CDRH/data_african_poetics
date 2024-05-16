@@ -509,12 +509,18 @@ def link_item_record(item, key, values, item_set=False, filter_property = "dcter
     omeka_ids = values if item_set else get_omeka_ids(values, filter_property)
     #dedupe
     omeka_ids = list(set(omeka_ids))
-    # if there are no ids found, just add the provided value(s) under the provided key
-    if len(omeka_ids) == 0:
-        update_item_value(item, key, values)
     prop_id = omeka.omeka.get_property_id(key)
     if not key in item:
         item[key] = []
+    # if there are no ids found, just add the provided value(s) under the provided key
+    if len(omeka_ids) == 0:
+        for value in values:
+            prop_value = {
+                "value": value
+            }
+            formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
+            item[key].append(formatted)
+
     resource_type = "resource:itemset" if item_set else "resource:item"
     for omeka_id in omeka_ids:
         #make sure item isn't already linked, to avoid duplicates
