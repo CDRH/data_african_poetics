@@ -490,12 +490,17 @@ def get_omeka_ids(lookup_values, filter_property):
     for lookup_value in lookup_values:
         if lookup_value == '':
             continue
-        match = omeka.omeka.filter_items_by_property(filter_property = filter_property, filter_value = lookup_value)
-        if match["total_results"] == 1:
-            omeka_id = match['results'][0]["o:id"]
-            omeka_ids.append(omeka_id)
+        if filter_property == "o:id":
+            omeka_ids.append(int(lookup_value))
         else:
-            print(f"Unable to link {lookup_value}, match not found or multiple matches")
+            match = omeka.omeka.filter_items_by_property(filter_property = filter_property, filter_value = lookup_value)
+            if match["total_results"] >= 1:
+                if match["total_results"] > 1:
+                    print(f"warning: multiple matches for {lookup_value}, taking first match")
+                omeka_id = match['results'][0]["o:id"]
+                omeka_ids.append(omeka_id)
+            else:
+                print(f"Unable to link {lookup_value}, no matches")
     return omeka_ids
 
 
