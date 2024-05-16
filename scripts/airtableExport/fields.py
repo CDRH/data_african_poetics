@@ -68,7 +68,8 @@ table_fields = {
     "events-subjects": "dcterms:references",
     "works": "dcterms:relation",
     "Latitude (from [location])": "latitude",
-    "Longitude (from [location])": "longitude"
+    "Longitude (from [location])": "longitude",
+    "spatial.place": "spatial.place"
   },
   "people": {
     "airtableID":"airtableID",
@@ -99,12 +100,13 @@ table_fields = {
     "Languages spoken": "language",
     "Gender": "person.gender",
     "Poet Omeka ID (Index of Poets)": "dcterms:references",
-    "University Omeka ID (from [universities]) (from educations [join])": "foaf:maker",
-    "News Item Omeka ID (from news item role join table)": "foaf:isPrimaryTopicOf",
-    "Event Omega ID (from events table)": "dcterms:isReferencedBy",
-    "Work Omega ID (from works table)": "foaf:made",
+    "University Omeka ID": "foaf:maker",
+    "Related News Item Omeka ID": "foaf:isPrimaryTopicOf",
+    "Related Event Item ID": "dcterms:isReferencedBy",
+    "Related Works Omeka Item ID": "foaf:made",
     "Completion Status": "complete",
     "Manual data entry complete": "complete",
+    "Place of Birth Omeka ID": "geo:location",
     "Latitude (from Place of birth)": "latitude",
     "Longitude (from Place of birth)": "longitude"
   },
@@ -199,7 +201,8 @@ table_fields = {
     "Events Omeka ID": "dcterms:references",
     "News Item Omeka ID": "bibo:cites",
     "Referenced Poet Omeka ID": "dcterms:subject",
-    "Works Omeka ID": "dcterms:relation"
+    "Works Omeka ID": "dcterms:relation",
+    "Works Cited": "dcterms:bilbiographicalCitation" 
   },
   "commentary author": {
     "airtableID":"",
