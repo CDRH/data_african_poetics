@@ -1,6 +1,7 @@
 import json
 import re
 import omeka
+from datetime import datetime
 
 def build_people_dict(row, existing_item):
     #in the news people only
@@ -13,9 +14,15 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "dcterms:description", row["Biography"])
         update_item_value(built_item, "foaf:givenName", row["Name given"])
         update_item_value(built_item, "foaf:lastName", row["Name last"])
+        try:
+            #make sure date can be parsed in the correct format, will throw exception if not
+            date = datetime.strptime(row["Date birth"], '%Y-%m-%d')
+            if date:
+                update_item_value(built_item, "dcterms:date", row["Date birth"])
+        except:
+            print(row["Date birth"] + " is not a valid date")
+            pass
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
-        update_item_value(built_item, "foaf:maker", education(row["year_degree_institution"]))
-        update_item_value(built_item, "geo:location", location(row["birth_spatial.country"]))
         update_item_value(built_item, "dcterms:spatial", location(row["birth_spatial.city"]))
         update_item_value(built_item, "dcterms:coverage", location(row["nationality-region"]))
         names = get_matching_names_from_markdown(row, "related-people")
@@ -180,6 +187,13 @@ def link_people(row, existing_item):
     cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
+    if row["Poet Omeka ID (Index of Poets)"]:
+         link_item_record(existing_item, "dcterms:references", row["Poet Omeka ID (Index of Poets)"], filter_property="o:id")
+    if row["University Omeka ID"]:
+        link_item_record(existing_item, "foaf:maker", json.loads(row["University Omeka ID"]), filter_property="o:id")
+    if row["Place of Birth Omeka ID"]:
+        #look up place name
+        link_item_record(existing_item, "geo:location", json.loads(row["Place of Birth Omeka ID"]), filter_property="o:id")
     item_set_id = get_ids_from_tags("[\"Poets in the News\"]")
     existing_item["o:item_set"] = item_set_id
     link_item_record(existing_item, "dcterms:type", item_set_id, item_set=True)
