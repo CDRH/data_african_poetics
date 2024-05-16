@@ -2,6 +2,7 @@ import json
 import re
 import omeka
 from datetime import datetime
+from bs4 import BeautifulSoup
 
 def build_people_dict(row, existing_item):
     #in the news people only
@@ -94,6 +95,8 @@ def build_commentaries_dict(row, existing_item):
         names = get_matching_names_from_markdown(row, "person-poet")
         if names:
             update_item_value(built_item, "dcterms:subject", names)
+        citation = row["Works Cited"]
+        update_item_value(built_item, "dcterms:bibliographicCitation", BeautifulSoup(citation, 'html.parser').get_text())
         return built_item
     except ValueError:
         breakpoint()
