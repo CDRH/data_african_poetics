@@ -136,9 +136,15 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:title", row["Article title"])
         # change if we move away from CDRH IDs
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
-        #format date properly
-        update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
-            #TODO this is a linked item in the original
+        #format date properly, should be in yyyy-mm-dd format
+        try:
+            #make sure date can be parsed in the correct format, will throw exception if not
+            date = datetime.strptime(row["Article Date (formatted)"], '%Y-%m-%d')
+            if date:
+                update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
+        except:
+            print(row["Article Date (formatted)"] + " is not a valid date")
+            pass
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
         #this one already works, I am filtering for names without ids
@@ -222,9 +228,6 @@ def link_commentaries(row, existing_item):
     return existing_item
 
 def link_news_items(row, existing_item):
-    # need to look up publisher
-    # use creator instead?
-    #this needs to change to be incorporated with linked records
     if row["creator.name"]:
         #look up creator name by title
         link_item_record(existing_item, "dcterms:creator", json.loads(row["creator.name"]), filter_property="dcterms:title")
@@ -240,9 +243,10 @@ def link_news_items(row, existing_item):
     cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
-    publisher_ids = json.loads(row["Publication Internal ID"])
-    if publisher_ids:
-        link_item_record(existing_item, "dcterms:publisher", cdrh_commentary_ids)
+    if row["Publication Internal ID"]:
+        publisher_ids = json.loads(row["Publication Internal ID"])
+        if publisher_ids:
+            link_item_record(existing_item, "dcterms:publisher", publisher_ids)
     tag_ids = get_ids_from_tags(row["Tags"])
     if tag_ids:
         existing_item["o:item_set"] = tag_ids
