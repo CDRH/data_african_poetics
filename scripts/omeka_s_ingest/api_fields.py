@@ -200,8 +200,8 @@ def link_people(row, existing_item):
     cdrh_commentary_ids = get_matching_ids_from_markdown(row, "commentaries_relation")
     if cdrh_commentary_ids:
         link_item_record(existing_item, "foaf:depiction", cdrh_commentary_ids)
-    if row["Poet Omeka ID (Index of Poets)"]:
-         link_item_record(existing_item, "dcterms:references", row["Poet Omeka ID (Index of Poets)"], filter_property="o:id")
+    # if row["Poet Omeka ID (Index of Poets)"]:
+    #      link_item_record(existing_item, "dcterms:references", row["Poet Omeka ID (Index of Poets)"], filter_property="o:id")
     if row["University Omeka ID"]:
         link_item_record(existing_item, "foaf:maker", json.loads(row["University Omeka ID"]), filter_property="o:id")
     if row["Place of Birth Omeka ID"]:
