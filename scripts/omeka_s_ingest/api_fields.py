@@ -321,6 +321,8 @@ def link_works(row, existing_item):
 
 def prepare_item(row, table, existing_item = None):
     if table == "people" and "In the News" in row["site section"]:
+        if not row["Name Built"]:
+            return None
         item_dict = build_people_dict(row, existing_item)
     elif table == "people" and "Index of Poets" in row["site section"]:
         # skipping for now
@@ -328,12 +330,20 @@ def prepare_item(row, table, existing_item = None):
         print("Index of Poets ingest not implemented yet")
         return None
     elif table == "commentaries":
+        if not row["Name"]:
+            return None
         item_dict = build_commentaries_dict(row, existing_item)
     elif table == "events":
+        if not row["Name"]:
+            return None
         item_dict = build_events_dict(row, existing_item)
     elif table == "news items":
+        if not row["Article title"]:
+            return None
         item_dict = build_news_items_dict(row, existing_item)
     elif table == "works":
+        if not row["Title"]:
+            return None
         item_dict = build_works_dict(row, existing_item)
     else:
         print(f"API for table {table} not yet implemented")
