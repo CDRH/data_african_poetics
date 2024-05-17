@@ -524,7 +524,7 @@ def link_item_record(item, key, values, item_set=False, filter_property = "dcter
         item[key] = []
     # if there are no ids found, just add the provided value(s) under the provided key
     if len(omeka_ids) == 0:
-        for value in values:
+        for value in list(set(values)):
             prop_value = {
                 "value": value
             }
