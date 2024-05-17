@@ -110,8 +110,11 @@ for table in tables:
                 item_to_link = copy.deepcopy(matching_items["results"][0])
                 linked_item = api_fields.link_records(row, table, item_to_link)
                 if linked_item:
-                    omeka.omeka_auth.update_resource(linked_item, "items")
-                
+                    try:
+                        omeka.omeka_auth.update_resource(linked_item, "items")
+                    except:
+                        print(f"Error updating item {item_id}")
+                        pass
             else:
                 #if multiple matches or item not found, display warning
                 print(f"error retrieving {row['Unique ID']}, please check Omeka admin site")
