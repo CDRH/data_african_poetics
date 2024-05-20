@@ -106,7 +106,8 @@ for table in tables:
             matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
             if matching_items and matching_items["total_results"] == 1:
                 #if item exists, update item with linked records
-                print(f"linking records for {matching_items["results"][0]["dcterms:identifier"][0]["@value"]}")
+                item_id = matching_items["results"][0]["dcterms:identifier"][0]["@value"]
+                print(f"linking records for {item_id}")
                 item_to_link = copy.deepcopy(matching_items["results"][0])
                 linked_item = api_fields.link_records(row, table, item_to_link)
                 if linked_item:
