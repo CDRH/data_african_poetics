@@ -79,7 +79,7 @@ def build_commentaries_dict(row, existing_item):
         #new_item['schema:name'][0]['@value'] = "value" is how you update
         update_item_value(built_item, "dcterms:title", row["Name"])
         update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
-        content = re.sub('<[^<]+?>', '', row["Content"])
+        content = BeautifulSoup(row["Content"], 'html.parser').get_text()
         update_item_value(built_item, "dcterms:description", content)
         if row["creator.name"]:
             update_item_value(built_item, "dcterms:creator", json.loads(row["creator.name"]))
