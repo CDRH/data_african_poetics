@@ -19,7 +19,7 @@ def build_people_dict(row, existing_item):
             #make sure date can be parsed in the correct format, will throw exception if not
             date = datetime.strptime(row["Date birth"], '%Y-%m-%d')
             if date:
-                update_item_value(built_item, "dcterms:date", row["Date birth"])
+                update_item_value(built_item, "dcterms:date", row["Date birth"], datatype="numeric:timestamp")
         except:
             print(row["Date birth"] + " is not a valid date")
             pass
@@ -111,7 +111,7 @@ def build_events_dict(row, existing_item):
             #make sure date can be parsed in the correct format, will throw exception if not
             date = datetime.strptime(row["Date"], '%Y-%m-%d')
             if date:
-                update_item_value(built_item, "dcterms:date", row["Date"])
+                update_item_value(built_item, "dcterms:date", row["Date"], datatype="numeric:timestamp")
         except:
             print(row["Date"] + " is not a valid date")
             pass
@@ -140,7 +140,7 @@ def build_news_items_dict(row, existing_item):
             #make sure date can be parsed in the correct format, will throw exception if not
             date = datetime.strptime(row["Article Date (formatted)"], '%Y-%m-%d')
             if date:
-                update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"])
+                update_item_value(built_item, "dcterms:date", row["Article Date (formatted)"], datatype="numeric:timestamp")
         except:
             print(row["Article Date (formatted)"] + " is not a valid date")
             pass
@@ -164,7 +164,7 @@ def build_works_dict(row, existing_item):
         #format date properly, should be in yyyy format
         try:
             date = datetime.strptime(row["Year"], '%Y')
-            update_item_value(built_item, "dcterms:created", date)
+            update_item_value(built_item, "dcterms:created", date, datatype="numeric:timestamp")
         except:
             print(row["Year"] + " is not a valid date")
             pass
@@ -377,7 +377,7 @@ def get_json_value(row, name):
     else:
         return row[name]
     
-def update_item_value(item, key, value):
+def update_item_value(item, key, value, datatype="literal"):
     if type(value) == str:
         if key in item:
             item[key][0]['@value'] = value
@@ -385,7 +385,8 @@ def update_item_value(item, key, value):
             #add the key
             item[key] = [ 
                 {
-                    "value": value
+                    "value": value,
+                    "type": datatype
                 }
             ]
     elif type(value) == list:
@@ -396,7 +397,8 @@ def update_item_value(item, key, value):
             for v in value:
                 item[key].append(
                     { 
-                        "value": v 
+                        "value": v,
+                        "type": datatype 
                     }
                 )
         else:
@@ -408,7 +410,8 @@ def update_item_value(item, key, value):
                 except IndexError:
                     prop_id = omeka.omeka.get_property_id(key)
                     prop_value = {
-                        "value": v
+                        "value": v,
+                        "type": type
                     }
                     formatted = omeka.omeka.prepare_property_value(prop_value, prop_id)
                     item[key].append(formatted)
