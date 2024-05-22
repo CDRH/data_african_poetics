@@ -138,5 +138,5 @@ for table in tables:
                         pass
             else:
                 #if multiple matches or item not found, display warning
-                print(f"error retrieving {row['Unique ID']}, please check Omeka admin site")
+                print(f"skipping {row['Unique ID']}, item not properly ingested")
 
