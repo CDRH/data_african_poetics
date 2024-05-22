@@ -62,6 +62,13 @@ for table in tables:
                     item_to_update = copy.deepcopy(matching_items["results"][0])
                     updated_item = api_fields.prepare_item(row, table, item_to_update)
                     if updated_item:
+                        #attach html object to commentaries if it doesn't already exist
+                        if table == "commentaries" and not len(updated_item["o:media"]) >= 1:
+                            html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
+                            # generate desired path
+                            file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
+                            # save html_content in that path
+                            omeka.omeka_auth.add_media_to_item(updated_item["o:id"], file_path)
                         omeka.omeka_auth.update_resource(updated_item, "items")
                 #otherwise, create item from scratch
                 elif matching_items["total_results"] == 0:
@@ -69,7 +76,20 @@ for table in tables:
                     new_item = api_fields.prepare_item(row, table)
                     if new_item:
                         payload = omeka.omeka_auth.prepare_item_payload_using_template(new_item, template_number)
-                        if payload:
+                        if table == "commentaries":
+                            html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
+                            # generate desired path
+                            file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
+                            # save html_content in that path
+                            with open(file_path, "w") as file:
+                                file.write(html_content)
+                            try:
+                                omeka.omeka_auth.add_item(payload, media_files=[file_path], template_id=template_number)
+                            except:
+                                print(f"error adding html file for {row['Unique ID']}, omitting")
+                                #just post item without html if there is an error
+                                omeka.omeka_auth.add_item(payload, template_id=template_number)
+                        else:
                             omeka.omeka_auth.add_item(payload, template_id=template_number)
                 #if multiple matches, warn but don't ingest
                 else:
