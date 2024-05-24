@@ -62,14 +62,46 @@ for table in tables:
                     item_to_update = copy.deepcopy(matching_items["results"][0])
                     updated_item = api_fields.prepare_item(row, table, item_to_update)
                     if updated_item:
+                        omeka.omeka_auth.update_resource(updated_item, "items")
                         #attach html object to commentaries if it doesn't already exist
                         if table == "commentaries" and not len(updated_item["o:media"]) >= 1:
                             html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
                             # generate desired path
                             file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
                             # save html_content in that path
-                            omeka.omeka_auth.add_media_to_item(updated_item["o:id"], file_path)
-                        omeka.omeka_auth.update_resource(updated_item, "items")
+                            media_payload = {
+                                "o:is_public": True,
+                                "data": {
+                                    "html": html_content
+                                },
+                                "o:ingester": "html"
+                            }
+                            with open(file_path, "w") as file:
+                                file.write(html_content)
+                            try:
+                                omeka.add_media_to_item(updated_item["o:id"], file_path, payload=media_payload)
+                            except:
+                                print(f"error adding html file for {row['Unique ID']}, omitting")
+                        if table == "people" and not len(updated_item["o:media"]) >= 1:
+                            html_content = f"<h3>Biography</h3>" + row["Biography"] + f"<h3>Sources Cited</h3>" + row["Bio Sources (MLA)"]
+                            # generate desired path
+                            file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
+                            # save html_content in that path
+                            # TODO this is not working, fix it
+                            media_payload = {
+                                "o:is_public": True,
+                                "data": {
+                                    "html": html_content
+                                },
+                                "o:ingester": "html"
+                            }
+                            with open(file_path, "w") as file:
+                                file.write(html_content)
+                            try:
+                                omeka.add_media_to_item(updated_item["o:id"], file_path, payload=media_payload)
+                            except:
+                                print(f"error adding html file for {row['Unique ID']}, omitting")
+                        
                 #otherwise, create item from scratch
                 elif matching_items["total_results"] == 0:
                     print(f"creating item {row['Unique ID']}")
