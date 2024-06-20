@@ -26,7 +26,12 @@ def retrieveDocument(doc_id, apiKey):
 	PARAMS["api_key"] = apiKey
 
 	r = requests.get(url = URL, params = PARAMS)
-	return r.json()
+	print(r, URL)
+	try:
+		return r.json()
+	except:
+		print("error for " + URL)
+		return None
 
 
 
@@ -55,6 +60,8 @@ for id in gale_ids:
 	if url_match:
 		id = "GALE|" + url_match.group(1)
 	data = retrieveDocument(id,apiKey)
+	if not data:
+		continue
 	print('Retreived doc: '+id)
 
 	record = {}
