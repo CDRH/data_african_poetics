@@ -27,7 +27,7 @@ for image_cell in images:
     gale_id = gale_frame.loc[gale_frame["image_url"] == image_cell[0], "doc_id"].tolist()[0]
     for image_url in image_list:
         # check if image already exists
-        image_name = image_url.split("/")[-1] + ".jpg"
+        image_name = image_url.split("/")[-1][:99] + ".jpg"
         image_names = image_name if (image_names == "") else (image_names + "; " + image_name)
         image_relative = "../../../source/images/gale/" + image_name
         filename = (script_loc / image_relative).resolve()
