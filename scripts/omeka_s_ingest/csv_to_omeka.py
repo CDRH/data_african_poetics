@@ -5,6 +5,7 @@ import api_fields
 
 import copy
 import json
+import markdown
 #initialize api and auth info
 #TODO can these be refactored as instance variables somehow?
 
@@ -83,6 +84,10 @@ for table in tables:
                                 print(f"error adding html file for {row['Unique ID']}, omitting")
                                 #just post item without html if there is an error
                                 omeka.omeka_auth.add_item(payload, template_id=template_number)
+                                try:
+                                    omeka.omeka_auth.add_item(payload, template_id=template_number)
+                                except:
+                                    print(f"error posting {row['Unique ID']}, skipping")
                         else:
                             omeka.omeka_auth.add_item(payload, template_id=template_number)
                 #if multiple matches, warn but don't ingest
