@@ -114,12 +114,6 @@ for table in tables:
         reader = csv.DictReader(csvfile)
         for row in reader:
             # if posting the people table, check for items that should not be ingested
-            if table == "people":
-                if not (row["Completion Status"] == "Publish"  and
-                        row["Manual data entry complete"] == "True" and
-                        "In the News" in row["site section"] and 
-                        row["Major african poet"] == "True"):
-                    continue
             #check if item is in the API already TODO can this be made more efficient
             #everything should be in the API by now
             matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
@@ -154,7 +148,8 @@ for table in tables:
                         omeka.add_media_to_item(linked_item["o:id"], file_path, payload=media_payload)
                     except:
                         print(f"error adding html file for {row['Unique ID']}, omitting")
-                if table == "people" and not len(linked_item["o:media"]) >= 1:
+                if table == "people" and "Index of Poets" in row["site section"] and not len(linked_item["o:media"]) >= 1:
+                    biography = markdown.markdown(row["Biography"])
                     html_content = f"<h3>Biography</h3>" + row["Biography"] + f"<h3>Sources Cited</h3>" + row["Bio Sources (MLA)"]
                     # generate desired path
                     file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
