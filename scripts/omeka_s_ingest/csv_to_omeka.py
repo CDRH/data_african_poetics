@@ -138,26 +138,26 @@ for table in tables:
                 except:
                     print(f"Error updating item {item_id}")
                     pass
-                                        #attach html object to commentaries if it doesn't already exist
-                if table == "commentaries" and not len(linked_item["o:media"]) >= 1:
-                    authors = ", ".join(json.loads(row["creator.name"]))
-                    html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
-                    # generate desired path
-                    file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
-                    # save html_content in that path
-                    media_payload = {
-                        "o:is_public": True,
-                        "data": {
-                            "html": html_content
-                        },
-                        "o:ingester": "html"
-                    }
-                    with open(file_path, "w") as file:
-                        file.write(html_content)
-                    try:
-                        omeka.add_media_to_item(linked_item["o:id"], file_path, payload=media_payload)
-                    except:
-                        print(f"error adding html file for {row['Unique ID']}, omitting")
+                #attach html object to commentaries if it doesn't already exist
+                # if table == "commentaries" and not len(linked_item["o:media"]) >= 1:
+                #     authors = ", ".join(json.loads(row["creator.name"]))
+                #     html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
+                #     # generate desired path
+                #     file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
+                #     # save html_content in that path
+                #     media_payload = {
+                #         "o:is_public": True,
+                #         "data": {
+                #             "html": html_content
+                #         },
+                #         "o:ingester": "html"
+                #     }
+                #     with open(file_path, "w") as file:
+                #         file.write(html_content)
+                #     try:
+                #         omeka.add_media_to_item(linked_item["o:id"], file_path, payload=media_payload)
+                #     except:
+                #         print(f"error adding html file for {row['Unique ID']}, omitting")
                 
             else:
                 #if multiple matches or item not found, display warning
