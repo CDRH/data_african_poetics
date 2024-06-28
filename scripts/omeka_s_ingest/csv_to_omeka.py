@@ -94,6 +94,8 @@ for table in tables:
                         #         except:
                         #             print(f"error posting {row['Unique ID']}, skipping")
                         omeka.omeka_auth.add_item(payload, template_id=template_number)
+                    else:
+                        print(f"error creating item {row["Unique ID"]} check spreadsheet")
                 #if multiple matches, warn but don't ingest
                 else:
                     print(f"multiple matches for {row['Unique ID']}, please check Omeka admin site")
