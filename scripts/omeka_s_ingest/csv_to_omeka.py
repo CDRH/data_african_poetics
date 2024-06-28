@@ -73,25 +73,24 @@ for table in tables:
                     new_item = api_fields.prepare_item(row, table)
                     if new_item:
                         payload = omeka.omeka_auth.prepare_item_payload_using_template(new_item, template_number)
-                        if table == "commentaries":
-                            html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
-                            # generate desired path
-                            file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
-                            # save html_content in that path
-                            with open(file_path, "w") as file:
-                                file.write(html_content)
-                            try:
-                                omeka.omeka_auth.add_item(payload, media_files=[file_path], template_id=template_number)
-                            except:
-                                print(f"error adding html file for {row['Unique ID']}, omitting")
-                                #just post item without html if there is an error
-                                omeka.omeka_auth.add_item(payload, template_id=template_number)
-                                try:
-                                    omeka.omeka_auth.add_item(payload, template_id=template_number)
-                                except:
-                                    print(f"error posting {row['Unique ID']}, skipping")
-                        else:
-                            omeka.omeka_auth.add_item(payload, template_id=template_number)
+                        # if table == "commentaries":
+                        #     html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
+                        #     # generate desired path
+                        #     file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
+                        #     # save html_content in that path
+                        #     with open(file_path, "w") as file:
+                        #         file.write(html_content)
+                        #     try:
+                        #         omeka.omeka_auth.add_item(payload, media_files=[file_path], template_id=template_number)
+                        #     except:
+                        #         print(f"error adding html file for {row['Unique ID']}, omitting")
+                        #         #just post item without html if there is an error
+                        #         omeka.omeka_auth.add_item(payload, template_id=template_number)
+                        #         try:
+                        #             omeka.omeka_auth.add_item(payload, template_id=template_number)
+                        #         except:
+                        #             print(f"error posting {row['Unique ID']}, skipping")
+                        omeka.omeka_auth.add_item(payload, template_id=template_number)
                 #if multiple matches, warn but don't ingest
                 else:
                     print(f"multiple matches for {row['Unique ID']}, please check Omeka admin site")
