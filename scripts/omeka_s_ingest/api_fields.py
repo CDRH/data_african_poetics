@@ -26,9 +26,10 @@ def build_people_dict(row, existing_item):
         update_item_value(built_item, "dcterms:bibliographicCitation", row["Bio Sources (MLA)"])
         update_item_value(built_item, "dcterms:spatial", location(row["birth_spatial.city"]))
         update_item_value(built_item, "dcterms:coverage", location(row["nationality-region"]))
-        names = get_matching_names_from_markdown(row, "related-people")
-        if names:
-            update_item_value(built_item, "dcterms:relation", names)
+        #omitting 
+        # names = get_matching_names_from_markdown(row, "related-people")
+        # if names:
+        #     update_item_value(built_item, "dcterms:relation", names)
         lat = json.loads(row["Latitude (from Place of birth)"])[0]
         lon = json.loads(row["Longitude (from Place of birth)"])[0]
         if lat and lon:
@@ -92,9 +93,10 @@ def build_commentaries_dict(row, existing_item):
         # update_item_value(built_item, "dcterms:created", "")
         # I wonder if works should go into the below field
         #update_item_value(built_item, "dcterms:relation", get_json_value(row, "commentaries_relation"))
-        names = get_matching_names_from_markdown(row, "person-poet")
-        if names:
-            update_item_value(built_item, "dcterms:subject", names)
+        #removing names without ids, for now
+        #names = get_matching_names_from_markdown(row, "person-poet")
+        #if names:
+        #    update_item_value(built_item, "dcterms:subject", names)
         citation = row["Works Cited"]
         update_item_value(built_item, "dcterms:bibliographicCitation", BeautifulSoup(citation, 'html.parser').get_text())
         return built_item
