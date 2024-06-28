@@ -148,26 +148,6 @@ for table in tables:
                         omeka.add_media_to_item(linked_item["o:id"], file_path, payload=media_payload)
                     except:
                         print(f"error adding html file for {row['Unique ID']}, omitting")
-                if table == "people" and "Index of Poets" in row["site section"] and len(row["Biography"]) > 10 and not len(linked_item["o:media"]) >= 1:
-                    print(len(row["Biography"]))
-                    biography = markdown.markdown(row["Biography"])
-                    html_content = f"<h3>Biography</h3>" + row["Biography"] + f"<h3>Sources Cited</h3>" + row["Bio Sources (MLA)"]
-                    # generate desired path
-                    file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
-                    # save html_content in that path
-                    media_payload = {
-                        "o:is_public": True,
-                        "data": {
-                            "html": html_content
-                        },
-                        "o:ingester": "html"
-                    }
-                    with open(file_path, "w") as file:
-                        file.write(html_content)
-                    try:
-                        omeka.add_media_to_item(linked_item["o:id"], file_path, payload=media_payload)
-                    except:
-                        print(f"error adding html file for {row['Unique ID']}, omitting")
                 
             else:
                 #if multiple matches or item not found, display warning
