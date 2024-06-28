@@ -34,6 +34,7 @@ def build_people_dict(row, existing_item):
         lon = json.loads(row["Longitude (from Place of birth)"])[0]
         if lat and lon:
             update_item_value(built_item, "geo:lat_long", f"{lat}, {lon}")
+        update_item_value(built_item, "bibo:section", "people")
         return built_item
     except ValueError:
         breakpoint()
@@ -99,6 +100,7 @@ def build_commentaries_dict(row, existing_item):
         #    update_item_value(built_item, "dcterms:subject", names)
         citation = row["Works Cited"]
         update_item_value(built_item, "dcterms:bibliographicCitation", BeautifulSoup(citation, 'html.parser').get_text())
+        update_item_value(built_item, "bibo:section", "commentaries")
         return built_item
     except ValueError:
         breakpoint()
@@ -127,6 +129,7 @@ def build_events_dict(row, existing_item):
             if lat and lon:
                 update_item_value(built_item, "geo:lat", lat)
                 update_item_value(built_item, "geo:long", lon)
+        update_item_value(built_item, "bibo:section", "events")
         return built_item
     except ValueError:
         breakpoint()
@@ -152,6 +155,7 @@ def build_news_items_dict(row, existing_item):
         names = get_matching_names_from_markdown(row, "person")
         if names:
             update_item_value(built_item, "dcterms:references", names)
+        update_item_value(built_item, "bibo:section", "news items")
         return built_item
     except ValueError:
         breakpoint()
@@ -176,6 +180,7 @@ def build_works_dict(row, existing_item):
         names = get_matching_names_from_markdown(row, "person")
         if names:
             update_item_value(built_item, "dcterms:references", names)
+        update_item_value(built_item, "bibo:section", "works")
         return built_item
     except ValueError:
         breakpoint()
