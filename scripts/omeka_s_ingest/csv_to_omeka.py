@@ -53,7 +53,7 @@ for table in tables:
                     continue
                 in_the_news = "In the News" in row["site section"]
                 template_number = get_template_number_from_table(table, in_the_news)
-            if table == "news items" and row["Tags"]:
+            if table == "news items" and "Tags" in row and len(row["Tags"]) > 1:
                 # combine with existing list and remove duplicates
                 tags = list(set(tags + json.loads(row["Tags"])))
             #check if item is in the API already TODO can this be made more efficient
