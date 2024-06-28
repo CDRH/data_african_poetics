@@ -11,7 +11,7 @@ def build_people_dict(row, existing_item):
         #new_item['schema:name'][0]['@value'] = "value" is how you update
         #TODO need to separate out Index and In the News more
         update_item_value(built_item, "dcterms:title", row["Name Built"])
-        update_item_value(built_item, "dcterms:identifier", row["Unique ID"])
+        update_item_value(built_item, "dcterms:identifier", row["In the News Unique ID"])
         update_item_value(built_item, "dcterms:description", row["Biography"])
         update_item_value(built_item, "foaf:givenName", row["Name given"])
         update_item_value(built_item, "foaf:lastName", row["Name last"])

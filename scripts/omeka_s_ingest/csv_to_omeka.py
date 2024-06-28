@@ -57,7 +57,10 @@ for table in tables:
                 # combine with existing list and remove duplicates
                 tags = list(set(tags + json.loads(row["Tags"])))
             #check if item is in the API already TODO can this be made more efficient
-            matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
+            if table == "people":
+                matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["In the News Unique ID"])
+            else:
+                matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
             if matching_items:
                 #if item exists, update item
                 if matching_items["total_results"] == 1:
