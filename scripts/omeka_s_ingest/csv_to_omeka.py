@@ -46,8 +46,10 @@ for table in tables:
         for row in reader:
             # if posting the people table, check for items that should not be ingested
             if table == "people":
-                if not (row["Completion Status"] == "Publish"  and
-                        row["Manual data entry complete"] == "True"):
+                # skip Index of Poets
+                if not (row["site section"] == "In the News" and
+                        row["Completion Status"] == "Publish"  and
+                        row["Manual data entry complete"].upper() == "TRUE"):
                     continue
                 in_the_news = "In the News" in row["site section"]
                 template_number = get_template_number_from_table(table, in_the_news)
@@ -116,7 +118,15 @@ for table in tables:
             # if posting the people table, check for items that should not be ingested
             #check if item is in the API already TODO can this be made more efficient
             #everything should be in the API by now
-            matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
+            if table == "people":
+                #again, skip "Index of Poets" and only look for the ones marked to post
+                if not (row["site section"] == "In the News" and
+                        row["Completion Status"] == "Publish"  and
+                        row["Manual data entry complete"].upper() == "TRUE"):
+                    continue
+                matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["In the News Unique ID"])
+            else:
+                matching_items = omeka.omeka.filter_items_by_property(filter_property = "dcterms:identifier", filter_value = row["Unique ID"])
             if matching_items and matching_items["total_results"] == 1:
                 #if item exists, update item with linked records
                 item_id = matching_items["results"][0]["dcterms:identifier"][0]["@value"]
