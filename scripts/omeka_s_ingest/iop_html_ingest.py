@@ -35,7 +35,7 @@ with open(f'source/csv/people.csv', newline='') as csvfile:
                     html_content = f"<h3>Biography</h3>" + biography 
                     if len(row["Bio Sources (MLA)"]) > 10:
                         sources = markdown.markdown(row["Bio Sources (MLA)"])
-                        html_content += f"<h3>Sources Cited</h3>" + sources
+                        html_content += '<div class="citations"><h3>Sources Cited</h3>' + sources + "</div>"
                     # generate desired path
                     file_path = f"scripts/omeka_s_ingest/media_files/{row["Unique ID"]}.html"
                     # save html_content in that path
