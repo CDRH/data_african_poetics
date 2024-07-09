@@ -35,7 +35,8 @@ table_fields = {
     "commentaries_relation": "relation",
     "Related Event Omeka ID": "dcterms:relation", 
     "Contributor Omeka ID": "dcterms:references", 
-    "Publication Internal ID": "dcterms:publisher"
+    "Publication Internal ID": "dcterms:publisher",
+    "site section": "bibo:section"
   },
   "events": {
     "airtableID":"airtableID",
@@ -69,7 +70,8 @@ table_fields = {
     "works": "dcterms:relation",
     "Latitude (from [location])": "latitude",
     "Longitude (from [location])": "longitude",
-    "spatial.place": "spatial.place"
+    "spatial.place": "spatial.place",
+    "site section": "bibo:section"
   },
   "people": {
     "airtableID":"airtableID",
@@ -99,7 +101,7 @@ table_fields = {
     "death place": "spatial_name_death_k",
     "Languages spoken": "language",
     "Gender": "person.gender",
-    "Poet Omeka ID (Index of Poets)": "dcterms:references",
+    "In the News Unique ID": "dcterms:references",
     "University Omeka ID": "foaf:maker",
     "Related News Item Omeka ID": "foaf:isPrimaryTopicOf",
     "Related Event Item ID": "dcterms:isReferencedBy",
@@ -108,7 +110,8 @@ table_fields = {
     "Manual data entry complete": "complete",
     "Place of Birth Omeka ID": "geo:location",
     "Latitude (from Place of birth)": "latitude",
-    "Longitude (from Place of birth)": "longitude"
+    "Longitude (from Place of birth)": "longitude",
+    "site section": "bibo:section"
   },
   "works": {
     "airtableID":"airtableID",
@@ -133,7 +136,8 @@ table_fields = {
     "topics-decade": "topics", 
     "commentaries_relation": "relation",
     "[commentaries]": "dcterms:isReferencedBy",
-    "References": "dcterms:references"
+    "References": "dcterms:references",
+    "site section": "bibo:section"
   },
   "locations": {
     "airtableID":"",

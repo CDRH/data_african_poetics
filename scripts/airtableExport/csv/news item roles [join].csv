@@ -12,6 +12,8 @@
 (-)"" (Reporter)","","['recqAADXb7iwHeIZ3']","","Reporter"
 "reckBH6O6sKFbrpG9","[] ""Brutus, Dennis Vincent 
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","","Mentioned Poet"
+"recrVT7v3CjRRLjzy","[] ""Butler, Guy 
+(1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","","Mentioned Poet"
 "recifKtdF3Bmq6Lil","[] ""Butler, Guy 
 (1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","","Mentioned Poet"
 "recidajeVe0biD9R9","[] ""Campbell, Roy 
@@ -196,7 +198,7 @@
 (1918-1972)"" (Poet)","","['recVITrnlYju5VVOR']","['recjKYnmAaGlURITq']","Poet"
 "recPyFyEJfjMYUfPc","[apdp.news.000016] ""Gwala, Pascal 
 (1946-2014)"" (Poet)","","['recO7fQ9N6fKpWsLF']","['recjKYnmAaGlURITq']","Poet"
-"recCDPyDLCMpyaXiI","[apdp.news.000016] ""Hamilton, William Robert 'W. R.' 
+"","[apdp.news.000016] ""Hamilton, William Robert 'W. R.' 
 (1896-1917)"" (Poet)","","['recEadpRGDKvzNbBc']","['recjKYnmAaGlURITq']","Poet"
 "","[apdp.news.000016] ""Kunene, Mazisi 'Raymond' 
 (1930-2006)"" (Poet)","","['rec7C07UyBGMs8tw8']","['recjKYnmAaGlURITq']","Poet"
@@ -7146,8 +7148,6 @@
 (1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","['recECFZ5ZRRjXdnYl']","Mentioned Poet"
 "","[apdp.news.001140] ""Butler, Guy 
 (1918-2001)"" (Poet) - author","True","['recjKvU9JG4GftnEK']","['reckdXKumBo32ZRly']","Poet"
-"","[apdp.news.001141] ""Butler, Guy 
-(1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","['recMSwZWaC081l4I1']","Mentioned Poet"
 "","[apdp.news.001142] ""Butler, Guy 
 (1918-2001)"" (Editor) - author","True","['recjKvU9JG4GftnEK']","['recpbPTI1BZPbuHS7']","Editor"
 "","[apdp.news.001142] ""Campbell, Roy 
