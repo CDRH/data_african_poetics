@@ -72,9 +72,9 @@ for table in tables:
 
                 #otherwise, create item from scratch
                 elif matching_items["total_results"] == 0:
-                    print(f"creating item {row['Unique ID']}")
                     new_item = api_fields.prepare_item(row, table)
                     if new_item:
+                        print(f"creating item {new_item['dcterms:identifier'][0]["value"]}")
                         payload = omeka.omeka_auth.prepare_item_payload_using_template(new_item, template_number)
                         # if table == "commentaries":
                         #     html_content = f"<h3>Author(s): {row["creator.name"]}</h3>" + row["Content"] + row["Works Cited"]
