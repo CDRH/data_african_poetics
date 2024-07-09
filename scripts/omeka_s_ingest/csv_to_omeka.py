@@ -47,7 +47,7 @@ for table in tables:
             # if posting the people table, check for items that should not be ingested
             if table == "people":
                 # skip Index of Poets
-                if not (row["site section"] == "In the News" and
+                if not ("In the News" in row["site section"] and
                         row["Completion Status"] == "Publish"  and
                         row["Manual data entry complete"].upper() == "TRUE"):
                     continue
@@ -124,7 +124,7 @@ for table in tables:
             #everything should be in the API by now
             if table == "people":
                 #again, skip "Index of Poets" and only look for the ones marked to post
-                if not (row["site section"] == "In the News" and
+                if not ("In the News" in row["site section"] and
                         row["Completion Status"] == "Publish"  and
                         row["Manual data entry complete"].upper() == "TRUE"):
                     continue
