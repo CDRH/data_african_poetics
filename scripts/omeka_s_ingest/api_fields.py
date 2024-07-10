@@ -35,6 +35,8 @@ def build_people_dict(row, existing_item):
         if lat and lon:
             update_item_value(built_item, "geo:lat_long", f"{lat}, {lon}")
         update_item_value(built_item, "bibo:section", "people")
+        #get count of associated news items
+        update_item_value(built_item, "curation:number", row["Number of linked News Items"])
         return built_item
     except ValueError:
         breakpoint()
