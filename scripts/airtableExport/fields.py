@@ -111,7 +111,8 @@ table_fields = {
     "Place of Birth Omeka ID": "geo:location",
     "Latitude (from Place of birth)": "latitude",
     "Longitude (from Place of birth)": "longitude",
-    "site section": "bibo:section"
+    "site section": "bibo:section",
+    "Number of linked News Items": "curation:number"
   },
   "works": {
     "airtableID":"airtableID",
