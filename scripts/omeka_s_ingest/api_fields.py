@@ -122,9 +122,9 @@ def build_events_dict(row, existing_item):
             print(row["Date"] + " is not a valid date")
             pass
         update_item_value(built_item, "dcterms:description", row["Summary"])
-        names = get_matching_names_from_markdown(row, "person-poet")
-        if names:
-            update_item_value(built_item, "dcterms:references", names)
+        # names = get_matching_names_from_markdown(row, "person-poet")
+        # if names:
+        #     update_item_value(built_item, "dcterms:references", names)
         if row["Latitude (from [location])"] and row["Longitude (from [location])"]:
             lat = json.loads(row["Latitude (from [location])"])[0]
             lon = json.loads(row["Longitude (from [location])"])[0]
@@ -154,9 +154,9 @@ def build_news_items_dict(row, existing_item):
         update_item_value(built_item, "dcterms:description", row["Excerpt"])
         update_item_value(built_item, "dcterms:bibliographicCitation", build_citation(row))
         #this one already works, I am filtering for names without ids
-        names = get_matching_names_from_markdown(row, "person")
-        if names:
-            update_item_value(built_item, "dcterms:references", names)
+        # names = get_matching_names_from_markdown(row, "person")
+        # if names:
+        #     update_item_value(built_item, "dcterms:references", names)
         update_item_value(built_item, "bibo:section", "news items")
         return built_item
     except ValueError:
@@ -179,9 +179,9 @@ def build_works_dict(row, existing_item):
         if row["publisher"]:
             update_item_value(built_item, "dcterms:publisher", json.loads(row["publisher"]))
         #determine airtable column and how it should be parsed (if it's one of the md columns)
-        names = get_matching_names_from_markdown(row, "person")
-        if names:
-            update_item_value(built_item, "dcterms:references", names)
+        # names = get_matching_names_from_markdown(row, "person")
+        # if names:
+        #     update_item_value(built_item, "dcterms:references", names)
         update_item_value(built_item, "bibo:section", "works")
         return built_item
     except ValueError:
