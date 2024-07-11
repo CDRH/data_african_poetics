@@ -432,7 +432,7 @@ def get_matching_ids_from_markdown(row, field):
     # takes in an array of strings in markdown format, which include CDRH IDs
     # returns an array of just the IDs
     if row[field]:
-        markdown_values = get_json_value(row, field)
+        markdown_values = sorted(get_json_value(row, field))
         ids = []
         if markdown_values:
             #should be either single value or array
@@ -530,7 +530,7 @@ def get_omeka_ids(lookup_values, filter_property):
 def link_item_record(item, key, values, item_set=False, filter_property = "dcterms:identifier"):
     omeka_ids = values if item_set else get_omeka_ids(values, filter_property)
     #dedupe
-    omeka_ids = list(set(omeka_ids))
+    omeka_ids = list(dict.fromkeys(omeka_ids))
     prop_id = omeka.omeka.get_property_id(key)
     #if not key in item:
     #changing to always clear items
