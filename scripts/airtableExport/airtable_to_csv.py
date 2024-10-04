@@ -37,7 +37,7 @@ def getTables():
 getTables()
 
 with open('scripts/airtableExport/json/tables.json','w') as f:
-	json.dump(tables,f,indent=2)
+	json.dump(tables,f,indent=2, ensure_ascii=False)
 
 # with open('scripts/airtableExport/json/tables.json','r') as f:
 # 	table_json = json.load(f)
@@ -59,8 +59,8 @@ for table in tables:
 	for record in records.values():
 		# make sure that each cell in the csv, if stored as an array, can be parsed as json
 		for key, value in record['fields'].items():
-			if key in ["source", "Tags", "spatial.country", "spatial.city", "spatial.region", "rights_holder", "publisher", "contributor.name", "creator.name", "publisher", "person-notpoet", "person-poet", "name-major-poet", "person-author", "news_items", "commentaries_relation", "nationality-region", "nationality-country", "education", "events", "birth_spatial.country", "birth_spatial.city", "year_degree_institution", "events-subjects", "works", "news-items_medium", "news item roles", "site section", "death_spatial.city", "death_spatial.country", "ethnicity.text", "country_residence.text"]:
-				record['fields'][key] = json.dumps(value)
+			if key in ["source", "Tags", "spatial.country", "spatial.city", "spatial.region", "rights_holder", "publisher", "contributor.name", "creator.name", "publisher", "person-notpoet", "person-poet", "name-major-poet", "person-author", "news_items", "commentaries_relation", "nationality-region", "nationality-country", "education", "events", "birth_spatial.country", "birth_spatial.city", "year_degree_institution", "events-subjects", "works", "news-items_medium", "news item roles", "site section", "work roles", "person", "subjects","Latitude (from Place of birth)", "Longitude (from Place of birth)", "Latitude (from [location])", "Longitude (from [location])", "Publication Internal ID", "spatial.place", "Poet Omeka ID (Index of Poets)", "University Omeka ID", "Place of Birth Omeka ID"]:
+				record['fields'][key] = json.dumps(value, ensure_ascii=False)
 		writer.writerow(record['fields'])
 
 	csvfile.close()
