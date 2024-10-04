@@ -7,6 +7,10 @@ class CsvToEsPeople < CsvToEs
     "People"
   end
 
+  def subcategory
+    "In the News"
+  end
+
   def get_id
     id = @row["Unique ID"] ? @row["Unique ID"] : "blank"
     id = id.split(" ")[0]
