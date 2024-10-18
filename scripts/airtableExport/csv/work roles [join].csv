@@ -4,8 +4,8 @@
 (1934-)"" (Poet) - author","True","['recZS4g43q5Io7CpK', 'recrkX4daZNLsq0cZ']","['recWPWn6c0hoDHe2c']","Poet"
 "recbhxKxi3o7O0VW4","[apdp.work.000025] ""Jones, Eldred Durosimi 
 (1925-2020)"" (Editor) - author","True","['reciP7sU88UTTnOvf']","['recM8BkUrDWQbn9uS']","Editor"
-"recbkAKQWMPesi11R","[apdp.work.000068] ""Plomer, William 
-(1903-1973)"" (Poet)","","['rechXmQTzrc8eiWTu']","['rec476sNZ2psfODm3']","Poet"
+"recbkAKQWMPesi11R","[apdp.work.000068apdp.work.000863] ""Plomer, William 
+(1903-1973)"" (Poet) - author","True","['rechXmQTzrc8eiWTu']","['rec476sNZ2psfODm3', 'recDCcveoj1KAHJ9I']","Poet"
 "recblZdD4avGIlXK8","[apdp.work.000130] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
 (1935-2013)"" (Poet)","","['recw6xteDA4loPFr8']","['recNInCLPTwVUICq5']","Poet"
 "recbl4AKfLko4yxNX","[apdp.work.000184] ""Peters, Lenrie 
@@ -1203,8 +1203,8 @@
 (1935-)"" (Poet)","","['recmyildMjXhoC72X']","","Poet"
 "","[apdp.work.000667] ""Cripps, Arthur Shearly 
 (1869-1952)"" (Poet) - author","True","['recHqhKMTrYFElsxy']","['recruEJAnBLLEdPeX']","Poet"
-"","[apdp.work.000055] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
-(1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['reccIKH41ee2m5fZ9']","Poet"
+"","[apdp.work.000055apdp.work.000862] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Poet) - author","True","['recrkX4daZNLsq0cZ']","['reccIKH41ee2m5fZ9', 'reczxCXmudGm6jwbD']","Poet"
 "","[apdp.work.000622] ""Diakhate, Lamine 
 (1928-1987)"" (Poet) - author","True","['recce49CVohdYLw2s']","['recSkTqZC4auVjRYC']","Poet"
 "","[apdp.work.000470] ""Nelson, Robert Alexander 
@@ -2495,3 +2495,12 @@
 (-)"" () - author","True","['recbdbtyjzeiO9Dg3']","['recVdy96hUDqSuXKh']",""
 "","[apdp.work.000792] ""Brutus, Dennis 'Vincent' 
 (-)"" () - author","True","['recbdbtyjzeiO9Dg3']","['recfki1p8zgLtljac']",""
+"","[]  ()","","","",""
+"","[apdp.work.000860] ""Okri, Ben 
+(1959-)"" (Poet) - author","True","['recRIfDTZDIHzLGPC']","['recbdKwRFW2JkdrMj']","Poet"
+"","[apdp.work.000864] ""Wright, David 
+(1920-1994)"" (Poet)","","['recX3e6HGV46vJgzl']","['recZyouW9ToMemD0a']","Poet"
+"","[apdp.work.000865] ""Okri, Ben 
+(1959-)"" (Poet) - author","True","['recRIfDTZDIHzLGPC']","['recYjKk4kVcH0eZkD']","Poet"
+"","[apdp.work.000866] ""Prince, Frank Templeton 'F. T.' 
+(1912-2003)"" (Poet) - author","True","['reczY4HgBRDaqL1fV']","['rec049Rc1yIgVnKnU']","Poet"
