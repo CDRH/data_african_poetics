@@ -25,7 +25,7 @@ class CsvToEsNews < CsvToEs
   end
 
   def get_id
-    id = @row["unique_id"] ? @row["unique_id"] : "blank"
+    id = @row["Unique ID"] ? @row["Unique ID"] : "blank"
     id = id.split(" ")[0]
     id
   end
@@ -97,7 +97,7 @@ class CsvToEsNews < CsvToEs
           name = parse_md_brackets(data[0])
           id = parse_md_parentheses(data[0])
           role = data[1]
-          result << { name: name, role: role, id: id }
+          result << { "name" => name, "role" => role, "id" => id }
         end
       end
     end
@@ -113,14 +113,14 @@ class CsvToEsNews < CsvToEs
   def contributor
     names = get_value("contributor.name", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 
   def creator
     names = get_value("creator.name", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 

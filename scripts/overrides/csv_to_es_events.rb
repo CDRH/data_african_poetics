@@ -45,7 +45,7 @@ class CsvToEsEvents < CsvToEs
       nonpoets.each do |nonpoet|
         # markdown parsing
         name = parse_md_brackets(nonpoet)
-        people << { name: name }
+        people << { "name" => name }
       end
     end
     if poets && poets.length > 0
@@ -54,7 +54,7 @@ class CsvToEsEvents < CsvToEs
         name = parse_md_brackets(poet)
         id = parse_md_parentheses(poet)
         role = "African Poet"
-        people << { name: name, role: role, id: id }
+        people << { "name" => name, "role" => role, "id" => id }
       end
     end
     people

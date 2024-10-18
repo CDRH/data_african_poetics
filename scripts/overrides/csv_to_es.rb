@@ -51,7 +51,7 @@ class CsvToEs
 
   def parse_array(arr)
     arr.map { |value|
-      parsed = parse_md_brackets(value)
+      parsed = parse_md_brackets(value.to_s)
       check_markdown(parsed) ? parsed : next
     }.join(" ")
   end

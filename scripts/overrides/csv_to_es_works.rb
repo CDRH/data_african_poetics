@@ -84,7 +84,7 @@ class CsvToEsWorks < CsvToEs
           name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
           id = /\]\((.*)\)/.match(data[0])[1] if /\]\((.*)\)/.match(data[0])
           role = data[1]
-          result << { name: name, role: role, id: id }
+          result << { "name" => name, "role" => role, "id" => id }
         end
       end
     end
@@ -94,14 +94,14 @@ class CsvToEsWorks < CsvToEs
   def contributor
     names = get_value("name-major-name", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 
   def creator
     names = get_value("person-author", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 

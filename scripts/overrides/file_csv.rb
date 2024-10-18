@@ -1,7 +1,18 @@
 class FileCsv < FileType
 
+
+
   def build_source_filepath(id)
     File.join(@options["collection_dir"], "source", "html", "#{id}.html")
+  end
+
+  # override to change encoding
+  def read_csv(file_location, encoding="utf-8")
+    CSV.read(file_location, **{
+      encoding: encoding,
+      headers: true,
+      return_headers: true
+    })
   end
 
   def transform_es
@@ -14,8 +25,9 @@ class FileCsv < FileType
         if !row.header_row? 
           begin
             new_row = row_to_es(@csv.headers, row, table)
-          rescue
+          rescue => e
             puts "error for item " + row["Unique ID"]
+            puts e.full_message
           end
           if new_row
             es_doc << new_row
@@ -105,7 +117,7 @@ class FileCsv < FileType
             id = /\]\((.*)\)/.match(person)[1] if /\]\((.*)\)/.match(person)
             count = people.select{|p| p == person}.count
             if name
-              result << { name: name, role: count, id: id }
+              result << { "name" => name, "role" => count, "id" => id }
             end
           end
           doc["person"] = result
