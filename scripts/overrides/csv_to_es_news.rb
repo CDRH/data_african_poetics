@@ -51,8 +51,13 @@ class CsvToEsNews < CsvToEs
     Datura::Helpers.date_standardize(@row["Article Date (formatted)"], before)
   end
 
-  def publisher
-    get_value("publisher", true)
+  def citation
+    publisher = get_value("publisher", true)
+    works = get_value("works").split(";;;") if get_value("works")
+    {
+      "publisher" => publisher,
+      "works" => works
+    }
   end
 
   def rights_uri
@@ -65,12 +70,6 @@ class CsvToEsNews < CsvToEs
 
   def description
     get_value("Excerpt")
-  end
-
-  def works
-    if get_value("works")
-      get_value("works").split(";;;")
-    end
   end
 
   def topics
@@ -130,9 +129,11 @@ class CsvToEsNews < CsvToEs
     end
   end
 
-  def relation
+  def has_relation
     if get_value("commentaries_relation", true)
-      get_value("commentaries_relation").split(";;;")
+      {
+        "title" => get_value("commentaries_relation").split(";;;")
+      }
     end
   end
 

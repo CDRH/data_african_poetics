@@ -52,8 +52,10 @@ class CsvToEsCommentaries < CsvToEs
     get_value("news-items_medium", true)
   end
 
-  def works
-    get_value("works", true)
+  def citation
+    {
+      "title" => get_value("works", true)
+    }
   end
 
 end

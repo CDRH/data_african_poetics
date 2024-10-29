@@ -44,13 +44,17 @@ class CsvToEsWorks < CsvToEs
     get_value("Year")
   end
 
-  def publisher
-    get_value("publisher", true)
+  def citation
+    {
+      "publisher" => get_value("publisher", true)
+    }
   end
 
   def spatial
     if get_value("spatial.country")
-      location = { "country" => JSON.parse(get_value("spatial.country"))[0] }
+      location = { 
+        "country" => JSON.parse(get_value("spatial.country"))[0] 
+      }
       if get_value("spatial.city")
         location["city"] = JSON.parse(get_value("spatial.city"))
       end
@@ -109,8 +113,10 @@ class CsvToEsWorks < CsvToEs
     get_value("topics-decade")
   end
 
-  def relation
-    get_value("commentaries_relation", true)
+  def has_relation
+    {
+      "title" => get_value("commentaries_relation", true)
+    }
   end
 
 end

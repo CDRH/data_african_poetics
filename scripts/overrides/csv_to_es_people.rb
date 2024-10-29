@@ -43,21 +43,23 @@ class CsvToEsPeople < CsvToEs
 
   def spatial
     places = []
+    if get_value("nationality-country", true)
+      places << {
+        "short_name" => get_value("nationality-country", true),
+        "role" => "placename"
+      }
+    end
     if get_value("nationality-region")
-      places << { "region" => JSON.parse(get_value("nationality-region"))[0], "type" => "nationality" }
+      places << { "region" => JSON.parse(get_value("nationality-region"))[0], "role" => "nationality" }
     end
     if get_value("birth_spatial.country")
-      birthplace = { "country" => JSON.parse(get_value("birth_spatial.country"))[0], "type" => "birth place" }
+      birthplace = { "country" => JSON.parse(get_value("birth_spatial.country"))[0], "role" => "birth place" }
       if get_value("birth_spatial.city")
         birthplace["city"] = JSON.parse(get_value("birth_spatial.city"))[0]
       end
       places << birthplace
     end
     places
-  end
-
-  def places
-    get_value("nationality-country", true)
   end
 
   def keywords
@@ -74,9 +76,12 @@ class CsvToEsPeople < CsvToEs
     get_value("name-letter")
   end
 
-  def works
-    works = get_value("work roles")
-    works.split(";;;") if works
+  def citation
+    # not in the schema
+    works = works.split(";;;") if get_value("work roles")
+    {
+      "works" => works
+    }
   end
 
   def medium
@@ -91,8 +96,10 @@ class CsvToEsPeople < CsvToEs
     get_value("events", true)
   end
 
-  def relation
-    get_value("commentaries_relation", true)
+  def has_relation
+    {
+      "title" => get_value("commentaries_relation", true)
+    }
   end
 
   def person

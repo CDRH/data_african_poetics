@@ -13,11 +13,12 @@ default:
     image_thumb: 150
 
 development:
+  api_version: '2.0'
   es_path: https://cdrhdev1.unl.edu/elastic
-  es_index: cdrhapidev-v1
+  es_index: cdrhapidev-v2
   site_url: https://cdrhdev1.unl.edu/african_poetics
   data_base: https://cdrhdev1.unl.edu/media
   media_base: https://cdrhdev1.unl.edu/media
 production:
   es_path: https://cdrhapi.unl.edu/elastic
-  es_index: cdrhapi-v1
+  es_index: cdrhapi-v2
