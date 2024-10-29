@@ -113,7 +113,12 @@ table_fields = {
     "Latitude (from Place of birth)": "latitude",
     "Longitude (from Place of birth)": "longitude",
     "site section": "bibo:section",
-    "Number of linked News Items": "curation:number"
+    "Number of linked News Items": "curation:number",
+    "Poems": "poems_k",
+    "Poetry Collections": "poetry_collections_k",
+    "speeches lectures": "speeches_k",
+    "ethnicity.text": "ethnicity_k",
+    "country_residence.text": "country_residence_k"
   },
   "works": {
     "airtableID":"airtableID",
