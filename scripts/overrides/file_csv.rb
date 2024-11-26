@@ -62,20 +62,7 @@ class FileCsv < FileType
         #may also be "In the News"
         doc["category2"] = get_value(row, "site section", true)
         doc["data_type"]   = "csv"
-
-
-
-        # Will potentially need to add more code to deal with more genders later
-        gender = 
-          case
-          when row["Gender"] == "F" 
-            "Female"
-          when row["Gender"] == "M"
-            "Male"
-          else
-            "Unknown"
-          end
-        doc["person_gender_k"] = gender
+        doc["person_gender_k"] = get_value(row, "Gender", false)
         
         doc["has_source"]      = {}
         doc["has_source"]["title"] = markdown.render(row["Bio Sources (MLA)"])
@@ -149,7 +136,7 @@ class FileCsv < FileType
         textcomplete =  [ doc["title"], 
                           doc["places"], 
                           doc["keywords"],
-                          gender
+                          doc["person_gender_k"]
                         ] 
 
         doc["text"] = textcomplete.join(" ")
