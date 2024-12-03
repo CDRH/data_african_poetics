@@ -44,13 +44,17 @@ class CsvToEsWorks < CsvToEs
     get_value("Year")
   end
 
-  def publisher
-    get_value("publisher", true)
+  def citation
+    {
+      "publisher" => get_value("publisher", true)
+    }
   end
 
   def spatial
     if get_value("spatial.country")
-      location = { "country" => JSON.parse(get_value("spatial.country"))[0] }
+      location = { 
+        "country" => JSON.parse(get_value("spatial.country"))[0] 
+      }
       if get_value("spatial.city")
         location["city"] = JSON.parse(get_value("spatial.city"))
       end
@@ -84,7 +88,7 @@ class CsvToEsWorks < CsvToEs
           name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
           id = /\]\((.*)\)/.match(data[0])[1] if /\]\((.*)\)/.match(data[0])
           role = data[1]
-          result << { name: name, role: role, id: id }
+          result << { "name" => name, "role" => role, "id" => id }
         end
       end
     end
@@ -94,14 +98,14 @@ class CsvToEsWorks < CsvToEs
   def contributor
     names = get_value("name-major-name", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 
   def creator
     names = get_value("person-author", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 
@@ -109,8 +113,10 @@ class CsvToEsWorks < CsvToEs
     get_value("topics-decade")
   end
 
-  def relation
-    get_value("commentaries_relation", true)
+  def has_relation
+    {
+      "title" => get_value("commentaries_relation", true)
+    }
   end
 
 end

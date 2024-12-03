@@ -31,7 +31,7 @@ class CsvToEsCommentaries < CsvToEs
         # markdown parsing
         name = parse_md_brackets(person)
         id = parse_md_parentheses(person)
-        result << { name: name, id: id }
+        result << { "name" => name, "id" => id }
       end
     end
     result
@@ -40,7 +40,7 @@ class CsvToEsCommentaries < CsvToEs
   def creator
     names = get_value("creator.name", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 
@@ -52,8 +52,10 @@ class CsvToEsCommentaries < CsvToEs
     get_value("news-items_medium", true)
   end
 
-  def works
-    get_value("works", true)
+  def citation
+    {
+      "title" => get_value("works", true)
+    }
   end
 
 end

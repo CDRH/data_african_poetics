@@ -1,18 +1,32 @@
 "airtableID","Id","Author","[person]","[news item]","Name [Role]"
+"recPnJlpc3DeEBx9O","[]  ()","","","",""
+"rectByzd6rGIXBNux","[]  () - author","True","","",""
+"recThTEU0rjfVsNxm","[]  () - author","True","","",""
+"rec1G1hDdccmJAwWN","[]  () - author","True","","",""
+"reclXDwor6sOt9mhy","[] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" () - author","True","['recOo2kpeQuQEciaC']","",""
 "recFrarkE4HQf4za2","[] ""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","","Mentioned Poet"
+"recHbxuTgQomNMioS","[] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Poet) - author","True","['recOo2kpeQuQEciaC']","","Poet"
 "recnNZgxbWS1vAnFr","[] ""Auden, Wystan Hugh 'W. H.' 
 (1907-1973)"" (Mentioned Poet)","","['recA21MaYTugsYbrg']","","Mentioned Poet"
 "rec99vOOpUFUaQTSn","[] ""Brooks, Richard 
 (-)"" (Reporter)","","['recqAADXb7iwHeIZ3']","","Reporter"
 "reckBH6O6sKFbrpG9","[] ""Brutus, Dennis Vincent 
 (1924-2009)"" (Mentioned Poet)","","['recaLBDKPomp4cstB']","","Mentioned Poet"
+"recrVT7v3CjRRLjzy","[] ""Butler, Guy 
+(1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","","Mentioned Poet"
+"recifKtdF3Bmq6Lil","[] ""Butler, Guy 
+(1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","","Mentioned Poet"
 "recidajeVe0biD9R9","[] ""Campbell, Roy 
 (1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","","Mentioned Poet"
 "rec8ucahbfHLXpXwW","[] ""Campbell, Roy 
 (1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","","Mentioned Poet"
 "rec0pVyGpwivViLJa","[] ""Campbell, Roy 
 (1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","","Mentioned Poet"
+"recualuITwuzqIdpD","[] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['recZCHkAMEtH7xn9G']","","Mentioned Poet"
 "recllV6fdLpVQwiAa","[] ""Couzyn, Jeni 
 (1942-)"" (Mentioned Poet)","","['reczJCspFdg3hHW9B']","","Mentioned Poet"
 "recD6ytttpsZeh9CT","[] ""Couzyn, Jeni 
@@ -181,23 +195,23 @@
 (1907-2001)"" (Poet)","","['recN2CQ0lURxrndsj']","['recjKYnmAaGlURITq']","Poet"
 "recfwQHiSxXL6n0cT","[apdp.news.000016] ""Driver, Charles Jonathan 'Jonty' 
 (1939-)"" (Poet)","","['recOcLoIZSFwMOqfm']","['recjKYnmAaGlURITq']","Poet"
-"recBGw0b7s7YMeORn","[apdp.news.000016] ""Dugmore, Henry Hare 'H. H.' 
+"","[apdp.news.000016] ""Dugmore, Henry Hare 'H. H.' 
 (1810-1896)"" (Mentioned Poet)","","['rec6lnGtv6OSVtoEN']","['recjKYnmAaGlURITq']","Mentioned Poet"
-"recT1vtYcDNkfcvYU","[apdp.news.000016] ""Eglington, Charles 
+"","[apdp.news.000016] ""Eglington, Charles 
 (1918-1972)"" (Poet)","","['recVITrnlYju5VVOR']","['recjKYnmAaGlURITq']","Poet"
-"recPyFyEJfjMYUfPc","[apdp.news.000016] ""Gwala, Pascal 
+"","[apdp.news.000016] ""Gwala, Pascal 
 (1946-2014)"" (Poet)","","['recO7fQ9N6fKpWsLF']","['recjKYnmAaGlURITq']","Poet"
-"recCDPyDLCMpyaXiI","[apdp.news.000016] ""Hamilton, William Robert 'W. R.' 
+"","[apdp.news.000016] ""Hamilton, William Robert 'W. R.' 
 (1896-1917)"" (Poet)","","['recEadpRGDKvzNbBc']","['recjKYnmAaGlURITq']","Poet"
-"recQHKpPZRZ9vt9W1","[apdp.news.000016] ""Kunene, Mazisi 'Raymond' 
+"","[apdp.news.000016] ""Kunene, Mazisi 'Raymond' 
 (1930-2006)"" (Poet)","","['rec7C07UyBGMs8tw8']","['recjKYnmAaGlURITq']","Poet"
-"rec4iH81gkbGJd1Xu","[apdp.news.000016] ""Lewin, Hugh 
+"","[apdp.news.000016] ""Lewin, Hugh 
 (1939-2019)"" (Poet)","","['recXocQrPdKiutDsX']","['recjKYnmAaGlURITq']","Poet"
-"recAVVKVvr6TSy5Ez","[apdp.news.000016] ""Livingstone, Douglas 
+"","[apdp.news.000016] ""Livingstone, Douglas 
 (1932-1996)"" (Poet)","","['recrAaXXhIPMbulnW']","['recjKYnmAaGlURITq']","Poet"
-"recp26StyaYhudJ6M","[apdp.news.000016] ""Mann, Chris 'Christopher Michael Zithulele' 
+"","[apdp.news.000016] ""Mann, Chris 'Christopher Michael Zithulele' 
 (1948-2021)"" (Poet)","","['recU0GqypnmAL84T5']","['recjKYnmAaGlURITq']","Poet"
-"receYA6WVUMcrue4J","[apdp.news.000016] ""McKuen, Rod 
+"","[apdp.news.000016] ""McKuen, Rod 
 (1933-2015)"" (Mentioned Poet)","","['recRbiux7XIQ815vz']","['recjKYnmAaGlURITq']","Mentioned Poet"
 "","[apdp.news.000016] ""Moodie, Duncan Campbell Francis 'D. C. F.' 
 (1838-1891)"" (Mentioned Poet)","","['recIYP7wIGHjr9az0']","['recjKYnmAaGlURITq']","Mentioned Poet"
@@ -4827,6 +4841,8 @@
 (1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['receainotmoCKsNlB']","Mentioned Poet"
 "","[apdp.news.000325] ""Hymas, Charles 
 (-)"" (Author) - author","True","['recHUq1duoye1vKF8']","['recQPF9dG1atTHnNm']","Author"
+"","[apdp.news.000328] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['rec2NPsSDinfy6ow4']","Mentioned Poet"
 "","[apdp.news.000329] ""Saro-Wiwa, Ken 
 (1941-1995)"" (Writer)","","['recmFLKhxO7oJeQEe']","['recUxkdJT3rADYJ45']","Writer"
 "","[apdp.news.000330] ""Achebe, Chinua 'Albert Chinualumogu' 
@@ -6867,6 +6883,8 @@
 (1906-2001)"" (Politician)","","['recBdxaNWIHd4zhkg']","['rec8IEM9kwLFkASVn']","Politician"
 "","[apdp.news.000913] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
 (1934-)"" (Poet)","","['recrkX4daZNLsq0cZ']","['rec1br9GxiHyUdh9u']","Poet"
+"","[apdp.news.000918] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recPegX2a1OBL1vEv']","Mentioned Poet"
 "","[apdp.news.000919] ""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recT1dEhlHVGW3q79']","Mentioned Poet"
 "","[apdp.news.000923] ""Achebe, Chinua 'Albert Chinualumogu' 
@@ -6929,3 +6947,825 @@
 (1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recQA4eMBVRW27Crc']","Mentioned Poet"
 "","[apdp.news.000960] ""Achebe, Chinua 'Albert Chinualumogu' 
 (1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recpTYjQVgoOvGKy1']","Mentioned Poet"
+"","[apdp.news.000966]  () - author","True","","['recUJeMbdMEI7ifIb']",""
+"","[apdp.news.000966] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" () - author","True","['recOo2kpeQuQEciaC']","['recUJeMbdMEI7ifIb']",""
+"","[apdp.news.000967] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recPRd92kMDqCW09C']","Mentioned Poet"
+"","[apdp.news.000976] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recUgA1HXspU6PF2r']","Mentioned Poet"
+"","[apdp.news.000980] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recqG93LJEgyVzWIj']","Mentioned Poet"
+"","[apdp.news.000985] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['rec3cdXMYu6Ampks6']","Mentioned Poet"
+"","[apdp.news.000986] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recZApWz1oY8YNQ1z']","Mentioned Poet"
+"","[apdp.news.000988] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recIIb3dDEQc7k143']","Mentioned Poet"
+"","[apdp.news.000994] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recZRZQnRedmhEWtV']","Mentioned Poet"
+"","[apdp.news.000995] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recuaYaZTnhlL7j2s']","Mentioned Poet"
+"","[apdp.news.000997] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recxqZA8zF5o9isWe']","Mentioned Poet"
+"","[apdp.news.000999] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['rec5ekpeIrOPnW4B3']","Mentioned Poet"
+"","[apdp.news.000999] ""Walcott, Derek 
+(1930-2017)"" (Mentioned Poet) - author","True","['recRwBe6oWkD7Dn5o']","['rec5ekpeIrOPnW4B3']","Mentioned Poet"
+"","[apdp.news.001000] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recgk401USUuGBc7y']","Mentioned Poet"
+"","[apdp.news.001014] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recpIeCpKv2rQQ4OU']","Mentioned Poet"
+"","[apdp.news.001014] ""Clark, JP 'John Pepper Clark-Bekederemo' 
+(-)"" (Mentioned Poet) - author","True","['recKbBGfqw3bQW8oV']","['recpIeCpKv2rQQ4OU']","Mentioned Poet"
+"","[apdp.news.001014] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet) - author","True","['recrkX4daZNLsq0cZ']","['recpIeCpKv2rQQ4OU']","Mentioned Poet"
+"","[apdp.news.001018] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recT2UZhZ7XnOiC2G']","Mentioned Poet"
+"","[apdp.news.001018] ""Naipaul, V. S. 
+(1932-2018)"" (Author) - author","True","['recftR57TlJLZMFOx']","['recT2UZhZ7XnOiC2G']","Author"
+"","[apdp.news.001026] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recI0KKEwLCHUB8Kd']","Mentioned Poet"
+"","[apdp.news.001026] ""Walcott, Derek 
+(1930-2017)"" (Mentioned Poet) - author","True","['recRwBe6oWkD7Dn5o']","['recI0KKEwLCHUB8Kd']","Mentioned Poet"
+"","[apdp.news.001027] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recvYm3oS6xn7CZfZ']","Mentioned Poet"
+"","[apdp.news.001028] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recE64WcDRY8Z3nHh']","Mentioned Poet"
+"","[apdp.news.001033] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['reczvFG8Bcf7BO6ri']","Mentioned Poet"
+"","[apdp.news.001033] ""Naipaul, V. S. 
+(1932-2018)"" (Author) - author","True","['recftR57TlJLZMFOx']","['reczvFG8Bcf7BO6ri']","Author"
+"","[apdp.news.001034] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['rec9UPioO7WDjSICv']","Mentioned Poet"
+"","[apdp.news.001039] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['reciq0jxKmQZLwjAC']","Mentioned Poet"
+"","[apdp.news.001042] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recfhnbMNIHw9CANN']","Mentioned Poet"
+"","[apdp.news.001045] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recCqlJKrDhW8Mubd']","Mentioned Poet"
+"","[apdp.news.001048] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recBpltKwFwgEwEtm']","Mentioned Poet"
+"","[apdp.news.001052] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recLh9vNO1aGtf9U0']","Mentioned Poet"
+"","[apdp.news.001055] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recy8Y2O3j6P30TLX']","Mentioned Poet"
+"","[apdp.news.001055] ""Baldwin, James 
+(1924-1987)"" (Author) - author","True","['recFk5oQdh4w5pPax']","['recy8Y2O3j6P30TLX']","Author"
+"","[apdp.news.001055] ""wa Thiong'o, Ngugi 'James' 
+(1938-)"" (Author) - author","True","['rec37zp2sfvgsuWjX']","['recy8Y2O3j6P30TLX']","Author"
+"","[apdp.news.001057] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recOXRE9gWBFG0cwA']","Mentioned Poet"
+"","[apdp.news.001058] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['reczU56jObGWFBChH']","Mentioned Poet"
+"","[apdp.news.001063] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recaUzdS8f8eYzrmp']","Mentioned Poet"
+"","[apdp.news.001063] ""Gordimer, Nadine 
+(1923-2014)"" (Author) - author","True","['recXnMjnpFniojKZ9']","['recaUzdS8f8eYzrmp']","Author"
+"","[apdp.news.001063] ""Rushdie, Salman 
+(1947-)"" (Author) - author","True","['recEzmQ9oZ8cnWoAM']","['recaUzdS8f8eYzrmp']","Author"
+"","[apdp.news.001069] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['rec883l3Yf585IYPp']","Mentioned Poet"
+"","[apdp.news.001070] ""Agualusa, José Eduardo 
+(1960-)"" (Mentioned Poet) - author","True","['recMeIiO8aE6LfHmn']","['recpLUuD3bbWG8f1d']","Mentioned Poet"
+"","[apdp.news.001072] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Mentioned Poet) - author","True","['rec7oRG8Jb3zFiSYI']","['recr4SFCBV1QpNOG9']","Mentioned Poet"
+"","[apdp.news.001075] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Mentioned Poet) - author","True","['rec7oRG8Jb3zFiSYI']","['recjbOem0u4SOlqqd']","Mentioned Poet"
+"","[apdp.news.001075] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
+(1935-2013)"" (Mentioned Poet) - author","True","['recw6xteDA4loPFr8']","['recjbOem0u4SOlqqd']","Mentioned Poet"
+"","[apdp.news.001077] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recyr2yhu2sgm9XE5']","Mentioned Poet"
+"","[apdp.news.001079] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
+(1935-2013)"" (Mentioned Poet) - author","True","['recw6xteDA4loPFr8']","['reccMpfA7ITucrdbw']","Mentioned Poet"
+"","[apdp.news.001080] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
+(1935-2013)"" (Mentioned Poet) - author","True","['recw6xteDA4loPFr8']","['recJ5oBsvUDSLIDXE']","Mentioned Poet"
+"","[apdp.news.001082] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
+(1935-2013)"" (Editor) - author","True","['recw6xteDA4loPFr8']","['recmojjZ6MwSwG97S']","Editor"
+"","[apdp.news.001084] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet) - author","True","['rec9R8HNlWmIM3Kc1']","['recO1YPT3cctdirlt']","Mentioned Poet"
+"","[apdp.news.001087] ""Butler, Guy 
+(1918-2001)"" (Editor) - author","True","['recjKvU9JG4GftnEK']","['rec7qGzpRRnapn2lE']","Editor"
+"","[apdp.news.001088] ""Brew, Osborne Henry Kwesi 
+(1928-2007)"" (Poet) - author","True","['recMtz94K601qz8dX']","['rec7B6RayJJuDQVef']","Poet"
+"","[apdp.news.001089] ""Brew, Osborne Henry Kwesi 
+(1928-2007)"" (Mentioned Poet) - author","True","['recMtz94K601qz8dX']","['recQsar9PLTNLKbOl']","Mentioned Poet"
+"","[apdp.news.001090] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['reciXYk7x20peywRE']","Mentioned Poet"
+"","[apdp.news.001092] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recDwxjMDSYIimyDv']","Mentioned Poet"
+"","[apdp.news.001093] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recDQUAz5sbIEBeue']","Mentioned Poet"
+"","[apdp.news.001094] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['rece2J6ZaZ6fc7nq4']","Mentioned Poet"
+"","[apdp.news.001095] ""Breytenbach, Breyten 
+(1939-)"" (Poet) - author","True","['recIGSwI3zYEGJaaM']","['rec8iY6br2PTaosup']","Poet"
+"","[apdp.news.001096] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recqE0l5RJzEpXCLT']","Mentioned Poet"
+"","[apdp.news.001098] ""Breytenbach, Breyten 
+(1939-)"" (Poet) - author","True","['recIGSwI3zYEGJaaM']","['recjkLGfEAB8GXJWd']","Poet"
+"","[apdp.news.001099] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recr118Bs5AKLgip6']","Mentioned Poet"
+"","[apdp.news.001101] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recKOX8K5e06IBjWN']","Mentioned Poet"
+"","[apdp.news.001102] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recYHFCH7xe8dcaIc']","Mentioned Poet"
+"","[apdp.news.001102] ""Brink, André Philippus 
+(1935-2015)"" (Mentioned Poet) - author","True","['recNYmiMp6NggczJQ']","['recYHFCH7xe8dcaIc']","Mentioned Poet"
+"","[apdp.news.001103] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['rec5yeaJ4AHLTJh6h']","Mentioned Poet"
+"","[apdp.news.001104] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recCumxFKAhxlf8Ba']","Mentioned Poet"
+"","[apdp.news.001105] ""Breytenbach, Breyten 
+(1939-)"" (Poet) - author","True","['recIGSwI3zYEGJaaM']","['recQwn4rhUPwzRYp9']","Poet"
+"","[apdp.news.001111] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recPqKShtfJqgt8AV']","Mentioned Poet"
+"","[apdp.news.001112] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['rechsmEfRlBurZ6u5']","Mentioned Poet"
+"","[apdp.news.001113] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recVIZ8ar1Wr47UB5']","Mentioned Poet"
+"","[apdp.news.001114] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recW8WFNVAQTBaGbW']","Mentioned Poet"
+"","[apdp.news.001115] ""Breytenbach, Breyten 
+(1939-)"" (Poet) - author","True","['recIGSwI3zYEGJaaM']","['rec8LXNwJ6SXayAIA']","Poet"
+"","[apdp.news.001116] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recOQzBSBx7RorCNL']","Mentioned Poet"
+"","[apdp.news.001117] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recL11GN8OPliEBrU']","Mentioned Poet"
+"","[apdp.news.001118] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['rece8JZB26q4UwZ0G']","Mentioned Poet"
+"","[apdp.news.001120] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recilVr27HhfbsrFf']","Mentioned Poet"
+"","[apdp.news.001122] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet) - author","True","['recIGSwI3zYEGJaaM']","['recR7agFlAONub8LA']","Mentioned Poet"
+"","[apdp.news.001125] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['rechrqK8PGUjxLj3W']","Mentioned Poet"
+"","[apdp.news.001126] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['rectlId9mOTLisG1Q']","Mentioned Poet"
+"","[apdp.news.001127] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Poet) - author","True","['recaLBDKPomp4cstB']","['rec88bCdWqT1NAs82']","Poet"
+"","[apdp.news.001128] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Poet) - author","True","['recaLBDKPomp4cstB']","['recbg6otXO6fjXLrO']","Poet"
+"","[apdp.news.001129] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['rec2fMbns7qt8JGMh']","Mentioned Poet"
+"","[apdp.news.001130] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Poet) - author","True","['recaLBDKPomp4cstB']","['rec7AHN0Kskhm6R9q']","Poet"
+"","[apdp.news.001131] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['receLhzoE1NS2ayc6']","Mentioned Poet"
+"","[apdp.news.001132] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['recRdcQ7sTuSb3t7g']","Mentioned Poet"
+"","[apdp.news.001133] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
+(1935-2013)"" (Mentioned Poet) - author","True","['recw6xteDA4loPFr8']","['rec01gXVHXlkZrkSV']","Mentioned Poet"
+"","[apdp.news.001133] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['rec01gXVHXlkZrkSV']","Mentioned Poet"
+"","[apdp.news.001133] ""Clark, John Pepper 'J. P.' 
+(1935-)"" (Mentioned Poet) - author","True","['recmyildMjXhoC72X']","['rec01gXVHXlkZrkSV']","Mentioned Poet"
+"","[apdp.news.001133] ""Okara, Gabriel 
+(1921-2019)"" (Mentioned Poet) - author","True","['recUiPx4caoRhWvaM']","['rec01gXVHXlkZrkSV']","Mentioned Poet"
+"","[apdp.news.001133] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet) - author","True","['recBvLFtelOVzL0YK']","['rec01gXVHXlkZrkSV']","Mentioned Poet"
+"","[apdp.news.001133] ""P'Bitek, Okot 
+(1931-1982)"" (Mentioned Poet) - author","True","['recHO9AeFrAOe1QdE']","['rec01gXVHXlkZrkSV']","Mentioned Poet"
+"","[apdp.news.001134] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Editor) - author","True","['recOo2kpeQuQEciaC']","['rec59GSLvRXrqvWH4']","Editor"
+"","[apdp.news.001134] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Poet) - author","True","['recaLBDKPomp4cstB']","['rec59GSLvRXrqvWH4']","Poet"
+"","[apdp.news.001134] ""Moore, Gerald 
+(1924-)"" (Translator) - author","True","['rec9fhaSuS1VCt72x']","['rec59GSLvRXrqvWH4']","Translator"
+"","[apdp.news.001134] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet) - author","True","['recBvLFtelOVzL0YK']","['rec59GSLvRXrqvWH4']","Mentioned Poet"
+"","[apdp.news.001135] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['reckYCAS6wOKL1naC']","Mentioned Poet"
+"","[apdp.news.001137] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['recYUxvEK9NUaCf9Q']","Mentioned Poet"
+"","[apdp.news.001137] ""Clark, John Pepper 'J. P.' 
+(1935-)"" (Mentioned Poet) - author","True","['recmyildMjXhoC72X']","['recYUxvEK9NUaCf9Q']","Mentioned Poet"
+"","[apdp.news.001137] ""Okara, Gabriel 
+(1921-2019)"" (Mentioned Poet) - author","True","['recUiPx4caoRhWvaM']","['recYUxvEK9NUaCf9Q']","Mentioned Poet"
+"","[apdp.news.001137] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet) - author","True","['recBvLFtelOVzL0YK']","['recYUxvEK9NUaCf9Q']","Mentioned Poet"
+"","[apdp.news.001138] ""Brutus, Dennis Vincent 
+(1924-2009)"" (Mentioned Poet) - author","True","['recaLBDKPomp4cstB']","['rechqm8R5cPMUZtsb']","Mentioned Poet"
+"","[apdp.news.001139] ""Butler, Guy 
+(1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","['recECFZ5ZRRjXdnYl']","Mentioned Poet"
+"","[apdp.news.001140] ""Butler, Guy 
+(1918-2001)"" (Poet) - author","True","['recjKvU9JG4GftnEK']","['reckdXKumBo32ZRly']","Poet"
+"","[apdp.news.001142] ""Butler, Guy 
+(1918-2001)"" (Editor) - author","True","['recjKvU9JG4GftnEK']","['recpbPTI1BZPbuHS7']","Editor"
+"","[apdp.news.001142] ""Campbell, Roy 
+(1901-1957)"" (Poet) - author","True","['recZCHkAMEtH7xn9G']","['recpbPTI1BZPbuHS7']","Poet"
+"","[apdp.news.001143] ""Butler, Guy 
+(1918-2001)"" (Poet) - author","True","['recjKvU9JG4GftnEK']","['recBu5vUZMlbS48am']","Poet"
+"","[apdp.news.001143] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet) - author","True","['rechXmQTzrc8eiWTu']","['recBu5vUZMlbS48am']","Mentioned Poet"
+"","[apdp.news.001144] ""Butler, Guy 
+(1918-2001)"" (Editor) - author","True","['recjKvU9JG4GftnEK']","['recnNzRXRUgq69RSl']","Editor"
+"","[apdp.news.001145] ""Butler, Guy 
+(1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","['recqODKkzvc6UjKwp']","Mentioned Poet"
+"","[apdp.news.001147] ""Butler, Guy 
+(1918-2001)"" (Editor) - author","True","['recjKvU9JG4GftnEK']","['recxLxc8NmhWpTh0T']","Editor"
+"","[apdp.news.001148] ""Butler, Guy 
+(1918-2001)"" (Mentioned Poet) - author","True","['recjKvU9JG4GftnEK']","['recKjDEnRX2T3XmSt']","Mentioned Poet"
+"","[apdp.news.001148] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['recZCHkAMEtH7xn9G']","['recKjDEnRX2T3XmSt']","Mentioned Poet"
+"","[apdp.news.001149] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['recZCHkAMEtH7xn9G']","['recbvm8T42oS3HbGv']","Mentioned Poet"
+"","[apdp.news.001150] ""Butler, Guy 
+(1918-2001)"" (Poet) - author","True","['recjKvU9JG4GftnEK']","['recUe5A6FYQCGRE5u']","Poet"
+"","[apdp.news.001153] ""Campbell, Roy 
+(1901-1957)"" (Poet) - author","True","['recZCHkAMEtH7xn9G']","['recxIngbCWZhwUaNs']","Poet"
+"","[apdp.news.001154] ""Campbell, Roy 
+(1901-1957)"" (Poet) - author","True","['recZCHkAMEtH7xn9G']","['recGQdgehcl8MXf35']","Poet"
+"","[apdp.news.001156] ""Campbell, Roy 
+(1901-1957)"" (Poet) - author","True","['rec28CvesqNss4KGi']","['recWcV32Wahhl1AZY']","Poet"
+"","[apdp.news.001157] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['rec28CvesqNss4KGi']","['recdEmOeoEmQYbVOP']","Mentioned Poet"
+"","[apdp.news.001157] ""Wright, David 
+(1920-1994)"" (Poet) - author","True","['recTpIRze7fPfSrO8']","['recdEmOeoEmQYbVOP']","Poet"
+"","[apdp.news.001158] ""Campbell, Roy 
+(1901-1957)"" (Poet) - author","True","['recZCHkAMEtH7xn9G']","['rec7faONc8S4RQHJb']","Poet"
+"","[apdp.news.001161] ""Campbell, Roy 
+(1901-1957)"" (Poet) - author","True","['rec28CvesqNss4KGi']","['reclU0827pwmXsOJ4']","Poet"
+"","[apdp.news.001162] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['rec28CvesqNss4KGi']","['rec46M70puvZhJy7c']","Mentioned Poet"
+"","[apdp.news.001164] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['rec28CvesqNss4KGi']","['recwTzHCzmQ4mcErR']","Mentioned Poet"
+"","[apdp.news.001165] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['rec28CvesqNss4KGi']","['recYutaqd6sWP92vx']","Mentioned Poet"
+"","[apdp.news.001166] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['rec28CvesqNss4KGi']","['recOVJYkLl7Eulg4R']","Mentioned Poet"
+"","[apdp.news.001189] ""Okai, Atukwei 'John' 
+(1941-2018)"" (Mentioned Poet)","","['recNk4oqSzYFgciSx']","['recYSydg6VjbsAlmu']","Mentioned Poet"
+"","[apdp.news.001190] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Mentioned Poet)","","['rec7oRG8Jb3zFiSYI']","['rec19i43qgFOxx0gO']","Mentioned Poet"
+"","[apdp.news.001190] ""Okara, Gabriel 
+(1921-2019)"" (Mentioned Poet)","","['recUiPx4caoRhWvaM']","['rec19i43qgFOxx0gO']","Mentioned Poet"
+"","[apdp.news.002066] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Poet) - author","True","['recOo2kpeQuQEciaC']","['recd3vSjScyBBloid']","Poet"
+"","[apdp.news.002070] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recZmGAoIppUvJxbo']","Mentioned Poet"
+"","[apdp.news.002071] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet) - author","True","['recOo2kpeQuQEciaC']","['recZgNIoqUEVWV1FE']","Mentioned Poet"
+"","[apdp.news.002078] ""Cope, Robert Knox 'Jack' 
+(1913-1991)"" (Mentioned Poet) - author","True","['rec4lc52d1rr49UHG']","['recdfS4g2wQmFM7Mx']","Mentioned Poet"
+"","[apdp.news.002079] ""Cope, Robert Knox 'Jack' 
+(1913-1991)"" (Editor) - author","True","['rec4lc52d1rr49UHG']","['recwP4SHtzXijLVs9']","Editor"
+"","[apdp.news.002080] ""Butler, Guy 
+(1918-2001)"" (Critic) - author","True","['recjKvU9JG4GftnEK']","['recQcRNfjaevYoH5R']","Critic"
+"","[apdp.news.002080] ""Cope, Robert Knox 'Jack' 
+(1913-1991)"" (Mentioned Poet) - author","True","['rec4lc52d1rr49UHG']","['recQcRNfjaevYoH5R']","Mentioned Poet"
+"","[apdp.news.002081] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['recCSKEOdZScvyN1x']","Mentioned Poet"
+"","[apdp.news.002082] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['recQXH2nvTAXBOqq6']","Mentioned Poet"
+"","[apdp.news.002083] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['rec6SUo8cj6WPoHzE']","Mentioned Poet"
+"","[apdp.news.002085] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['recLpD5lmmmOwlpcQ']","Mentioned Poet"
+"","[apdp.news.002087] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['recRWtocS8WEMbqlk']","Mentioned Poet"
+"","[apdp.news.002088] ""Couzyn, Jeni 
+(1942-)"" (Poet) - author","True","['reczJCspFdg3hHW9B']","['reczoT1M79Gxv35x8']","Poet"
+"","[apdp.news.002089] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['rechAG2T9wxqI76om']","Mentioned Poet"
+"","[apdp.news.002090] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['rec3jdWXnPzpuug5s']","Mentioned Poet"
+"","[apdp.news.002091] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet) - author","True","['reczJCspFdg3hHW9B']","['recgHrUdj1nEAWqEZ']","Mentioned Poet"
+"","[apdp.news.002092] ""Craveirinha, José 
+(1922-2003)"" (Mentioned Poet) - author","True","['recQwkjGCKI3HNsjI']","['reciVEbF58M1vOvkH']","Mentioned Poet"
+"","[apdp.news.002093] ""Craveirinha, José 
+(1922-2003)"" (Poet) - author","True","['recQwkjGCKI3HNsjI']","['recdecZ33V3CWVpkT']","Poet"
+"","[apdp.news.002094] ""Craveirinha, José 
+(1922-2003)"" (Mentioned Poet) - author","True","['recQwkjGCKI3HNsjI']","['rec5AVtrKyfV2VNAY']","Mentioned Poet"
+"","[apdp.news.002095] ""Craveirinha, José 
+(1922-2003)"" (Mentioned Poet) - author","True","['recQwkjGCKI3HNsjI']","['recadczzJdjBGSflY']","Mentioned Poet"
+"","[apdp.news.002096] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['rec6QqgGuOCi6akzs']","Mentioned Poet"
+"","[apdp.news.002097] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recC1IMrJoPt3ZoW3']","Mentioned Poet"
+"","[apdp.news.002098] ""Rive, Richard 
+(1931-1989)"" (Mentioned Poet)","","['rec7pcqq0K5J5hgiJ']","['rec4eDx5Zd82D360L']","Mentioned Poet"
+"","[apdp.news.002098] ""Small, Adam 
+(1936-2016)"" (Mentioned Poet)","","['recXO2WiZ2k8Mqr6o']","['rec4eDx5Zd82D360L']","Mentioned Poet"
+"","[apdp.news.002099] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Celliers, Jan 
+(1865-1940)"" (Mentioned Poet)","","['reczs30MBeT3af0ro']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Delius, Anthony 'Ronald St. Martin' 
+(1916-1989)"" (Mentioned Poet)","","['recbF6fKg6E5WaoqP']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Krige, Uys 
+(1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""MacNab, Roy 
+(1923-2004)"" (Mentioned Poet)","","['recyTF3ighE5lXHsa']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Paton, Alan 
+(1903-1988)"" (Mentioned Poet)","","['recTWiV1axyEJr0fq']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Philander, P. J. 'Peter John' 
+(1921-2006)"" (Mentioned Poet)","","['recsxiHf60mUiowcG']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Pretorius, S. J. 'Sarel Jacob' 
+(1917-1995)"" (Mentioned Poet)","","['recLJKB5F9CohOTgc']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Pringle, Thomas 
+(1780-1834)"" (Mentioned Poet)","","['recjcqo5Xbuadsw29']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""Rousseau, Ina 
+(1926-2005)"" (Mentioned Poet)","","['recZS4g43q5Io7CpK']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002099] ""van Heerden, Ernst 
+(1916-1997)"" (Mentioned Poet)","","['recu43DbrUayW9AhJ']","['recgW6ce5hNyYl4MT']","Mentioned Poet"
+"","[apdp.news.002100] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['rectiLPa3gw6fQDeh']","Mentioned Poet"
+"","[apdp.news.002101] ""Madge, Charles Henry 
+(1912-1996)"" (Mentioned Poet)","","['recNDLiL9FcG6VMnQ']","['recFuvrqSK8ZdD6GU']","Mentioned Poet"
+"","[apdp.news.002102] ""Madge, Charles Henry 
+(1912-1996)"" (Mentioned Poet)","","['recNDLiL9FcG6VMnQ']","['recEUJGf9VseEPN7o']","Mentioned Poet"
+"","[apdp.news.002103] ""Okri, Ben 
+(1959-)"" (Poet)","","['recRIfDTZDIHzLGPC']","['reci1MMqH52ys3OUS']","Poet"
+"","[apdp.news.002104] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recEzCHZhKRXnmwHu']","Mentioned Poet"
+"","[apdp.news.002105] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['rec1EqoLJ75aPl1XT']","Mentioned Poet"
+"","[apdp.news.002106] ""Madge, Charles Henry 
+(1912-1996)"" (Mentioned Poet)","","['recNDLiL9FcG6VMnQ']","['recqJKgBT34EkvrNG']","Mentioned Poet"
+"","[apdp.news.002107] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet)","","['recIGSwI3zYEGJaaM']","['recte8VYNHbgFNra7']","Mentioned Poet"
+"","[apdp.news.002108] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recEQIwVG2TRfGqum']","Mentioned Poet"
+"","[apdp.news.002110] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recnIxJfyJMLDCn3z']","Mentioned Poet"
+"","[apdp.news.002111] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recyre3VNY9psAd4a']","Writer"
+"","[apdp.news.002111] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recyre3VNY9psAd4a']","Mentioned Poet"
+"","[apdp.news.002112] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet)","","['recIGSwI3zYEGJaaM']","['recABZY2gD5X1x9Tz']","Mentioned Poet"
+"","[apdp.news.002113] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['rec93KNTuZRYogTT4']","Mentioned Poet"
+"","[apdp.news.002114] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recIpcnudFwrAnbju']","Mentioned Poet"
+"","[apdp.news.002115] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recjdrcqFWc4aquep']","Mentioned Poet"
+"","[apdp.news.002116] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recnzyq7We05fkrIp']","Mentioned Poet"
+"","[apdp.news.002117] ""Okri, Ben 
+(1959-)"" (Poet)","","['recRIfDTZDIHzLGPC']","['rec6QuoFufzvgPEit']","Poet"
+"","[apdp.news.002118] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recKjswSXQfiFg8Xp']","Mentioned Poet"
+"","[apdp.news.002120] ""Mann, Chris 'Christopher Michael Zithulele' 
+(1948-2021)"" (Mentioned Poet)","","['recU0GqypnmAL84T5']","['recrAFAPtIKKZok5z']","Mentioned Poet"
+"","[apdp.news.002121] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recXla2p2cK17umKW']","Mentioned Poet"
+"","[apdp.news.002121] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recXla2p2cK17umKW']","Mentioned Poet"
+"","[apdp.news.002122] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recEANIKSYg6kjTeP']","Mentioned Poet"
+"","[apdp.news.002123] ""Cripps, Arthur Shearly 
+(1869-1952)"" (Mentioned Poet)","","['recHqhKMTrYFElsxy']","['recAWM32xsp98ZyMl']","Mentioned Poet"
+"","[apdp.news.002124] ""Okri, Ben 
+(1959-)"" (Author) - author","True","['recRIfDTZDIHzLGPC']","['recQ9ATwuIRiZpYXl']","Author"
+"","[apdp.news.002125] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recTpIRze7fPfSrO8']","['recsTZu19k4Np2A4u']","Mentioned Poet"
+"","[apdp.news.002126] ""Prince, Frank Templeton 'F. T.' 
+(1912-2003)"" (Mentioned Poet)","","['reczY4HgBRDaqL1fV']","['recrGEip9w4sTCjej']","Mentioned Poet"
+"","[apdp.news.002127] ""Diop, Birago 
+(1906-1989)"" (Mentioned Poet)","","['reckfQPSei4IyFMAs']","['rec982f3GAEwcgdof']","Mentioned Poet"
+"","[apdp.news.002128] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['rec0CeiWgHvTfVeX6']","Mentioned Poet"
+"","[apdp.news.002129] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['recnLchY7kNZAnBzQ']","Mentioned Poet"
+"","[apdp.news.002130] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['recZyeU5opthi4frP']","Mentioned Poet"
+"","[apdp.news.002130] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recZyeU5opthi4frP']","Mentioned Poet"
+"","[apdp.news.002131] ""Kunene, Mazisi 'Raymond' 
+(1930-2006)"" (Mentioned Poet)","","['rec7C07UyBGMs8tw8']","['reclYhyMYQdjQ70ZT']","Mentioned Poet"
+"","[apdp.news.002132] ""Selwyn, W. 
+(-)"" (Mentioned Poet)","","['reckZxppFbnFjr37c']","['recAJNNg6yybkS1hI']","Mentioned Poet"
+"","[apdp.news.002133] ""Okri, Ben 
+(1959-)"" ()","","['recRIfDTZDIHzLGPC']","['recgFCgamQbkGcaLA']",""
+"","[apdp.news.002134] ""Okri, Ben 
+(1959-)"" (Writer)","","['recRIfDTZDIHzLGPC']","['recNFBs99ENG5LQyT']","Writer"
+"","[apdp.news.002135] ""Jacinto, António 'Orlando Tavora' 
+(1924-1991)"" (Mentioned Poet)","","['recUkxAH7lg0EjGGM']","['recpMmy3LjWdzkoT1']","Mentioned Poet"
+"","[apdp.news.002136] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recZUP0nZculza3LW']","Mentioned Poet"
+"","[apdp.news.002137] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recqtyCTbKw8kUtoZ']","Mentioned Poet"
+"","[apdp.news.002138] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recuY8JAoAGddIyq4']","Mentioned Poet"
+"","[apdp.news.002140] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recGSZrvEWOKaeD31']","Mentioned Poet"
+"","[apdp.news.002140] ""Cope, Robert Knox 'Jack' 
+(1913-1991)"" (Mentioned Poet)","","['rec4lc52d1rr49UHG']","['recGSZrvEWOKaeD31']","Mentioned Poet"
+"","[apdp.news.002140] ""Krige, Uys 
+(1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","['recGSZrvEWOKaeD31']","Mentioned Poet"
+"","[apdp.news.002140] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recGSZrvEWOKaeD31']","Mentioned Poet"
+"","[apdp.news.002141] ""Kunene, Mazisi 'Raymond' 
+(1930-2006)"" (Mentioned Poet)","","['rec7C07UyBGMs8tw8']","['rec90av55iuDwoa1G']","Mentioned Poet"
+"","[apdp.news.002141] ""Neto, António Agostinho 'Agostinho Neto' 
+(1922-1979)"" (Mentioned Poet)","","['recWuPkXWOqYlMcey']","['rec90av55iuDwoa1G']","Mentioned Poet"
+"","[apdp.news.002141] ""P'Bitek, Okot 
+(1931-1982)"" (Mentioned Poet)","","['recHO9AeFrAOe1QdE']","['rec90av55iuDwoa1G']","Mentioned Poet"
+"","[apdp.news.002142] ""Craveirinha, José 
+(1922-2003)"" (Mentioned Poet)","","['recQwkjGCKI3HNsjI']","['rec0CKnsM6Pm9T1gg']","Mentioned Poet"
+"","[apdp.news.002143] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recDU1WGy5Cpz3ukE']","Mentioned Poet"
+"","[apdp.news.002144] ""Pringle, Thomas 
+(1780-1834)"" (Mentioned Poet)","","['recjcqo5Xbuadsw29']","['recHvA6Rywyj2zajg']","Mentioned Poet"
+"","[apdp.news.002144] ""Runcie, John 
+(1864-1939)"" (Mentioned Poet)","","['rec2xS0qROjzIPcQB']","['recHvA6Rywyj2zajg']","Mentioned Poet"
+"","[apdp.news.002144] ""Selwyn, W. 
+(-)"" (Mentioned Poet)","","['reckZxppFbnFjr37c']","['recHvA6Rywyj2zajg']","Mentioned Poet"
+"","[apdp.news.002144] ""Thomson, William Rodger 
+(1832-1867)"" (Mentioned Poet)","","['rechwpwmKoEr4Og7G']","['recHvA6Rywyj2zajg']","Mentioned Poet"
+"","[apdp.news.002144] ""Watermeyer, E. B. 
+(1824-1867)"" (Mentioned Poet)","","['recWlBlSp2cBlOg5G']","['recHvA6Rywyj2zajg']","Mentioned Poet"
+"","[apdp.news.002145] ""Prince, Frank Templeton 'F. T.' 
+(1912-2003)"" (Mentioned Poet)","","['reczY4HgBRDaqL1fV']","['recxew8pEJ54Rj812']","Mentioned Poet"
+"","[apdp.news.002146] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recpmAcVC3smYS7sw']","Mentioned Poet"
+"","[apdp.news.002147] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recaqcphs6O3jMG8J']","Writer"
+"","[apdp.news.002148] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['rec7EVA05OkTb5FdE']","Mentioned Poet"
+"","[apdp.news.002149] ""P'Bitek, Okot 
+(1931-1982)"" (Mentioned Poet)","","['recHO9AeFrAOe1QdE']","['recsHkdP2FyM6EZty']","Mentioned Poet"
+"","[apdp.news.002150] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['rec6haoufJTmV93Ow']","Mentioned Poet"
+"","[apdp.news.002151] ""Blane, William 
+(1859-1936)"" (Mentioned Poet)","","['recgISXyBjBqVvzuV']","['recx0pqQperZyj1Tw']","Mentioned Poet"
+"","[apdp.news.002152] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recT6Rlisiug6ehjK']","Mentioned Poet"
+"","[apdp.news.002153] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recur2UWzoiMrgGtk']","Mentioned Poet"
+"","[apdp.news.002154] ""Madge, Charles Henry 
+(1912-1996)"" (Mentioned Poet)","","['recNDLiL9FcG6VMnQ']","['recMjzuoES4RQzf9P']","Mentioned Poet"
+"","[apdp.news.002157] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recUzoKnYZFtbFW4S']","Writer"
+"","[apdp.news.002157] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['recUzoKnYZFtbFW4S']","Mentioned Poet"
+"","[apdp.news.002157] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recUzoKnYZFtbFW4S']","Mentioned Poet"
+"","[apdp.news.002158] ""Allhusen, Beatrice 
+(-)"" (Mentioned Poet)","","['rec1Tx2Lc0ighEq1E']","['recWlTa0F6U6BsVp8']","Mentioned Poet"
+"","[apdp.news.002159] ""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['rec4PFUyYT1Dn7p4z']","Mentioned Poet"
+"","[apdp.news.002160] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['rechBHpY4C5bG2gkN']","Mentioned Poet"
+"","[apdp.news.002160] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['rechBHpY4C5bG2gkN']","Mentioned Poet"
+"","[apdp.news.002161] ""Hamilton, William Robert 'W. R.' 
+(1896-1917)"" (Mentioned Poet)","","['recEadpRGDKvzNbBc']","['recD5Qe6fXCh2931Y']","Mentioned Poet"
+"","[apdp.news.002162] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recpvR6NoKbqyoPl6']","Mentioned Poet"
+"","[apdp.news.002163] ""Lumumba, Patrice Hemery 
+(1925-1961)"" (Mentioned Poet)","","['rece7yBr1DgEhfXdR']","['recxXfHciBPNva9wy']","Mentioned Poet"
+"","[apdp.news.002165] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet) - author","True","['recZCHkAMEtH7xn9G']","['recr6lDe86frYGozv']","Mentioned Poet"
+"","[apdp.news.002165] ""Clouts, Sydney 
+(1926-1982)"" (Mentioned Poet)","","['rec4PSLJqOJn0gY2R']","['recr6lDe86frYGozv']","Mentioned Poet"
+"","[apdp.news.002165] ""Delius, Anthony 'Ronald St. Martin' 
+(1916-1989)"" (Mentioned Poet)","","['recbF6fKg6E5WaoqP']","['recr6lDe86frYGozv']","Mentioned Poet"
+"","[apdp.news.002165] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recr6lDe86frYGozv']","Mentioned Poet"
+"","[apdp.news.002166] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['reckdae7YyX8AgonN']","Mentioned Poet"
+"","[apdp.news.002167] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recVpfMrz4FrAwLam']","Mentioned Poet"
+"","[apdp.news.002168] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recSNrHDt188NsnP2']","Mentioned Poet"
+"","[apdp.news.002170] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recnDT66FeA57PyDG']","Mentioned Poet"
+"","[apdp.news.002171] ""Paton, Alan 
+(1903-1988)"" (Mentioned Poet)","","['recTWiV1axyEJr0fq']","['rech4G1nWtVtevPR4']","Mentioned Poet"
+"","[apdp.news.002172] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recMedNtgnLmClRvx']","Mentioned Poet"
+"","[apdp.news.002173] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Mentioned Poet)","","['rec7oRG8Jb3zFiSYI']","['recL65VGfxJgvJy64']","Mentioned Poet"
+"","[apdp.news.002174] ""Saro-Wiwa, Ken 
+(1941-1995)"" (Mentioned Poet)","","['recmFLKhxO7oJeQEe']","['recwt56SdjAlzraQt']","Mentioned Poet"
+"","[apdp.news.002175] ""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recefDVOoYDFK1EeC']","Mentioned Poet"
+"","[apdp.news.002176] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['rec1mWETcE1t7vsTZ']","Mentioned Poet"
+"","[apdp.news.002177] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recLEsNzPWHyf19i4']","Mentioned Poet"
+"","[apdp.news.002178] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recee4bXp1Guxdg7d']","Mentioned Poet"
+"","[apdp.news.002179] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['rec6RrC9RHTdQKgn7']","Mentioned Poet"
+"","[apdp.news.002180] ""Hope, Christopher 
+(1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recMei3pkC1Inflpg']","Mentioned Poet"
+"","[apdp.news.002181] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet)","","['recIGSwI3zYEGJaaM']","['rec9Z8IXD9yhGxiTO']","Mentioned Poet"
+"","[apdp.news.002182] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet)","","['recIGSwI3zYEGJaaM']","['recMEz5M62QR491fw']","Mentioned Poet"
+"","[apdp.news.002183] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet)","","['recIGSwI3zYEGJaaM']","['recCCsqEwsljRZfdK']","Mentioned Poet"
+"","[apdp.news.002184] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['rec9s8gj1b0sxUtGo']","Mentioned Poet"
+"","[apdp.news.002186] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
+(1935-2013)"" (Mentioned Poet)","","['recw6xteDA4loPFr8']","['rec8dqEMhf4yrjslB']","Mentioned Poet"
+"","[apdp.news.002187] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recemJcysZ3nQXqBS']","Mentioned Poet"
+"","[apdp.news.002188] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recs5K1LIhp7RPzZj']","Mentioned Poet"
+"","[apdp.news.002189] ""Saro-Wiwa, Ken 
+(1941-1995)"" (Mentioned Poet)","","['recmFLKhxO7oJeQEe']","['rec9oy6tiH4LTbf8l']","Mentioned Poet"
+"","[apdp.news.002191] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['rec7zCqzVNBDPN4rJ']","Mentioned Poet"
+"","[apdp.news.002192] ""Madge, Charles Henry 
+(1912-1996)"" (Mentioned Poet)","","['recNDLiL9FcG6VMnQ']","['rectf3hHgaqFc6JXW']","Mentioned Poet"
+"","[apdp.news.002193] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recKbBHCEIusAlgwU']","Mentioned Poet"
+"","[apdp.news.002194] ""Aig-Imoukhuede, Frank 'Abiodun' 
+(1935-)"" (Mentioned Poet)","","['recZ9vZliUqTyGjRQ']","['recFYlOfIay1fjrzd']","Mentioned Poet"
+"","[apdp.news.002194] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['recFYlOfIay1fjrzd']","Mentioned Poet"
+"","[apdp.news.002194] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recFYlOfIay1fjrzd']","Mentioned Poet"
+"","[apdp.news.002195] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['receeEC3IDIcy3Xqw']","Mentioned Poet"
+"","[apdp.news.002196] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['recN6Cv3KQfhPkl88']","Mentioned Poet"
+"","[apdp.news.002197] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recQN1QaxAKBkhAG8']","Mentioned Poet"
+"","[apdp.news.002198] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recCZH1TYOVbt7N5S']","Mentioned Poet"
+"","[apdp.news.002199] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recFxkQIw5PxnRVVV']","Mentioned Poet"
+"","[apdp.news.002200] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recikQJE7wxha76oJ']","Mentioned Poet"
+"","[apdp.news.002201] ""Pringle, Thomas 
+(1780-1834)"" (Mentioned Poet)","","['recjcqo5Xbuadsw29']","['recrY2aoXanPnLv8d']","Mentioned Poet"
+"","[apdp.news.002202] ""Liyong, Taban Lo 
+(1939-)"" (Mentioned Poet)","","['recGE7Fcz5oCLV3Qn']","['reclWedQqpsoplEeH']","Mentioned Poet"
+"","[apdp.news.002202] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['reclWedQqpsoplEeH']","Mentioned Poet"
+"","[apdp.news.002204] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['recDrBPmU48Mxd4vM']","Mentioned Poet"
+"","[apdp.news.002205] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recNtjqEij0jgg0tg']","Mentioned Poet"
+"","[apdp.news.002206] ""Lumumba, Patrice Hemery 
+(1925-1961)"" (Mentioned Poet)","","['rece7yBr1DgEhfXdR']","['recOtO5yJ3pz0O0PJ']","Mentioned Poet"
+"","[apdp.news.002207] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recekqxeAA38wQWiK']","Mentioned Poet"
+"","[apdp.news.002208] ""Krige, Uys 
+(1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","['recZ4kXkC9RGse9K3']","Mentioned Poet"
+"","[apdp.news.002209] ""Couzyn, Jeni 
+(1942-)"" (Mentioned Poet)","","['reczJCspFdg3hHW9B']","['rec7zbTuiFOvFE8kA']","Mentioned Poet"
+"","[apdp.news.002210] ""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recWHEgP6kF3fAKrv']","Mentioned Poet"
+"","[apdp.news.002211] ""Okri, Ben 
+(1959-)"" (Poet)","","['recRIfDTZDIHzLGPC']","['rec4kfF3eLPfpvi6g']","Poet"
+"","[apdp.news.002213] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recMo5QhhauQeoIVJ']","Mentioned Poet"
+"","[apdp.news.002215] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recoU0kELxwrAR5BM']","Mentioned Poet"
+"","[apdp.news.002216] ""Lumumba, Patrice Hemery 
+(1925-1961)"" (Mentioned Poet)","","['rece7yBr1DgEhfXdR']","['recY05HjnyyAnBOig']","Mentioned Poet"
+"","[apdp.news.002217] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['recC3RID9Oq4UG6MV']","Mentioned Poet"
+"","[apdp.news.002217] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['recC3RID9Oq4UG6MV']","Mentioned Poet"
+"","[apdp.news.002217] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recC3RID9Oq4UG6MV']","Mentioned Poet"
+"","[apdp.news.002218] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recIHg57AqzB0ZtZx']","Mentioned Poet"
+"","[apdp.news.002218] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recIHg57AqzB0ZtZx']","Mentioned Poet"
+"","[apdp.news.002218] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recIHg57AqzB0ZtZx']","Mentioned Poet"
+"","[apdp.news.002220] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recabxspM79qOyaSQ']","Mentioned Poet"
+"","[apdp.news.002221] ""Ofeimun, Odia 
+(1950-)"" (Mentioned Poet)","","['recHMtYfPyYyThgi8']","['reczaCm1hh8XPd6KZ']","Mentioned Poet"
+"","[apdp.news.002222] ""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recdXJjcobLlAYjLW']","Mentioned Poet"
+"","[apdp.news.002223] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recxdrcY5bHc3jWtz']","Mentioned Poet"
+"","[apdp.news.002224] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['rec5culV10yTehQN2']","Mentioned Poet"
+"","[apdp.news.002226] ""Hamilton, William Robert 'W. R.' 
+(1896-1917)"" (Mentioned Poet)","","['recEadpRGDKvzNbBc']","['recyZraFJyukKFk9O']","Mentioned Poet"
+"","[apdp.news.002227] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recmiXctrNyQ2lpwz']","Mentioned Poet"
+"","[apdp.news.002228] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recIsyA2NxMB5QXij']","Writer"
+"","[apdp.news.002228] ""Okara, Gabriel 
+(1921-2019)"" (Mentioned Poet)","","['recUiPx4caoRhWvaM']","['recIsyA2NxMB5QXij']","Mentioned Poet"
+"","[apdp.news.002228] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['recIsyA2NxMB5QXij']","Mentioned Poet"
+"","[apdp.news.002229] ""Hope, Christopher 
+(1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recj0wuuT8APY9KI1']","Mentioned Poet"
+"","[apdp.news.002230] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recobDkmHkH9Y08Jg']","Mentioned Poet"
+"","[apdp.news.002231] ""Hope, Christopher 
+(1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['recPlDfnRqnIqdj4f']","Mentioned Poet"
+"","[apdp.news.002232] ""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recXlmZtdwBGQ1NGC']","Mentioned Poet"
+"","[apdp.news.002233] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Mentioned Poet)","","['rec7oRG8Jb3zFiSYI']","['rec4Fhf535YhCYml7']","Mentioned Poet"
+"","[apdp.news.002234] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['recb3lmdWdKhfptlX']","Mentioned Poet"
+"","[apdp.news.002234] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recb3lmdWdKhfptlX']","Mentioned Poet"
+"","[apdp.news.002235] ""Saro-Wiwa, Ken 
+(1941-1995)"" (Mentioned Poet)","","['recmFLKhxO7oJeQEe']","['recCSRiESFVH46CbD']","Mentioned Poet"
+"","[apdp.news.002236] ""Saro-Wiwa, Ken 
+(1941-1995)"" (Mentioned Poet)","","['recmFLKhxO7oJeQEe']","['rec8uzA8vkATOnlZw']","Mentioned Poet"
+"","[apdp.news.002237] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['recFSwhPJe06GbIOE']","Mentioned Poet"
+"","[apdp.news.002238] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Author)","","['recOo2kpeQuQEciaC']","['recAjw0OoUn9VJyxV']","Author"
+"","[apdp.news.002238] ""Okara, Gabriel 
+(1921-2019)"" (Mentioned Poet)","","['recUiPx4caoRhWvaM']","['recAjw0OoUn9VJyxV']","Mentioned Poet"
+"","[apdp.news.002238] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['recAjw0OoUn9VJyxV']","Mentioned Poet"
+"","[apdp.news.002238] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Writer)","","['recrkX4daZNLsq0cZ']","['recAjw0OoUn9VJyxV']","Writer"
+"","[apdp.news.002241] ""Neto, António Agostinho 'Agostinho Neto' 
+(1922-1979)"" (Mentioned Poet)","","['recWuPkXWOqYlMcey']","['rec5iTdqBMCMPD8dR']","Mentioned Poet"
+"","[apdp.news.002243] ""Madge, Charles Henry 
+(1912-1996)"" (Mentioned Poet)","","['recNDLiL9FcG6VMnQ']","['recFh3aA0w5RvmpvI']","Mentioned Poet"
+"","[apdp.news.002245] ""Hope, Christopher 
+(1944-)"" (Mentioned Poet)","","['recRT3BRC72sBNfZo']","['reckwNclWlUExKEfl']","Mentioned Poet"
+"","[apdp.news.002246] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['rec9NpdRCb6IWGS2d']","Mentioned Poet"
+"","[apdp.news.002247] ""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['recP3QmJ7GqAInEsO']","Mentioned Poet"
+"","[apdp.news.002247] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recP3QmJ7GqAInEsO']","Mentioned Poet"
+"","[apdp.news.002248] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recVodorX6asyJdDG']","Mentioned Poet"
+"","[apdp.news.002250] ""Okri, Ben 
+(1959-)"" (Poet)","","['recRIfDTZDIHzLGPC']","['recVuuPhHLIvmJ0fO']","Poet"
+"","[apdp.news.002251] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recdr7l8mry31DKvs']","Mentioned Poet"
+"","[apdp.news.002252] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['reczhfPMnhUbET03n']","Mentioned Poet"
+"","[apdp.news.002253] ""Okai, Atukwei 'John' 
+(1941-2018)"" (Mentioned Poet)","","['recNk4oqSzYFgciSx']","['rec9sX8doYjWK20pH']","Mentioned Poet"
+"","[apdp.news.002254] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recTpIRze7fPfSrO8']","['recwZH4ODBVWz3u1I']","Mentioned Poet"
+"","[apdp.news.002255] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recWyJDZsknI4tOiQ']","Mentioned Poet"
+"","[apdp.news.002256] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recTpIRze7fPfSrO8']","['recGSrmWsuSZdMA9H']","Mentioned Poet"
+"","[apdp.news.002257] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recD4GXb7S4o2xL6n']","Mentioned Poet"
+"","[apdp.news.002260] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['rec9VO1WAVQWkAoCR']","Mentioned Poet"
+"","[apdp.news.002261] ""Adams, Perseus 'Peter Robert Charles' 
+(1933-)"" (Mentioned Poet)","","['rec9NVjOrXGIXxw9F']","['recwNOZjKpQkTHDVX']","Mentioned Poet"
+"","[apdp.news.002262] ""Ntuli, Pitika 
+(1942-)"" (Mentioned Poet)","","['recPgm4Uyjhs03RyH']","['reczE4xBABcUQqB1t']","Mentioned Poet"
+"","[apdp.news.002263] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recrO6sczbzfY7UJH']","Mentioned Poet"
+"","[apdp.news.002264] ""Mapanje, Jack 'John Alfred Clement' 
+(1944-)"" (Mentioned Poet)","","['recURRbIgveOeoPqf']","['rec516qvwJxR3bhsO']","Mentioned Poet"
+"","[apdp.news.002265] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recbnx0lCClmmZEWU']","Mentioned Poet"
+"","[apdp.news.002265] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recbnx0lCClmmZEWU']","Mentioned Poet"
+"","[apdp.news.002266] ""Senghor, Léopold Sédar 
+(1906-2001)"" (Mentioned Poet)","","['recBdxaNWIHd4zhkg']","['reckK4ZKgg3NXeMa6']","Mentioned Poet"
+"","[apdp.news.002267]  (Mentioned Poet)","","","['recXkFDlqEd45gMpl']","Mentioned Poet"
+"","[apdp.news.002268] ""Pringle, Thomas 
+(1780-1834)"" (Mentioned Poet)","","['recjcqo5Xbuadsw29']","['rec1VhMoXZGjDfQi6']","Mentioned Poet"
+"","[apdp.news.002269] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['rec4vypEBFErGSfWH']","Mentioned Poet"
+"","[apdp.news.002270] ""Saro-Wiwa, Ken 
+(1941-1995)"" (Mentioned Poet)","","['recmFLKhxO7oJeQEe']","['recPHgzk40WNeNVJF']","Mentioned Poet"
+"","[apdp.news.002270] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recPHgzk40WNeNVJF']","Mentioned Poet"
+"","[apdp.news.002273] ""Mtshali, Oswald Mbuyiseni 
+(1940-)"" (Mentioned Poet)","","['reczK3i9PQzDoN6ks']","['rec4M1ZUcj0kW4M7d']","Mentioned Poet"
+"","[apdp.news.002274] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recYndPfktpHFprYM']","Mentioned Poet"
+"","[apdp.news.002275] ""Saro-Wiwa, Maria 
+(-)"" (Mentioned Poet)","","['recaUkul2reF4La2R']","['recejU58yJSZ3JOxy']","Mentioned Poet"
+"","[apdp.news.002276] ""Mapanje, Jack 'John Alfred Clement' 
+(1944-)"" (Mentioned Poet)","","['recURRbIgveOeoPqf']","['recaMc9z2Wt9cvDP6']","Mentioned Poet"
+"","[apdp.news.002277] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['rec9ZTlt1McMds2aG']","Mentioned Poet"
+"","[apdp.news.002278] ""Madge, Charles Henry 
+(1912-1996)"" (Mentioned Poet)","","['recNDLiL9FcG6VMnQ']","['recQWJwq36F1OVgML']","Mentioned Poet"
+"","[apdp.news.002279] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Writer)","","['recOo2kpeQuQEciaC']","['recLZ3BiqYP69UuGS']","Writer"
+"","[apdp.news.002279] ""Awoonor-Williams, George Kofi Nyidevu 'Kofi Awoonor' 
+(1935-2013)"" (Mentioned Poet)","","['recw6xteDA4loPFr8']","['recLZ3BiqYP69UuGS']","Mentioned Poet"
+"","[apdp.news.002282] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Mentioned Poet)","","['rec7oRG8Jb3zFiSYI']","['recZ9EuEEXOP9gpCK']","Mentioned Poet"
+"","[apdp.news.002283] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recpdX0vDu1lHX0I9']","Mentioned Poet"
+"","[apdp.news.002285] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recKo9W2Zo3iy1Ij5']","Mentioned Poet"
+"","[apdp.news.002287] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['rec65jifb95vG5LBs']","Mentioned Poet"
+"","[apdp.news.002289] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recjC8zhqdPvfr6BG']","Mentioned Poet"
+"","[apdp.news.002290] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['rec0LVl9WRj7tDona']","Mentioned Poet"
+"","[apdp.news.002291] ""Scully, William Charles 'W. C.' 
+(1855-1943)"" (Mentioned Poet)","","['recI7RKKlxAPM2YQz']","['recxwZgmphooSgKYi']","Mentioned Poet"
+"","[apdp.news.002292] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recXCTj6ArpYaMDHD']","Mentioned Poet"
+"","[apdp.news.002293] ""P'Bitek, Okot 
+(1931-1982)"" (Mentioned Poet)","","['recHO9AeFrAOe1QdE']","['recXpaDc6RbxENSUS']","Mentioned Poet"
+"","[apdp.news.002294] ""Breytenbach, Breyten 
+(1939-)"" (Mentioned Poet)","","['recIGSwI3zYEGJaaM']","['rec3DvCgejI2FZU8Z']","Mentioned Poet"
+"","[apdp.news.002295] ""Paton, Alan 
+(1903-1988)"" (Mentioned Poet)","","['recTWiV1axyEJr0fq']","['recK3IGHTg2FA55MP']","Mentioned Poet"
+"","[apdp.news.002296] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recN2SPXDfLnTVUgq']","Mentioned Poet"
+"","[apdp.news.002298] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recDaomgbasv632PW']","Mentioned Poet"
+"","[apdp.news.002300] ""Okri, Ben 
+(1959-)"" (Writer)","","['recRIfDTZDIHzLGPC']","['recDtNCnLr611pCJO']","Writer"
+"","[apdp.news.002301] ""Delius, Anthony 'Ronald St. Martin' 
+(1916-1989)"" (Mentioned Poet)","","['recbF6fKg6E5WaoqP']","['recs2PEOiHGERF7Tu']","Mentioned Poet"
+"","[apdp.news.002302] ""Armitage, Simon 
+(-)"" (Writer) - author","True","['rec6zbah8brrSARQu']","['rec25bhbgXgIRYG5k']","Writer"
+"","[apdp.news.002302] ""Heaney, Seamus 
+(1939-2013)"" (Mentioned Poet)","","['recUw8mTUTbLmgfsf']","['rec25bhbgXgIRYG5k']","Mentioned Poet"
+"","[apdp.news.002302] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['rec25bhbgXgIRYG5k']","Mentioned Poet"
+"","[apdp.news.002303] ""Armitage, Simon 
+(-)"" (Mentioned Poet)","","['rec6zbah8brrSARQu']","['recl6AL3mIUhV35UI']","Mentioned Poet"
+"","[apdp.news.002303] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['recl6AL3mIUhV35UI']","Mentioned Poet"
+"","[apdp.news.002304] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Mentioned Poet)","","['rec7oRG8Jb3zFiSYI']","['recU3kfy6EyGzixMa']","Mentioned Poet"
+"","[apdp.news.002304] ""Okara, Gabriel 
+(1921-2019)"" (Mentioned Poet)","","['recUiPx4caoRhWvaM']","['recU3kfy6EyGzixMa']","Mentioned Poet"
+"","[apdp.news.002305] ""Clark, John Pepper 'J. P.' 
+(1935-)"" (Mentioned Poet)","","['recmyildMjXhoC72X']","['rec4vKwm9Qlu7b9M2']","Mentioned Poet"
+"","[apdp.news.002305] ""Okigbo, Christopher 
+(1932-1967)"" (Mentioned Poet)","","['recBvLFtelOVzL0YK']","['rec4vKwm9Qlu7b9M2']","Mentioned Poet"
+"","[apdp.news.002305] ""Soyinka , Wole 'Akinwande Oluwole Babatunde' 
+(1934-)"" (Mentioned Poet)","","['recrkX4daZNLsq0cZ']","['rec4vKwm9Qlu7b9M2']","Mentioned Poet"
+"","[apdp.news.002306] ""Achebe, Chinua 'Albert Chinualumogu' 
+(1930-2013)"" (Mentioned Poet)","","['recOo2kpeQuQEciaC']","['recLOQP0ft6s9WSCA']","Mentioned Poet"
+"","[apdp.news.002307] ""Ofeimun, Odia 
+(1950-)"" (Mentioned Poet)","","['recP34XkRR1kXmqdp']","['recNysPesjeBfI3GB']","Mentioned Poet"
+"","[apdp.news.002309] ""Aidoo, Ama Ata 'Christina' 
+(1942-)"" (Poet)","","['rec7oRG8Jb3zFiSYI']","['recMNlVqg6J2Zw5LL']","Poet"
+"","[apdp.news.002311] ""Campbell, Roy 
+(1901-1957)"" (Mentioned Poet)","","['recZCHkAMEtH7xn9G']","['recPab2L7dPnAuxwT']","Mentioned Poet"
+"","[apdp.news.002311] ""Plomer, William 
+(1903-1973)"" (Mentioned Poet)","","['rechXmQTzrc8eiWTu']","['recPab2L7dPnAuxwT']","Mentioned Poet"
+"","[apdp.news.002312] ""Okri, Ben 
+(1959-)"" (Mentioned Poet)","","['recRIfDTZDIHzLGPC']","['recAWAq6j1w1lkd7B']","Mentioned Poet"
+"","[apdp.news.002313] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['recxjMm58fJTYsnYQ']","Mentioned Poet"
+"","[apdp.news.002314] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['reckfmKOBgNqK7SRw']","Mentioned Poet"
+"","[apdp.news.002315] ""Aylen, Leo 
+(1935-)"" (Mentioned Poet)","","['rec9R8HNlWmIM3Kc1']","['recp2qFlcoQKbuRWS']","Mentioned Poet"
+"","[apdp.news.002317] ""Prince, Frank Templeton 'F. T.' 
+(1912-2003)"" (Mentioned Poet)","","['reczY4HgBRDaqL1fV']","['reccKg2daaOSkK8BD']","Mentioned Poet"
+"","[apdp.news.002318] ""Krige, Uys 
+(1910-1987)"" (Mentioned Poet)","","['recuORZit1m0m3GHg']","['recGIWrFIvybbSPDb']","Mentioned Poet"
+"","[apdp.news.002321] ""Liyong, Taban Lo 
+(1939-)"" (Mentioned Poet)","","['recGE7Fcz5oCLV3Qn']","['recUdBszBdpsyEqVg']","Mentioned Poet"
+"","[apdp.news.002322] ""Wright, David 
+(1920-1994)"" (Mentioned Poet)","","['recX3e6HGV46vJgzl']","['rec1RBXfBzJsccFLW']","Mentioned Poet"
+"","[apdp.news.002324] ""Chipasula, Frank Mkalawile 
+(1949-)"" (Mentioned Poet) - author","True","['rechCmMdNpei8Hc3B']","['recVrW0fs5w7NQXxm']","Mentioned Poet"
+"","[apdp.news.002326] ""Clark, John Pepper 'J. P.' 
+(1935-)"" (Mentioned Poet) - author","True","['recmyildMjXhoC72X']","['recXMwev6xIHg11Dm']","Mentioned Poet"
+"","[apdp.news.002335] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['rec978vd1WskubUTu']","Mentioned Poet"
+"","[apdp.news.002344] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recfVhanzUcidUt6J']","Mentioned Poet"
+"","[apdp.news.002345] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['reclhce26O2PwzLTM']","Mentioned Poet"
+"","[apdp.news.002346] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recWaZU4dOfI6TeKq']","Mentioned Poet"
+"","[apdp.news.002352] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recIh2uVjnbtx9N8W']","Mentioned Poet"
+"","[apdp.news.002354] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Translator) - author","True","['rec9K8rwRHOdeLU5I']","['recBOb2mYBW9Cka88']","Translator"
+"","[apdp.news.002366] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['rechh0fMV4As04gV9']","Mentioned Poet"
+"","[apdp.news.002367] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Critic) - author","True","['rec9K8rwRHOdeLU5I']","['recyOBvbnGKTfkylf']","Critic"
+"","[apdp.news.002368] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['rec1VStK7tDtCCWx0']","Mentioned Poet"
+"","[apdp.news.002369] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recEURbB5Zylh4s3y']","Mentioned Poet"
+"","[apdp.news.002370] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['reczPiNZpYulCjBNg']","Mentioned Poet"
+"","[apdp.news.002373] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recMXLrk3sypJfe4P']","Mentioned Poet"
+"","[apdp.news.002374] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recGbMkSgoIIVxXsw']","Mentioned Poet"
+"","[apdp.news.002391] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recqrrBtVKUh3zEMj']","Mentioned Poet"
+"","[apdp.news.002406] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recvipEfQj4ritMV1']","Mentioned Poet"
+"","[apdp.news.002407] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Mentioned Poet) - author","True","['rec9K8rwRHOdeLU5I']","['recOgQsaUt6qtGXvw']","Mentioned Poet"
+"","[apdp.news.002408] ""Brink, André Philippus 
+(1935-2015)"" (Poet) - author","True","['recNYmiMp6NggczJQ']","['recQHPMjBis2ceJWU']","Poet"
+"","[apdp.news.002410] ""Coetzee, John Maxwell ' -J. M. ' 
+(1940-)"" (Writer) - author","True","['rec9K8rwRHOdeLU5I']","['reca0Vd8i0y50qkAB']","Writer"
