@@ -52,7 +52,7 @@ class CsvToEsEvents < CsvToEs
       poets.each do |poet|
         # markdown parsing
         name = parse_md_brackets(poet)
-        id = parse_md_parentheses(poet)
+        id = parse_md_parentheses(poet).gsub('.itn','')
         role = "African Poet"
         people << { "name" => name, "role" => role, "id" => id }
       end

@@ -94,7 +94,7 @@ class CsvToEsNews < CsvToEs
         if data[0]
           # markdown parsing
           name = parse_md_brackets(data[0])
-          id = parse_md_parentheses(data[0])
+          id = parse_md_parentheses(data[0]).gsub('.itn','')
           role = data[1]
           result << { "name" => name, "role" => role, "id" => id }
         end

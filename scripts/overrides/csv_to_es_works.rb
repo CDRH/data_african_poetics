@@ -87,6 +87,8 @@ class CsvToEsWorks < CsvToEs
         if data[0]
           name = /\[(.*)\]/.match(data[0])[1] if /\[(.*)\]/.match(data[0])
           id = /\]\((.*)\)/.match(data[0])[1] if /\]\((.*)\)/.match(data[0])
+          #remove .itn. from ids
+          id = id.gsub('.itn','')
           role = data[1]
           result << { "name" => name, "role" => role, "id" => id }
         end
