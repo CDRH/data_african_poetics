@@ -45,7 +45,7 @@ class CsvToEsEvents < CsvToEs
       nonpoets.each do |nonpoet|
         # markdown parsing
         name = parse_md_brackets(nonpoet)
-        people << { name: name }
+        people << { "name" => name }
       end
     end
     if poets && poets.length > 0
@@ -54,7 +54,7 @@ class CsvToEsEvents < CsvToEs
         name = parse_md_brackets(poet)
         id = parse_md_parentheses(poet)
         role = "African Poet"
-        people << { name: name, role: role, id: id }
+        people << { "name" => name, "role" => role, "id" => id }
       end
     end
     people
@@ -64,25 +64,29 @@ class CsvToEsEvents < CsvToEs
     get_value("topics-decade")
   end
 
-  def places
-    get_value("places")
-  end
-
   def spatial
+    locations = []
     if get_value("spatial.country")
-      location = { "country" => JSON.parse(get_value("spatial.country"))[0] }
+      event_location = { "country" => JSON.parse(get_value("spatial.country"))[0], "role" => "event location" }
       if get_value("spatial.city")
-        location["city"] = JSON.parse(get_value("spatial.city"))[0]
+        event_location["city"] = JSON.parse(get_value("spatial.city"))[0]
       end
       if get_value("spatial.region")
-        location["region"] = JSON.parse(get_value("spatial.region"))[0]
+        event_location["region"] = JSON.parse(get_value("spatial.region"))[0]
       end
-      location
+      locations << event_location
     end
+    if get_value("places")
+      placename = { "short_name" => get_value("places"), "role" => "placename" }
+      locations << placename
+    end
+    locations
   end
 
-  def relation
-    get_value("commentaries_relation", true)
+  def has_relation
+    {
+      "title" => get_value("commentaries_relation", true)
+    }
   end
 
   def medium

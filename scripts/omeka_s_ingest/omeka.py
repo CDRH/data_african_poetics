@@ -2,22 +2,21 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 import json
-load_dotenv()
 env_path = Path('.')/'.env'
 load_dotenv(dotenv_path=env_path)
 from omeka_s_tools.api import OmekaAPIClient
 import math
-omeka = OmekaAPIClient('https://africanpoetics-prototype.unl.edu/api')
+omeka = os.getenv('OMEKA_SERVER')
 omeka_auth = OmekaAPIClient(
-    api_url = 'https://africanpoetics-prototype.unl.edu/api',
+    api_url = os.getenv('OMEKA_SERVER'),
     key_identity=os.getenv('KEY_IDENTITY'),                        
     key_credential=os.getenv('KEY_CREDENTIAL')                        
 )
 
 def reset():
-    omeka = OmekaAPIClient('https://africanpoetics-prototype.unl.edu/api')
+    omeka = os.getenv('OMEKA_SERVER')
     omeka_auth = OmekaAPIClient(
-        api_url = 'https://africanpoetics-prototype.unl.edu/api',
+        api_url = os.getenv('OMEKA_SERVER'),
         key_identity=os.getenv('KEY_IDENTITY'),                        
         key_credential=os.getenv('KEY_CREDENTIAL')                        
     )

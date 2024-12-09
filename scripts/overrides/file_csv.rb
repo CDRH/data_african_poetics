@@ -1,7 +1,18 @@
 class FileCsv < FileType
+  require 'redcarpet'
+
 
   def build_source_filepath(id)
     File.join(@options["collection_dir"], "source", "html", "#{id}.html")
+  end
+
+  # override to change encoding
+  def read_csv(file_location, encoding="utf-8")
+    CSV.read(file_location, **{
+      encoding: encoding,
+      headers: true,
+      return_headers: true
+    })
   end
 
   def transform_es
@@ -14,8 +25,9 @@ class FileCsv < FileType
         if !row.header_row? 
           begin
             new_row = row_to_es(@csv.headers, row, table)
-          rescue
+          rescue => e
             puts "error for item " + row["Unique ID"]
+            puts e.full_message
           end
           if new_row
             es_doc << new_row
@@ -35,6 +47,8 @@ class FileCsv < FileType
       && row["Manual data entry complete"] == "True" \
       && JSON.parse(row["site section"]).include?("Index of Poets")
         doc = {}
+        # initialize Markdown parser
+        markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
         # See data repo readme file for description of use of fields
         doc["identifier"]  = row["Unique ID"]
 
@@ -46,26 +60,12 @@ class FileCsv < FileType
         doc["collection"]  = @options["collection"]
         doc["category"]    = "People"
         #may also be "In the News"
-        doc["subcategory"] = get_value(row, "site section", true)
+        doc["category2"] = get_value(row, "site section", true)
         doc["data_type"]   = "csv"
-        #initializing the spatial field to put some location-oriented data into later
-        doc["spatial"] = {}
-
-
-
-        # Will potentially need to add more code to deal with more genders later
-        gender = 
-          case
-          when row["Gender"] == "F" 
-            "Female"
-          when row["Gender"] == "M"
-            "Male"
-          else
-            "Unknown"
-          end
-        doc["person_gender_k"] = gender
-        doc["places"]      = get_value(row, "nationality-country", true)
-        doc["source"]      = row["Bio Sources (MLA)"]
+        doc["person_gender_k"] = get_value(row, "Gender", false)
+        
+        doc["has_source"]      = {}
+        doc["has_source"]["title"] = markdown.render(row["Bio Sources (MLA)"])
         doc["keywords"] = get_value(row, "education", true)
         doc["date"]      = Datura::Helpers.date_standardize(row["Date birth"])
         doc["date_not_before"] = Datura::Helpers.date_standardize(row["Date birth"])
@@ -80,13 +80,14 @@ class FileCsv < FileType
           end
         end
         doc["language"]      = row["Languages spoken"]
-        doc["description"]      = row["Biography"]
+        
+        doc["description"]      = markdown.render(row["Biography"])
         if row["work roles"].length > 1
-          doc["works"] = row["work roles"].split(";;;")
+          #no longer in the schema
+          doc["citation"] = {}
+          doc["citation"]["title"] = row["work roles"].split(";;;")
         end
-        unless row["Name alt"].to_s.strip.empty?
-          doc["people"]    = row["Name alt"]
-        end
+
         # Featured authors have more information
         if row["Featured"] == "True"
           doc["type"]      = "Featured"
@@ -105,23 +106,27 @@ class FileCsv < FileType
             id = /\]\((.*)\)/.match(person)[1] if /\]\((.*)\)/.match(person)
             count = people.select{|p| p == person}.count
             if name
-              result << { name: name, role: count, id: id }
+              result << { "name" => name, "role" => count, "id" => id }
             end
+          end
+          unless row["Name alt"].to_s.strip.empty?
+            result << { "name" => row["Name alt"] }
           end
           doc["person"] = result
         end
 
         places = []
         if row["nationality-region"] && row["nationality-region"].length > 0
-          places << { "region" => JSON.parse(row["nationality-region"])[0], "type" => "nationality" }
+          places << { "region" => JSON.parse(row["nationality-region"])[0], "role" => "nationality" }
         end
         if row["birth_spatial.country"] && row["birth_spatial.country"].length > 0
-          birthplace = { "country" => JSON.parse(row["birth_spatial.country"])[0], "type" => "birth place" }
+          birthplace = { "country" => JSON.parse(row["birth_spatial.country"])[0], "role" => "birth place" }
           if row["birth_spatial.city"] && row["birth_spatial.city"].length > 0
             birthplace["city"] = JSON.parse(row["birth_spatial.city"])[0]
           end
           places << birthplace
         end
+        places << { "short_name" => get_value(row, "nationality-country", true), "role" => "placename" }
         doc["spatial"] = places
         doc["ethnicity_k"] = get_value(row, "ethnicity.text", true)
         doc["country_residence_k"] = get_value(row, "country_residence.text", true)
@@ -131,7 +136,7 @@ class FileCsv < FileType
         textcomplete =  [ doc["title"], 
                           doc["places"], 
                           doc["keywords"],
-                          gender
+                          doc["person_gender_k"]
                         ] 
 
         doc["text"] = textcomplete.join(" ")

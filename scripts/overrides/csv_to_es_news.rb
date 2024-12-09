@@ -25,7 +25,7 @@ class CsvToEsNews < CsvToEs
   end
 
   def get_id
-    id = @row["unique_id"] ? @row["unique_id"] : "blank"
+    id = @row["Unique ID"] ? @row["Unique ID"] : "blank"
     id = id.split(" ")[0]
     id
   end
@@ -51,8 +51,13 @@ class CsvToEsNews < CsvToEs
     Datura::Helpers.date_standardize(@row["Article Date (formatted)"], before)
   end
 
-  def publisher
-    get_value("publisher", true)
+  def citation
+    publisher = get_value("publisher", true)
+    works = get_value("works").split(";;;") if get_value("works")
+    {
+      "publisher" => publisher,
+      "works" => works
+    }
   end
 
   def rights_uri
@@ -65,12 +70,6 @@ class CsvToEsNews < CsvToEs
 
   def description
     get_value("Excerpt")
-  end
-
-  def works
-    if get_value("works")
-      get_value("works").split(";;;")
-    end
   end
 
   def topics
@@ -97,7 +96,7 @@ class CsvToEsNews < CsvToEs
           name = parse_md_brackets(data[0])
           id = parse_md_parentheses(data[0])
           role = data[1]
-          result << { name: name, role: role, id: id }
+          result << { "name" => name, "role" => role, "id" => id }
         end
       end
     end
@@ -113,14 +112,14 @@ class CsvToEsNews < CsvToEs
   def contributor
     names = get_value("contributor.name", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 
   def creator
     names = get_value("creator.name", true)
     if names
-      names.collect{ |name| { "name": name }}
+      names.collect{ |name| { "name" => name }}
     end
   end
 
@@ -130,9 +129,11 @@ class CsvToEsNews < CsvToEs
     end
   end
 
-  def relation
+  def has_relation
     if get_value("commentaries_relation", true)
-      get_value("commentaries_relation").split(";;;")
+      {
+        "title" => get_value("commentaries_relation").split(";;;")
+      }
     end
   end
 
