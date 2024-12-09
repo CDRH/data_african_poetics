@@ -89,7 +89,8 @@ class CsvToEsWorks < CsvToEs
           id = /\]\((.*)\)/.match(data[0])[1] if /\]\((.*)\)/.match(data[0])
           # removing the itn id which is now not used in the Rails site, it was included for Omeka
           id = id.gsub('.itn','')
-          role = data[1]
+          #remove stray quotes
+          role = data[1].gsub('"', '')
           result << { "name" => name, "role" => role, "id" => id }
         end
       end
