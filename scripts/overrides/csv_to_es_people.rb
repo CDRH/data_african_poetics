@@ -104,8 +104,7 @@ class CsvToEsPeople < CsvToEs
 
   def person
     result = []
-    people = get_value("related-people")
-    people = people.uniq
+    people = get_value("related-people").uniq
     if people && people.length > 0
       people = people.split(";;;")
       people.each do |person|
