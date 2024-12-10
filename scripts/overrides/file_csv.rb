@@ -94,7 +94,7 @@ class FileCsv < FileType
         end
         doc["alternative"] = row["name-letter"]
         doc["medium"] = get_value(row, "news item roles", true)
-        doc["topics"] = row["birth-decade"]
+        doc["topics"] = get_value(row, "birth-decade")
         doc["subjects"] = get_value(row, "events", true)
         people = row["related-people"]
         if people
