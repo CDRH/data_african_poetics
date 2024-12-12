@@ -24,7 +24,7 @@ class CsvToEs
 
   def parse_md_parentheses(query)
     if /\]\((.*)\)/.match(query)
-      /\]\((.*)\)/.match(query)[1] 
+      /\]\((.*?)\)/.match(query)[1] 
     else
       query
     end
