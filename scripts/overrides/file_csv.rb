@@ -82,7 +82,7 @@ class FileCsv < FileType
         
         doc["description"]      = markdown.render(row["Biography"])
         if row["work roles"].length > 1
-          #no longer in the schema
+          #"works" is no longer in the schema
           doc["citation"] = {}
           doc["citation"]["title"] = row["work roles"].split(";;;")
         end
