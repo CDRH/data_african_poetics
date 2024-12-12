@@ -63,7 +63,6 @@ class FileCsv < FileType
         doc["category2"] = get_value(row, "site section", true)
         doc["data_type"]   = "csv"
         doc["person_gender_k"] = get_value(row, "Gender", false)
-        
         doc["has_source"]      = {}
         doc["has_source"]["title"] = markdown.render(row["Bio Sources (MLA)"])
         doc["keywords"] = get_value(row, "education", true)
@@ -96,14 +95,13 @@ class FileCsv < FileType
         doc["medium"] = get_value(row, "news item roles", true)
         doc["topics"] = get_value(row, "birth-decade")
         doc["subjects"] = get_value(row, "events", true)
-        people = row["related-people"]
+        people = get_value(row, "related-people")
         if people
-          people = people.split(";;;") if people
-          unique = people.uniq
+          people = people.split(";;;").uniq if people
           result = []
-          unique.each do |person|
-            name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
-            id = /\]\((.*)\)/.match(person)[1] if /\]\((.*)\)/.match(person)
+          people.each do |person|
+            name = parse_md_brackets(person)
+            id = parse_md_parentheses(person).gsub('.itn', '')
             count = people.select{|p| p == person}.count
             if name
               result << { "name" => name, "role" => count, "id" => id }
@@ -192,8 +190,20 @@ class FileCsv < FileType
     end
   end 
 
+  def parse_md_brackets(query)
+    if /\[(.*)\]/.match(query)
+      /\[(.*?)\]/.match(query)[1]
+    else
+      query
+    end
+  end
+
   def parse_md_parentheses(query)
-    /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
+    if /\]\((.*)\)/.match(query)
+      /\]\((.*)\)/.match(query)[1] 
+    else
+      query
+    end
   end
 
   def get_value(row, name, parse=false)
