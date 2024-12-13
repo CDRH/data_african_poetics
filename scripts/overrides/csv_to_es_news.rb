@@ -91,11 +91,13 @@ class CsvToEsNews < CsvToEs
       people = people.split(";;;")
       people.each do |person|
         data = person.split("|")
-        if data[0]
+        if data && data[0]
           # markdown parsing
           name = parse_md_brackets(data[0])
-          id = parse_md_parentheses(data[0])
-          role = data[1]
+          # removing the itn id which is now not used in the Rails site, it was included for Omeka
+          id = parse_md_parentheses(data[0]).gsub('.itn','')
+          # remove stray quotes
+          role = data[1] ? data[1].gsub('"', '') : nil
           result << { "name" => name, "role" => role, "id" => id }
         end
       end

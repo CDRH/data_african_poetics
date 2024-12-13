@@ -103,21 +103,24 @@ class CsvToEsPeople < CsvToEs
   end
 
   def person
+    result = []
     people = get_value("related-people")
-    if people
-      people = people.split(";;;") if people
-      unique = people.uniq
-      result = []
-      unique.each do |person|
-        name = /\[(.*)\]/.match(person)[1] if /\[(.*)\]/.match(person)
-        id = /\]\((.*)\)/.match(person)[1] if /\]\((.*)\)/.match(person)
-        count = people.select{|p| p == person}.count
-        if name
+    if people && people.length > 0
+      people = people.split(";;;").uniq
+      people.each do |person|
+        data = person.split("|")
+        if data && data[0]
+          # markdown parsing
+          name = parse_md_brackets(data[0])
+          # removing the itn id which is now not used in the Rails site, it was included for Omeka
+          id = parse_md_parentheses(data[0]).gsub('.itn','')
+          # remove stray quotes
+          role = data[1] ? data[1].gsub('"', '') : nil
           result << { "name" => name, "role" => role, "id" => id }
         end
       end
-      result
     end
+    result
   end
 
 end

@@ -23,7 +23,11 @@ class CsvToEs
   end
 
   def parse_md_parentheses(query)
-    /\]\((.*)\)/.match(query)[1] if /\]\((.*)\)/.match(query)
+    if /\]\((.*)\)/.match(query)
+      /\]\((.*?)\)/.match(query)[1] 
+    else
+      query
+    end
   end
 
   def abstract

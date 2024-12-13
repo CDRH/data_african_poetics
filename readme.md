@@ -2,29 +2,15 @@
 
 ## About This Data Repository
 
-**How to Use This Repository:** This repository is intended for use with the [CDRH API](https://github.com/CDRH/api) and the [African Poetry Digital Portal Ruby on Rails application](https://github.com/CDRH/african_poetics).
+**How to Use This Repository:** This repository is intended for use with the [CDRH API](https://github.com/CDRH/api) and the [African Poetry Digital Portal Ruby on Rails application](https://github.com/CDRH/african_poetics). There are also scripts to post data into an Omeka S implementation, but these are in beta currently.
 
-The data set for contemporary African poets is a Google Spreadsheet. It must be saved as a CSV and uploaded to Data/CSV (File -> Download - Comma Seperated Values). [https://docs.google.com/spreadsheets/d/1u50HDal2Y_0yuat3GTyihmAnxXe62F16uljKBWzihT8/edit#gid=1063158215](https://docs.google.com/spreadsheets/d/1u50HDal2Y_0yuat3GTyihmAnxXe62F16uljKBWzihT8/edit#gid=1063158215)
+The data set for APDP is in Airtable, contact project PI's for access. 
 
-Ask Karin if you do not have permission to the spreadsheet or containing folder. 
-
-See [posting instructions](https://github.com/CDRH/data_african_poetics/blob/main/docs/posting.md) for how to post to the API.
-
-Text for searching featured poets is simply pasted into spreadsheet at this point, will eventually draw from html in source folder.
-
-Current schema fields for this project:
-
-- people = Alternate Names
-- title = Lastname, Firstname
-- alternative = Firstname Lastname
-- person.role = Gender notation
-- keyords = region
-
-**Data Repo:** [https://github.com/CDRH/data_african_poetics](https://github.com/CDRH/data_african_poetics)
+See [posting instructions](https://github.com/CDRH/data_african_poetics/blob/main/docs/posting.md) for how to post to the Rails API.
 
 **Source Files:** HTML, CSV, JSON
 
-**Script Languages:** Ruby, JavaScript
+**Script Languages:** Ruby (for data transformation and posting to CDRH API), Python (for Gale download and Omeka S posting)
 
 ## About The African Poetry Digital Portal
 
@@ -37,9 +23,6 @@ The first two sections of the portal — Contemporary African Poets and African 
 **Rails Repo:** [https://github.com/CDRH/african_poetics](https://github.com/CDRH/african_poetics)
 
 **Credits:** [https://africanpoetics.unl.edu/about/credits](https://africanpoetics.unl.edu/about/credits)
-
-**Work to Be Done:** [https://github.com/CDRH/african_poetics/issues](https://github.com/CDRH/african_poetics/issues)
-
 
 ## Technical Information
 
