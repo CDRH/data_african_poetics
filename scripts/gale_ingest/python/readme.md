@@ -1,3 +1,11 @@
+## Setting ID 
+
+Before starting you will need to add the Gale institutional API user identifier.  
+
+You’ll add this to line 46 (setting variable “user”) in scripts/gale_ingest/python/galeDataExport.py 
+
+You will also need to change line 97 of scripts/gale_ingest/from_gale/MetaDataExtractor.java and append the institutional user ID to the end of the URL. 
+
 ## Gale Api Data Export
 
 Read in gale document ids from the second column at gale_ingest/input/gale_ids.csv file. 
