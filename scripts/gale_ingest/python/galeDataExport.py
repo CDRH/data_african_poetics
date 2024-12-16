@@ -43,7 +43,7 @@ with open(input_filename,'r') as csvfile:
 		
 
 # Get api key from gale using institutional id
-user = 'linc74325' #Institutional ID
+user = 'aaaa#####' #Institutional ID
 apiKey = generateKey(user)['apiKey']
 
 # Retreive the document json from gale and 

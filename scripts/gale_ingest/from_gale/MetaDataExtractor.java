@@ -94,7 +94,7 @@ public class MetaDataExtractor {
 	}
 
 	private String fetchApiKey() throws IOException {
-		JSONObject apiKeyJson = reader.readJsonFromUrl("https://api.gale.com/api/tools/generate_key?user=linc74325");
+		JSONObject apiKeyJson = reader.readJsonFromUrl("https://api.gale.com/api/tools/generate_key?user");
 		String apiKey = apiKeyJson.getString("apiKey");
 		return apiKey;
 	}
