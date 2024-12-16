@@ -12,14 +12,6 @@ These tables are:
 - People
 - Commentaries
 
-TODO: bring in the tables describing these tables once the data transfer is done
-
-- https://github.com/CDRH/african_poetics/issues/225
-- https://github.com/CDRH/african_poetics/issues/224
-- https://github.com/CDRH/african_poetics/issues/223
-- https://github.com/CDRH/african_poetics/issues/226
-- https://github.com/CDRH/african_poetics/issues/246
-
 ## Data format
 
 There are a few kinds of data that will be pulled from airtable, and processing differs depending on the way the data is included
