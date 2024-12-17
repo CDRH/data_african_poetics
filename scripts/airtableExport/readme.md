@@ -1,23 +1,21 @@
-##Airtable Export
+## Airtable Export
 
 Export table data from Airtable using Airtable API
 
-###Files
-	airtable.py - Python backend for accessing API and pulling table data
-	
-	fields.py - field mapping from airtable fields to csv fields
-	
-	airtable_to_csv.py - main program, will pull all data from airtable and export full data into json, as well as using mapping from fields.py to export data to csv.
+### Files
+- airtable.py - Python backend for accessing API and pulling table data
+- fields.py - field mapping from airtable fields to csv fields
+- airtable_to_csv.py - main program, will pull all data from airtable and export full data into json, as well as using mapping from fields.py to export data to csv.
 
-###Configuration
+### Configuration
 Will need to setup .env file
 Set AirTable baseID and API key in .env file
 Sample .env file included
 
-###To run
+### To run
 python3 airtable_to_csv.py
 
-###Run output
+### Run output
 Exporting Table: news items
 Retrieved 806 records
 Exporting Table: events
