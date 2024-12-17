@@ -7,7 +7,7 @@ class CsvToEsPeople < CsvToEs
     "People"
   end
 
-  def subcategory
+  def category2
     "In the News"
   end
 
@@ -79,9 +79,11 @@ class CsvToEsPeople < CsvToEs
   def citation
     # not in the schema
     works = works.split(";;;") if get_value("work roles")
-    {
-      "works" => works
-    }
+    if works
+      {
+        "title" => works
+      }
+    end
   end
 
   def medium
