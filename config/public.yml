@@ -1,7 +1,7 @@
 default:
   shortname: african_poetics
   collection_desc: African Poetics
-  collection: african_poetics
+  collection: african-poetics
   threads: 20
   data_base: https://cdrhmedia.unl.edu  # (do not include /data/ in path)
   media_base: https://cdrhmedia.unl.edu
@@ -14,12 +14,16 @@ default:
 
 development:
   api_version: '2.0'
+  site_url: https://servername.unl.edu/african-poetics
   es_path: https://servername.unl.edu/elastic
   es_index: cdrhapidev-v2
-  site_url: https://servername.unl.edu/african_poetics
+  media_base: https://servername.unl.edu
   data_base: https://servername.unl.edu/media
-  media_base: https://servername.unl.edu/media
+
 production:
-  api_version: '2.0'
-  es_path: https://cdrhelastic.unl.edu
+  site_url: https://africanpoetics.unl.edu
+  es_path: https://cdrhapi.unl.edu/elastic
   es_index: cdrhapi-v2
+  media_base: https://cdrhmedia.unl.edu
+  data_base: https://africanpoetics.unl.edu/media
+  # allowed_files: config/allowlist.txt
