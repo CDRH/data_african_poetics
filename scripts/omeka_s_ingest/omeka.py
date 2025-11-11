@@ -6,7 +6,7 @@ env_path = Path('.')/'.env'
 load_dotenv(dotenv_path=env_path)
 from omeka_s_tools.api import OmekaAPIClient
 import math
-omeka = os.getenv('OMEKA_SERVER')
+omeka = OmekaAPIClient(os.getenv('OMEKA_SERVER'))
 omeka_auth = OmekaAPIClient(
     api_url = os.getenv('OMEKA_SERVER'),
     key_identity=os.getenv('KEY_IDENTITY'),                        
@@ -14,7 +14,7 @@ omeka_auth = OmekaAPIClient(
 )
 
 def reset():
-    omeka = os.getenv('OMEKA_SERVER')
+    omeka = OmekaAPIClient(os.getenv('OMEKA_SERVER'))
     omeka_auth = OmekaAPIClient(
         api_url = os.getenv('OMEKA_SERVER'),
         key_identity=os.getenv('KEY_IDENTITY'),                        
