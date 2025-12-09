@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/CDRH/datura.git
-  revision: 90fceccf8c44350097584f9ca7adeb983ec5dc17
-  tag: v1.0.0
+  revision: f36a477f29ab364452e88edbf1ba8eabe5a3b799
+  tag: v1.0.1
   specs:
     datura (0.2.0)
       byebug (~> 11.0)
